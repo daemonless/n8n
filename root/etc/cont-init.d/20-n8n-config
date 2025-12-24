@@ -1,0 +1,12 @@
+#!/bin/sh
+# n8n configuration setup
+
+echo "[n8n] Setting up config directory"
+
+# Create data directory
+mkdir -p /config
+
+# Set ownership (bsd user configured by base image 10-usermod)
+chown -R bsd:bsd /config
+
+echo "[n8n] Configuration complete"

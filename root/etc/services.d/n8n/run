@@ -1,0 +1,12 @@
+#!/bin/sh
+# n8n s6 service
+
+export HOME=/config
+
+export N8N_CONFIG_FILES=/config/n8n.config.json
+
+# Signal readiness when the port is responsive
+s6-ready-when fetch -qo /dev/null http://localhost:5678/healthz
+
+cd /config
+exec /usr/local/bin/s6-setuidgid bsd /usr/local/bin/n8n start
