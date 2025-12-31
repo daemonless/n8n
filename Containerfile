@@ -34,6 +34,9 @@ FROM ghcr.io/daemonless/base:${BASE_VERSION}
 
 ARG FREEBSD_ARCH=amd64
 ARG PACKAGES="node24 sqlite3 postgresql17-client git ca_root_nss"
+ARG UPSTREAM_URL="https://registry.npmjs.org/n8n/latest"
+ARG UPSTREAM_SED="s/.*\"version\":\"\\([^\"]*\\)\".*/\\1/p"
+
 LABEL org.opencontainers.image.title="n8n" \
     org.opencontainers.image.description="n8n workflow automation on FreeBSD" \
     org.opencontainers.image.source="https://github.com/daemonless/n8n" \
@@ -46,8 +49,8 @@ LABEL org.opencontainers.image.title="n8n" \
     io.daemonless.arch="${FREEBSD_ARCH}" \
     io.daemonless.wip="true" \
     io.daemonless.category="Utilities" \
-    io.daemonless.upstream-mode="npm" \
-    io.daemonless.upstream-package="n8n" \
+    io.daemonless.upstream-url="${UPSTREAM_URL}" \
+    io.daemonless.upstream-sed="${UPSTREAM_SED}" \
     io.daemonless.packages="${PACKAGES}"
 
 # Install runtime dependencies
