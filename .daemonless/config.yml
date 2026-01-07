@@ -1,0 +1,4 @@
+icon: ':simple-n8n:'
+cit:
+  mode: port
+  port: 5678

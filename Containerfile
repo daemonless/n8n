@@ -2,15 +2,16 @@ ARG BASE_VERSION=15
 FROM ghcr.io/daemonless/base:${BASE_VERSION} AS builder
 
 # Install Node.js and build dependencies for native modules
-# (FreeBSD-base repo is already configured in base image for dev headers)
+# Use FreeBSD base clang instead of ports gcc
 RUN pkg update && \
     pkg install -y \
+    FreeBSD-clang \
     FreeBSD-clibs-dev \
+    binutils \
     coreutils \
     node24 \
     npm-node24 \
     python311 \
-    gcc \
     gmake \
     git \
     sqlite3 \
@@ -18,8 +19,6 @@ RUN pkg update && \
     ca_root_nss && \
     ln -sf /usr/local/bin/python3.11 /usr/local/bin/python && \
     ln -sf /usr/local/bin/python3.11 /usr/local/bin/python3 && \
-    ln -sf /usr/local/bin/gcc /usr/local/bin/cc && \
-    ln -sf /usr/local/bin/g++ /usr/local/bin/c++ && \
     for cmd in printf touch cat mkdir rm cp mv ln basename dirname head tail wc tr cut sort uniq tee; do \
     ln -sf /usr/local/bin/g$cmd /usr/local/bin/$cmd 2>/dev/null || true; \
     done
@@ -50,7 +49,6 @@ LABEL org.opencontainers.image.title="n8n" \
     org.opencontainers.image.authors="daemonless" \
     io.daemonless.port="5678" \
     io.daemonless.arch="${FREEBSD_ARCH}" \
-    io.daemonless.wip="true" \
     io.daemonless.category="Utilities" \
     io.daemonless.upstream-url="${UPSTREAM_URL}" \
     io.daemonless.upstream-jq="${UPSTREAM_JQ}" \
@@ -64,16 +62,11 @@ RUN pkg update && \
     pkg clean -ay && \
     rm -rf /var/cache/pkg/* /var/db/pkg/repos/*
 
-# Copy C++ runtime library from builder (needed for native modules)
-COPY --from=builder /usr/local/lib/gcc13/libstdc++.so.6 /usr/local/lib/
-COPY --from=builder /usr/local/lib/gcc13/libgcc_s.so.1 /usr/local/lib/
-
 # Copy n8n from builder and fix permissions for non-root execution
 COPY --from=builder /app/version /app/version
 COPY --from=builder /usr/local/lib/node_modules /usr/local/lib/node_modules
 RUN chmod -R o+rX /usr/local/lib/node_modules/n8n && \
     ln -sf /usr/local/lib/node_modules/n8n/bin/n8n /usr/local/bin/n8n && \
-    ldconfig -m /usr/local/lib && \
     # Fix SQLite migration bug: double quotes in SQL should be single quotes for string literals
     # FreeBSD SQLite treats double-quoted strings as column identifiers (ANSI SQL mode)
     # Use sed to patch the compiled JavaScript migration files
