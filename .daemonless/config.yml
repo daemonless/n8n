@@ -2,3 +2,4 @@ icon: ':simple-n8n:'
 cit:
   mode: screenshot
   port: 5678
+  wait: 60
