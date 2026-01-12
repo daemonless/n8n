@@ -31,22 +31,33 @@ ARG FREEBSD_ARCH=amd64
 ARG PACKAGES="node24 sqlite3 postgresql17-client git ca_root_nss"
 ARG UPSTREAM_URL="https://registry.npmjs.org/n8n/latest"
 ARG UPSTREAM_JQ=".version"
+{%- if ports %}
+ARG HEALTHCHECK_ENDPOINT="http://localhost:{{ ports[0].port }}/healthz"
+{%- else %}
 ARG HEALTHCHECK_ENDPOINT="http://localhost:5678/healthz"
+{%- endif %}
 
 ENV HEALTHCHECK_URL="${HEALTHCHECK_ENDPOINT}"
 
 # --- Metadata (Injected by Generator) ---
-LABEL org.opencontainers.image.title="n8n" \
-      org.opencontainers.image.description="Workflow automation tool on FreeBSD." \
-      org.opencontainers.image.source="https://github.com/daemonless/n8n" \
-      org.opencontainers.image.url="https://n8n.io/" \
+LABEL org.opencontainers.image.title="{{ title }}" \
+      org.opencontainers.image.description="{{ description }}" \
+      org.opencontainers.image.source="{{ repo_url }}" \
+      org.opencontainers.image.url="{{ web_url }}" \
       org.opencontainers.image.documentation="https://docs.n8n.io/" \
       org.opencontainers.image.licenses="Sustainable-Use-1.0" \
       org.opencontainers.image.vendor="daemonless" \
       org.opencontainers.image.authors="daemonless" \
-      io.daemonless.category="Utilities" \
-      io.daemonless.port="5678" \
-      io.daemonless.volumes="/config" \
+      io.daemonless.category="{{ category }}" \
+{%- if ports %}
+      io.daemonless.port="{{ ports[0].port }}" \
+{%- endif %}
+{%- if volumes %}
+      io.daemonless.volumes="{{ volumes | map(attribute='path') | join(',') }}" \
+{%- endif %}
+{%- if mlock %}
+      org.freebsd.jail.allow.mlock="required" \
+{%- endif %}
       io.daemonless.arch="${FREEBSD_ARCH}" \
       io.daemonless.upstream-url="${UPSTREAM_URL}" \
       io.daemonless.upstream-jq="${UPSTREAM_JQ}" \
@@ -87,7 +98,11 @@ ENV N8N_USER_FOLDER=/config \
     NODE_ENV=production
 
 # --- Expose (Injected by Generator) ---
-EXPOSE 5678
+{%- if ports %}
+EXPOSE {{ ports | map(attribute='port') | join(' ') }}
+{%- endif %}
 
 # --- Volumes (Injected by Generator) ---
-VOLUME /config
+{%- if volumes %}
+VOLUME {{ volumes | map(attribute='path') | join(' ') }}
+{%- endif %}

@@ -1,0 +1,42 @@
+name: n8n
+
+x-daemonless:
+  title: "n8n"
+  icon: ":simple-n8n:"
+  category: "Utilities"
+  description: "Workflow automation tool on FreeBSD."
+  upstream_url: "https://github.com/n8n-io/n8n"
+  web_url: "https://n8n.io/"
+  freshports_url: ""
+  user: "bsd"
+  mlock: false
+  upstream_binary: true
+  
+  docs:
+    env:
+      PUID: "User ID for the application process"
+      PGID: "Group ID for the application process"
+      TZ: "Timezone for the container"
+      N8N_ENCRYPTION_KEY: "Encryption key for credentials (keep safe!)"
+    volumes:
+      /config: "Configuration directory (database, workflows)"
+    ports:
+      5678: "Web UI"
+
+services:
+  n8n:
+    image: ghcr.io/daemonless/n8n:latest
+    container_name: n8n
+    restart: unless-stopped
+    
+    environment:
+      - N8N_ENCRYPTION_KEY=your-encryption-key-here
+      - PUID=1000
+      - PGID=1000
+      - TZ=UTC
+
+    volumes:
+      - /path/to/containers/n8n:/config
+
+    ports:
+      - "5678:5678"
