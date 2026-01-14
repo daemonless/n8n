@@ -55,9 +55,9 @@ Access at: `http://localhost:5678`
     restart_policy: always
     env:
       N8N_ENCRYPTION_KEY: "your-encryption-key-here"
-      PUID: "1000"
-      PGID: "1000"
-      TZ: "UTC"
+      PUID: "@PUID@"
+      PGID: "@PGID@"
+      TZ: "@TZ@"
     ports:
       - "5678:5678"
     volumes:
@@ -65,7 +65,6 @@ Access at: `http://localhost:5678`
 ```
 
 ## Configuration
-
 ### Environment Variables
 
 | Variable | Default | Description |
@@ -74,13 +73,11 @@ Access at: `http://localhost:5678`
 | `PUID` | `1000` | User ID for the application process |
 | `PGID` | `1000` | Group ID for the application process |
 | `TZ` | `UTC` | Timezone for the container |
-
 ### Volumes
 
 | Path | Description |
 |------|-------------|
 | `/config` | Configuration directory (database, workflows) |
-
 ### Ports
 
 | Port | Protocol | Description |
