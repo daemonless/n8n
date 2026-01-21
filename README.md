@@ -11,6 +11,7 @@ Workflow automation tool on FreeBSD.
 |---|---|
 | **Port** | 5678 |
 | **Registry** | `ghcr.io/daemonless/n8n` |
+| **Docs** | [daemonless.io/images/n8n](https://daemonless.io/images/n8n/) |
 | **Source** | [https://github.com/n8n-io/n8n](https://github.com/n8n-io/n8n) |
 | **Website** | [https://n8n.io/](https://n8n.io/) |
 
