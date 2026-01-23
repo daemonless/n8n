@@ -1,5 +1,9 @@
 ARG BASE_VERSION=15
+ARG NODE_VERSION=22
+ARG PYTHON_VERSION=313
 FROM ghcr.io/daemonless/base:${BASE_VERSION} AS builder
+ARG NODE_VERSION
+ARG PYTHON_VERSION
 
 # Install Node.js and build dependencies for native modules
 RUN pkg update && \
@@ -8,27 +12,38 @@ RUN pkg update && \
     FreeBSD-clibs-dev \
     binutils \
     coreutils \
-    node24 \
-    npm-node24 \
-    python311 \
+    node${NODE_VERSION} \
+    npm-node${NODE_VERSION} \
+    python${PYTHON_VERSION} \
     gmake \
     git \
     sqlite3 \
-    postgresql17-client \
     ca_root_nss && \
-    ln -sf /usr/local/bin/python3.11 /usr/local/bin/python && \
-    ln -sf /usr/local/bin/python3.11 /usr/local/bin/python3
+    ln -sf /usr/local/bin/python3.13 /usr/local/bin/python3 && \
+    ln -sf /usr/local/bin/python3.13 /usr/local/bin/python
 
 # Install n8n globally and capture version
-ENV npm_config_python=/usr/local/bin/python3.11
 RUN npm install -g n8n && \
     mkdir -p /app && npm list -g n8n --depth=0 | grep n8n | sed 's/.*@//' > /app/version
+
+# Set up Python task runner at the path n8n expects
+RUN mkdir -p /usr/local/lib/node_modules/@n8n && \
+    cd /usr/local/lib/node_modules/@n8n && \
+    git clone --depth 1 https://github.com/n8n-io/n8n.git n8n-src && \
+    mv n8n-src/packages/@n8n/task-runner-python . && \
+    rm -rf n8n-src && \
+    cd task-runner-python && \
+    python3 -m venv .venv && \
+    .venv/bin/python -m ensurepip --upgrade && \
+    .venv/bin/pip install --no-cache-dir "websockets>=15.0.1"
 
 # Production image
 FROM ghcr.io/daemonless/base:${BASE_VERSION}
 
 ARG FREEBSD_ARCH=amd64
-ARG PACKAGES="node24 sqlite3 postgresql17-client git ca_root_nss"
+ARG NODE_VERSION
+ARG PYTHON_VERSION
+ARG PACKAGES="node${NODE_VERSION} sqlite3 git ca_root_nss GraphicsMagick icu python${PYTHON_VERSION}"
 ARG UPSTREAM_URL="https://registry.npmjs.org/n8n/latest"
 ARG UPSTREAM_JQ=".version"
 {%- if ports %}
@@ -62,8 +77,7 @@ LABEL org.opencontainers.image.title="{{ title }}" \
       io.daemonless.upstream-url="${UPSTREAM_URL}" \
       io.daemonless.upstream-jq="${UPSTREAM_JQ}" \
       io.daemonless.healthcheck-url="${HEALTHCHECK_ENDPOINT}" \
-      io.daemonless.packages="${PACKAGES}" \
-      io.daemonless.wip="true"
+      io.daemonless.packages="${PACKAGES}"
 
 # Install runtime dependencies
 RUN pkg update && \
@@ -77,8 +91,12 @@ COPY --from=builder /app/version /app/version
 COPY --from=builder /usr/local/lib/node_modules /usr/local/lib/node_modules
 COPY patch_sqlite.sh /tmp/patch_sqlite.sh
 
-RUN chmod -R o+rX /usr/local/lib/node_modules/n8n && \
-    ln -sf /usr/local/lib/node_modules/n8n/bin/n8n /usr/local/bin/n8n && \
+RUN ln -sf /usr/local/lib/node_modules/n8n/bin/n8n /usr/local/bin/n8n && \
+    ln -sf /usr/local/bin/python3.13 /usr/local/bin/python3 && \
+    ln -sf /usr/local/bin/python3.13 /usr/local/bin/python && \
+    rm -f /usr/local/lib/node_modules/@n8n/task-runner-python/.venv/bin/python3 && \
+    ln -s /usr/local/bin/python3.13 /usr/local/lib/node_modules/@n8n/task-runner-python/.venv/bin/python3 && \
+    chmod -R o+rX /usr/local/lib/node_modules && \
     sh /tmp/patch_sqlite.sh && rm /tmp/patch_sqlite.sh
 
 # Create config directory

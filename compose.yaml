@@ -18,6 +18,7 @@ x-daemonless:
       PGID: "Group ID for the application process"
       TZ: "Timezone for the container"
       N8N_ENCRYPTION_KEY: "Encryption key for credentials (keep safe!)"
+      N8N_SECURE_COOKIE: "Set to false if accessing over HTTP without TLS"
     volumes:
       /config: "Configuration directory (database, workflows)"
     ports:
@@ -31,6 +32,8 @@ services:
     
     environment:
       - N8N_ENCRYPTION_KEY=your-encryption-key-here
+      # Set to false if accessing over HTTP without TLS
+      #- N8N_SECURE_COOKIE=true
       - PUID=1000
       - PGID=1000
       - TZ=UTC
