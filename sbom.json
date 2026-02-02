@@ -1,11 +1,11 @@
 {
   "image": "n8n",
-  "generated": "2026-02-01T23:11:25Z",
+  "generated": "2026-02-02T14:06:24Z",
   "tags": {
     "latest": {
       "app_version": "2.4.8",
       "source": "upstream-binary",
-      "generated": "2026-02-01T23:11:11Z",
+      "generated": "2026-02-02T14:06:05Z",
       "packages": {
         "freebsd": [
           {
