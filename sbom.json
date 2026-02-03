@@ -1,11 +1,11 @@
 {
   "image": "n8n",
-  "generated": "2026-02-02T14:06:24Z",
+  "generated": "2026-02-03T11:00:01Z",
   "tags": {
     "latest": {
-      "app_version": "2.4.8",
+      "app_version": "2.6.3",
       "source": "upstream-binary",
-      "generated": "2026-02-02T14:06:05Z",
+      "generated": "2026-02-03T10:59:45Z",
       "packages": {
         "freebsd": [
           {
@@ -334,7 +334,7 @@
           },
           {
             "name": "libxml2",
-            "version": "2.14.6"
+            "version": "2.15.1"
           },
           {
             "name": "llhttp",
