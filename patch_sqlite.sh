@@ -21,7 +21,10 @@ cat > /tmp/fix_sqlite_quotes.pl << 'PERLSCRIPT'
 #!/usr/bin/perl -pi
 
 # Fix WHERE NAME = "${tablePrefix}xxx" -> WHERE NAME = '${tablePrefix}xxx'
-s/(WHERE\s+(?:NAME|name)\s*=\s*)"(\$\{tablePrefix\}[^"]+)"/$1'$2'/gi;
+s/(WHERE\s+(?:NAME|name)\s*=\s*)"(\$\{tablePrefix\}[^"']+)"/$1'$2'/gi;
+
+# Fix WHERE NAME = "${tablePrefix}xxx'; (mismatched quotes in original code)
+s/(WHERE\s+(?:NAME|name)\s*=\s*)"(\$\{tablePrefix\}[^"']+)'/$1'$2'/gi;
 
 # Fix known string literals that are incorrectly double-quoted
 # These appear in INSERT VALUES, comparisons, etc.
