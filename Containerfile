@@ -25,11 +25,14 @@ RUN pkg update && \
     git \
     sqlite3 \
     ca_root_nss && \
+    pkg clean -ay && \
+    rm -rf /var/cache/pkg/* /var/db/pkg/repos/* && \
     ln -sf /usr/local/bin/python3.13 /usr/local/bin/python3 && \
     ln -sf /usr/local/bin/python3.13 /usr/local/bin/python
 
 # Install n8n globally and capture version
 RUN npm install -g n8n && \
+    npm cache clean --force && \
     mkdir -p /app && npm list -g n8n --depth=0 | grep n8n | sed 's/.*@//' > /app/version
 
 # Set up Python task runner at the path n8n expects
