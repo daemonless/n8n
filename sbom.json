@@ -1,12 +1,12 @@
 {
   "image": "n8n",
-  "generated": "2026-02-12T11:16:38Z",
+  "generated": "2026-02-13T12:23:19Z",
   "tags": {
     "latest": {
       "arch": "amd64",
       "app_version": "2.7.4",
-      "source": "upstream-binary",
-      "generated": "2026-02-12T11:16:22Z",
+      "source": "upstream",
+      "generated": "2026-02-13T12:23:02Z",
       "packages": {
         "freebsd": [
           {
@@ -15,7 +15,7 @@
           },
           {
             "name": "FreeBSD-blocklist",
-            "version": "15.0"
+            "version": "15.0p3"
           },
           {
             "name": "FreeBSD-bzip2-lib",
@@ -584,11 +584,11 @@
           },
           {
             "name": "@aws-sdk/client-bedrock-agent-runtime",
-            "version": "3.988.0"
+            "version": "3.989.0"
           },
           {
             "name": "@aws-sdk/client-bedrock-runtime",
-            "version": "3.988.0"
+            "version": "3.989.0"
           },
           {
             "name": "@aws-sdk/client-cognito-identity",
@@ -596,7 +596,7 @@
           },
           {
             "name": "@aws-sdk/client-kendra",
-            "version": "3.988.0"
+            "version": "3.989.0"
           },
           {
             "name": "@aws-sdk/client-s3",
@@ -604,7 +604,7 @@
           },
           {
             "name": "@aws-sdk/client-sagemaker",
-            "version": "3.988.0"
+            "version": "3.989.0"
           },
           {
             "name": "@aws-sdk/client-secrets-manager",
@@ -640,7 +640,7 @@
           },
           {
             "name": "@aws-sdk/credential-provider-login",
-            "version": "3.972.6"
+            "version": "3.972.7"
           },
           {
             "name": "@aws-sdk/credential-provider-node",
@@ -660,7 +660,7 @@
           },
           {
             "name": "@aws-sdk/credential-providers",
-            "version": "3.988.0"
+            "version": "3.989.0"
           },
           {
             "name": "@aws-sdk/eventstream-handler-node",
@@ -1280,7 +1280,7 @@
           },
           {
             "name": "@napi-rs/canvas",
-            "version": "0.1.91"
+            "version": "0.1.92"
           },
           {
             "name": "@noble/hashes",
@@ -6049,6 +6049,14 @@
         "ruby": [],
         "rust": [
           {
+            "name": "libgit",
+            "version": "0.1.0"
+          },
+          {
+            "name": "libgit-sys",
+            "version": "0.1.0"
+          },
+          {
             "name": "autocfg",
             "version": "1.4.0"
           },
@@ -6059,14 +6067,6 @@
           {
             "name": "libc",
             "version": "0.2.158"
-          },
-          {
-            "name": "libgit",
-            "version": "0.1.0"
-          },
-          {
-            "name": "libgit-sys",
-            "version": "0.1.0"
           },
           {
             "name": "libz-sys",
