@@ -1,12 +1,12 @@
 {
   "image": "n8n",
-  "generated": "2026-02-13T12:23:19Z",
+  "generated": "2026-02-13T23:23:09Z",
   "tags": {
     "latest": {
       "arch": "amd64",
-      "app_version": "2.7.4",
+      "app_version": "2.7.5",
       "source": "upstream",
-      "generated": "2026-02-13T12:23:02Z",
+      "generated": "2026-02-13T23:22:53Z",
       "packages": {
         "freebsd": [
           {
@@ -584,11 +584,11 @@
           },
           {
             "name": "@aws-sdk/client-bedrock-agent-runtime",
-            "version": "3.989.0"
+            "version": "3.990.0"
           },
           {
             "name": "@aws-sdk/client-bedrock-runtime",
-            "version": "3.989.0"
+            "version": "3.990.0"
           },
           {
             "name": "@aws-sdk/client-cognito-identity",
@@ -596,7 +596,7 @@
           },
           {
             "name": "@aws-sdk/client-kendra",
-            "version": "3.989.0"
+            "version": "3.990.0"
           },
           {
             "name": "@aws-sdk/client-s3",
@@ -604,7 +604,7 @@
           },
           {
             "name": "@aws-sdk/client-sagemaker",
-            "version": "3.989.0"
+            "version": "3.990.0"
           },
           {
             "name": "@aws-sdk/client-secrets-manager",
@@ -640,7 +640,7 @@
           },
           {
             "name": "@aws-sdk/credential-provider-login",
-            "version": "3.972.7"
+            "version": "3.972.8"
           },
           {
             "name": "@aws-sdk/credential-provider-node",
@@ -660,7 +660,7 @@
           },
           {
             "name": "@aws-sdk/credential-providers",
-            "version": "3.989.0"
+            "version": "3.990.0"
           },
           {
             "name": "@aws-sdk/eventstream-handler-node",
@@ -1188,15 +1188,15 @@
           },
           {
             "name": "@n8n/ai-workflow-builder",
-            "version": "1.7.1"
+            "version": "1.7.2"
           },
           {
             "name": "@n8n/api-types",
-            "version": "1.7.1"
+            "version": "1.7.2"
           },
           {
             "name": "@n8n/backend-common",
-            "version": "1.7.1"
+            "version": "1.7.2"
           },
           {
             "name": "@n8n/client-oauth2",
@@ -1204,7 +1204,7 @@
           },
           {
             "name": "@n8n/config",
-            "version": "2.6.0"
+            "version": "2.6.1"
           },
           {
             "name": "@n8n/constants",
@@ -1212,7 +1212,7 @@
           },
           {
             "name": "@n8n/db",
-            "version": "1.7.3"
+            "version": "1.7.4"
           },
           {
             "name": "@n8n/decorators",
@@ -1236,7 +1236,7 @@
           },
           {
             "name": "@n8n/n8n-nodes-langchain",
-            "version": "2.7.1"
+            "version": "2.7.2"
           },
           {
             "name": "@n8n/permissions",
@@ -1248,7 +1248,7 @@
           },
           {
             "name": "@n8n/task-runner",
-            "version": "2.7.1"
+            "version": "2.7.2"
           },
           {
             "name": "@n8n/tournament",
@@ -4356,19 +4356,19 @@
           },
           {
             "name": "n8n",
-            "version": "2.7.4"
+            "version": "2.7.5"
           },
           {
             "name": "n8n-core",
-            "version": "2.7.1"
-          },
-          {
-            "name": "n8n-editor-ui",
             "version": "2.7.2"
           },
           {
+            "name": "n8n-editor-ui",
+            "version": "2.7.3"
+          },
+          {
             "name": "n8n-nodes-base",
-            "version": "2.7.1"
+            "version": "2.7.2"
           },
           {
             "name": "n8n-workflow",
