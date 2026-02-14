@@ -1,12 +1,12 @@
 {
   "image": "n8n",
-  "generated": "2026-02-14T10:19:14Z",
+  "generated": "2026-02-14T14:45:47Z",
   "tags": {
     "latest": {
       "arch": "amd64",
       "app_version": "2.7.5",
       "source": "upstream",
-      "generated": "2026-02-14T10:18:58Z",
+      "generated": "2026-02-14T14:44:58Z",
       "packages": {
         "freebsd": [
           {
