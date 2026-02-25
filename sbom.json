@@ -1,12 +1,12 @@
 {
   "image": "n8n",
-  "generated": "2026-02-23T18:28:05Z",
+  "generated": "2026-02-25T19:41:43Z",
   "tags": {
     "latest": {
       "arch": "amd64",
-      "app_version": "2.9.2",
+      "app_version": "2.9.4",
       "source": "upstream",
-      "generated": "2026-02-23T18:27:46Z",
+      "generated": "2026-02-25T19:41:19Z",
       "packages": {
         "freebsd": [
           {
@@ -543,14 +543,6 @@
             "version": "12.0.2"
           },
           {
-            "name": "@apm-js-collab/code-transformer",
-            "version": "0.8.2"
-          },
-          {
-            "name": "@apm-js-collab/tracing-hooks",
-            "version": "0.3.1"
-          },
-          {
             "name": "@authenio/xml-encryption",
             "version": "2.0.2"
           },
@@ -584,19 +576,19 @@
           },
           {
             "name": "@aws-sdk/client-bedrock-agent-runtime",
-            "version": "3.995.0"
+            "version": "3.997.0"
           },
           {
             "name": "@aws-sdk/client-bedrock-runtime",
-            "version": "3.995.0"
+            "version": "3.997.0"
           },
           {
             "name": "@aws-sdk/client-cognito-identity",
-            "version": "3.980.0"
+            "version": "3.997.0"
           },
           {
             "name": "@aws-sdk/client-kendra",
-            "version": "3.995.0"
+            "version": "3.997.0"
           },
           {
             "name": "@aws-sdk/client-s3",
@@ -604,7 +596,7 @@
           },
           {
             "name": "@aws-sdk/client-sagemaker",
-            "version": "3.995.0"
+            "version": "3.997.0"
           },
           {
             "name": "@aws-sdk/client-secrets-manager",
@@ -624,11 +616,11 @@
           },
           {
             "name": "@aws-sdk/crc64-nvme",
-            "version": "3.972.0"
+            "version": "3.972.1"
           },
           {
             "name": "@aws-sdk/credential-provider-cognito-identity",
-            "version": "3.972.3"
+            "version": "3.972.4"
           },
           {
             "name": "@aws-sdk/credential-provider-env",
@@ -644,7 +636,7 @@
           },
           {
             "name": "@aws-sdk/credential-provider-login",
-            "version": "3.972.9"
+            "version": "3.972.11"
           },
           {
             "name": "@aws-sdk/credential-provider-node",
@@ -664,11 +656,11 @@
           },
           {
             "name": "@aws-sdk/credential-providers",
-            "version": "3.995.0"
+            "version": "3.997.0"
           },
           {
             "name": "@aws-sdk/eventstream-handler-node",
-            "version": "3.972.5"
+            "version": "3.972.7"
           },
           {
             "name": "@aws-sdk/middleware-bucket-endpoint",
@@ -676,7 +668,7 @@
           },
           {
             "name": "@aws-sdk/middleware-eventstream",
-            "version": "3.972.3"
+            "version": "3.972.4"
           },
           {
             "name": "@aws-sdk/middleware-expect-continue",
@@ -716,7 +708,7 @@
           },
           {
             "name": "@aws-sdk/middleware-websocket",
-            "version": "3.972.6"
+            "version": "3.972.8"
           },
           {
             "name": "@aws-sdk/nested-clients",
@@ -756,7 +748,7 @@
           },
           {
             "name": "@aws-sdk/util-format-url",
-            "version": "3.972.3"
+            "version": "3.972.4"
           },
           {
             "name": "@aws-sdk/util-locate-window",
@@ -901,6 +893,10 @@
           {
             "name": "@ewoudenberg/difflib",
             "version": "0.1.0"
+          },
+          {
+            "name": "@fastify/otel",
+            "version": "0.16.0"
           },
           {
             "name": "@gar/promisify",
@@ -1156,7 +1152,7 @@
           },
           {
             "name": "@mistralai/mistralai",
-            "version": "1.14.0"
+            "version": "1.14.1"
           },
           {
             "name": "@mistralai/mistralai-azure",
@@ -1196,11 +1192,11 @@
           },
           {
             "name": "@n8n/ai-utilities",
-            "version": "0.3.0"
+            "version": "0.3.1"
           },
           {
             "name": "@n8n/ai-workflow-builder",
-            "version": "1.9.0"
+            "version": "1.9.1"
           },
           {
             "name": "@n8n/api-types",
@@ -1208,7 +1204,7 @@
           },
           {
             "name": "@n8n/backend-common",
-            "version": "1.9.0"
+            "version": "1.9.1"
           },
           {
             "name": "@n8n/chat-hub",
@@ -1228,11 +1224,11 @@
           },
           {
             "name": "@n8n/db",
-            "version": "1.9.0"
+            "version": "1.9.1"
           },
           {
             "name": "@n8n/decorators",
-            "version": "1.9.0"
+            "version": "1.9.1"
           },
           {
             "name": "@n8n/di",
@@ -1252,7 +1248,7 @@
           },
           {
             "name": "@n8n/n8n-nodes-langchain",
-            "version": "2.9.0"
+            "version": "2.9.1"
           },
           {
             "name": "@n8n/permissions",
@@ -1264,7 +1260,7 @@
           },
           {
             "name": "@n8n/task-runner",
-            "version": "2.9.0"
+            "version": "2.9.1"
           },
           {
             "name": "@n8n/tournament",
@@ -1284,7 +1280,7 @@
           },
           {
             "name": "@n8n/workflow-sdk",
-            "version": "0.2.0"
+            "version": "0.2.1"
           },
           {
             "name": "@n8n_io/ai-assistant-sdk",
@@ -1300,7 +1296,7 @@
           },
           {
             "name": "@napi-rs/canvas",
-            "version": "0.1.94"
+            "version": "0.1.95"
           },
           {
             "name": "@noble/hashes",
@@ -1716,27 +1712,27 @@
           },
           {
             "name": "@sentry/core",
-            "version": "10.39.0"
+            "version": "10.40.0"
           },
           {
             "name": "@sentry/node",
-            "version": "10.39.0"
+            "version": "10.40.0"
           },
           {
             "name": "@sentry/node-core",
-            "version": "10.39.0"
+            "version": "10.40.0"
           },
           {
             "name": "@sentry/node-native",
-            "version": "10.39.0"
+            "version": "10.40.0"
           },
           {
             "name": "@sentry/opentelemetry",
-            "version": "10.39.0"
+            "version": "10.40.0"
           },
           {
             "name": "@sentry/profiling-node",
-            "version": "10.39.0"
+            "version": "10.40.0"
           },
           {
             "name": "@sigstore/bundle",
@@ -1764,7 +1760,7 @@
           },
           {
             "name": "@smithy/abort-controller",
-            "version": "4.2.9"
+            "version": "4.2.10"
           },
           {
             "name": "@smithy/chunked-blob-reader",
@@ -1776,15 +1772,15 @@
           },
           {
             "name": "@smithy/config-resolver",
-            "version": "4.4.7"
+            "version": "4.4.9"
           },
           {
             "name": "@smithy/core",
-            "version": "3.23.4"
+            "version": "3.23.6"
           },
           {
             "name": "@smithy/credential-provider-imds",
-            "version": "4.2.9"
+            "version": "4.2.10"
           },
           {
             "name": "@smithy/eventstream-codec",
@@ -1792,39 +1788,39 @@
           },
           {
             "name": "@smithy/eventstream-serde-browser",
-            "version": "4.2.9"
-          },
-          {
-            "name": "@smithy/eventstream-serde-config-resolver",
-            "version": "4.3.9"
-          },
-          {
-            "name": "@smithy/eventstream-serde-node",
-            "version": "4.2.9"
-          },
-          {
-            "name": "@smithy/eventstream-serde-universal",
-            "version": "4.2.9"
-          },
-          {
-            "name": "@smithy/fetch-http-handler",
-            "version": "5.3.10"
-          },
-          {
-            "name": "@smithy/hash-blob-browser",
             "version": "4.2.10"
           },
           {
+            "name": "@smithy/eventstream-serde-config-resolver",
+            "version": "4.3.10"
+          },
+          {
+            "name": "@smithy/eventstream-serde-node",
+            "version": "4.2.10"
+          },
+          {
+            "name": "@smithy/eventstream-serde-universal",
+            "version": "4.2.10"
+          },
+          {
+            "name": "@smithy/fetch-http-handler",
+            "version": "5.3.11"
+          },
+          {
+            "name": "@smithy/hash-blob-browser",
+            "version": "4.2.11"
+          },
+          {
             "name": "@smithy/hash-node",
-            "version": "4.2.9"
+            "version": "4.2.10"
           },
           {
             "name": "@smithy/hash-stream-node",
-            "version": "4.2.9"
+            "version": "4.2.10"
           },
           {
             "name": "@smithy/invalid-dependency",
-            "version": "4.2.9"
+            "version": "4.2.10"
           },
           {
             "name": "@smithy/is-array-buffer",
@@ -1832,39 +1828,39 @@
           },
           {
             "name": "@smithy/md5-js",
-            "version": "4.2.9"
-          },
-          {
-            "name": "@smithy/middleware-content-length",
-            "version": "4.2.9"
-          },
-          {
-            "name": "@smithy/middleware-endpoint",
-            "version": "4.4.18"
-          },
-          {
-            "name": "@smithy/middleware-retry",
-            "version": "4.4.35"
-          },
-          {
-            "name": "@smithy/middleware-serde",
             "version": "4.2.10"
           },
           {
+            "name": "@smithy/middleware-content-length",
+            "version": "4.2.10"
+          },
+          {
+            "name": "@smithy/middleware-endpoint",
+            "version": "4.4.20"
+          },
+          {
+            "name": "@smithy/middleware-retry",
+            "version": "4.4.37"
+          },
+          {
+            "name": "@smithy/middleware-serde",
+            "version": "4.2.11"
+          },
+          {
             "name": "@smithy/middleware-stack",
-            "version": "4.2.9"
+            "version": "4.2.10"
           },
           {
             "name": "@smithy/node-config-provider",
-            "version": "4.3.9"
+            "version": "4.3.10"
           },
           {
             "name": "@smithy/node-http-handler",
-            "version": "4.4.11"
+            "version": "4.4.12"
           },
           {
             "name": "@smithy/property-provider",
-            "version": "4.2.9"
+            "version": "4.2.10"
           },
           {
             "name": "@smithy/protocol-http",
@@ -1872,19 +1868,19 @@
           },
           {
             "name": "@smithy/querystring-builder",
-            "version": "4.2.9"
+            "version": "4.2.10"
           },
           {
             "name": "@smithy/querystring-parser",
-            "version": "4.2.9"
+            "version": "4.2.10"
           },
           {
             "name": "@smithy/service-error-classification",
-            "version": "4.2.9"
+            "version": "4.2.10"
           },
           {
             "name": "@smithy/shared-ini-file-loader",
-            "version": "4.4.4"
+            "version": "4.4.5"
           },
           {
             "name": "@smithy/signature-v4",
@@ -1892,7 +1888,7 @@
           },
           {
             "name": "@smithy/smithy-client",
-            "version": "4.11.7"
+            "version": "4.12.0"
           },
           {
             "name": "@smithy/types",
@@ -1900,7 +1896,7 @@
           },
           {
             "name": "@smithy/url-parser",
-            "version": "4.2.9"
+            "version": "4.2.10"
           },
           {
             "name": "@smithy/util-base64",
@@ -1924,15 +1920,15 @@
           },
           {
             "name": "@smithy/util-defaults-mode-browser",
-            "version": "4.3.34"
+            "version": "4.3.36"
           },
           {
             "name": "@smithy/util-defaults-mode-node",
-            "version": "4.2.37"
+            "version": "4.2.39"
           },
           {
             "name": "@smithy/util-endpoints",
-            "version": "3.2.9"
+            "version": "3.3.1"
           },
           {
             "name": "@smithy/util-hex-encoding",
@@ -1944,11 +1940,11 @@
           },
           {
             "name": "@smithy/util-retry",
-            "version": "4.2.9"
+            "version": "4.2.10"
           },
           {
             "name": "@smithy/util-stream",
-            "version": "4.5.14"
+            "version": "4.5.15"
           },
           {
             "name": "@smithy/util-uri-escape",
@@ -1960,7 +1956,7 @@
           },
           {
             "name": "@smithy/util-waiter",
-            "version": "4.2.9"
+            "version": "4.2.10"
           },
           {
             "name": "@smithy/uuid",
@@ -3203,6 +3199,10 @@
             "version": "3.1.0"
           },
           {
+            "name": "fast-xml-builder",
+            "version": "1.0.0"
+          },
+          {
             "name": "fast-xml-parser",
             "version": "4.4.1"
           },
@@ -3408,7 +3408,7 @@
           },
           {
             "name": "google-auth-library",
-            "version": "10.5.0"
+            "version": "10.6.1"
           },
           {
             "name": "google-gax",
@@ -3432,7 +3432,7 @@
           },
           {
             "name": "graphql",
-            "version": "16.12.0"
+            "version": "16.13.0"
           },
           {
             "name": "graphql-request",
@@ -3560,7 +3560,7 @@
           },
           {
             "name": "ibm-cloud-sdk-core",
-            "version": "5.4.7"
+            "version": "5.4.8"
           },
           {
             "name": "iconv-lite",
@@ -4376,19 +4376,19 @@
           },
           {
             "name": "n8n",
-            "version": "2.9.2"
+            "version": "2.9.4"
           },
           {
             "name": "n8n-core",
-            "version": "2.9.0"
+            "version": "2.9.1"
           },
           {
             "name": "n8n-editor-ui",
-            "version": "2.9.2"
+            "version": "2.9.4"
           },
           {
             "name": "n8n-nodes-base",
-            "version": "2.9.0"
+            "version": "2.9.1"
           },
           {
             "name": "n8n-workflow",
@@ -4812,7 +4812,7 @@
           },
           {
             "name": "pg-pool",
-            "version": "3.11.0"
+            "version": "3.12.0"
           },
           {
             "name": "pg-promise",
@@ -4820,7 +4820,7 @@
           },
           {
             "name": "pg-protocol",
-            "version": "1.11.0"
+            "version": "1.12.0"
           },
           {
             "name": "pg-types",
