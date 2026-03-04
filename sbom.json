@@ -1,12 +1,12 @@
 {
   "image": "n8n",
-  "generated": "2026-03-03T21:35:10Z",
+  "generated": "2026-03-04T22:23:45Z",
   "tags": {
     "latest": {
       "arch": "amd64",
-      "app_version": "2.10.2",
+      "app_version": "2.10.3",
       "source": "upstream",
-      "generated": "2026-03-03T21:34:55Z",
+      "generated": "2026-03-04T22:23:28Z",
       "packages": {
         "freebsd": [
           {
@@ -171,7 +171,7 @@
           },
           {
             "name": "expat",
-            "version": "2.7.3"
+            "version": "2.7.4"
           },
           {
             "name": "fontconfig",
@@ -576,27 +576,27 @@
           },
           {
             "name": "@aws-sdk/client-bedrock-agent-runtime",
-            "version": "3.1001.0"
+            "version": "3.1002.0"
           },
           {
             "name": "@aws-sdk/client-bedrock-runtime",
-            "version": "3.1001.0"
+            "version": "3.1002.0"
           },
           {
             "name": "@aws-sdk/client-cognito-identity",
-            "version": "3.1001.0"
+            "version": "3.1002.0"
           },
           {
             "name": "@aws-sdk/client-kendra",
-            "version": "3.1001.0"
+            "version": "3.1002.0"
           },
           {
             "name": "@aws-sdk/client-s3",
-            "version": "3.1001.0"
+            "version": "3.1002.0"
           },
           {
             "name": "@aws-sdk/client-sagemaker",
-            "version": "3.1001.0"
+            "version": "3.1002.0"
           },
           {
             "name": "@aws-sdk/client-secrets-manager",
@@ -620,7 +620,7 @@
           },
           {
             "name": "@aws-sdk/credential-provider-cognito-identity",
-            "version": "3.972.7"
+            "version": "3.972.8"
           },
           {
             "name": "@aws-sdk/credential-provider-env",
@@ -636,7 +636,7 @@
           },
           {
             "name": "@aws-sdk/credential-provider-login",
-            "version": "3.972.14"
+            "version": "3.972.15"
           },
           {
             "name": "@aws-sdk/credential-provider-node",
@@ -656,7 +656,7 @@
           },
           {
             "name": "@aws-sdk/credential-providers",
-            "version": "3.1001.0"
+            "version": "3.1002.0"
           },
           {
             "name": "@aws-sdk/eventstream-handler-node",
@@ -732,7 +732,7 @@
           },
           {
             "name": "@aws-sdk/token-providers",
-            "version": "3.1001.0"
+            "version": "3.1002.0"
           },
           {
             "name": "@aws-sdk/types",
@@ -972,7 +972,7 @@
           },
           {
             "name": "@ibm-cloud/watsonx-ai",
-            "version": "1.7.8"
+            "version": "1.7.9"
           },
           {
             "name": "@icetee/ftp",
@@ -3432,7 +3432,7 @@
           },
           {
             "name": "graphql",
-            "version": "16.13.0"
+            "version": "16.13.1"
           },
           {
             "name": "graphql-request",
@@ -3508,7 +3508,7 @@
           },
           {
             "name": "hono",
-            "version": "4.12.4"
+            "version": "4.12.5"
           },
           {
             "name": "hosted-git-info",
@@ -4356,7 +4356,7 @@
           },
           {
             "name": "multer",
-            "version": "2.1.0"
+            "version": "2.1.1"
           },
           {
             "name": "mustache",
@@ -4376,7 +4376,7 @@
           },
           {
             "name": "n8n",
-            "version": "2.10.2"
+            "version": "2.10.3"
           },
           {
             "name": "n8n-core",
@@ -4384,7 +4384,7 @@
           },
           {
             "name": "n8n-editor-ui",
-            "version": "2.10.2"
+            "version": "2.10.3"
           },
           {
             "name": "n8n-nodes-base",
