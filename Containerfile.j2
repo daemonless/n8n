@@ -10,6 +10,8 @@ RUN pkg update && \
     pkg install -y \
     FreeBSD-clang \
     FreeBSD-clibs-dev \
+    FreeBSD-openssl-dev \
+    FreeBSD-zlib-dev \
     binutils \
     coreutils \
     node${NODE_VERSION} \
@@ -92,7 +94,6 @@ RUN pkg update && \
 # Copy n8n from builder and fix permissions for non-root execution
 COPY --from=builder /app/version /app/version
 COPY --from=builder /usr/local/lib/node_modules /usr/local/lib/node_modules
-COPY patch_sqlite.sh /tmp/patch_sqlite.sh
 
 RUN ln -sf /usr/local/lib/node_modules/n8n/bin/n8n /usr/local/bin/n8n && \
     ln -sf /usr/local/bin/python3.13 /usr/local/bin/python3 && \
@@ -100,7 +101,10 @@ RUN ln -sf /usr/local/lib/node_modules/n8n/bin/n8n /usr/local/bin/n8n && \
     rm -f /usr/local/lib/node_modules/@n8n/task-runner-python/.venv/bin/python3 && \
     ln -s /usr/local/bin/python3.13 /usr/local/lib/node_modules/@n8n/task-runner-python/.venv/bin/python3 && \
     chmod -R o+rX /usr/local/lib/node_modules && \
-    sh /tmp/patch_sqlite.sh && rm /tmp/patch_sqlite.sh
+    find /usr/local/lib/node_modules/n8n -type d -name "sqlite" -path "*/migrations/*" | \
+      xargs -I{} find {} -name "*.js" | \
+      xargs perl -pi -e \
+        's{((?:WHERE|SET)\b[^=]+=\s*)"([^"]+)"}{$1'"'"'$2'"'"'}gi; s{(\bIN\s*\(\s*)"([^"]+)"}{$1'"'"'$2'"'"'}gi'
 
 # Create config directory
 RUN mkdir -p /config && \
