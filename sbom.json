@@ -1,12 +1,12 @@
 {
   "image": "n8n",
-  "generated": "2026-03-19T09:00:14Z",
+  "generated": "2026-03-19T21:46:20Z",
   "tags": {
     "latest": {
       "arch": "amd64",
       "app_version": "2.12.3",
       "source": "upstream",
-      "generated": "2026-03-19T08:59:57Z",
+      "generated": "2026-03-19T21:46:03Z",
       "packages": {
         "freebsd": [
           {
@@ -580,27 +580,27 @@
           },
           {
             "name": "@aws-sdk/client-bedrock-agent-runtime",
-            "version": "3.1012.0"
+            "version": "3.1013.0"
           },
           {
             "name": "@aws-sdk/client-bedrock-runtime",
-            "version": "3.1012.0"
+            "version": "3.1013.0"
           },
           {
             "name": "@aws-sdk/client-cognito-identity",
-            "version": "3.1012.0"
+            "version": "3.1013.0"
           },
           {
             "name": "@aws-sdk/client-kendra",
-            "version": "3.1012.0"
+            "version": "3.1013.0"
           },
           {
             "name": "@aws-sdk/client-s3",
-            "version": "3.1012.0"
+            "version": "3.1013.0"
           },
           {
             "name": "@aws-sdk/client-sagemaker",
-            "version": "3.1012.0"
+            "version": "3.1013.0"
           },
           {
             "name": "@aws-sdk/client-secrets-manager",
@@ -624,7 +624,7 @@
           },
           {
             "name": "@aws-sdk/credential-provider-cognito-identity",
-            "version": "3.972.14"
+            "version": "3.972.15"
           },
           {
             "name": "@aws-sdk/credential-provider-env",
@@ -640,7 +640,7 @@
           },
           {
             "name": "@aws-sdk/credential-provider-login",
-            "version": "3.972.21"
+            "version": "3.972.22"
           },
           {
             "name": "@aws-sdk/credential-provider-node",
@@ -660,7 +660,7 @@
           },
           {
             "name": "@aws-sdk/credential-providers",
-            "version": "3.1012.0"
+            "version": "3.1013.0"
           },
           {
             "name": "@aws-sdk/eventstream-handler-node",
@@ -736,7 +736,7 @@
           },
           {
             "name": "@aws-sdk/token-providers",
-            "version": "3.1012.0"
+            "version": "3.1013.0"
           },
           {
             "name": "@aws-sdk/types",
@@ -1732,27 +1732,27 @@
           },
           {
             "name": "@sentry/core",
-            "version": "10.44.0"
+            "version": "10.45.0"
           },
           {
             "name": "@sentry/node",
-            "version": "10.44.0"
+            "version": "10.45.0"
           },
           {
             "name": "@sentry/node-core",
-            "version": "10.44.0"
+            "version": "10.45.0"
           },
           {
             "name": "@sentry/node-native",
-            "version": "10.44.0"
+            "version": "10.45.0"
           },
           {
             "name": "@sentry/opentelemetry",
-            "version": "10.44.0"
+            "version": "10.45.0"
           },
           {
             "name": "@sentry/profiling-node",
-            "version": "10.44.0"
+            "version": "10.45.0"
           },
           {
             "name": "@sigstore/bundle",
@@ -1792,7 +1792,7 @@
           },
           {
             "name": "@smithy/config-resolver",
-            "version": "4.4.11"
+            "version": "4.4.13"
           },
           {
             "name": "@smithy/core",
@@ -1856,11 +1856,11 @@
           },
           {
             "name": "@smithy/middleware-endpoint",
-            "version": "4.4.26"
+            "version": "4.4.27"
           },
           {
             "name": "@smithy/middleware-retry",
-            "version": "4.4.43"
+            "version": "4.4.44"
           },
           {
             "name": "@smithy/middleware-serde",
@@ -1908,7 +1908,7 @@
           },
           {
             "name": "@smithy/smithy-client",
-            "version": "4.12.6"
+            "version": "4.12.7"
           },
           {
             "name": "@smithy/types",
@@ -1940,11 +1940,11 @@
           },
           {
             "name": "@smithy/util-defaults-mode-browser",
-            "version": "4.3.42"
+            "version": "4.3.43"
           },
           {
             "name": "@smithy/util-defaults-mode-node",
-            "version": "4.2.45"
+            "version": "4.2.47"
           },
           {
             "name": "@smithy/util-endpoints",
