@@ -1,12 +1,12 @@
 {
   "image": "n8n",
-  "generated": "2026-03-18T09:06:11Z",
+  "generated": "2026-03-19T09:00:14Z",
   "tags": {
     "latest": {
       "arch": "amd64",
-      "app_version": "2.12.2",
+      "app_version": "2.12.3",
       "source": "upstream",
-      "generated": "2026-03-18T09:05:55Z",
+      "generated": "2026-03-19T08:59:57Z",
       "packages": {
         "freebsd": [
           {
@@ -580,27 +580,27 @@
           },
           {
             "name": "@aws-sdk/client-bedrock-agent-runtime",
-            "version": "3.1011.0"
+            "version": "3.1012.0"
           },
           {
             "name": "@aws-sdk/client-bedrock-runtime",
-            "version": "3.1011.0"
+            "version": "3.1012.0"
           },
           {
             "name": "@aws-sdk/client-cognito-identity",
-            "version": "3.1011.0"
+            "version": "3.1012.0"
           },
           {
             "name": "@aws-sdk/client-kendra",
-            "version": "3.1011.0"
+            "version": "3.1012.0"
           },
           {
             "name": "@aws-sdk/client-s3",
-            "version": "3.1011.0"
+            "version": "3.1012.0"
           },
           {
             "name": "@aws-sdk/client-sagemaker",
-            "version": "3.1011.0"
+            "version": "3.1012.0"
           },
           {
             "name": "@aws-sdk/client-secrets-manager",
@@ -624,7 +624,7 @@
           },
           {
             "name": "@aws-sdk/credential-provider-cognito-identity",
-            "version": "3.972.13"
+            "version": "3.972.14"
           },
           {
             "name": "@aws-sdk/credential-provider-env",
@@ -640,7 +640,7 @@
           },
           {
             "name": "@aws-sdk/credential-provider-login",
-            "version": "3.972.20"
+            "version": "3.972.21"
           },
           {
             "name": "@aws-sdk/credential-provider-node",
@@ -660,7 +660,7 @@
           },
           {
             "name": "@aws-sdk/credential-providers",
-            "version": "3.1011.0"
+            "version": "3.1012.0"
           },
           {
             "name": "@aws-sdk/eventstream-handler-node",
@@ -736,7 +736,7 @@
           },
           {
             "name": "@aws-sdk/token-providers",
-            "version": "3.1009.0"
+            "version": "3.1012.0"
           },
           {
             "name": "@aws-sdk/types",
@@ -895,6 +895,10 @@
             "version": "1.6.0"
           },
           {
+            "name": "@cspotcode/source-map-support",
+            "version": "0.8.1"
+          },
+          {
             "name": "@dabh/diagnostics",
             "version": "2.0.8"
           },
@@ -980,7 +984,7 @@
           },
           {
             "name": "@ibm-cloud/watsonx-ai",
-            "version": "1.7.9"
+            "version": "1.7.10"
           },
           {
             "name": "@icetee/ftp",
@@ -1009,6 +1013,18 @@
           {
             "name": "@isaacs/string-locale-compare",
             "version": "1.1.0"
+          },
+          {
+            "name": "@jridgewell/resolve-uri",
+            "version": "3.1.2"
+          },
+          {
+            "name": "@jridgewell/sourcemap-codec",
+            "version": "1.5.5"
+          },
+          {
+            "name": "@jridgewell/trace-mapping",
+            "version": "0.3.9"
           },
           {
             "name": "@js-joda/core",
@@ -2031,6 +2047,22 @@
             "version": "1.1.2"
           },
           {
+            "name": "@tsconfig/node10",
+            "version": "1.0.12"
+          },
+          {
+            "name": "@tsconfig/node12",
+            "version": "1.0.11"
+          },
+          {
+            "name": "@tsconfig/node14",
+            "version": "1.0.3"
+          },
+          {
+            "name": "@tsconfig/node16",
+            "version": "1.0.4"
+          },
+          {
             "name": "@tufjs/canonical-json",
             "version": "2.0.0"
           },
@@ -2056,7 +2088,7 @@
           },
           {
             "name": "@types/debug",
-            "version": "4.1.12"
+            "version": "4.1.13"
           },
           {
             "name": "@types/express",
@@ -2309,6 +2341,10 @@
           {
             "name": "are-we-there-yet",
             "version": "3.0.1"
+          },
+          {
+            "name": "arg",
+            "version": "4.1.3"
           },
           {
             "name": "argparse",
@@ -2628,7 +2664,7 @@
           },
           {
             "name": "chromadb",
-            "version": "3.3.3"
+            "version": "3.4.0"
           },
           {
             "name": "ci-info",
@@ -2781,6 +2817,10 @@
           {
             "name": "cors",
             "version": "2.8.6"
+          },
+          {
+            "name": "create-require",
+            "version": "1.1.1"
           },
           {
             "name": "crlf-normalize",
@@ -2960,7 +3000,7 @@
           },
           {
             "name": "diff",
-            "version": "8.0.2"
+            "version": "4.0.4"
           },
           {
             "name": "digest-fetch",
@@ -4195,6 +4235,10 @@
             "version": "3.1.0"
           },
           {
+            "name": "make-error",
+            "version": "1.3.6"
+          },
+          {
             "name": "make-fetch-happen",
             "version": "15.0.3"
           },
@@ -4392,7 +4436,7 @@
           },
           {
             "name": "n8n",
-            "version": "2.12.2"
+            "version": "2.12.3"
           },
           {
             "name": "n8n-core",
@@ -4400,7 +4444,7 @@
           },
           {
             "name": "n8n-editor-ui",
-            "version": "2.12.1"
+            "version": "2.12.2"
           },
           {
             "name": "n8n-nodes-base",
@@ -4416,7 +4460,7 @@
           },
           {
             "name": "nan",
-            "version": "2.26.1"
+            "version": "2.26.2"
           },
           {
             "name": "nanoclone",
@@ -5691,6 +5735,10 @@
             "version": "1.2.2"
           },
           {
+            "name": "ts-node",
+            "version": "10.9.2"
+          },
+          {
             "name": "ts-toolbelt",
             "version": "9.6.0"
           },
@@ -5857,6 +5905,10 @@
           {
             "name": "uuid",
             "version": "10.0.0"
+          },
+          {
+            "name": "v8-compile-cache-lib",
+            "version": "3.0.1"
           },
           {
             "name": "validate-npm-package-license",
@@ -6067,6 +6119,10 @@
             "version": "20.2.9"
           },
           {
+            "name": "yn",
+            "version": "3.1.1"
+          },
+          {
             "name": "yocto-queue",
             "version": "0.1.0"
           },
@@ -6155,12 +6211,12 @@
         "dotnet": 0,
         "go": 0,
         "java": 0,
-        "node": 1389,
+        "node": 1403,
         "php": 0,
         "python": 5,
         "ruby": 0,
         "rust": 10,
-        "total": 1532
+        "total": 1546
       }
     }
   }
