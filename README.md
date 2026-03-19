@@ -5,15 +5,27 @@ Source: dbuild templates
 
 # n8n
 
-Workflow automation tool on FreeBSD.
+[![Build Status](https://img.shields.io/github/actions/workflow/status/daemonless/n8n/build.yaml?style=flat-square&label=Build&color=green)](https://github.com/daemonless/n8n/actions)
+[![Last Commit](https://img.shields.io/github/last-commit/daemonless/n8n?style=flat-square&label=Last+Commit&color=blue)](https://github.com/daemonless/n8n/commits)
+
+Fair-code workflow automation platform with native AI capabilities — combine visual building with custom code and 400+ integrations.
 
 | | |
 |---|---|
 | **Port** | 5678 |
 | **Registry** | `ghcr.io/daemonless/n8n` |
-| **Docs** | [daemonless.io/images/n8n](https://daemonless.io/images/n8n/) |
 | **Source** | [https://github.com/n8n-io/n8n](https://github.com/n8n-io/n8n) |
 | **Website** | [https://n8n.io/](https://n8n.io/) |
+
+## Version Tags
+
+| Tag | Description | Best For |
+| :--- | :--- | :--- |
+| `latest` | **Upstream Binary**. Built from official release. | Most users. Matches Linux Docker behavior. |
+
+## Prerequisites
+
+Before deploying, ensure your host environment is ready. See the [Quick Start Guide](https://daemonless.io/guides/quick-start) for host setup instructions.
 
 ## Deployment
 
@@ -30,10 +42,56 @@ services:
       - PGID=1000
       - TZ=UTC
     volumes:
-      - /path/to/containers/n8n:/config
+      - "/path/to/containers/n8n:/config"
     ports:
       - 5678:5678
     restart: unless-stopped
+```
+
+### AppJail Director
+
+**.env**:
+
+```
+DIRECTOR_PROJECT=n8n
+N8N_ENCRYPTION_KEY=your-encryption-key-here
+PUID=1000
+PGID=1000
+TZ=UTC
+```
+
+**appjail-director.yml**:
+
+```yaml
+options:
+  - virtualnet: ':<random> default'
+  - nat:
+services:
+  n8n:
+    name: n8n
+    options:
+      - container: 'boot args:--pull'
+    oci:
+      user: root
+      environment:
+        - N8N_ENCRYPTION_KEY: !ENV '${N8N_ENCRYPTION_KEY}'
+        - PUID: !ENV '${PUID}'
+        - PGID: !ENV '${PGID}'
+        - TZ: !ENV '${TZ}'
+    volumes:
+      - n8n: /config
+volumes:
+  n8n:
+    device: '/path/to/containers/n8n'
+```
+
+**Makejail**:
+
+```
+ARG tag=latest
+
+OPTION overwrite=force
+OPTION from=ghcr.io/daemonless/n8n:${tag}
 ```
 
 ### Podman CLI
@@ -42,13 +100,12 @@ services:
 podman run -d --name n8n \
   -p 5678:5678 \
   -e N8N_ENCRYPTION_KEY=your-encryption-key-here \
-  -e PUID=@PUID@ \
-  -e PGID=@PGID@ \
-  -e TZ=@TZ@ \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -e TZ=UTC \
   -v /path/to/containers/n8n:/config \
   ghcr.io/daemonless/n8n:latest
 ```
-Access at: `http://localhost:5678`
 
 ### Ansible
 
@@ -61,16 +118,19 @@ Access at: `http://localhost:5678`
     restart_policy: always
     env:
       N8N_ENCRYPTION_KEY: "your-encryption-key-here"
-      PUID: "@PUID@"
-      PGID: "@PGID@"
-      TZ: "@TZ@"
+      PUID: "1000"
+      PGID: "1000"
+      TZ: "UTC"
     ports:
       - "5678:5678"
     volumes:
       - "/path/to/containers/n8n:/config"
 ```
 
-## Configuration
+Access at: `http://localhost:5678`
+
+## Parameters
+
 ### Environment Variables
 
 | Variable | Default | Description |
@@ -79,19 +139,23 @@ Access at: `http://localhost:5678`
 | `PUID` | `1000` | User ID for the application process |
 | `PGID` | `1000` | Group ID for the application process |
 | `TZ` | `UTC` | Timezone for the container |
+
 ### Volumes
 
 | Path | Description |
 |------|-------------|
 | `/config` | Configuration directory (database, workflows) |
+
 ### Ports
 
 | Port | Protocol | Description |
 |------|----------|-------------|
 | `5678` | TCP | Web UI |
 
-## Notes
+**Architectures:** amd64
+**User:** `bsd` (UID/GID via PUID/PGID, defaults to 1000:1000)
+**Base:** FreeBSD 15.0
 
-- **Architectures:** amd64
-- **User:** `bsd` (UID/GID set via PUID/PGID)
-- **Base:** Built on `ghcr.io/daemonless/base` (FreeBSD)
+---
+
+Need help? Join our [Discord](https://discord.gg/Kb9tkhecZT) community.

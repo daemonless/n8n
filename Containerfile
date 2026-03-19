@@ -63,7 +63,7 @@ ENV HEALTHCHECK_URL="${HEALTHCHECK_ENDPOINT}"
 
 # --- Metadata (Injected by Generator) ---
 LABEL org.opencontainers.image.title="n8n" \
-      org.opencontainers.image.description="Workflow automation tool on FreeBSD." \
+      org.opencontainers.image.description="Fair-code workflow automation platform with native AI capabilities — combine visual building with custom code and 400+ integrations." \
       org.opencontainers.image.source="https://github.com/daemonless/n8n" \
       org.opencontainers.image.url="https://n8n.io/" \
       org.opencontainers.image.documentation="https://docs.n8n.io/" \

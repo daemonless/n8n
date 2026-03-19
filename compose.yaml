@@ -4,14 +4,15 @@ x-daemonless:
   title: "n8n"
   icon: ":simple-n8n:"
   category: "Utilities"
-  description: "Workflow automation tool on FreeBSD."
+  description: "Fair-code workflow automation platform with native AI capabilities — combine visual building with custom code and 400+ integrations."
   upstream_url: "https://github.com/n8n-io/n8n"
   web_url: "https://n8n.io/"
   freshports_url: ""
   user: "bsd"
   mlock: false
   upstream_binary: true
-  
+  appjail: true
+
   docs:
     env:
       PUID: "User ID for the application process"
