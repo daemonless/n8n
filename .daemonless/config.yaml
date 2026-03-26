@@ -1,5 +1,6 @@
 icon: ':simple-n8n:'
 cit:
-  mode: port
   port: 5678
-  wait: 120
+  health: /healthz
+  ready: "n8n ready on"
+  wait: 300
