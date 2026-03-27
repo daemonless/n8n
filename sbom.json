@@ -1,12 +1,12 @@
 {
   "image": "n8n",
-  "generated": "2026-03-25T16:03:46Z",
+  "generated": "2026-03-27T00:07:51Z",
   "tags": {
     "latest": {
       "arch": "amd64",
-      "app_version": "2.13.3",
+      "app_version": "2.13.4",
       "source": "upstream",
-      "generated": "2026-03-25T16:03:29Z",
+      "generated": "2026-03-27T00:07:36Z",
       "packages": {
         "freebsd": [
           {
@@ -580,27 +580,27 @@
           },
           {
             "name": "@aws-sdk/client-bedrock-agent-runtime",
-            "version": "3.1016.0"
+            "version": "3.1018.0"
           },
           {
             "name": "@aws-sdk/client-bedrock-runtime",
-            "version": "3.1016.0"
+            "version": "3.1018.0"
           },
           {
             "name": "@aws-sdk/client-cognito-identity",
-            "version": "3.1016.0"
+            "version": "3.1018.0"
           },
           {
             "name": "@aws-sdk/client-kendra",
-            "version": "3.1016.0"
+            "version": "3.1018.0"
           },
           {
             "name": "@aws-sdk/client-s3",
-            "version": "3.1016.0"
+            "version": "3.1018.0"
           },
           {
             "name": "@aws-sdk/client-sagemaker",
-            "version": "3.1016.0"
+            "version": "3.1018.0"
           },
           {
             "name": "@aws-sdk/client-secrets-manager",
@@ -624,7 +624,7 @@
           },
           {
             "name": "@aws-sdk/credential-provider-cognito-identity",
-            "version": "3.972.17"
+            "version": "3.972.18"
           },
           {
             "name": "@aws-sdk/credential-provider-env",
@@ -640,7 +640,7 @@
           },
           {
             "name": "@aws-sdk/credential-provider-login",
-            "version": "3.972.24"
+            "version": "3.972.25"
           },
           {
             "name": "@aws-sdk/credential-provider-node",
@@ -660,11 +660,11 @@
           },
           {
             "name": "@aws-sdk/credential-providers",
-            "version": "3.1016.0"
+            "version": "3.1018.0"
           },
           {
             "name": "@aws-sdk/eventstream-handler-node",
-            "version": "3.972.11"
+            "version": "3.972.12"
           },
           {
             "name": "@aws-sdk/middleware-bucket-endpoint",
@@ -712,7 +712,7 @@
           },
           {
             "name": "@aws-sdk/middleware-websocket",
-            "version": "3.972.13"
+            "version": "3.972.14"
           },
           {
             "name": "@aws-sdk/nested-clients",
@@ -736,7 +736,7 @@
           },
           {
             "name": "@aws-sdk/token-providers",
-            "version": "3.1015.0"
+            "version": "3.1018.0"
           },
           {
             "name": "@aws-sdk/types",
@@ -1408,7 +1408,7 @@
           },
           {
             "name": "@opentelemetry/api",
-            "version": "1.9.0"
+            "version": "1.9.1"
           },
           {
             "name": "@opentelemetry/api-logs",
@@ -4484,7 +4484,7 @@
           },
           {
             "name": "n8n",
-            "version": "2.13.3"
+            "version": "2.13.4"
           },
           {
             "name": "n8n-core",
@@ -4492,7 +4492,7 @@
           },
           {
             "name": "n8n-editor-ui",
-            "version": "2.13.3"
+            "version": "2.13.4"
           },
           {
             "name": "n8n-nodes-base",
@@ -4896,7 +4896,7 @@
           },
           {
             "name": "path-to-regexp",
-            "version": "8.3.0"
+            "version": "8.4.0"
           },
           {
             "name": "pdf-parse",
