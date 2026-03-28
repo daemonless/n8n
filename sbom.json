@@ -1,12 +1,12 @@
 {
   "image": "n8n",
-  "generated": "2026-03-27T00:07:51Z",
+  "generated": "2026-03-28T16:58:28Z",
   "tags": {
     "latest": {
       "arch": "amd64",
       "app_version": "2.13.4",
       "source": "upstream",
-      "generated": "2026-03-27T00:07:36Z",
+      "generated": "2026-03-28T16:58:11Z",
       "packages": {
         "freebsd": [
           {
@@ -580,27 +580,27 @@
           },
           {
             "name": "@aws-sdk/client-bedrock-agent-runtime",
-            "version": "3.1018.0"
+            "version": "3.1019.0"
           },
           {
             "name": "@aws-sdk/client-bedrock-runtime",
-            "version": "3.1018.0"
+            "version": "3.1019.0"
           },
           {
             "name": "@aws-sdk/client-cognito-identity",
-            "version": "3.1018.0"
+            "version": "3.1019.0"
           },
           {
             "name": "@aws-sdk/client-kendra",
-            "version": "3.1018.0"
+            "version": "3.1019.0"
           },
           {
             "name": "@aws-sdk/client-s3",
-            "version": "3.1018.0"
+            "version": "3.1019.0"
           },
           {
             "name": "@aws-sdk/client-sagemaker",
-            "version": "3.1018.0"
+            "version": "3.1019.0"
           },
           {
             "name": "@aws-sdk/client-secrets-manager",
@@ -624,7 +624,7 @@
           },
           {
             "name": "@aws-sdk/credential-provider-cognito-identity",
-            "version": "3.972.18"
+            "version": "3.972.19"
           },
           {
             "name": "@aws-sdk/credential-provider-env",
@@ -640,7 +640,7 @@
           },
           {
             "name": "@aws-sdk/credential-provider-login",
-            "version": "3.972.25"
+            "version": "3.972.26"
           },
           {
             "name": "@aws-sdk/credential-provider-node",
@@ -660,7 +660,7 @@
           },
           {
             "name": "@aws-sdk/credential-providers",
-            "version": "3.1018.0"
+            "version": "3.1019.0"
           },
           {
             "name": "@aws-sdk/eventstream-handler-node",
@@ -736,7 +736,7 @@
           },
           {
             "name": "@aws-sdk/token-providers",
-            "version": "3.1018.0"
+            "version": "3.1019.0"
           },
           {
             "name": "@aws-sdk/types",
@@ -2576,7 +2576,7 @@
           },
           {
             "name": "brace-expansion",
-            "version": "1.1.12"
+            "version": "1.1.13"
           },
           {
             "name": "braces",
@@ -4152,7 +4152,7 @@
           },
           {
             "name": "libphonenumber-js",
-            "version": "1.12.40"
+            "version": "1.12.41"
           },
           {
             "name": "libqp",
@@ -5808,7 +5808,7 @@
           },
           {
             "name": "ts-type",
-            "version": "3.0.10"
+            "version": "3.0.12"
           },
           {
             "name": "tslib",
