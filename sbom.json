@@ -1,11 +1,11 @@
 {
-  "generated": "2026-04-07T15:15:50Z",
+  "generated": "2026-04-10T18:16:15Z",
   "image": "n8n",
   "tags": {
     "latest": {
-      "app_version": "2.15.0",
+      "app_version": "2.15.1",
       "arch": "amd64",
-      "generated": "2026-04-07T15:14:34Z",
+      "generated": "2026-04-10T18:15:00Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -359,7 +359,7 @@
           },
           {
             "name": "node22",
-            "version": "22.22.1_2"
+            "version": "22.22.2"
           },
           {
             "name": "oniguruma",
@@ -583,27 +583,27 @@
           },
           {
             "name": "@aws-sdk/client-bedrock-agent-runtime",
-            "version": "3.1025.0"
+            "version": "3.1028.0"
           },
           {
             "name": "@aws-sdk/client-bedrock-runtime",
-            "version": "3.1025.0"
+            "version": "3.1028.0"
           },
           {
             "name": "@aws-sdk/client-cognito-identity",
-            "version": "3.1025.0"
+            "version": "3.1028.0"
           },
           {
             "name": "@aws-sdk/client-kendra",
-            "version": "3.1025.0"
+            "version": "3.1028.0"
           },
           {
             "name": "@aws-sdk/client-s3",
-            "version": "3.1025.0"
+            "version": "3.1028.0"
           },
           {
             "name": "@aws-sdk/client-sagemaker",
-            "version": "3.1025.0"
+            "version": "3.1028.0"
           },
           {
             "name": "@aws-sdk/client-secrets-manager",
@@ -623,11 +623,11 @@
           },
           {
             "name": "@aws-sdk/crc64-nvme",
-            "version": "3.972.5"
+            "version": "3.972.6"
           },
           {
             "name": "@aws-sdk/credential-provider-cognito-identity",
-            "version": "3.972.21"
+            "version": "3.972.22"
           },
           {
             "name": "@aws-sdk/credential-provider-env",
@@ -643,7 +643,7 @@
           },
           {
             "name": "@aws-sdk/credential-provider-login",
-            "version": "3.972.28"
+            "version": "3.972.29"
           },
           {
             "name": "@aws-sdk/credential-provider-node",
@@ -663,11 +663,11 @@
           },
           {
             "name": "@aws-sdk/credential-providers",
-            "version": "3.1025.0"
+            "version": "3.1028.0"
           },
           {
             "name": "@aws-sdk/eventstream-handler-node",
-            "version": "3.972.12"
+            "version": "3.972.13"
           },
           {
             "name": "@aws-sdk/middleware-bucket-endpoint",
@@ -675,7 +675,7 @@
           },
           {
             "name": "@aws-sdk/middleware-eventstream",
-            "version": "3.972.8"
+            "version": "3.972.9"
           },
           {
             "name": "@aws-sdk/middleware-expect-continue",
@@ -715,7 +715,7 @@
           },
           {
             "name": "@aws-sdk/middleware-websocket",
-            "version": "3.972.14"
+            "version": "3.972.15"
           },
           {
             "name": "@aws-sdk/nested-clients",
@@ -739,7 +739,7 @@
           },
           {
             "name": "@aws-sdk/token-providers",
-            "version": "3.1021.0"
+            "version": "3.1026.0"
           },
           {
             "name": "@aws-sdk/types",
@@ -755,7 +755,7 @@
           },
           {
             "name": "@aws-sdk/util-format-url",
-            "version": "3.972.8"
+            "version": "3.972.9"
           },
           {
             "name": "@aws-sdk/util-locate-window",
@@ -783,7 +783,7 @@
           },
           {
             "name": "@azure-rest/core-client",
-            "version": "2.5.1"
+            "version": "2.6.0"
           },
           {
             "name": "@azure/abort-controller",
@@ -799,7 +799,7 @@
           },
           {
             "name": "@azure/core-http-compat",
-            "version": "2.3.2"
+            "version": "2.4.0"
           },
           {
             "name": "@azure/core-lro",
@@ -823,7 +823,7 @@
           },
           {
             "name": "@azure/core-xml",
-            "version": "1.5.0"
+            "version": "1.5.1"
           },
           {
             "name": "@azure/identity",
@@ -831,7 +831,7 @@
           },
           {
             "name": "@azure/keyvault-common",
-            "version": "2.0.0"
+            "version": "2.1.0"
           },
           {
             "name": "@azure/keyvault-keys",
@@ -1275,7 +1275,7 @@
           },
           {
             "name": "@n8n/n8n-nodes-langchain",
-            "version": "2.15.0"
+            "version": "2.15.1"
           },
           {
             "name": "@n8n/permissions",
@@ -1484,10 +1484,6 @@
           {
             "name": "@opentelemetry/instrumentation-dataloader",
             "version": "0.31.0"
-          },
-          {
-            "name": "@opentelemetry/instrumentation-express",
-            "version": "0.62.0"
           },
           {
             "name": "@opentelemetry/instrumentation-fs",
@@ -1743,27 +1739,27 @@
           },
           {
             "name": "@sentry/core",
-            "version": "10.47.0"
+            "version": "10.48.0"
           },
           {
             "name": "@sentry/node",
-            "version": "10.47.0"
+            "version": "10.48.0"
           },
           {
             "name": "@sentry/node-core",
-            "version": "10.47.0"
+            "version": "10.48.0"
           },
           {
             "name": "@sentry/node-native",
-            "version": "10.47.0"
+            "version": "10.48.0"
           },
           {
             "name": "@sentry/opentelemetry",
-            "version": "10.47.0"
+            "version": "10.48.0"
           },
           {
             "name": "@sentry/profiling-node",
-            "version": "10.47.0"
+            "version": "10.48.0"
           },
           {
             "name": "@sigstore/bundle",
@@ -1867,7 +1863,7 @@
           },
           {
             "name": "@smithy/middleware-retry",
-            "version": "4.5.0"
+            "version": "4.5.1"
           },
           {
             "name": "@smithy/middleware-serde",
@@ -1967,7 +1963,7 @@
           },
           {
             "name": "@smithy/util-retry",
-            "version": "4.3.0"
+            "version": "4.3.1"
           },
           {
             "name": "@smithy/util-stream",
@@ -2239,7 +2235,7 @@
           },
           {
             "name": "@typespec/ts-http-runtime",
-            "version": "0.3.4"
+            "version": "0.3.5"
           },
           {
             "name": "@xata.io/client",
@@ -2639,7 +2635,7 @@
           },
           {
             "name": "call-bind",
-            "version": "1.0.8"
+            "version": "1.0.9"
           },
           {
             "name": "call-bind-apply-helpers",
@@ -2703,7 +2699,7 @@
           },
           {
             "name": "chromadb",
-            "version": "3.4.2"
+            "version": "3.4.3"
           },
           {
             "name": "ci-info",
@@ -2819,7 +2815,7 @@
           },
           {
             "name": "content-disposition",
-            "version": "1.0.1"
+            "version": "1.1.0"
           },
           {
             "name": "content-type",
@@ -3147,7 +3143,7 @@
           },
           {
             "name": "es-abstract",
-            "version": "1.24.1"
+            "version": "1.24.2"
           },
           {
             "name": "es-aggregate-error",
@@ -3647,7 +3643,7 @@
           },
           {
             "name": "ibm-cloud-sdk-core",
-            "version": "5.4.10"
+            "version": "5.4.11"
           },
           {
             "name": "iconv-lite",
@@ -4475,7 +4471,7 @@
           },
           {
             "name": "n8n",
-            "version": "2.15.0"
+            "version": "2.15.1"
           },
           {
             "name": "n8n-core",
@@ -4487,7 +4483,7 @@
           },
           {
             "name": "n8n-nodes-base",
-            "version": "2.15.0"
+            "version": "2.15.1"
           },
           {
             "name": "n8n-workflow",
@@ -4867,7 +4863,7 @@
           },
           {
             "name": "path-expression-matcher",
-            "version": "1.4.0"
+            "version": "1.5.0"
           },
           {
             "name": "path-is-absolute",
@@ -4971,7 +4967,7 @@
           },
           {
             "name": "postcss",
-            "version": "8.5.8"
+            "version": "8.5.9"
           },
           {
             "name": "postcss-selector-parser",
@@ -5411,7 +5407,7 @@
           },
           {
             "name": "side-channel-list",
-            "version": "1.0.0"
+            "version": "1.0.1"
           },
           {
             "name": "side-channel-map",
@@ -6275,12 +6271,12 @@
         "freebsd": 129,
         "go": 0,
         "java": 0,
-        "node": 1418,
+        "node": 1417,
         "php": 0,
         "python": 5,
         "ruby": 0,
         "rust": 10,
-        "total": 1562
+        "total": 1561
       }
     }
   }
