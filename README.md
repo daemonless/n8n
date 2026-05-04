@@ -10,7 +10,6 @@ Source: dbuild templates
 
 Fair-code workflow automation platform with native AI capabilities — combine visual building with custom code and 400+ integrations.
 
-
 | | |
 |---|---|
 | **Port** | 5678 |
@@ -127,8 +126,6 @@ podman run -d --name n8n \
     volumes:
       - "/path/to/containers/n8n:/config"
 ```
-
-Access at: `http://localhost:5678`
 
 ## Parameters
 

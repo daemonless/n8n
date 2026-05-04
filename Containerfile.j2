@@ -10,26 +10,40 @@ RUN pkg update && \
     pkg install -y \
     FreeBSD-clang \
     FreeBSD-clibs-dev \
+    FreeBSD-libexecinfo-dev \
     FreeBSD-openssl-dev \
+    FreeBSD-runtime-dev \
+    FreeBSD-toolchain \
+    FreeBSD-utilities-dev \
     FreeBSD-zlib-dev \
-    binutils \
-    coreutils \
+    cmake \
     node${NODE_VERSION} \
     npm-node${NODE_VERSION} \
     python${PYTHON_VERSION} \
     gmake \
     git \
-    sqlite3 \
+    rust \
     ca_root_nss && \
     pkg clean -ay && \
     rm -rf /var/cache/pkg/* /var/db/pkg/repos/* && \
     ln -sf /usr/local/bin/python3.13 /usr/local/bin/python3 && \
     ln -sf /usr/local/bin/python3.13 /usr/local/bin/python
 
-# Install n8n globally and capture version
-RUN npm install -g n8n && \
+# --os linux installs linux variant of libsql (JS/WASM only, no native binary); n8n uses sqlite3
+# Install n8n (--force bypasses libsql platform check; native binary built below)
+RUN npm install -g n8n --force && \
     npm cache clean --force && \
     mkdir -p /app && npm list -g n8n --depth=0 | grep n8n | sed 's/.*@//' > /app/version
+
+
+# Build libsql native binding for FreeBSD and place in n8n's nested node_modules
+RUN git clone --no-checkout https://github.com/tursodatabase/libsql-js /tmp/libsql-js && \
+    cd /tmp/libsql-js && \
+    git checkout 55bee86d1c284f1ddf2b9e280e870d2b6cef884a && \
+    cargo build --release 2>&1 | tail -5 && \
+    find /usr/local/lib/node_modules -path "*/libsql/libsql.linux-x64*" | \
+      xargs -I{} sh -c 'cp target/release/liblibsql_js.so "$(dirname {})/libsql.freebsd-x64.node"' && \
+    rm -rf /tmp/libsql-js ~/.cargo/registry ~/.cargo/git
 
 # Set up Python task runner at the path n8n expects
 RUN mkdir -p /usr/local/lib/node_modules/@n8n && \
