@@ -1,11 +1,11 @@
 {
-  "generated": "2026-05-04T16:22:36Z",
+  "generated": "2026-05-05T21:26:14Z",
   "image": "n8n",
   "tags": {
     "latest": {
-      "app_version": "2.18.7",
+      "app_version": "2.19.2",
       "arch": "amd64",
-      "generated": "2026-05-04T16:21:15Z",
+      "generated": "2026-05-05T21:24:49Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -551,7 +551,7 @@
           },
           {
             "name": "@ai-sdk/gateway",
-            "version": "3.0.109"
+            "version": "3.0.110"
           },
           {
             "name": "@ai-sdk/google",
@@ -559,11 +559,11 @@
           },
           {
             "name": "@ai-sdk/openai",
-            "version": "3.0.58"
+            "version": "3.0.61"
           },
           {
             "name": "@ai-sdk/openai-compatible",
-            "version": "2.0.45"
+            "version": "2.0.46"
           },
           {
             "name": "@ai-sdk/provider",
@@ -579,7 +579,7 @@
           },
           {
             "name": "@ai-sdk/xai",
-            "version": "3.0.87"
+            "version": "3.0.88"
           },
           {
             "name": "@anthropic-ai/sdk",
@@ -623,27 +623,27 @@
           },
           {
             "name": "@aws-sdk/client-bedrock-agent-runtime",
-            "version": "3.1041.0"
+            "version": "3.1043.0"
           },
           {
             "name": "@aws-sdk/client-bedrock-runtime",
-            "version": "3.1041.0"
+            "version": "3.1043.0"
           },
           {
             "name": "@aws-sdk/client-cognito-identity",
-            "version": "3.1041.0"
+            "version": "3.1043.0"
           },
           {
             "name": "@aws-sdk/client-kendra",
-            "version": "3.1041.0"
+            "version": "3.1043.0"
           },
           {
             "name": "@aws-sdk/client-s3",
-            "version": "3.1041.0"
+            "version": "3.1043.0"
           },
           {
             "name": "@aws-sdk/client-sagemaker",
-            "version": "3.1041.0"
+            "version": "3.1043.0"
           },
           {
             "name": "@aws-sdk/client-secrets-manager",
@@ -703,7 +703,7 @@
           },
           {
             "name": "@aws-sdk/credential-providers",
-            "version": "3.1041.0"
+            "version": "3.1043.0"
           },
           {
             "name": "@aws-sdk/eventstream-handler-node",
@@ -711,7 +711,7 @@
           },
           {
             "name": "@aws-sdk/lib-storage",
-            "version": "3.1041.0"
+            "version": "3.1043.0"
           },
           {
             "name": "@aws-sdk/middleware-bucket-endpoint",
@@ -1047,7 +1047,7 @@
           },
           {
             "name": "@huggingface/inference",
-            "version": "2.8.1"
+            "version": "4.0.5"
           },
           {
             "name": "@huggingface/jinja",
@@ -1055,7 +1055,7 @@
           },
           {
             "name": "@huggingface/tasks",
-            "version": "0.12.30"
+            "version": "0.19.90"
           },
           {
             "name": "@iarna/toml",
@@ -1147,11 +1147,11 @@
           },
           {
             "name": "@langchain/community",
-            "version": "0.0.57"
+            "version": "1.1.14"
           },
           {
             "name": "@langchain/core",
-            "version": "0.1.63"
+            "version": "1.1.34"
           },
           {
             "name": "@langchain/google-common",
@@ -1179,7 +1179,7 @@
           },
           {
             "name": "@langchain/langgraph-checkpoint",
-            "version": "1.0.1"
+            "version": "1.0.2"
           },
           {
             "name": "@langchain/langgraph-sdk",
@@ -1199,15 +1199,19 @@
           },
           {
             "name": "@langchain/ollama",
-            "version": "1.0.2"
+            "version": "1.0.3"
           },
           {
             "name": "@langchain/openai",
-            "version": "0.0.34"
+            "version": "1.1.3"
           },
           {
             "name": "@langchain/pinecone",
             "version": "1.0.1"
+          },
+          {
+            "name": "@langchain/protocol",
+            "version": "0.0.15"
           },
           {
             "name": "@langchain/qdrant",
@@ -1219,7 +1223,7 @@
           },
           {
             "name": "@langchain/textsplitters",
-            "version": "0.0.3"
+            "version": "1.0.1"
           },
           {
             "name": "@langchain/weaviate",
@@ -1335,95 +1339,95 @@
           },
           {
             "name": "@n8n/agents",
-            "version": "0.5.2"
+            "version": "0.6.0"
           },
           {
             "name": "@n8n/ai-node-sdk",
-            "version": "0.9.0"
-          },
-          {
-            "name": "@n8n/ai-utilities",
-            "version": "0.12.0"
-          },
-          {
-            "name": "@n8n/ai-workflow-builder",
-            "version": "1.18.4"
-          },
-          {
-            "name": "@n8n/api-types",
-            "version": "1.18.4"
-          },
-          {
-            "name": "@n8n/backend-common",
-            "version": "1.18.3"
-          },
-          {
-            "name": "@n8n/chat-hub",
-            "version": "1.11.4"
-          },
-          {
-            "name": "@n8n/client-oauth2",
-            "version": "1.2.0"
-          },
-          {
-            "name": "@n8n/config",
-            "version": "2.17.0"
-          },
-          {
-            "name": "@n8n/constants",
-            "version": "0.22.0"
-          },
-          {
-            "name": "@n8n/db",
-            "version": "1.18.5"
-          },
-          {
-            "name": "@n8n/decorators",
-            "version": "1.18.3"
-          },
-          {
-            "name": "@n8n/di",
             "version": "0.10.0"
           },
           {
+            "name": "@n8n/ai-utilities",
+            "version": "0.13.0"
+          },
+          {
+            "name": "@n8n/ai-workflow-builder",
+            "version": "1.19.0"
+          },
+          {
+            "name": "@n8n/api-types",
+            "version": "1.19.0"
+          },
+          {
+            "name": "@n8n/backend-common",
+            "version": "1.19.0"
+          },
+          {
+            "name": "@n8n/chat-hub",
+            "version": "1.12.0"
+          },
+          {
+            "name": "@n8n/client-oauth2",
+            "version": "1.3.0"
+          },
+          {
+            "name": "@n8n/config",
+            "version": "2.18.0"
+          },
+          {
+            "name": "@n8n/constants",
+            "version": "0.23.0"
+          },
+          {
+            "name": "@n8n/db",
+            "version": "1.19.1"
+          },
+          {
+            "name": "@n8n/decorators",
+            "version": "1.19.0"
+          },
+          {
+            "name": "@n8n/di",
+            "version": "0.11.0"
+          },
+          {
             "name": "@n8n/errors",
-            "version": "0.7.0"
+            "version": "0.8.0"
           },
           {
             "name": "@n8n/expression-runtime",
-            "version": "0.10.1"
+            "version": "0.11.0"
           },
           {
             "name": "@n8n/imap",
-            "version": "0.17.0"
+            "version": "0.18.0"
           },
           {
             "name": "@n8n/instance-ai",
-            "version": "1.3.5"
+            "version": "1.4.0"
           },
           {
             "name": "@n8n/json-schema-to-zod",
-            "version": "1.8.0"
+            "version": "1.9.0"
           },
           {
             "name": "@n8n/n8n-nodes-langchain",
-            "version": "2.18.4"
+            "version": "2.19.0"
           },
           {
             "name": "@n8n/permissions",
-            "version": "0.57.0"
+            "version": "0.58.0"
           },
           {
             "name": "@n8n/syslog-client",
-            "version": "1.2.0"
+            "version": "1.3.0"
           },
           {
             "name": "@n8n/task-runner",
-            "version": "2.18.3"
+            "version": "2.19.1"
           },
           {
             "name": "@n8n/tournament",
-            "version": "1.0.6"
+            "version": "1.0.7"
           },
           {
             "name": "@n8n/typeorm",
@@ -1435,11 +1439,11 @@
           },
           {
             "name": "@n8n/utils",
-            "version": "1.29.0"
+            "version": "1.30.0"
           },
           {
             "name": "@n8n/workflow-sdk",
-            "version": "0.11.3"
+            "version": "0.12.0"
           },
           {
             "name": "@n8n_io/ai-assistant-sdk",
@@ -1448,10 +1452,6 @@
           {
             "name": "@n8n_io/license-sdk",
             "version": "2.25.0"
-          },
-          {
-            "name": "@n8n_io/riot-tmpl",
-            "version": "4.0.1"
           },
           {
             "name": "@napi-rs/canvas",
@@ -1855,7 +1855,7 @@
           },
           {
             "name": "@rudderstack/rudder-sdk-node",
-            "version": "3.0.0"
+            "version": "3.0.5"
           },
           {
             "name": "@scarf/scarf",
@@ -1871,7 +1871,7 @@
           },
           {
             "name": "@sentry-internal/node-cpu-profiler",
-            "version": "2.2.0"
+            "version": "2.3.0"
           },
           {
             "name": "@sentry-internal/node-native-stacktrace",
@@ -2487,7 +2487,7 @@
           },
           {
             "name": "ai",
-            "version": "6.0.174"
+            "version": "6.0.175"
           },
           {
             "name": "ajv",
@@ -2655,7 +2655,7 @@
           },
           {
             "name": "axios",
-            "version": "1.13.2"
+            "version": "1.15.1"
           },
           {
             "name": "axios-retry",
@@ -2667,7 +2667,7 @@
           },
           {
             "name": "base-64",
-            "version": "0.1.0"
+            "version": "1.0.0"
           },
           {
             "name": "base64-js",
@@ -2712,10 +2712,6 @@
           {
             "name": "binary-extensions",
             "version": "2.3.0"
-          },
-          {
-            "name": "binary-search",
-            "version": "1.3.6"
           },
           {
             "name": "binascii",
@@ -2955,7 +2951,7 @@
           },
           {
             "name": "commander",
-            "version": "10.0.1"
+            "version": "11.1.0"
           },
           {
             "name": "commist",
@@ -3226,10 +3222,6 @@
             "version": "4.0.4"
           },
           {
-            "name": "digest-fetch",
-            "version": "1.3.0"
-          },
-          {
             "name": "dingbat-to-unicode",
             "version": "1.0.1"
           },
@@ -3374,10 +3366,6 @@
             "version": "1.0.5"
           },
           {
-            "name": "eslint-config-riot",
-            "version": "1.0.0"
-          },
-          {
             "name": "esprima",
             "version": "4.0.1"
           },
@@ -3430,10 +3418,6 @@
             "version": "3.1.3"
           },
           {
-            "name": "expr-eval",
-            "version": "2.0.2"
-          },
-          {
             "name": "express",
             "version": "4.22.1"
           },
@@ -3474,20 +3458,16 @@
             "version": "3.2.12"
           },
           {
-            "name": "fast-text-encoding",
-            "version": "1.0.6"
-          },
-          {
             "name": "fast-unique-numbers",
             "version": "8.0.13"
           },
           {
             "name": "fast-uri",
-            "version": "3.1.1"
+            "version": "3.1.2"
           },
           {
             "name": "fast-xml-builder",
-            "version": "1.1.7"
+            "version": "1.1.8"
           },
           {
             "name": "fast-xml-parser",
@@ -3714,10 +3694,6 @@
             "version": "0.0.2"
           },
           {
-            "name": "google-p12-pem",
-            "version": "4.0.1"
-          },
-          {
             "name": "gopd",
             "version": "1.2.0"
           },
@@ -3743,7 +3719,7 @@
           },
           {
             "name": "gtoken",
-            "version": "6.1.2"
+            "version": "7.1.0"
           },
           {
             "name": "handlebars",
@@ -3807,7 +3783,7 @@
           },
           {
             "name": "hono",
-            "version": "4.12.16"
+            "version": "4.12.17"
           },
           {
             "name": "hono-openapi",
@@ -3871,7 +3847,7 @@
           },
           {
             "name": "ibm-cloud-sdk-core",
-            "version": "5.4.13"
+            "version": "5.4.14"
           },
           {
             "name": "iconv-lite",
@@ -3966,10 +3942,6 @@
             "version": "1.9.1"
           },
           {
-            "name": "is-any-array",
-            "version": "2.0.1"
-          },
-          {
             "name": "is-arguments",
             "version": "1.2.0"
           },
@@ -4003,7 +3975,7 @@
           },
           {
             "name": "is-core-module",
-            "version": "2.16.1"
+            "version": "2.16.2"
           },
           {
             "name": "is-data-view",
@@ -4327,15 +4299,11 @@
           },
           {
             "name": "langchain",
-            "version": "0.1.37"
-          },
-          {
-            "name": "langchainhub",
-            "version": "0.0.11"
+            "version": "1.2.30"
           },
           {
             "name": "langsmith",
-            "version": "0.1.68"
+            "version": "0.3.87"
           },
           {
             "name": "ldapts",
@@ -4658,26 +4626,6 @@
             "version": "0.5.3"
           },
           {
-            "name": "ml-array-mean",
-            "version": "1.1.6"
-          },
-          {
-            "name": "ml-array-sum",
-            "version": "1.1.6"
-          },
-          {
-            "name": "ml-distance",
-            "version": "4.0.1"
-          },
-          {
-            "name": "ml-distance-euclidean",
-            "version": "2.0.0"
-          },
-          {
-            "name": "ml-tree-similarity",
-            "version": "1.0.0"
-          },
-          {
             "name": "module-details-from-path",
             "version": "1.0.4"
           },
@@ -4743,23 +4691,23 @@
           },
           {
             "name": "n8n",
-            "version": "2.18.7"
+            "version": "2.19.2"
           },
           {
             "name": "n8n-core",
-            "version": "2.18.3"
+            "version": "2.19.1"
           },
           {
             "name": "n8n-editor-ui",
-            "version": "2.18.6"
+            "version": "2.19.2"
           },
           {
             "name": "n8n-nodes-base",
-            "version": "2.18.3"
+            "version": "2.19.0"
           },
           {
             "name": "n8n-workflow",
-            "version": "2.18.3"
+            "version": "2.19.0"
           },
           {
             "name": "named-placeholders",
@@ -4948,10 +4896,6 @@
           {
             "name": "nub",
             "version": "0.0.0"
-          },
-          {
-            "name": "num-sort",
-            "version": "2.1.0"
           },
           {
             "name": "number-allocator",
@@ -5255,7 +5199,7 @@
           },
           {
             "name": "postcss",
-            "version": "8.5.13"
+            "version": "8.5.14"
           },
           {
             "name": "postcss-selector-parser",
@@ -6515,7 +6459,7 @@
           },
           {
             "name": "yaml",
-            "version": "2.8.2"
+            "version": "2.8.3"
           },
           {
             "name": "yargs",
@@ -6627,12 +6571,12 @@
         "freebsd": 129,
         "go": 0,
         "java": 0,
-        "node": 1506,
+        "node": 1492,
         "php": 0,
         "python": 5,
         "ruby": 0,
         "rust": 10,
-        "total": 1650
+        "total": 1636
       }
     }
   }
