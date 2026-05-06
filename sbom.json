@@ -1,11 +1,11 @@
 {
-  "generated": "2026-05-05T21:26:14Z",
+  "generated": "2026-05-06T19:51:47Z",
   "image": "n8n",
   "tags": {
     "latest": {
-      "app_version": "2.19.2",
+      "app_version": "2.19.4",
       "arch": "amd64",
-      "generated": "2026-05-05T21:24:49Z",
+      "generated": "2026-05-06T19:50:24Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -559,7 +559,7 @@
           },
           {
             "name": "@ai-sdk/openai",
-            "version": "3.0.61"
+            "version": "3.0.62"
           },
           {
             "name": "@ai-sdk/openai-compatible",
@@ -623,7 +623,7 @@
           },
           {
             "name": "@aws-sdk/client-bedrock-agent-runtime",
-            "version": "3.1043.0"
+            "version": "3.1044.0"
           },
           {
             "name": "@aws-sdk/client-bedrock-runtime",
@@ -635,7 +635,7 @@
           },
           {
             "name": "@aws-sdk/client-kendra",
-            "version": "3.1043.0"
+            "version": "3.1044.0"
           },
           {
             "name": "@aws-sdk/client-s3",
@@ -1343,27 +1343,27 @@
           },
           {
             "name": "@n8n/ai-node-sdk",
-            "version": "0.10.0"
+            "version": "0.10.1"
           },
           {
             "name": "@n8n/ai-utilities",
-            "version": "0.13.0"
+            "version": "0.13.1"
           },
           {
             "name": "@n8n/ai-workflow-builder",
-            "version": "1.19.0"
+            "version": "1.19.2"
           },
           {
             "name": "@n8n/api-types",
-            "version": "1.19.0"
+            "version": "1.19.1"
           },
           {
             "name": "@n8n/backend-common",
-            "version": "1.19.0"
+            "version": "1.19.2"
           },
           {
             "name": "@n8n/chat-hub",
-            "version": "1.12.0"
+            "version": "1.12.1"
           },
           {
             "name": "@n8n/client-oauth2",
@@ -1371,7 +1371,7 @@
           },
           {
             "name": "@n8n/config",
-            "version": "2.18.0"
+            "version": "2.18.1"
           },
           {
             "name": "@n8n/constants",
@@ -1379,11 +1379,11 @@
           },
           {
             "name": "@n8n/db",
-            "version": "1.19.1"
+            "version": "1.19.3"
           },
           {
             "name": "@n8n/decorators",
-            "version": "1.19.0"
+            "version": "1.19.1"
           },
           {
             "name": "@n8n/di",
@@ -1403,7 +1403,7 @@
           },
           {
             "name": "@n8n/instance-ai",
-            "version": "1.4.0"
+            "version": "1.4.1"
           },
           {
             "name": "@n8n/json-schema-to-zod",
@@ -1411,7 +1411,7 @@
           },
           {
             "name": "@n8n/n8n-nodes-langchain",
-            "version": "2.19.0"
+            "version": "2.19.2"
           },
           {
             "name": "@n8n/permissions",
@@ -1423,7 +1423,7 @@
           },
           {
             "name": "@n8n/task-runner",
-            "version": "2.19.1"
+            "version": "2.19.3"
           },
           {
             "name": "@n8n/tournament",
@@ -1924,6 +1924,14 @@
           {
             "name": "@sigstore/verify",
             "version": "3.1.0"
+          },
+          {
+            "name": "@simple-git/args-pathspec",
+            "version": "1.0.3"
+          },
+          {
+            "name": "@simple-git/argv-parser",
+            "version": "1.1.1"
           },
           {
             "name": "@sindresorhus/merge-streams",
@@ -3467,7 +3475,7 @@
           },
           {
             "name": "fast-xml-builder",
-            "version": "1.1.8"
+            "version": "1.1.9"
           },
           {
             "name": "fast-xml-parser",
@@ -3703,7 +3711,7 @@
           },
           {
             "name": "graphql",
-            "version": "16.13.2"
+            "version": "16.14.0"
           },
           {
             "name": "graphql-request",
@@ -3783,7 +3791,7 @@
           },
           {
             "name": "hono",
-            "version": "4.12.17"
+            "version": "4.12.18"
           },
           {
             "name": "hono-openapi",
@@ -4691,19 +4699,19 @@
           },
           {
             "name": "n8n",
-            "version": "2.19.2"
+            "version": "2.19.4"
           },
           {
             "name": "n8n-core",
-            "version": "2.19.1"
+            "version": "2.19.3"
           },
           {
             "name": "n8n-editor-ui",
-            "version": "2.19.2"
+            "version": "2.19.3"
           },
           {
             "name": "n8n-nodes-base",
-            "version": "2.19.0"
+            "version": "2.19.2"
           },
           {
             "name": "n8n-workflow",
@@ -4767,7 +4775,7 @@
           },
           {
             "name": "node-abi",
-            "version": "3.90.0"
+            "version": "3.91.0"
           },
           {
             "name": "node-abort-controller",
@@ -5699,7 +5707,7 @@
           },
           {
             "name": "simple-git",
-            "version": "3.32.3"
+            "version": "3.36.0"
           },
           {
             "name": "simple-lru-cache",
@@ -6571,12 +6579,12 @@
         "freebsd": 129,
         "go": 0,
         "java": 0,
-        "node": 1492,
+        "node": 1494,
         "php": 0,
         "python": 5,
         "ruby": 0,
         "rust": 10,
-        "total": 1636
+        "total": 1638
       }
     }
   }
