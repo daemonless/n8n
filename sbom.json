@@ -1,11 +1,11 @@
 {
-  "generated": "2026-05-19T19:41:36Z",
+  "generated": "2026-05-20T13:14:59Z",
   "image": "n8n",
   "tags": {
     "latest": {
-      "app_version": "2.21.4",
+      "app_version": "2.21.5",
       "arch": "amd64",
-      "generated": "2026-05-19T19:40:18Z",
+      "generated": "2026-05-20T13:13:38Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1107,7 +1107,7 @@
           },
           {
             "name": "@ioredis/commands",
-            "version": "1.8.0"
+            "version": "1.9.0"
           },
           {
             "name": "@isaacs/cliui",
@@ -4923,7 +4923,7 @@
           },
           {
             "name": "n8n",
-            "version": "2.21.4"
+            "version": "2.21.5"
           },
           {
             "name": "n8n-core",
@@ -4931,7 +4931,7 @@
           },
           {
             "name": "n8n-editor-ui",
-            "version": "2.21.3"
+            "version": "2.21.4"
           },
           {
             "name": "n8n-nodes-base",
