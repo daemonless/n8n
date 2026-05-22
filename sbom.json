@@ -1,11 +1,11 @@
 {
-  "generated": "2026-05-22T11:32:45Z",
+  "generated": "2026-05-22T21:30:00Z",
   "image": "n8n",
   "tags": {
     "latest": {
       "app_version": "2.21.7",
       "arch": "amd64",
-      "generated": "2026-05-22T11:31:29Z",
+      "generated": "2026-05-22T21:28:44Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -547,7 +547,7 @@
           },
           {
             "name": "@ai-sdk/amazon-bedrock",
-            "version": "4.0.107"
+            "version": "4.0.108"
           },
           {
             "name": "@ai-sdk/anthropic",
@@ -647,27 +647,27 @@
           },
           {
             "name": "@aws-sdk/client-bedrock-agent-runtime",
-            "version": "3.1052.0"
+            "version": "3.1053.0"
           },
           {
             "name": "@aws-sdk/client-bedrock-runtime",
-            "version": "3.1052.0"
+            "version": "3.1053.0"
           },
           {
             "name": "@aws-sdk/client-cognito-identity",
-            "version": "3.1052.0"
+            "version": "3.1053.0"
           },
           {
             "name": "@aws-sdk/client-kendra",
-            "version": "3.1052.0"
+            "version": "3.1053.0"
           },
           {
             "name": "@aws-sdk/client-s3",
-            "version": "3.1052.0"
+            "version": "3.1053.0"
           },
           {
             "name": "@aws-sdk/client-sagemaker",
-            "version": "3.1052.0"
+            "version": "3.1053.0"
           },
           {
             "name": "@aws-sdk/client-secrets-manager",
@@ -727,7 +727,7 @@
           },
           {
             "name": "@aws-sdk/credential-providers",
-            "version": "3.1052.0"
+            "version": "3.1053.0"
           },
           {
             "name": "@aws-sdk/eventstream-handler-node",
@@ -735,7 +735,7 @@
           },
           {
             "name": "@aws-sdk/lib-storage",
-            "version": "3.1052.0"
+            "version": "3.1053.0"
           },
           {
             "name": "@aws-sdk/middleware-bucket-endpoint",
@@ -3399,7 +3399,7 @@
           },
           {
             "name": "es-object-atoms",
-            "version": "1.1.1"
+            "version": "1.1.2"
           },
           {
             "name": "es-set-tostringtag",
@@ -5911,7 +5911,7 @@
           },
           {
             "name": "shell-quote",
-            "version": "1.8.3"
+            "version": "1.8.4"
           },
           {
             "name": "shelljs",
@@ -6679,7 +6679,7 @@
           },
           {
             "name": "ws",
-            "version": "5.2.4"
+            "version": "5.2.5"
           },
           {
             "name": "wsl-utils",
