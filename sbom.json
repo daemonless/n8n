@@ -1,11 +1,11 @@
 {
-  "generated": "2026-05-21T21:12:45Z",
+  "generated": "2026-05-22T11:32:45Z",
   "image": "n8n",
   "tags": {
     "latest": {
       "app_version": "2.21.7",
       "arch": "amd64",
-      "generated": "2026-05-21T21:11:26Z",
+      "generated": "2026-05-22T11:31:29Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -571,7 +571,7 @@
           },
           {
             "name": "@ai-sdk/google",
-            "version": "3.0.78"
+            "version": "3.0.79"
           },
           {
             "name": "@ai-sdk/groq",
@@ -647,27 +647,27 @@
           },
           {
             "name": "@aws-sdk/client-bedrock-agent-runtime",
-            "version": "3.1051.0"
+            "version": "3.1052.0"
           },
           {
             "name": "@aws-sdk/client-bedrock-runtime",
-            "version": "3.1051.0"
+            "version": "3.1052.0"
           },
           {
             "name": "@aws-sdk/client-cognito-identity",
-            "version": "3.1051.0"
+            "version": "3.1052.0"
           },
           {
             "name": "@aws-sdk/client-kendra",
-            "version": "3.1051.0"
+            "version": "3.1052.0"
           },
           {
             "name": "@aws-sdk/client-s3",
-            "version": "3.1051.0"
+            "version": "3.1052.0"
           },
           {
             "name": "@aws-sdk/client-sagemaker",
-            "version": "3.1051.0"
+            "version": "3.1052.0"
           },
           {
             "name": "@aws-sdk/client-secrets-manager",
@@ -687,11 +687,11 @@
           },
           {
             "name": "@aws-sdk/crc64-nvme",
-            "version": "3.972.8"
+            "version": "3.972.9"
           },
           {
             "name": "@aws-sdk/credential-provider-cognito-identity",
-            "version": "3.972.35"
+            "version": "3.972.36"
           },
           {
             "name": "@aws-sdk/credential-provider-env",
@@ -707,7 +707,7 @@
           },
           {
             "name": "@aws-sdk/credential-provider-login",
-            "version": "3.972.42"
+            "version": "3.972.43"
           },
           {
             "name": "@aws-sdk/credential-provider-node",
@@ -727,15 +727,15 @@
           },
           {
             "name": "@aws-sdk/credential-providers",
-            "version": "3.1051.0"
+            "version": "3.1052.0"
           },
           {
             "name": "@aws-sdk/eventstream-handler-node",
-            "version": "3.972.16"
+            "version": "3.972.17"
           },
           {
             "name": "@aws-sdk/lib-storage",
-            "version": "3.1051.0"
+            "version": "3.1052.0"
           },
           {
             "name": "@aws-sdk/middleware-bucket-endpoint",
@@ -743,7 +743,7 @@
           },
           {
             "name": "@aws-sdk/middleware-eventstream",
-            "version": "3.972.12"
+            "version": "3.972.13"
           },
           {
             "name": "@aws-sdk/middleware-expect-continue",
@@ -783,7 +783,7 @@
           },
           {
             "name": "@aws-sdk/middleware-websocket",
-            "version": "3.972.20"
+            "version": "3.972.21"
           },
           {
             "name": "@aws-sdk/nested-clients",
@@ -807,7 +807,7 @@
           },
           {
             "name": "@aws-sdk/token-providers",
-            "version": "3.1049.0"
+            "version": "3.1052.0"
           },
           {
             "name": "@aws-sdk/types",
@@ -1107,7 +1107,7 @@
           },
           {
             "name": "@ioredis/commands",
-            "version": "1.9.0"
+            "version": "1.10.0"
           },
           {
             "name": "@isaacs/cliui",
@@ -1835,7 +1835,7 @@
           },
           {
             "name": "@protobufjs/eventemitter",
-            "version": "1.1.0"
+            "version": "1.1.1"
           },
           {
             "name": "@protobufjs/fetch",
@@ -3843,7 +3843,7 @@
           },
           {
             "name": "hono",
-            "version": "4.12.21"
+            "version": "4.12.22"
           },
           {
             "name": "hono-openapi",
@@ -4427,7 +4427,7 @@
           },
           {
             "name": "libphonenumber-js",
-            "version": "1.13.2"
+            "version": "1.13.3"
           },
           {
             "name": "libqp",
@@ -5543,7 +5543,7 @@
           },
           {
             "name": "protobufjs",
-            "version": "7.6.0"
+            "version": "7.6.1"
           },
           {
             "name": "proxy-addr",
