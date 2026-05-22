@@ -118,7 +118,7 @@ RUN ln -sf /usr/local/lib/node_modules/n8n/bin/n8n /usr/local/bin/n8n && \
     find /usr/local/lib/node_modules/n8n -type d -name "sqlite" -path "*/migrations/*" | \
       xargs -I{} find {} -name "*.js" | \
       xargs perl -pi -e \
-        's{((?:WHERE|SET)\b[^=]+=\s*)"([^"]+)"}{$1'"'"'$2'"'"'}gi; s{(\bIN\s*\(\s*)"([^"]+)"}{$1'"'"'$2'"'"'}gi; s{\bVALUES\s*\(([^)]*)\)}{my $v=$1; $v=~s{"([^"]+)"}{'"'"'$1'"'"'}g; "VALUES ($v)"}gie'
+        's{((?:WHERE|SET|AND|OR)\b[^=]+=\s*)"([^"]+)"}{$1'"'"'$2'"'"'}gi; s{(\bIN\s*\(\s*)"([^"]+)"}{$1'"'"'$2'"'"'}gi; s{\bVALUES\s*\(([^)]*)\)}{my $v=$1; $v=~s{"([^"]+)"}{'"'"'$1'"'"'}g; "VALUES ($v)"}gie'
 
 # Create config directory
 RUN mkdir -p /config && \
