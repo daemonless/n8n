@@ -1,11 +1,11 @@
 {
-  "generated": "2026-05-22T21:30:00Z",
+  "generated": "2026-05-23T08:37:24Z",
   "image": "n8n",
   "tags": {
     "latest": {
       "app_version": "2.21.7",
       "arch": "amd64",
-      "generated": "2026-05-22T21:28:44Z",
+      "generated": "2026-05-23T08:36:05Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -567,7 +567,7 @@
           },
           {
             "name": "@ai-sdk/gateway",
-            "version": "3.0.119"
+            "version": "3.0.120"
           },
           {
             "name": "@ai-sdk/google",
@@ -587,7 +587,7 @@
           },
           {
             "name": "@ai-sdk/openai-compatible",
-            "version": "2.0.47"
+            "version": "2.0.48"
           },
           {
             "name": "@ai-sdk/provider",
@@ -603,7 +603,7 @@
           },
           {
             "name": "@ai-sdk/xai",
-            "version": "3.0.91"
+            "version": "3.0.92"
           },
           {
             "name": "@anthropic-ai/sdk",
@@ -2519,7 +2519,7 @@
           },
           {
             "name": "ai",
-            "version": "6.0.190"
+            "version": "6.0.191"
           },
           {
             "name": "ajv",
