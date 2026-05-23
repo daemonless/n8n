@@ -120,6 +120,9 @@ RUN ln -sf /usr/local/lib/node_modules/n8n/bin/n8n /usr/local/bin/n8n && \
       xargs perl -pi -e \
         's{((?:WHERE|SET|AND|OR)\b[^=]+=\s*)"([^"]+)"}{$1'"'"'$2'"'"'}gi; s{(\bIN\s*\(\s*)"([^"]+)"}{$1'"'"'$2'"'"'}gi; s{\bVALUES\s*\(([^)]*)\)}{my $v=$1; $v=~s{"([^"]+)"}{'"'"'$1'"'"'}g; "VALUES ($v)"}gie'
 
+COPY patches/patch-sqlite.js /tmp/patch-sqlite.js
+RUN node /tmp/patch-sqlite.js && rm /tmp/patch-sqlite.js
+
 # Create config directory
 RUN mkdir -p /config && \
     chown -R bsd:bsd /config
