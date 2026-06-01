@@ -1,11 +1,11 @@
 {
-  "generated": "2026-05-28T15:44:01Z",
+  "generated": "2026-06-01T13:23:51Z",
   "image": "n8n",
   "tags": {
     "latest": {
-      "app_version": "2.22.5",
+      "app_version": "2.22.6",
       "arch": "amd64",
-      "generated": "2026-05-28T15:42:43Z",
+      "generated": "2026-06-01T13:22:32Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -371,7 +371,7 @@
           },
           {
             "name": "openexr",
-            "version": "3.4.11"
+            "version": "3.4.12"
           },
           {
             "name": "openjph",
@@ -547,7 +547,7 @@
           },
           {
             "name": "@ai-sdk/amazon-bedrock",
-            "version": "4.0.110"
+            "version": "4.0.111"
           },
           {
             "name": "@ai-sdk/anthropic",
@@ -555,7 +555,7 @@
           },
           {
             "name": "@ai-sdk/azure",
-            "version": "3.0.67"
+            "version": "3.0.68"
           },
           {
             "name": "@ai-sdk/cohere",
@@ -567,7 +567,7 @@
           },
           {
             "name": "@ai-sdk/gateway",
-            "version": "3.0.120"
+            "version": "3.0.121"
           },
           {
             "name": "@ai-sdk/google",
@@ -583,7 +583,7 @@
           },
           {
             "name": "@ai-sdk/openai",
-            "version": "3.0.66"
+            "version": "3.0.67"
           },
           {
             "name": "@ai-sdk/openai-compatible",
@@ -603,7 +603,7 @@
           },
           {
             "name": "@ai-sdk/xai",
-            "version": "3.0.92"
+            "version": "3.0.93"
           },
           {
             "name": "@anthropic-ai/sdk",
@@ -647,27 +647,27 @@
           },
           {
             "name": "@aws-sdk/client-bedrock-agent-runtime",
-            "version": "3.1055.0"
+            "version": "3.1057.0"
           },
           {
             "name": "@aws-sdk/client-bedrock-runtime",
-            "version": "3.1055.0"
+            "version": "3.1057.0"
           },
           {
             "name": "@aws-sdk/client-cognito-identity",
-            "version": "3.1055.0"
+            "version": "3.1057.0"
           },
           {
             "name": "@aws-sdk/client-kendra",
-            "version": "3.1055.0"
+            "version": "3.1057.0"
           },
           {
             "name": "@aws-sdk/client-s3",
-            "version": "3.1055.0"
+            "version": "3.1057.0"
           },
           {
             "name": "@aws-sdk/client-sagemaker",
-            "version": "3.1055.0"
+            "version": "3.1057.0"
           },
           {
             "name": "@aws-sdk/client-secrets-manager",
@@ -691,7 +691,7 @@
           },
           {
             "name": "@aws-sdk/credential-provider-cognito-identity",
-            "version": "3.972.37"
+            "version": "3.972.38"
           },
           {
             "name": "@aws-sdk/credential-provider-env",
@@ -707,7 +707,7 @@
           },
           {
             "name": "@aws-sdk/credential-provider-login",
-            "version": "3.972.44"
+            "version": "3.972.45"
           },
           {
             "name": "@aws-sdk/credential-provider-node",
@@ -727,15 +727,15 @@
           },
           {
             "name": "@aws-sdk/credential-providers",
-            "version": "3.1055.0"
+            "version": "3.1057.0"
           },
           {
             "name": "@aws-sdk/eventstream-handler-node",
-            "version": "3.972.17"
+            "version": "3.972.18"
           },
           {
             "name": "@aws-sdk/lib-storage",
-            "version": "3.1055.0"
+            "version": "3.1057.0"
           },
           {
             "name": "@aws-sdk/middleware-bucket-endpoint",
@@ -743,7 +743,7 @@
           },
           {
             "name": "@aws-sdk/middleware-eventstream",
-            "version": "3.972.13"
+            "version": "3.972.14"
           },
           {
             "name": "@aws-sdk/middleware-expect-continue",
@@ -783,7 +783,7 @@
           },
           {
             "name": "@aws-sdk/middleware-websocket",
-            "version": "3.972.22"
+            "version": "3.972.23"
           },
           {
             "name": "@aws-sdk/nested-clients",
@@ -807,7 +807,7 @@
           },
           {
             "name": "@aws-sdk/token-providers",
-            "version": "3.1054.0"
+            "version": "3.1056.0"
           },
           {
             "name": "@aws-sdk/types",
@@ -1227,7 +1227,7 @@
           },
           {
             "name": "@langchain/langgraph-checkpoint",
-            "version": "1.0.2"
+            "version": "1.0.3"
           },
           {
             "name": "@langchain/langgraph-sdk",
@@ -1387,19 +1387,19 @@
           },
           {
             "name": "@n8n/ai-workflow-builder",
-            "version": "1.22.2"
+            "version": "1.22.3"
           },
           {
             "name": "@n8n/api-types",
-            "version": "1.22.2"
+            "version": "1.22.3"
           },
           {
             "name": "@n8n/backend-common",
-            "version": "1.22.2"
+            "version": "1.22.3"
           },
           {
             "name": "@n8n/chat-hub",
-            "version": "1.15.2"
+            "version": "1.15.3"
           },
           {
             "name": "@n8n/client-oauth2",
@@ -1415,11 +1415,11 @@
           },
           {
             "name": "@n8n/db",
-            "version": "1.22.3"
+            "version": "1.22.4"
           },
           {
             "name": "@n8n/decorators",
-            "version": "1.22.2"
+            "version": "1.22.3"
           },
           {
             "name": "@n8n/di",
@@ -1439,7 +1439,7 @@
           },
           {
             "name": "@n8n/instance-ai",
-            "version": "1.7.2"
+            "version": "1.7.3"
           },
           {
             "name": "@n8n/json-schema-to-zod",
@@ -1451,7 +1451,7 @@
           },
           {
             "name": "@n8n/n8n-nodes-langchain",
-            "version": "2.22.3"
+            "version": "2.22.4"
           },
           {
             "name": "@n8n/permissions",
@@ -1467,7 +1467,7 @@
           },
           {
             "name": "@n8n/task-runner",
-            "version": "2.22.3"
+            "version": "2.22.4"
           },
           {
             "name": "@n8n/tournament",
@@ -1487,7 +1487,7 @@
           },
           {
             "name": "@n8n/workflow-sdk",
-            "version": "0.15.2"
+            "version": "0.15.3"
           },
           {
             "name": "@n8n_io/ai-assistant-sdk",
@@ -1927,7 +1927,7 @@
           },
           {
             "name": "@smithy/credential-provider-imds",
-            "version": "4.3.5"
+            "version": "4.3.6"
           },
           {
             "name": "@smithy/eventstream-codec",
@@ -2423,7 +2423,7 @@
           },
           {
             "name": "ai",
-            "version": "6.0.191"
+            "version": "6.0.193"
           },
           {
             "name": "ajv",
@@ -2939,7 +2939,7 @@
           },
           {
             "name": "console-table-printer",
-            "version": "2.15.3"
+            "version": "2.16.0"
           },
           {
             "name": "constant-case",
@@ -3719,7 +3719,7 @@
           },
           {
             "name": "hasown",
-            "version": "2.0.3"
+            "version": "2.0.4"
           },
           {
             "name": "he",
@@ -4331,7 +4331,7 @@
           },
           {
             "name": "libphonenumber-js",
-            "version": "1.13.3"
+            "version": "1.13.4"
           },
           {
             "name": "libqp",
@@ -4823,23 +4823,23 @@
           },
           {
             "name": "n8n",
-            "version": "2.22.5"
+            "version": "2.22.6"
           },
           {
             "name": "n8n-core",
-            "version": "2.22.3"
+            "version": "2.22.4"
           },
           {
             "name": "n8n-editor-ui",
-            "version": "2.22.3"
+            "version": "2.22.4"
           },
           {
             "name": "n8n-nodes-base",
-            "version": "2.22.2"
+            "version": "2.22.3"
           },
           {
             "name": "n8n-workflow",
-            "version": "2.22.2"
+            "version": "2.22.3"
           },
           {
             "name": "named-placeholders",
@@ -5439,7 +5439,7 @@
           },
           {
             "name": "protobufjs",
-            "version": "7.6.1"
+            "version": "7.6.2"
           },
           {
             "name": "proxy-addr",
@@ -6303,7 +6303,7 @@
           },
           {
             "name": "typed-array-length",
-            "version": "1.0.7"
+            "version": "1.0.8"
           },
           {
             "name": "typedarray",
