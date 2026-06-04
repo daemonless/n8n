@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-02T13:04:52Z",
+  "generated": "2026-06-04T11:03:56Z",
   "image": "n8n",
   "tags": {
     "latest": {
-      "app_version": "2.23.2",
+      "app_version": "2.23.3",
       "arch": "amd64",
-      "generated": "2026-06-02T13:03:35Z",
+      "generated": "2026-06-04T11:02:40Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -551,7 +551,7 @@
           },
           {
             "name": "@ai-sdk/azure",
-            "version": "3.0.68"
+            "version": "3.0.69"
           },
           {
             "name": "@ai-sdk/cohere",
@@ -563,7 +563,7 @@
           },
           {
             "name": "@ai-sdk/gateway",
-            "version": "3.0.122"
+            "version": "3.0.124"
           },
           {
             "name": "@ai-sdk/google",
@@ -638,28 +638,32 @@
             "version": "3.0.0"
           },
           {
+            "name": "@aws-sdk/checksums",
+            "version": "3.1000.1"
+          },
+          {
             "name": "@aws-sdk/client-bedrock-agent-runtime",
-            "version": "3.1058.0"
+            "version": "3.1061.0"
           },
           {
             "name": "@aws-sdk/client-bedrock-runtime",
-            "version": "3.1058.0"
+            "version": "3.1061.0"
           },
           {
             "name": "@aws-sdk/client-cognito-identity",
-            "version": "3.1058.0"
+            "version": "3.1061.0"
           },
           {
             "name": "@aws-sdk/client-kendra",
-            "version": "3.1058.0"
+            "version": "3.1061.0"
           },
           {
             "name": "@aws-sdk/client-s3",
-            "version": "3.1058.0"
+            "version": "3.1061.0"
           },
           {
             "name": "@aws-sdk/client-sagemaker",
-            "version": "3.1058.0"
+            "version": "3.1061.0"
           },
           {
             "name": "@aws-sdk/client-secrets-manager",
@@ -678,12 +682,8 @@
             "version": "3.808.0"
           },
           {
-            "name": "@aws-sdk/crc64-nvme",
-            "version": "3.972.9"
-          },
-          {
             "name": "@aws-sdk/credential-provider-cognito-identity",
-            "version": "3.972.38"
+            "version": "3.972.40"
           },
           {
             "name": "@aws-sdk/credential-provider-env",
@@ -699,7 +699,7 @@
           },
           {
             "name": "@aws-sdk/credential-provider-login",
-            "version": "3.972.45"
+            "version": "3.972.47"
           },
           {
             "name": "@aws-sdk/credential-provider-node",
@@ -719,15 +719,15 @@
           },
           {
             "name": "@aws-sdk/credential-providers",
-            "version": "3.1058.0"
+            "version": "3.1061.0"
           },
           {
             "name": "@aws-sdk/eventstream-handler-node",
-            "version": "3.972.18"
+            "version": "3.972.19"
           },
           {
             "name": "@aws-sdk/lib-storage",
-            "version": "3.1058.0"
+            "version": "3.1061.0"
           },
           {
             "name": "@aws-sdk/middleware-bucket-endpoint",
@@ -735,7 +735,7 @@
           },
           {
             "name": "@aws-sdk/middleware-eventstream",
-            "version": "3.972.14"
+            "version": "3.972.15"
           },
           {
             "name": "@aws-sdk/middleware-expect-continue",
@@ -775,7 +775,7 @@
           },
           {
             "name": "@aws-sdk/middleware-websocket",
-            "version": "3.972.23"
+            "version": "3.972.25"
           },
           {
             "name": "@aws-sdk/nested-clients",
@@ -799,7 +799,7 @@
           },
           {
             "name": "@aws-sdk/token-providers",
-            "version": "3.1056.0"
+            "version": "3.1060.0"
           },
           {
             "name": "@aws-sdk/types",
@@ -1790,28 +1790,32 @@
             "version": "0.5.0"
           },
           {
+            "name": "@sentry-internal/server-utils",
+            "version": "10.56.0"
+          },
+          {
             "name": "@sentry/core",
-            "version": "10.55.0"
+            "version": "10.56.0"
           },
           {
             "name": "@sentry/node",
-            "version": "10.55.0"
+            "version": "10.56.0"
           },
           {
             "name": "@sentry/node-core",
-            "version": "10.55.0"
+            "version": "10.56.0"
           },
           {
             "name": "@sentry/node-native",
-            "version": "10.55.0"
+            "version": "10.56.0"
           },
           {
             "name": "@sentry/opentelemetry",
-            "version": "10.55.0"
+            "version": "10.56.0"
           },
           {
             "name": "@sentry/profiling-node",
-            "version": "10.55.0"
+            "version": "10.56.0"
           },
           {
             "name": "@shanghaikid/parquetjs",
@@ -2355,7 +2359,7 @@
           },
           {
             "name": "ai",
-            "version": "6.0.194"
+            "version": "6.0.196"
           },
           {
             "name": "ajv",
@@ -4203,7 +4207,7 @@
           },
           {
             "name": "libphonenumber-js",
-            "version": "1.13.4"
+            "version": "1.13.5"
           },
           {
             "name": "libqp",
@@ -4691,7 +4695,7 @@
           },
           {
             "name": "n8n",
-            "version": "2.23.2"
+            "version": "2.23.3"
           },
           {
             "name": "n8n-core",
@@ -6559,12 +6563,12 @@
         "freebsd": 129,
         "go": 0,
         "java": 0,
-        "node": 1489,
+        "node": 1490,
         "php": 0,
         "python": 5,
         "ruby": 0,
         "rust": 10,
-        "total": 1633
+        "total": 1634
       }
     }
   }
