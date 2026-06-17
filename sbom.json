@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-16T12:51:41Z",
+  "generated": "2026-06-17T12:42:07Z",
   "image": "n8n",
   "tags": {
     "latest": {
-      "app_version": "2.26.4",
+      "app_version": "2.26.5",
       "arch": "amd64",
-      "generated": "2026-06-16T12:50:20Z",
+      "generated": "2026-06-17T12:40:47Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -447,11 +447,11 @@
           },
           {
             "name": "python311",
-            "version": "3.11.15_2"
+            "version": "3.11.15_3"
           },
           {
             "name": "python313",
-            "version": "3.13.13"
+            "version": "3.13.14"
           },
           {
             "name": "readline",
@@ -543,47 +543,47 @@
           },
           {
             "name": "@ai-sdk/amazon-bedrock",
-            "version": "4.0.117"
+            "version": "4.0.118"
           },
           {
             "name": "@ai-sdk/anthropic",
-            "version": "3.0.84"
+            "version": "3.0.85"
           },
           {
             "name": "@ai-sdk/azure",
-            "version": "3.0.74"
+            "version": "3.0.75"
           },
           {
             "name": "@ai-sdk/cohere",
-            "version": "3.0.38"
-          },
-          {
-            "name": "@ai-sdk/deepseek",
-            "version": "2.0.38"
-          },
-          {
-            "name": "@ai-sdk/gateway",
-            "version": "3.0.132"
-          },
-          {
-            "name": "@ai-sdk/google",
-            "version": "3.0.82"
-          },
-          {
-            "name": "@ai-sdk/groq",
-            "version": "3.0.41"
-          },
-          {
-            "name": "@ai-sdk/mistral",
             "version": "3.0.39"
           },
           {
+            "name": "@ai-sdk/deepseek",
+            "version": "2.0.39"
+          },
+          {
+            "name": "@ai-sdk/gateway",
+            "version": "3.0.133"
+          },
+          {
+            "name": "@ai-sdk/google",
+            "version": "3.0.83"
+          },
+          {
+            "name": "@ai-sdk/groq",
+            "version": "3.0.42"
+          },
+          {
+            "name": "@ai-sdk/mistral",
+            "version": "3.0.40"
+          },
+          {
             "name": "@ai-sdk/openai",
-            "version": "3.0.71"
+            "version": "3.0.72"
           },
           {
             "name": "@ai-sdk/openai-compatible",
-            "version": "2.0.50"
+            "version": "2.0.51"
           },
           {
             "name": "@ai-sdk/provider",
@@ -591,11 +591,11 @@
           },
           {
             "name": "@ai-sdk/provider-utils",
-            "version": "4.0.29"
+            "version": "4.0.30"
           },
           {
             "name": "@ai-sdk/xai",
-            "version": "3.0.95"
+            "version": "3.0.96"
           },
           {
             "name": "@anthropic-ai/sdk",
@@ -643,7 +643,7 @@
           },
           {
             "name": "@aws-sdk/client-bedrock-agent-runtime",
-            "version": "3.1069.0"
+            "version": "3.1070.0"
           },
           {
             "name": "@aws-sdk/client-bedrock-runtime",
@@ -655,15 +655,15 @@
           },
           {
             "name": "@aws-sdk/client-kendra",
-            "version": "3.1069.0"
+            "version": "3.1070.0"
           },
           {
             "name": "@aws-sdk/client-s3",
-            "version": "3.1069.0"
+            "version": "3.1070.0"
           },
           {
             "name": "@aws-sdk/client-sagemaker",
-            "version": "3.1069.0"
+            "version": "3.1070.0"
           },
           {
             "name": "@aws-sdk/client-secrets-manager",
@@ -727,7 +727,7 @@
           },
           {
             "name": "@aws-sdk/lib-storage",
-            "version": "3.1069.0"
+            "version": "3.1070.0"
           },
           {
             "name": "@aws-sdk/middleware-bucket-endpoint",
@@ -2307,7 +2307,7 @@
           },
           {
             "name": "@zenfs/core",
-            "version": "2.5.6"
+            "version": "2.5.7"
           },
           {
             "name": "@zilliz/milvus2-sdk-node",
@@ -2371,7 +2371,7 @@
           },
           {
             "name": "ai",
-            "version": "6.0.206"
+            "version": "6.0.207"
           },
           {
             "name": "ajv",
@@ -4719,7 +4719,7 @@
           },
           {
             "name": "n8n",
-            "version": "2.26.4"
+            "version": "2.26.5"
           },
           {
             "name": "n8n-core",
@@ -6526,7 +6526,7 @@
           },
           {
             "name": "pip",
-            "version": "26.0.1"
+            "version": "26.1.2"
           },
           {
             "name": "websockets",
