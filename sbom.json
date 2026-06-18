@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-18T07:32:13Z",
+  "generated": "2026-06-18T12:01:28Z",
   "image": "n8n",
   "tags": {
     "latest": {
-      "app_version": "2.26.6",
+      "app_version": "2.26.7",
       "arch": "amd64",
-      "generated": "2026-06-18T07:30:56Z",
+      "generated": "2026-06-18T12:00:08Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1407,7 +1407,7 @@
           },
           {
             "name": "@n8n/n8n-nodes-langchain",
-            "version": "2.26.3"
+            "version": "2.26.4"
           },
           {
             "name": "@n8n/permissions",
@@ -2411,7 +2411,7 @@
           },
           {
             "name": "anynum",
-            "version": "1.0.0"
+            "version": "1.0.1"
           },
           {
             "name": "app-root-path",
@@ -4719,7 +4719,7 @@
           },
           {
             "name": "n8n",
-            "version": "2.26.6"
+            "version": "2.26.7"
           },
           {
             "name": "n8n-core",
@@ -4731,7 +4731,7 @@
           },
           {
             "name": "n8n-nodes-base",
-            "version": "2.26.3"
+            "version": "2.26.4"
           },
           {
             "name": "n8n-workflow",
