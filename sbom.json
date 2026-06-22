@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-19T17:47:33Z",
+  "generated": "2026-06-22T13:24:14Z",
   "image": "n8n",
   "tags": {
     "latest": {
-      "app_version": "2.26.8",
+      "app_version": "2.26.9",
       "arch": "amd64",
-      "generated": "2026-06-19T17:46:14Z",
+      "generated": "2026-06-22T13:22:57Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -543,7 +543,7 @@
           },
           {
             "name": "@ai-sdk/amazon-bedrock",
-            "version": "4.0.119"
+            "version": "4.0.120"
           },
           {
             "name": "@ai-sdk/anthropic",
@@ -551,7 +551,7 @@
           },
           {
             "name": "@ai-sdk/azure",
-            "version": "3.0.76"
+            "version": "3.0.77"
           },
           {
             "name": "@ai-sdk/cohere",
@@ -579,7 +579,7 @@
           },
           {
             "name": "@ai-sdk/openai",
-            "version": "3.0.73"
+            "version": "3.0.74"
           },
           {
             "name": "@ai-sdk/openai-compatible",
@@ -655,7 +655,7 @@
           },
           {
             "name": "@aws-sdk/client-bedrock-agent-runtime",
-            "version": "3.1072.0"
+            "version": "3.1073.0"
           },
           {
             "name": "@aws-sdk/client-bedrock-runtime",
@@ -667,15 +667,15 @@
           },
           {
             "name": "@aws-sdk/client-kendra",
-            "version": "3.1072.0"
+            "version": "3.1073.0"
           },
           {
             "name": "@aws-sdk/client-s3",
-            "version": "3.1072.0"
+            "version": "3.1073.0"
           },
           {
             "name": "@aws-sdk/client-sagemaker",
-            "version": "3.1072.0"
+            "version": "3.1073.0"
           },
           {
             "name": "@aws-sdk/client-secrets-manager",
@@ -739,7 +739,7 @@
           },
           {
             "name": "@aws-sdk/lib-storage",
-            "version": "3.1072.0"
+            "version": "3.1073.0"
           },
           {
             "name": "@aws-sdk/middleware-bucket-endpoint",
@@ -2199,7 +2199,7 @@
           },
           {
             "name": "@types/luxon",
-            "version": "3.7.1"
+            "version": "3.7.2"
           },
           {
             "name": "@types/mdast",
@@ -3759,7 +3759,7 @@
           },
           {
             "name": "ibm-cloud-sdk-core",
-            "version": "5.4.22"
+            "version": "5.5.0"
           },
           {
             "name": "iconv-lite",
@@ -4763,7 +4763,7 @@
           },
           {
             "name": "n8n",
-            "version": "2.26.8"
+            "version": "2.26.9"
           },
           {
             "name": "n8n-core",
@@ -4795,7 +4795,7 @@
           },
           {
             "name": "nanoid",
-            "version": "3.3.13"
+            "version": "3.3.15"
           },
           {
             "name": "napi-build-utils",
@@ -5143,7 +5143,7 @@
           },
           {
             "name": "path-expression-matcher",
-            "version": "1.5.0"
+            "version": "1.6.0"
           },
           {
             "name": "path-is-absolute",
