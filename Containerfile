@@ -4,7 +4,7 @@
 # Source: Containerfile.j2
 # --------------------------------------------------------------------------
 
-ARG BASE_VERSION=15
+ARG BASE_VERSION=15.1
 ARG NODE_VERSION=22
 ARG PYTHON_VERSION=313
 FROM ghcr.io/daemonless/base:${BASE_VERSION} AS builder

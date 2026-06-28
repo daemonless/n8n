@@ -18,13 +18,11 @@ Fair-code workflow automation platform with native AI capabilities — combine v
 | **Website** | [https://n8n.io/](https://n8n.io/) |
 
 ## Version Tags
-
 | Tag | Description | Best For |
 | :--- | :--- | :--- |
 | `latest` | **Upstream Binary**. Built from official release. | Most users. Matches Linux Docker behavior. |
 
 ## Prerequisites
-
 Before deploying, ensure your host environment is ready. See the [Quick Start Guide](https://daemonless.io/guides/quick-start) for host setup instructions.
 
 ## Deployment
@@ -34,35 +32,40 @@ Before deploying, ensure your host environment is ready. See the [Quick Start Gu
 ```yaml
 services:
   n8n:
-    image: ghcr.io/daemonless/n8n:latest
+    image: "ghcr.io/daemonless/n8n:latest"
     container_name: n8n
     environment:
-      - N8N_ENCRYPTION_KEY=your-encryption-key-here
-      - PUID=1000
-      - PGID=1000
-      - TZ=UTC
+      - N8N_ENCRYPTION_KEY=your-encryption-key-here  # Encryption key for credentials (keep safe!)
+      - PUID=1000  # User ID for the application process
+      - PGID=1000  # Group ID for the application process
+      - TZ=UTC  # Timezone for the container
+      - N8N_SECURE_COOKIE=  # Set to false if accessing over HTTP without TLS
     volumes:
       - "/path/to/containers/n8n:/config"
     ports:
-      - 5678:5678
+      - "5678:5678"
     restart: unless-stopped
 ```
 
 ### AppJail Director
-
 **.env**:
 
 ```
+# .env
+
 DIRECTOR_PROJECT=n8n
 N8N_ENCRYPTION_KEY=your-encryption-key-here
 PUID=1000
 PGID=1000
 TZ=UTC
+N8N_SECURE_COOKIE=
 ```
 
 **appjail-director.yml**:
 
 ```yaml
+# appjail-director.yml
+
 options:
   - virtualnet: ':<random> default'
   - nat:
@@ -71,6 +74,7 @@ services:
     name: n8n
     options:
       - container: 'boot args:--pull'
+      - expose: '5678:5678 proto:tcp' \
     oci:
       user: root
       environment:
@@ -78,6 +82,7 @@ services:
         - PUID: !ENV '${PUID}'
         - PGID: !ENV '${PGID}'
         - TZ: !ENV '${TZ}'
+        - N8N_SECURE_COOKIE: !ENV '${N8N_SECURE_COOKIE}'
     volumes:
       - n8n: /config
 volumes:
@@ -88,11 +93,14 @@ volumes:
 **Makejail**:
 
 ```
+# Makejail
+
 ARG tag=latest
 
 OPTION overwrite=force
 OPTION from=ghcr.io/daemonless/n8n:${tag}
 ```
+**Note**: Exposing ports in AppJail means that your service can be reached from remote hosts. If that is not your intention, do not expose the ports and communicate with the service using the IPv4 address assigned by the virtual network.
 
 ### Podman CLI
 
@@ -103,9 +111,29 @@ podman run -d --name n8n \
   -e PUID=1000 \
   -e PGID=1000 \
   -e TZ=UTC \
+  -e N8N_SECURE_COOKIE= \
   -v /path/to/containers/n8n:/config \
   ghcr.io/daemonless/n8n:latest
 ```
+
+### AppJail
+
+```bash
+appjail oci run -Pd \
+  -o overwrite=force \
+  -o container="args:--pull" \
+  -o virtualnet=":<random> default" \
+  -o nat \
+  -o expose="5678:5678 proto:tcp" \
+  -e N8N_ENCRYPTION_KEY=your-encryption-key-here \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -e TZ=UTC \
+  -e N8N_SECURE_COOKIE= \
+  -o fstab="/path/to/containers/n8n /config <pseudofs>" \
+  ghcr.io/daemonless/n8n:latest n8n
+```
+**Note**: Exposing ports in AppJail means that your service can be reached from remote hosts. If that is not your intention, do not expose the ports and communicate with the service using the IPv4 address assigned by the virtual network.
 
 ### Ansible
 
@@ -113,7 +141,7 @@ podman run -d --name n8n \
 - name: Deploy n8n
   containers.podman.podman_container:
     name: n8n
-    image: ghcr.io/daemonless/n8n:latest
+    image: "ghcr.io/daemonless/n8n:latest"
     state: started
     restart_policy: always
     env:
@@ -121,6 +149,7 @@ podman run -d --name n8n \
       PUID: "1000"
       PGID: "1000"
       TZ: "UTC"
+      N8N_SECURE_COOKIE: ""
     ports:
       - "5678:5678"
     volumes:
@@ -137,6 +166,7 @@ podman run -d --name n8n \
 | `PUID` | `1000` | User ID for the application process |
 | `PGID` | `1000` | Group ID for the application process |
 | `TZ` | `UTC` | Timezone for the container |
+| `N8N_SECURE_COOKIE` | `` | Set to false if accessing over HTTP without TLS |
 
 ### Volumes
 
@@ -152,7 +182,7 @@ podman run -d --name n8n \
 
 **Architectures:** amd64
 **User:** `bsd` (UID/GID via PUID/PGID, defaults to 1000:1000)
-**Base:** FreeBSD 15.0
+**Base:** FreeBSD 15.1
 
 ---
 
