@@ -9,8 +9,20 @@
 const fs = require('fs');
 const path = require('path');
 
-const target = path.join(
+// @n8n/typeorm can land nested under n8n/node_modules/ or hoisted to the
+// parent node_modules/ depending on how n8n was installed -- check both
+// instead of hardcoding one location.
+const candidates = [
   '/usr/local/lib/node_modules/n8n/node_modules/@n8n/typeorm',
+  '/usr/local/lib/node_modules/@n8n/typeorm',
+];
+const pkgDir = candidates.find((p) => fs.existsSync(p));
+if (!pkgDir) {
+  console.error('patch-sqlite.js: @n8n/typeorm not found in any known location');
+  process.exit(1);
+}
+const target = path.join(
+  pkgDir,
   'driver/sqlite-abstract/AbstractSqliteQueryRunner.js'
 );
 

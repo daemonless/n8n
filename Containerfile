@@ -15,6 +15,7 @@ ARG PYTHON_VERSION
 RUN pkg update && \
     pkg install -y \
     FreeBSD-clang \
+    FreeBSD-clang-dev \
     FreeBSD-clibs-dev \
     FreeBSD-libexecinfo-dev \
     FreeBSD-openssl-dev \
@@ -36,17 +37,29 @@ RUN pkg update && \
     ln -sf /usr/local/bin/python3.13 /usr/local/bin/python
 
 # --os linux installs linux variant of libsql (JS/WASM only, no native binary); n8n uses sqlite3
-# Install n8n (--force bypasses libsql platform check; native binary built below)
-RUN npm install -g n8n --force && \
+# Install n8n via a local wrapper (not `npm install -g`, which can't use
+# `overrides`) to pin @langchain/core and zod to versions that coexist --
+# npm's unpinned resolution leaves incompatible duplicates that crash n8n
+# on startup. --force still needed for libsql's platform check.
+RUN mkdir -p /tmp/n8n-install && cd /tmp/n8n-install && \
+    printf '%s' '{"name":"n8n-wrapper","private":true,"dependencies":{"n8n":"*"},"overrides":{"@langchain/core":"1.1.48","zod":"3.25.76"}}' > package.json && \
+    npm install --force && \
     npm cache clean --force && \
-    mkdir -p /app && npm list -g n8n --depth=0 | grep n8n | sed 's/.*@//' > /app/version
+    mkdir -p /usr/local/lib/node_modules && \
+    cp -R node_modules/. /usr/local/lib/node_modules/ && \
+    mkdir -p /app && node -p "require('/usr/local/lib/node_modules/n8n/package.json').version" > /app/version && \
+    cd / && rm -rf /tmp/n8n-install
 
 
 # Build libsql native binding for FreeBSD and place in n8n's nested node_modules
-RUN git clone --no-checkout https://github.com/tursodatabase/libsql-js /tmp/libsql-js && \
+# set -o pipefail: without it, `cargo build | tail` masks a cargo failure behind
+# tail's own exit code (0), silently shipping an image with no native binary —
+# the failure only surfaces later at container runtime instead of at build time.
+RUN set -o pipefail && \
+    git clone --no-checkout https://github.com/tursodatabase/libsql-js /tmp/libsql-js && \
     cd /tmp/libsql-js && \
     git checkout 55bee86d1c284f1ddf2b9e280e870d2b6cef884a && \
-    cargo build --release 2>&1 | tail -5 && \
+    cargo build --release && \
     find /usr/local/lib/node_modules -path "*/libsql/libsql.linux-x64*" | \
       xargs -I{} sh -c 'cp target/release/liblibsql_js.so "$(dirname {})/libsql.freebsd-x64.node"' && \
     rm -rf /tmp/libsql-js ~/.cargo/registry ~/.cargo/git
@@ -110,7 +123,7 @@ RUN ln -sf /usr/local/lib/node_modules/n8n/bin/n8n /usr/local/bin/n8n && \
     rm -f /usr/local/lib/node_modules/@n8n/task-runner-python/.venv/bin/python3 && \
     ln -s /usr/local/bin/python3.13 /usr/local/lib/node_modules/@n8n/task-runner-python/.venv/bin/python3 && \
     chmod -R o+rX /usr/local/lib/node_modules && \
-    find /usr/local/lib/node_modules/n8n -type d -name "sqlite" -path "*/migrations/*" | \
+    find /usr/local/lib/node_modules -type d -name "sqlite" -path "*/migrations/*" | \
       xargs -I{} find {} -name "*.js" | \
       xargs perl -pi -e \
         's{((?:WHERE|SET|AND|OR)\b[^=]+=\s*)"([^"]+)"}{$1'"'"'$2'"'"'}gi; s{(\bIN\s*\(\s*)"([^"]+)"}{$1'"'"'$2'"'"'}gi; s{\bVALUES\s*\(([^)]*)\)}{my $v=$1; $v=~s{"([^"]+)"}{'"'"'$1'"'"'}g; "VALUES ($v)"}gie'
