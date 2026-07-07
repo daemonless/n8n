@@ -12,19 +12,28 @@ const path = require('path');
 // @n8n/typeorm can land nested under n8n/node_modules/ or hoisted to the
 // parent node_modules/ depending on how n8n was installed -- check both
 // instead of hardcoding one location.
-const candidates = [
+const pkgDirs = [
   '/usr/local/lib/node_modules/n8n/node_modules/@n8n/typeorm',
   '/usr/local/lib/node_modules/@n8n/typeorm',
 ];
-const pkgDir = candidates.find((p) => fs.existsSync(p));
-if (!pkgDir) {
-  console.error('patch-sqlite.js: @n8n/typeorm not found in any known location');
+// @n8n/typeorm 0.3.x ships compiled JS at the package root (driver/...);
+// 0.4.0+ moved it under dist/ (driver/... -> dist/driver/...) -- check both.
+const subpaths = [
+  'driver/sqlite-abstract/AbstractSqliteQueryRunner.js',
+  'dist/driver/sqlite-abstract/AbstractSqliteQueryRunner.js',
+];
+let target;
+for (const dir of pkgDirs) {
+  for (const sub of subpaths) {
+    const p = path.join(dir, sub);
+    if (fs.existsSync(p)) { target = p; break; }
+  }
+  if (target) break;
+}
+if (!target) {
+  console.error('patch-sqlite.js: AbstractSqliteQueryRunner.js not found in any known @n8n/typeorm location');
   process.exit(1);
 }
-const target = path.join(
-  pkgDir,
-  'driver/sqlite-abstract/AbstractSqliteQueryRunner.js'
-);
 
 const src = fs.readFileSync(target, 'utf8');
 
