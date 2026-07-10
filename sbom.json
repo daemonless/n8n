@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-09T17:22:55Z",
+  "generated": "2026-07-10T16:33:02Z",
   "image": "n8n",
   "tags": {
     "latest": {
-      "app_version": "2.29.9",
+      "app_version": "2.29.10",
       "arch": "amd64",
-      "generated": "2026-07-09T17:21:36Z",
+      "generated": "2026-07-10T16:31:43Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -592,59 +592,59 @@
           },
           {
             "name": "@ai-sdk/amazon-bedrock",
-            "version": "4.0.131"
+            "version": "4.0.133"
           },
           {
             "name": "@ai-sdk/anthropic",
-            "version": "3.0.95"
+            "version": "3.0.96"
           },
           {
             "name": "@ai-sdk/azure",
-            "version": "3.0.86"
+            "version": "3.0.88"
           },
           {
             "name": "@ai-sdk/cohere",
-            "version": "3.0.46"
-          },
-          {
-            "name": "@ai-sdk/deepseek",
-            "version": "2.0.46"
-          },
-          {
-            "name": "@ai-sdk/gateway",
-            "version": "3.0.145"
-          },
-          {
-            "name": "@ai-sdk/google",
-            "version": "3.0.90"
-          },
-          {
-            "name": "@ai-sdk/groq",
-            "version": "3.0.49"
-          },
-          {
-            "name": "@ai-sdk/mistral",
             "version": "3.0.47"
           },
           {
+            "name": "@ai-sdk/deepseek",
+            "version": "2.0.47"
+          },
+          {
+            "name": "@ai-sdk/gateway",
+            "version": "3.0.147"
+          },
+          {
+            "name": "@ai-sdk/google",
+            "version": "3.0.91"
+          },
+          {
+            "name": "@ai-sdk/groq",
+            "version": "3.0.50"
+          },
+          {
+            "name": "@ai-sdk/mistral",
+            "version": "3.0.48"
+          },
+          {
             "name": "@ai-sdk/openai",
-            "version": "3.0.82"
+            "version": "3.0.84"
           },
           {
             "name": "@ai-sdk/openai-compatible",
-            "version": "2.0.58"
+            "version": "2.0.59"
           },
           {
             "name": "@ai-sdk/provider",
-            "version": "3.0.13"
+            "version": "3.0.14"
           },
           {
             "name": "@ai-sdk/provider-utils",
-            "version": "4.0.37"
+            "version": "4.0.38"
           },
           {
             "name": "@ai-sdk/xai",
-            "version": "3.0.105"
+            "version": "3.0.106"
           },
           {
             "name": "@anthropic-ai/sdk",
@@ -704,7 +704,7 @@
           },
           {
             "name": "@aws-sdk/client-bedrock-agent-runtime",
-            "version": "3.1083.0"
+            "version": "3.1084.0"
           },
           {
             "name": "@aws-sdk/client-bedrock-runtime",
@@ -716,15 +716,15 @@
           },
           {
             "name": "@aws-sdk/client-kendra",
-            "version": "3.1083.0"
+            "version": "3.1084.0"
           },
           {
             "name": "@aws-sdk/client-s3",
-            "version": "3.1083.0"
+            "version": "3.1084.0"
           },
           {
             "name": "@aws-sdk/client-sagemaker",
-            "version": "3.1083.0"
+            "version": "3.1084.0"
           },
           {
             "name": "@aws-sdk/client-secrets-manager",
@@ -788,7 +788,7 @@
           },
           {
             "name": "@aws-sdk/lib-storage",
-            "version": "3.1083.0"
+            "version": "3.1084.0"
           },
           {
             "name": "@aws-sdk/middleware-bucket-endpoint",
@@ -1804,7 +1804,7 @@
           },
           {
             "name": "@opentelemetry/semantic-conventions",
-            "version": "1.42.0"
+            "version": "1.43.0"
           },
           {
             "name": "@oracle/langchain-oracledb",
@@ -1936,15 +1936,15 @@
           },
           {
             "name": "@sentry/core",
-            "version": "10.64.0"
+            "version": "10.65.0"
           },
           {
             "name": "@sentry/node",
-            "version": "10.64.0"
+            "version": "10.65.0"
           },
           {
             "name": "@sentry/node-core",
-            "version": "10.64.0"
+            "version": "10.65.0"
           },
           {
             "name": "@sentry/node-cpu-profiler",
@@ -1952,7 +1952,7 @@
           },
           {
             "name": "@sentry/node-native",
-            "version": "10.64.0"
+            "version": "10.65.0"
           },
           {
             "name": "@sentry/node-native-stacktrace",
@@ -1960,15 +1960,15 @@
           },
           {
             "name": "@sentry/opentelemetry",
-            "version": "10.64.0"
+            "version": "10.65.0"
           },
           {
             "name": "@sentry/profiling-node",
-            "version": "10.64.0"
+            "version": "10.65.0"
           },
           {
             "name": "@sentry/server-utils",
-            "version": "10.64.0"
+            "version": "10.65.0"
           },
           {
             "name": "@shanghaikid/parquetjs",
@@ -2564,7 +2564,7 @@
           },
           {
             "name": "ai",
-            "version": "6.0.221"
+            "version": "6.0.223"
           },
           {
             "name": "ajv",
@@ -3892,7 +3892,7 @@
           },
           {
             "name": "hono",
-            "version": "4.12.28"
+            "version": "4.12.29"
           },
           {
             "name": "hosted-git-info",
@@ -4980,7 +4980,7 @@
           },
           {
             "name": "n8n",
-            "version": "2.29.9"
+            "version": "2.29.10"
           },
           {
             "name": "n8n-core",
@@ -4988,7 +4988,7 @@
           },
           {
             "name": "n8n-editor-ui",
-            "version": "2.29.9"
+            "version": "2.29.10"
           },
           {
             "name": "n8n-nodes-base",
@@ -6787,7 +6787,7 @@
           },
           {
             "name": "websockets",
-            "version": "16.0"
+            "version": "16.1"
           }
         ],
         "ruby": [],
