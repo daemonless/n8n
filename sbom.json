@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-23T21:57:15Z",
+  "generated": "2026-07-24T15:41:07Z",
   "image": "n8n",
   "tags": {
     "latest": {
-      "app_version": "2.31.5",
+      "app_version": "2.31.6",
       "arch": "amd64",
-      "generated": "2026-07-23T21:55:56Z",
+      "generated": "2026-07-24T15:39:49Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -572,15 +572,15 @@
           },
           {
             "name": "@ai-sdk/amazon-bedrock",
-            "version": "4.0.139"
+            "version": "4.0.140"
           },
           {
             "name": "@ai-sdk/anthropic",
-            "version": "3.0.100"
+            "version": "3.0.101"
           },
           {
             "name": "@ai-sdk/azure",
-            "version": "3.0.92"
+            "version": "3.0.93"
           },
           {
             "name": "@ai-sdk/cohere",
@@ -592,11 +592,11 @@
           },
           {
             "name": "@ai-sdk/gateway",
-            "version": "3.0.156"
+            "version": "3.0.157"
           },
           {
             "name": "@ai-sdk/google",
-            "version": "3.0.99"
+            "version": "3.0.100"
           },
           {
             "name": "@ai-sdk/groq",
@@ -608,7 +608,7 @@
           },
           {
             "name": "@ai-sdk/openai",
-            "version": "3.0.87"
+            "version": "3.0.88"
           },
           {
             "name": "@ai-sdk/openai-compatible",
@@ -640,7 +640,7 @@
           },
           {
             "name": "@apm-js-collab/code-transformer-bundler-plugins",
-            "version": "0.7.2"
+            "version": "0.7.1"
           },
           {
             "name": "@apm-js-collab/tracing-hooks",
@@ -1140,7 +1140,7 @@
           },
           {
             "name": "@hono/node-server",
-            "version": "1.19.14"
+            "version": "1.19.15"
           },
           {
             "name": "@huggingface/inference",
@@ -1952,15 +1952,15 @@
           },
           {
             "name": "@sentry/core",
-            "version": "10.67.0"
+            "version": "10.68.0"
           },
           {
             "name": "@sentry/node",
-            "version": "10.67.0"
+            "version": "10.68.0"
           },
           {
             "name": "@sentry/node-core",
-            "version": "10.67.0"
+            "version": "10.68.0"
           },
           {
             "name": "@sentry/node-cpu-profiler",
@@ -1968,7 +1968,7 @@
           },
           {
             "name": "@sentry/node-native",
-            "version": "10.67.0"
+            "version": "10.68.0"
           },
           {
             "name": "@sentry/node-native-stacktrace",
@@ -1976,15 +1976,15 @@
           },
           {
             "name": "@sentry/opentelemetry",
-            "version": "10.67.0"
+            "version": "10.68.0"
           },
           {
             "name": "@sentry/profiling-node",
-            "version": "10.67.0"
+            "version": "10.68.0"
           },
           {
             "name": "@sentry/server-utils",
-            "version": "10.67.0"
+            "version": "10.68.0"
           },
           {
             "name": "@shanghaikid/parquetjs",
@@ -2516,7 +2516,7 @@
           },
           {
             "name": "@zenfs/core",
-            "version": "2.5.7"
+            "version": "2.5.8"
           },
           {
             "name": "@zilliz/milvus2-sdk-node",
@@ -2576,7 +2576,7 @@
           },
           {
             "name": "ai",
-            "version": "6.0.234"
+            "version": "6.0.235"
           },
           {
             "name": "ajv",
@@ -3808,7 +3808,7 @@
           },
           {
             "name": "google-auth-library",
-            "version": "10.9.0"
+            "version": "10.9.1"
           },
           {
             "name": "google-gax",
@@ -3904,7 +3904,7 @@
           },
           {
             "name": "hono",
-            "version": "4.12.31"
+            "version": "4.12.32"
           },
           {
             "name": "hosted-git-info",
@@ -5000,7 +5000,7 @@
           },
           {
             "name": "n8n",
-            "version": "2.31.5"
+            "version": "2.31.6"
           },
           {
             "name": "n8n-core",
@@ -6516,7 +6516,7 @@
           },
           {
             "name": "utilium",
-            "version": "3.4.0"
+            "version": "3.4.1"
           },
           {
             "name": "uuid",
