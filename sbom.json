@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-28T12:00:22Z",
+  "generated": "2026-07-29T10:50:39Z",
   "image": "n8n",
   "tags": {
     "latest": {
-      "app_version": "2.32.5",
+      "app_version": "2.32.6",
       "arch": "amd64",
-      "generated": "2026-07-28T11:59:05Z",
+      "generated": "2026-07-29T10:49:20Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -572,7 +572,7 @@
           },
           {
             "name": "@ai-sdk/amazon-bedrock",
-            "version": "4.0.142"
+            "version": "4.0.143"
           },
           {
             "name": "@ai-sdk/anthropic",
@@ -580,7 +580,7 @@
           },
           {
             "name": "@ai-sdk/azure",
-            "version": "3.0.93"
+            "version": "3.0.94"
           },
           {
             "name": "@ai-sdk/cohere",
@@ -592,11 +592,11 @@
           },
           {
             "name": "@ai-sdk/gateway",
-            "version": "3.0.158"
+            "version": "3.0.159"
           },
           {
             "name": "@ai-sdk/google",
-            "version": "3.0.101"
+            "version": "3.0.102"
           },
           {
             "name": "@ai-sdk/groq",
@@ -608,7 +608,7 @@
           },
           {
             "name": "@ai-sdk/openai",
-            "version": "3.0.88"
+            "version": "3.0.89"
           },
           {
             "name": "@ai-sdk/openai-compatible",
@@ -624,7 +624,7 @@
           },
           {
             "name": "@ai-sdk/xai",
-            "version": "3.0.111"
+            "version": "3.0.112"
           },
           {
             "name": "@anthropic-ai/sdk",
@@ -680,11 +680,11 @@
           },
           {
             "name": "@aws-sdk/checksums",
-            "version": "3.1000.21"
+            "version": "3.1000.22"
           },
           {
             "name": "@aws-sdk/client-bedrock-agent-runtime",
-            "version": "3.1096.0"
+            "version": "3.1097.0"
           },
           {
             "name": "@aws-sdk/client-bedrock-runtime",
@@ -696,15 +696,15 @@
           },
           {
             "name": "@aws-sdk/client-kendra",
-            "version": "3.1096.0"
+            "version": "3.1097.0"
           },
           {
             "name": "@aws-sdk/client-s3",
-            "version": "3.1096.0"
+            "version": "3.1097.0"
           },
           {
             "name": "@aws-sdk/client-sagemaker",
-            "version": "3.1096.0"
+            "version": "3.1097.0"
           },
           {
             "name": "@aws-sdk/client-secrets-manager",
@@ -768,7 +768,7 @@
           },
           {
             "name": "@aws-sdk/lib-storage",
-            "version": "3.1096.0"
+            "version": "3.1097.0"
           },
           {
             "name": "@aws-sdk/middleware-bucket-endpoint",
@@ -840,7 +840,7 @@
           },
           {
             "name": "@aws-sdk/token-providers",
-            "version": "3.1096.0"
+            "version": "3.1097.0"
           },
           {
             "name": "@aws-sdk/types",
@@ -1560,7 +1560,7 @@
           },
           {
             "name": "@n8n/n8n-nodes-langchain",
-            "version": "2.32.3"
+            "version": "2.32.4"
           },
           {
             "name": "@n8n/permissions",
@@ -1572,7 +1572,7 @@
           },
           {
             "name": "@n8n/scheduler",
-            "version": "1.1.1"
+            "version": "1.1.2"
           },
           {
             "name": "@n8n/syslog-client",
@@ -1976,7 +1976,7 @@
           },
           {
             "name": "@sentry/node-native-stacktrace",
-            "version": "0.5.1"
+            "version": "0.5.2"
           },
           {
             "name": "@sentry/opentelemetry",
@@ -2580,7 +2580,7 @@
           },
           {
             "name": "ai",
-            "version": "6.0.236"
+            "version": "6.0.237"
           },
           {
             "name": "ajv",
@@ -5004,7 +5004,7 @@
           },
           {
             "name": "n8n",
-            "version": "2.32.5"
+            "version": "2.32.6"
           },
           {
             "name": "n8n-core",
@@ -5016,7 +5016,7 @@
           },
           {
             "name": "n8n-nodes-base",
-            "version": "2.32.3"
+            "version": "2.32.4"
           },
           {
             "name": "n8n-workflow",
