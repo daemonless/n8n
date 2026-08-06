@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-05T10:30:07Z",
+  "generated": "2026-08-06T13:03:33Z",
   "image": "n8n",
   "tags": {
     "latest": {
-      "app_version": "2.33.4",
+      "app_version": "2.33.5",
       "arch": "amd64",
-      "generated": "2026-08-05T10:23:00Z",
+      "generated": "2026-08-06T12:56:03Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1011,7 +1011,7 @@
           {
             "name": "@ai-sdk/gateway",
             "purl": "",
-            "version": "3.0.164"
+            "version": "3.0.165"
           },
           {
             "name": "@ai-sdk/google",
@@ -1126,7 +1126,7 @@
           {
             "name": "@aws-sdk/client-bedrock-agent-runtime",
             "purl": "",
-            "version": "3.1103.0"
+            "version": "3.1104.0"
           },
           {
             "name": "@aws-sdk/client-bedrock-runtime",
@@ -1141,17 +1141,17 @@
           {
             "name": "@aws-sdk/client-kendra",
             "purl": "",
-            "version": "3.1103.0"
+            "version": "3.1104.0"
           },
           {
             "name": "@aws-sdk/client-s3",
             "purl": "",
-            "version": "3.1103.0"
+            "version": "3.1104.0"
           },
           {
             "name": "@aws-sdk/client-sagemaker",
             "purl": "",
-            "version": "3.1103.0"
+            "version": "3.1104.0"
           },
           {
             "name": "@aws-sdk/client-secrets-manager",
@@ -1231,7 +1231,7 @@
           {
             "name": "@aws-sdk/lib-storage",
             "purl": "",
-            "version": "3.1103.0"
+            "version": "3.1104.0"
           },
           {
             "name": "@aws-sdk/middleware-bucket-endpoint",
@@ -1731,7 +1731,7 @@
           {
             "name": "@ibm-cloud/watsonx-ai",
             "purl": "",
-            "version": "1.7.15"
+            "version": "1.7.16"
           },
           {
             "name": "@icetee/ftp",
@@ -2186,7 +2186,7 @@
           {
             "name": "@n8n/design-system",
             "purl": "",
-            "version": "2.32.1"
+            "version": "2.32.2"
           },
           {
             "name": "@n8n/di",
@@ -2221,7 +2221,7 @@
           {
             "name": "@n8n/mcp-apps",
             "purl": "",
-            "version": "0.10.1"
+            "version": "0.10.2"
           },
           {
             "name": "@n8n/mcp-browser",
@@ -3511,7 +3511,7 @@
           {
             "name": "ai",
             "purl": "",
-            "version": "6.0.242"
+            "version": "6.0.244"
           },
           {
             "name": "ajv",
@@ -5601,7 +5601,7 @@
           {
             "name": "isolated-vm",
             "purl": "",
-            "version": "6.1.2"
+            "version": "6.2.0"
           },
           {
             "name": "isomorphic-ws",
@@ -6531,7 +6531,7 @@
           {
             "name": "n8n",
             "purl": "",
-            "version": "2.33.4"
+            "version": "2.33.5"
           },
           {
             "name": "n8n-core",
@@ -6541,7 +6541,7 @@
           {
             "name": "n8n-editor-ui",
             "purl": "",
-            "version": "2.33.2"
+            "version": "2.33.3"
           },
           {
             "name": "n8n-nodes-base",
@@ -7131,7 +7131,7 @@
           {
             "name": "postcss",
             "purl": "",
-            "version": "8.5.25"
+            "version": "8.5.26"
           },
           {
             "name": "postcss-selector-parser",
