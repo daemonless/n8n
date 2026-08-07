@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-06T13:03:33Z",
+  "generated": "2026-08-07T08:57:42Z",
   "image": "n8n",
   "tags": {
     "latest": {
-      "app_version": "2.33.5",
+      "app_version": "2.33.6",
       "arch": "amd64",
-      "generated": "2026-08-06T12:56:03Z",
+      "generated": "2026-08-07T08:50:57Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -782,7 +782,7 @@
               "GPLv1+"
             ],
             "name": "perl5",
-            "version": "5.42.2"
+            "version": "5.42.3"
           },
           {
             "licenses": [
@@ -861,7 +861,7 @@
               "APACHE20"
             ],
             "name": "simdjson",
-            "version": "4.6.4"
+            "version": "4.6.6"
           },
           {
             "licenses": [
@@ -986,57 +986,57 @@
           {
             "name": "@ai-sdk/amazon-bedrock",
             "purl": "",
-            "version": "4.0.146"
+            "version": "4.0.148"
           },
           {
             "name": "@ai-sdk/anthropic",
             "purl": "",
-            "version": "3.0.105"
+            "version": "3.0.107"
           },
           {
             "name": "@ai-sdk/azure",
             "purl": "",
-            "version": "3.0.95"
+            "version": "3.0.96"
           },
           {
             "name": "@ai-sdk/cohere",
             "purl": "",
-            "version": "3.0.50"
+            "version": "3.0.51"
           },
           {
             "name": "@ai-sdk/deepseek",
             "purl": "",
-            "version": "2.0.51"
+            "version": "2.0.52"
           },
           {
             "name": "@ai-sdk/gateway",
             "purl": "",
-            "version": "3.0.165"
+            "version": "3.0.166"
           },
           {
             "name": "@ai-sdk/google",
             "purl": "",
-            "version": "3.0.103"
+            "version": "3.0.104"
           },
           {
             "name": "@ai-sdk/groq",
             "purl": "",
-            "version": "3.0.55"
+            "version": "3.0.56"
           },
           {
             "name": "@ai-sdk/mistral",
             "purl": "",
-            "version": "3.0.53"
+            "version": "3.0.54"
           },
           {
             "name": "@ai-sdk/openai",
             "purl": "",
-            "version": "3.0.90"
+            "version": "3.0.91"
           },
           {
             "name": "@ai-sdk/openai-compatible",
             "purl": "",
-            "version": "2.0.63"
+            "version": "2.0.64"
           },
           {
             "name": "@ai-sdk/provider",
@@ -1046,12 +1046,12 @@
           {
             "name": "@ai-sdk/provider-utils",
             "purl": "",
-            "version": "4.0.41"
+            "version": "4.0.42"
           },
           {
             "name": "@ai-sdk/xai",
             "purl": "",
-            "version": "3.0.114"
+            "version": "3.0.115"
           },
           {
             "name": "@anthropic-ai/sdk",
@@ -1126,7 +1126,7 @@
           {
             "name": "@aws-sdk/client-bedrock-agent-runtime",
             "purl": "",
-            "version": "3.1104.0"
+            "version": "3.1105.0"
           },
           {
             "name": "@aws-sdk/client-bedrock-runtime",
@@ -1141,17 +1141,17 @@
           {
             "name": "@aws-sdk/client-kendra",
             "purl": "",
-            "version": "3.1104.0"
+            "version": "3.1105.0"
           },
           {
             "name": "@aws-sdk/client-s3",
             "purl": "",
-            "version": "3.1104.0"
+            "version": "3.1105.0"
           },
           {
             "name": "@aws-sdk/client-sagemaker",
             "purl": "",
-            "version": "3.1104.0"
+            "version": "3.1105.0"
           },
           {
             "name": "@aws-sdk/client-secrets-manager",
@@ -1231,7 +1231,7 @@
           {
             "name": "@aws-sdk/lib-storage",
             "purl": "",
-            "version": "3.1104.0"
+            "version": "3.1105.0"
           },
           {
             "name": "@aws-sdk/middleware-bucket-endpoint",
@@ -3511,7 +3511,7 @@
           {
             "name": "ai",
             "purl": "",
-            "version": "6.0.244"
+            "version": "6.0.246"
           },
           {
             "name": "ajv",
@@ -5176,7 +5176,7 @@
           {
             "name": "hono",
             "purl": "",
-            "version": "4.13.0"
+            "version": "4.13.1"
           },
           {
             "name": "hosted-git-info",
@@ -6531,7 +6531,7 @@
           {
             "name": "n8n",
             "purl": "",
-            "version": "2.33.5"
+            "version": "2.33.6"
           },
           {
             "name": "n8n-core",
