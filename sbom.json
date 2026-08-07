@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-07T08:57:42Z",
+  "generated": "2026-08-07T20:23:19Z",
   "image": "n8n",
   "tags": {
     "latest": {
-      "app_version": "2.33.6",
+      "app_version": "2.33.7",
       "arch": "amd64",
-      "generated": "2026-08-07T08:50:57Z",
+      "generated": "2026-08-07T20:17:08Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1126,7 +1126,7 @@
           {
             "name": "@aws-sdk/client-bedrock-agent-runtime",
             "purl": "",
-            "version": "3.1105.0"
+            "version": "3.1106.0"
           },
           {
             "name": "@aws-sdk/client-bedrock-runtime",
@@ -1141,17 +1141,17 @@
           {
             "name": "@aws-sdk/client-kendra",
             "purl": "",
-            "version": "3.1105.0"
+            "version": "3.1106.0"
           },
           {
             "name": "@aws-sdk/client-s3",
             "purl": "",
-            "version": "3.1105.0"
+            "version": "3.1106.0"
           },
           {
             "name": "@aws-sdk/client-sagemaker",
             "purl": "",
-            "version": "3.1105.0"
+            "version": "3.1106.0"
           },
           {
             "name": "@aws-sdk/client-secrets-manager",
@@ -1231,7 +1231,7 @@
           {
             "name": "@aws-sdk/lib-storage",
             "purl": "",
-            "version": "3.1105.0"
+            "version": "3.1106.0"
           },
           {
             "name": "@aws-sdk/middleware-bucket-endpoint",
@@ -1536,27 +1536,27 @@
           {
             "name": "@chat-adapter/linear",
             "purl": "",
-            "version": "4.36.0"
+            "version": "4.37.0"
           },
           {
             "name": "@chat-adapter/shared",
             "purl": "",
-            "version": "4.36.0"
+            "version": "4.37.0"
           },
           {
             "name": "@chat-adapter/slack",
             "purl": "",
-            "version": "4.36.0"
+            "version": "4.37.0"
           },
           {
             "name": "@chat-adapter/state-memory",
             "purl": "",
-            "version": "4.36.0"
+            "version": "4.37.0"
           },
           {
             "name": "@chat-adapter/telegram",
             "purl": "",
-            "version": "4.36.0"
+            "version": "4.37.0"
           },
           {
             "name": "@codemirror/autocomplete",
@@ -2116,52 +2116,52 @@
           {
             "name": "@n8n/agents",
             "purl": "",
-            "version": "0.18.1"
+            "version": "0.18.2"
           },
           {
             "name": "@n8n/ai-node-sdk",
             "purl": "",
-            "version": "0.23.1"
+            "version": "0.23.2"
           },
           {
             "name": "@n8n/ai-utilities",
             "purl": "",
-            "version": "0.26.1"
+            "version": "0.26.2"
           },
           {
             "name": "@n8n/ai-workflow-builder",
             "purl": "",
-            "version": "1.33.1"
+            "version": "1.33.2"
           },
           {
             "name": "@n8n/api-types",
             "purl": "",
-            "version": "1.33.1"
+            "version": "1.33.2"
           },
           {
             "name": "@n8n/backend-common",
             "purl": "",
-            "version": "1.33.1"
+            "version": "1.33.2"
           },
           {
             "name": "@n8n/backend-network",
             "purl": "",
-            "version": "1.7.1"
+            "version": "1.7.2"
           },
           {
             "name": "@n8n/blob-storage",
             "purl": "",
-            "version": "1.1.1"
+            "version": "1.1.2"
           },
           {
             "name": "@n8n/chat-hub",
             "purl": "",
-            "version": "1.26.1"
+            "version": "1.26.2"
           },
           {
             "name": "@n8n/client-oauth2",
             "purl": "",
-            "version": "1.15.1"
+            "version": "1.15.2"
           },
           {
             "name": "@n8n/config",
@@ -2176,17 +2176,17 @@
           {
             "name": "@n8n/db",
             "purl": "",
-            "version": "1.33.1"
+            "version": "1.33.2"
           },
           {
             "name": "@n8n/decorators",
             "purl": "",
-            "version": "1.33.1"
+            "version": "1.33.2"
           },
           {
             "name": "@n8n/design-system",
             "purl": "",
-            "version": "2.32.2"
+            "version": "2.32.3"
           },
           {
             "name": "@n8n/di",
@@ -2211,7 +2211,7 @@
           {
             "name": "@n8n/instance-ai",
             "purl": "",
-            "version": "1.18.1"
+            "version": "1.18.2"
           },
           {
             "name": "@n8n/json-schema-to-zod",
@@ -2221,7 +2221,7 @@
           {
             "name": "@n8n/mcp-apps",
             "purl": "",
-            "version": "0.10.2"
+            "version": "0.10.3"
           },
           {
             "name": "@n8n/mcp-browser",
@@ -2231,7 +2231,7 @@
           {
             "name": "@n8n/n8n-nodes-langchain",
             "purl": "",
-            "version": "2.33.2"
+            "version": "2.33.3"
           },
           {
             "name": "@n8n/permissions",
@@ -2246,7 +2246,7 @@
           {
             "name": "@n8n/scheduler",
             "purl": "",
-            "version": "1.2.1"
+            "version": "1.2.2"
           },
           {
             "name": "@n8n/syslog-client",
@@ -2256,7 +2256,7 @@
           {
             "name": "@n8n/task-runner",
             "purl": "",
-            "version": "2.33.1"
+            "version": "2.33.2"
           },
           {
             "name": "@n8n/telemetry",
@@ -2286,7 +2286,7 @@
           {
             "name": "@n8n/workflow-sdk",
             "purl": "",
-            "version": "0.26.1"
+            "version": "0.26.2"
           },
           {
             "name": "@n8n_io/ai-assistant-sdk",
@@ -3221,7 +3221,7 @@
           {
             "name": "@types/luxon",
             "purl": "",
-            "version": "3.7.3"
+            "version": "3.7.4"
           },
           {
             "name": "@types/mdast",
@@ -6531,27 +6531,27 @@
           {
             "name": "n8n",
             "purl": "",
-            "version": "2.33.6"
+            "version": "2.33.7"
           },
           {
             "name": "n8n-core",
             "purl": "",
-            "version": "2.33.1"
+            "version": "2.33.2"
           },
           {
             "name": "n8n-editor-ui",
             "purl": "",
-            "version": "2.33.3"
+            "version": "2.33.4"
           },
           {
             "name": "n8n-nodes-base",
             "purl": "",
-            "version": "2.33.1"
+            "version": "2.33.2"
           },
           {
             "name": "n8n-workflow",
             "purl": "",
-            "version": "2.33.1"
+            "version": "2.33.2"
           },
           {
             "name": "named-placeholders",
@@ -6571,7 +6571,7 @@
           {
             "name": "nanoid",
             "purl": "",
-            "version": "3.3.17"
+            "version": "3.3.18"
           },
           {
             "name": "napi-build-utils",

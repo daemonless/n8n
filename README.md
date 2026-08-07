@@ -74,7 +74,7 @@ services:
     name: n8n
     options:
       - container: 'boot args:--pull'
-      - expose: '5678:5678 proto:tcp' \
+      - expose: '5678:5678 proto:tcp'
     oci:
       user: root
       environment:
