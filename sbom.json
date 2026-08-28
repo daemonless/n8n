@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-28T11:33:29Z",
+  "generated": "2026-08-28T21:16:28Z",
   "image": "n8n",
   "tags": {
     "latest": {
       "app_version": "2.35.7",
       "arch": "amd64",
-      "generated": "2026-08-28T11:26:51Z",
+      "generated": "2026-08-28T21:09:32Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -986,62 +986,62 @@
           {
             "name": "@ai-sdk/amazon-bedrock",
             "purl": "",
-            "version": "5.0.66"
+            "version": "5.0.67"
           },
           {
             "name": "@ai-sdk/anthropic",
             "purl": "",
-            "version": "4.0.44"
+            "version": "4.0.45"
           },
           {
             "name": "@ai-sdk/azure",
             "purl": "",
-            "version": "4.0.52"
+            "version": "4.0.53"
           },
           {
             "name": "@ai-sdk/cohere",
             "purl": "",
-            "version": "4.0.33"
+            "version": "4.0.34"
           },
           {
             "name": "@ai-sdk/deepseek",
             "purl": "",
-            "version": "3.0.35"
+            "version": "3.0.36"
           },
           {
             "name": "@ai-sdk/gateway",
             "purl": "",
-            "version": "4.0.67"
+            "version": "4.0.68"
           },
           {
             "name": "@ai-sdk/google",
             "purl": "",
-            "version": "4.0.56"
+            "version": "4.0.57"
           },
           {
             "name": "@ai-sdk/groq",
             "purl": "",
-            "version": "4.0.33"
+            "version": "4.0.34"
           },
           {
             "name": "@ai-sdk/mistral",
             "purl": "",
-            "version": "4.0.35"
+            "version": "4.0.36"
           },
           {
             "name": "@ai-sdk/openai",
             "purl": "",
-            "version": "4.0.50"
+            "version": "4.0.51"
           },
           {
             "name": "@ai-sdk/openai-compatible",
             "purl": "",
-            "version": "3.0.39"
+            "version": "3.0.40"
           },
           {
             "name": "@ai-sdk/otel",
             "purl": "",
-            "version": "1.0.83"
+            "version": "1.0.84"
           },
           {
             "name": "@ai-sdk/provider",
@@ -1051,12 +1051,12 @@
           {
             "name": "@ai-sdk/provider-utils",
             "purl": "",
-            "version": "5.0.32"
+            "version": "5.0.33"
           },
           {
             "name": "@ai-sdk/xai",
             "purl": "",
-            "version": "4.0.48"
+            "version": "4.0.49"
           },
           {
             "name": "@anthropic-ai/sdk",
@@ -1067,21 +1067,6 @@
             "name": "@apidevtools/json-schema-ref-parser",
             "purl": "",
             "version": "12.0.2"
-          },
-          {
-            "name": "@apm-js-collab/code-transformer",
-            "purl": "",
-            "version": "0.18.1"
-          },
-          {
-            "name": "@apm-js-collab/code-transformer-bundler-plugins",
-            "purl": "",
-            "version": "0.7.4"
-          },
-          {
-            "name": "@apm-js-collab/tracing-hooks",
-            "purl": "",
-            "version": "0.13.0"
           },
           {
             "name": "@asteasolutions/zod-to-openapi",
@@ -1136,7 +1121,7 @@
           {
             "name": "@aws-sdk/client-bedrock-agent-runtime",
             "purl": "",
-            "version": "3.1120.0"
+            "version": "3.1121.0"
           },
           {
             "name": "@aws-sdk/client-bedrock-runtime",
@@ -1151,17 +1136,17 @@
           {
             "name": "@aws-sdk/client-kendra",
             "purl": "",
-            "version": "3.1120.0"
+            "version": "3.1121.0"
           },
           {
             "name": "@aws-sdk/client-s3",
             "purl": "",
-            "version": "3.1120.0"
+            "version": "3.1121.0"
           },
           {
             "name": "@aws-sdk/client-sagemaker",
             "purl": "",
-            "version": "3.1120.0"
+            "version": "3.1121.0"
           },
           {
             "name": "@aws-sdk/client-secrets-manager",
@@ -1241,7 +1226,7 @@
           {
             "name": "@aws-sdk/lib-storage",
             "purl": "",
-            "version": "3.1120.0"
+            "version": "3.1121.0"
           },
           {
             "name": "@aws-sdk/middleware-bucket-endpoint",
@@ -2806,17 +2791,17 @@
           {
             "name": "@sentry/core",
             "purl": "",
-            "version": "10.71.0"
+            "version": "10.72.0"
           },
           {
             "name": "@sentry/node",
             "purl": "",
-            "version": "10.71.0"
+            "version": "10.72.0"
           },
           {
             "name": "@sentry/node-core",
             "purl": "",
-            "version": "10.71.0"
+            "version": "10.72.0"
           },
           {
             "name": "@sentry/node-cpu-profiler",
@@ -2826,7 +2811,7 @@
           {
             "name": "@sentry/node-native",
             "purl": "",
-            "version": "10.71.0"
+            "version": "10.72.0"
           },
           {
             "name": "@sentry/node-native-stacktrace",
@@ -2836,17 +2821,17 @@
           {
             "name": "@sentry/opentelemetry",
             "purl": "",
-            "version": "10.71.0"
+            "version": "10.72.0"
           },
           {
             "name": "@sentry/profiling-node",
             "purl": "",
-            "version": "10.71.0"
+            "version": "10.72.0"
           },
           {
             "name": "@sentry/server-utils",
             "purl": "",
-            "version": "10.71.0"
+            "version": "10.72.0"
           },
           {
             "name": "@shanghaikid/parquetjs",
@@ -3249,11 +3234,6 @@
             "version": "4.1.12"
           },
           {
-            "name": "@types/estree",
-            "purl": "",
-            "version": "1.0.9"
-          },
-          {
             "name": "@types/express",
             "purl": "",
             "version": "5.0.6"
@@ -3586,7 +3566,7 @@
           {
             "name": "ai",
             "purl": "",
-            "version": "7.0.83"
+            "version": "7.0.84"
           },
           {
             "name": "ajv",
@@ -3742,11 +3722,6 @@
             "name": "ast-types",
             "purl": "",
             "version": "0.15.2"
-          },
-          {
-            "name": "astring",
-            "purl": "",
-            "version": "1.9.0"
           },
           {
             "name": "async",
@@ -4752,16 +4727,6 @@
             "name": "esprima-next",
             "purl": "",
             "version": "5.8.4"
-          },
-          {
-            "name": "esquery",
-            "purl": "",
-            "version": "1.7.0"
-          },
-          {
-            "name": "estraverse",
-            "purl": "",
-            "version": "5.3.0"
           },
           {
             "name": "estree-walker",
@@ -6294,11 +6259,6 @@
             "version": "1.4.1"
           },
           {
-            "name": "meriyah",
-            "purl": "",
-            "version": "6.1.4"
-          },
-          {
             "name": "micromark",
             "purl": "",
             "version": "4.0.2"
@@ -6601,7 +6561,7 @@
           {
             "name": "multer",
             "purl": "",
-            "version": "2.2.0"
+            "version": "2.3.0"
           },
           {
             "name": "mustache",
@@ -6716,7 +6676,7 @@
           {
             "name": "node-abi",
             "purl": "",
-            "version": "3.95.0"
+            "version": "3.96.0"
           },
           {
             "name": "node-abort-controller",
@@ -7707,11 +7667,6 @@
             "name": "selenium-webdriver",
             "purl": "",
             "version": "4.39.0"
-          },
-          {
-            "name": "semifies",
-            "purl": "",
-            "version": "1.0.0"
           },
           {
             "name": "semver",
@@ -9027,12 +8982,12 @@
         "freebsd": 126,
         "go": 10,
         "java": 0,
-        "node": 1577,
+        "node": 1568,
         "php": 0,
         "python": 22,
         "ruby": 0,
         "rust": 10,
-        "total": 1745
+        "total": 1736
       }
     }
   }
