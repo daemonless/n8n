@@ -23,7 +23,6 @@ RUN pkg update && \
     python${PYTHON_VERSION} \
     py${PYTHON_VERSION}-setuptools \
     gmake \
-    bash \
     git \
     rust \
     ca_root_nss && \
@@ -37,9 +36,18 @@ RUN pkg update && \
 # `overrides`) to pin @langchain/core and zod to versions that coexist --
 # npm's unpinned resolution leaves incompatible duplicates that crash n8n
 # on startup. --force still needed for libsql's platform check.
-RUN mkdir -p /tmp/n8n-install && cd /tmp/n8n-install && \
-    printf '%s' '{"name":"n8n-wrapper","private":true,"dependencies":{"n8n":"*"},"overrides":{"@langchain/core":"1.1.48","zod":"3.25.76"}}' > package.json && \
-    npm install --force && \
+# n8n bundles the Kafka node (@confluentinc/kafka-javascript), whose native
+# librdkafka binding does not build on FreeBSD (bundled librdkafka fails to link
+# under lld; the wrapper also needs RTTI which node-gyp disables). Stub it with an
+# empty module via an npm override so n8n installs/runs -- every node works except
+# the Kafka node, which throws only if actually used. --install-links copies the
+# file: stub into node_modules (no dangling symlink after cleanup).
+RUN mkdir -p /tmp/kafka-stub && \
+    printf '%s' '{"name":"@confluentinc/kafka-javascript","version":"1.9.1","main":"index.js"}' > /tmp/kafka-stub/package.json && \
+    printf 'module.exports = {};\n' > /tmp/kafka-stub/index.js && \
+    mkdir -p /tmp/n8n-install && cd /tmp/n8n-install && \
+    printf '%s' '{"name":"n8n-wrapper","private":true,"dependencies":{"n8n":"*"},"overrides":{"@langchain/core":"1.1.48","zod":"3.25.76","@confluentinc/kafka-javascript":"file:/tmp/kafka-stub"}}' > package.json && \
+    npm install --force --install-links && \
     npm cache clean --force && \
     mkdir -p /usr/local/lib/node_modules && \
     cp -R node_modules/. /usr/local/lib/node_modules/ && \
