@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-14T14:51:13Z",
+  "generated": "2026-08-28T11:33:29Z",
   "image": "n8n",
   "tags": {
     "latest": {
-      "app_version": "2.34.6",
+      "app_version": "2.35.7",
       "arch": "amd64",
-      "generated": "2026-08-14T14:45:32Z",
+      "generated": "2026-08-28T11:26:51Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -288,7 +288,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.125"
+            "version": "3.127"
           },
           {
             "licenses": [
@@ -682,7 +682,7 @@
               "BSD3CLAUSE"
             ],
             "name": "openexr",
-            "version": "3.4.13_1"
+            "version": "3.4.15"
           },
           {
             "licenses": [
@@ -752,7 +752,7 @@
               "MPL20"
             ],
             "name": "p5-Mozilla-CA",
-            "version": "20250602"
+            "version": "20260813"
           },
           {
             "licenses": [
@@ -825,7 +825,7 @@
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.13_4"
+            "version": "3.12.14"
           },
           {
             "licenses": [
@@ -861,7 +861,7 @@
               "APACHE20"
             ],
             "name": "simdjson",
-            "version": "4.6.6"
+            "version": "4.6.8"
           },
           {
             "licenses": [
@@ -986,77 +986,77 @@
           {
             "name": "@ai-sdk/amazon-bedrock",
             "purl": "",
-            "version": "5.0.55"
+            "version": "5.0.66"
           },
           {
             "name": "@ai-sdk/anthropic",
             "purl": "",
-            "version": "4.0.38"
+            "version": "4.0.44"
           },
           {
             "name": "@ai-sdk/azure",
             "purl": "",
-            "version": "4.0.42"
+            "version": "4.0.52"
           },
           {
             "name": "@ai-sdk/cohere",
             "purl": "",
-            "version": "4.0.27"
+            "version": "4.0.33"
           },
           {
             "name": "@ai-sdk/deepseek",
             "purl": "",
-            "version": "3.0.28"
+            "version": "3.0.35"
           },
           {
             "name": "@ai-sdk/gateway",
             "purl": "",
-            "version": "4.0.52"
+            "version": "4.0.67"
           },
           {
             "name": "@ai-sdk/google",
             "purl": "",
-            "version": "4.0.44"
+            "version": "4.0.56"
           },
           {
             "name": "@ai-sdk/groq",
             "purl": "",
-            "version": "4.0.28"
+            "version": "4.0.33"
           },
           {
             "name": "@ai-sdk/mistral",
             "purl": "",
-            "version": "4.0.29"
+            "version": "4.0.35"
           },
           {
             "name": "@ai-sdk/openai",
             "purl": "",
-            "version": "4.0.41"
+            "version": "4.0.50"
           },
           {
             "name": "@ai-sdk/openai-compatible",
             "purl": "",
-            "version": "3.0.30"
+            "version": "3.0.39"
           },
           {
             "name": "@ai-sdk/otel",
             "purl": "",
-            "version": "1.0.65"
+            "version": "1.0.83"
           },
           {
             "name": "@ai-sdk/provider",
             "purl": "",
-            "version": "4.0.7"
+            "version": "4.0.8"
           },
           {
             "name": "@ai-sdk/provider-utils",
             "purl": "",
-            "version": "5.0.27"
+            "version": "5.0.32"
           },
           {
             "name": "@ai-sdk/xai",
             "purl": "",
-            "version": "4.0.38"
+            "version": "4.0.48"
           },
           {
             "name": "@anthropic-ai/sdk",
@@ -1082,6 +1082,11 @@
             "name": "@apm-js-collab/tracing-hooks",
             "purl": "",
             "version": "0.13.0"
+          },
+          {
+            "name": "@asteasolutions/zod-to-openapi",
+            "purl": "",
+            "version": "7.3.4"
           },
           {
             "name": "@authenio/xml-encryption",
@@ -1126,12 +1131,12 @@
           {
             "name": "@aws-sdk/checksums",
             "purl": "",
-            "version": "3.1000.27"
+            "version": "3.1000.29"
           },
           {
             "name": "@aws-sdk/client-bedrock-agent-runtime",
             "purl": "",
-            "version": "3.1110.0"
+            "version": "3.1120.0"
           },
           {
             "name": "@aws-sdk/client-bedrock-runtime",
@@ -1146,17 +1151,17 @@
           {
             "name": "@aws-sdk/client-kendra",
             "purl": "",
-            "version": "3.1110.0"
+            "version": "3.1120.0"
           },
           {
             "name": "@aws-sdk/client-s3",
             "purl": "",
-            "version": "3.1110.0"
+            "version": "3.1120.0"
           },
           {
             "name": "@aws-sdk/client-sagemaker",
             "purl": "",
-            "version": "3.1110.0"
+            "version": "3.1120.0"
           },
           {
             "name": "@aws-sdk/client-secrets-manager",
@@ -1236,7 +1241,7 @@
           {
             "name": "@aws-sdk/lib-storage",
             "purl": "",
-            "version": "3.1110.0"
+            "version": "3.1120.0"
           },
           {
             "name": "@aws-sdk/middleware-bucket-endpoint",
@@ -1326,7 +1331,7 @@
           {
             "name": "@aws-sdk/token-providers",
             "purl": "",
-            "version": "3.1108.0"
+            "version": "3.1116.0"
           },
           {
             "name": "@aws-sdk/types",
@@ -1351,7 +1356,7 @@
           {
             "name": "@aws-sdk/util-locate-window",
             "purl": "",
-            "version": "3.965.9"
+            "version": "3.965.10"
           },
           {
             "name": "@aws-sdk/util-user-agent-browser",
@@ -1526,7 +1531,7 @@
           {
             "name": "@browserbasehq/sdk",
             "purl": "",
-            "version": "2.17.0"
+            "version": "2.19.0"
           },
           {
             "name": "@browserbasehq/stagehand",
@@ -1539,29 +1544,34 @@
             "version": "4.1.1"
           },
           {
+            "name": "@chat-adapter/discord",
+            "purl": "",
+            "version": "4.28.1"
+          },
+          {
             "name": "@chat-adapter/linear",
             "purl": "",
-            "version": "4.37.0"
+            "version": "4.39.0"
           },
           {
             "name": "@chat-adapter/shared",
             "purl": "",
-            "version": "4.37.0"
+            "version": "4.28.1"
           },
           {
             "name": "@chat-adapter/slack",
             "purl": "",
-            "version": "4.37.0"
+            "version": "4.39.0"
           },
           {
             "name": "@chat-adapter/state-memory",
             "purl": "",
-            "version": "4.37.0"
+            "version": "4.39.0"
           },
           {
             "name": "@chat-adapter/telegram",
             "purl": "",
-            "version": "4.37.0"
+            "version": "4.39.0"
           },
           {
             "name": "@codemirror/autocomplete",
@@ -1581,12 +1591,17 @@
           {
             "name": "@codemirror/view",
             "purl": "",
-            "version": "6.43.8"
+            "version": "6.43.9"
           },
           {
             "name": "@colors/colors",
             "purl": "",
             "version": "1.6.0"
+          },
+          {
+            "name": "@confluentinc/kafka-javascript",
+            "purl": "",
+            "version": "1.9.1"
           },
           {
             "name": "@dabh/diagnostics",
@@ -1617,6 +1632,36 @@
             "name": "@daytona/toolbox-api-client",
             "purl": "",
             "version": "0.187.0"
+          },
+          {
+            "name": "@discordjs/builders",
+            "purl": "",
+            "version": "1.14.1"
+          },
+          {
+            "name": "@discordjs/collection",
+            "purl": "",
+            "version": "1.5.3"
+          },
+          {
+            "name": "@discordjs/formatters",
+            "purl": "",
+            "version": "0.6.2"
+          },
+          {
+            "name": "@discordjs/rest",
+            "purl": "",
+            "version": "2.6.3"
+          },
+          {
+            "name": "@discordjs/util",
+            "purl": "",
+            "version": "1.2.0"
+          },
+          {
+            "name": "@discordjs/ws",
+            "purl": "",
+            "version": "1.2.3"
           },
           {
             "name": "@e965/xlsx",
@@ -1741,22 +1786,22 @@
           {
             "name": "@intlify/core-base",
             "purl": "",
-            "version": "11.4.8"
+            "version": "11.4.10"
           },
           {
             "name": "@intlify/devtools-types",
             "purl": "",
-            "version": "11.4.8"
+            "version": "11.4.10"
           },
           {
             "name": "@intlify/message-compiler",
             "purl": "",
-            "version": "11.4.8"
+            "version": "11.4.10"
           },
           {
             "name": "@intlify/shared",
             "purl": "",
-            "version": "11.4.8"
+            "version": "11.4.10"
           },
           {
             "name": "@ioredis/commands",
@@ -1796,7 +1841,7 @@
           {
             "name": "@jridgewell/sourcemap-codec",
             "purl": "",
-            "version": "1.5.5"
+            "version": "1.6.0"
           },
           {
             "name": "@jridgewell/trace-mapping",
@@ -1946,7 +1991,7 @@
           {
             "name": "@langchain/mcp-adapters",
             "purl": "",
-            "version": "1.1.3"
+            "version": "1.1.4"
           },
           {
             "name": "@langchain/mistralai",
@@ -2021,7 +2066,7 @@
           {
             "name": "@marijn/find-cluster-break",
             "purl": "",
-            "version": "1.0.3"
+            "version": "1.0.4"
           },
           {
             "name": "@microsoft/agents-a365-notifications",
@@ -2084,9 +2129,19 @@
             "version": "2.2.0"
           },
           {
+            "name": "@modelcontextprotocol/core",
+            "purl": "",
+            "version": "2.0.0"
+          },
+          {
             "name": "@modelcontextprotocol/ext-apps",
             "purl": "",
             "version": "1.3.2"
+          },
+          {
+            "name": "@modelcontextprotocol/node",
+            "purl": "",
+            "version": "2.0.0"
           },
           {
             "name": "@modelcontextprotocol/sdk",
@@ -2094,9 +2149,14 @@
             "version": "1.26.0"
           },
           {
+            "name": "@modelcontextprotocol/server",
+            "purl": "",
+            "version": "2.0.0"
+          },
+          {
             "name": "@mongodb-js/saslprep",
             "purl": "",
-            "version": "1.4.13"
+            "version": "1.5.0"
           },
           {
             "name": "@mozilla/readability",
@@ -2116,77 +2176,77 @@
           {
             "name": "@n8n/agents",
             "purl": "",
-            "version": "0.19.5"
+            "version": "0.20.5"
           },
           {
             "name": "@n8n/ai-node-sdk",
             "purl": "",
-            "version": "0.24.4"
+            "version": "0.25.5"
           },
           {
             "name": "@n8n/ai-utilities",
             "purl": "",
-            "version": "0.27.4"
+            "version": "0.28.5"
           },
           {
             "name": "@n8n/ai-workflow-builder",
             "purl": "",
-            "version": "1.34.4"
+            "version": "1.35.5"
           },
           {
             "name": "@n8n/api-types",
             "purl": "",
-            "version": "1.34.3"
+            "version": "1.35.4"
           },
           {
             "name": "@n8n/backend-common",
             "purl": "",
-            "version": "1.34.3"
+            "version": "1.35.5"
           },
           {
             "name": "@n8n/backend-network",
             "purl": "",
-            "version": "1.8.4"
+            "version": "1.9.5"
           },
           {
             "name": "@n8n/blob-storage",
             "purl": "",
-            "version": "1.2.4"
+            "version": "1.3.5"
           },
           {
             "name": "@n8n/chat-hub",
             "purl": "",
-            "version": "1.27.3"
+            "version": "1.28.4"
           },
           {
             "name": "@n8n/client-oauth2",
             "purl": "",
-            "version": "1.16.4"
+            "version": "1.17.5"
           },
           {
             "name": "@n8n/config",
             "purl": "",
-            "version": "2.32.0"
+            "version": "2.33.4"
           },
           {
             "name": "@n8n/constants",
             "purl": "",
-            "version": "0.33.0"
+            "version": "0.34.0"
           },
           {
             "name": "@n8n/db",
             "purl": "",
-            "version": "1.34.4"
+            "version": "1.35.6"
           },
           {
             "name": "@n8n/decorators",
             "purl": "",
-            "version": "1.34.3"
+            "version": "1.35.4"
           },
           {
             "name": "@n8n/design-system",
             "purl": "",
-            "version": "2.33.5"
+            "version": "2.34.4"
           },
           {
             "name": "@n8n/di",
@@ -2201,7 +2261,7 @@
           {
             "name": "@n8n/expression-runtime",
             "purl": "",
-            "version": "0.25.0"
+            "version": "0.26.1"
           },
           {
             "name": "@n8n/imap",
@@ -2211,7 +2271,7 @@
           {
             "name": "@n8n/instance-ai",
             "purl": "",
-            "version": "1.19.5"
+            "version": "1.20.5"
           },
           {
             "name": "@n8n/json-schema-to-zod",
@@ -2221,32 +2281,32 @@
           {
             "name": "@n8n/mcp-apps",
             "purl": "",
-            "version": "0.11.5"
+            "version": "0.12.4"
           },
           {
             "name": "@n8n/mcp-browser",
             "purl": "",
-            "version": "0.16.0"
+            "version": "0.17.0"
           },
           {
             "name": "@n8n/n8n-nodes-langchain",
             "purl": "",
-            "version": "2.34.4"
+            "version": "2.35.5"
           },
           {
             "name": "@n8n/permissions",
             "purl": "",
-            "version": "0.71.0"
+            "version": "0.72.0"
           },
           {
             "name": "@n8n/sandbox-client",
             "purl": "",
-            "version": "0.0.4"
+            "version": "0.1.0"
           },
           {
             "name": "@n8n/scheduler",
             "purl": "",
-            "version": "1.3.3"
+            "version": "1.4.3"
           },
           {
             "name": "@n8n/syslog-client",
@@ -2256,17 +2316,17 @@
           {
             "name": "@n8n/task-runner",
             "purl": "",
-            "version": "2.34.4"
+            "version": "2.35.5"
           },
           {
             "name": "@n8n/telemetry",
             "purl": "",
-            "version": "1.2.1"
+            "version": "1.3.1"
           },
           {
             "name": "@n8n/tournament",
             "purl": "",
-            "version": "1.9.0"
+            "version": "1.9.1"
           },
           {
             "name": "@n8n/typeorm",
@@ -2281,17 +2341,17 @@
           {
             "name": "@n8n/utils",
             "purl": "",
-            "version": "1.42.0"
+            "version": "1.43.1"
           },
           {
             "name": "@n8n/workflow-sdk",
             "purl": "",
-            "version": "0.27.3"
+            "version": "0.28.3"
           },
           {
             "name": "@n8n_io/ai-assistant-sdk",
             "purl": "",
-            "version": "1.25.0"
+            "version": "1.26.0"
           },
           {
             "name": "@n8n_io/license-sdk",
@@ -2714,6 +2774,21 @@
             "version": "3.0.5"
           },
           {
+            "name": "@sapphire/async-queue",
+            "purl": "",
+            "version": "1.5.5"
+          },
+          {
+            "name": "@sapphire/shapeshift",
+            "purl": "",
+            "version": "4.0.0"
+          },
+          {
+            "name": "@sapphire/snowflake",
+            "purl": "",
+            "version": "3.5.5"
+          },
+          {
             "name": "@scarf/scarf",
             "purl": "",
             "version": "1.4.0"
@@ -2731,17 +2806,17 @@
           {
             "name": "@sentry/core",
             "purl": "",
-            "version": "10.70.0"
+            "version": "10.71.0"
           },
           {
             "name": "@sentry/node",
             "purl": "",
-            "version": "10.70.0"
+            "version": "10.71.0"
           },
           {
             "name": "@sentry/node-core",
             "purl": "",
-            "version": "10.70.0"
+            "version": "10.71.0"
           },
           {
             "name": "@sentry/node-cpu-profiler",
@@ -2751,7 +2826,7 @@
           {
             "name": "@sentry/node-native",
             "purl": "",
-            "version": "10.70.0"
+            "version": "10.71.0"
           },
           {
             "name": "@sentry/node-native-stacktrace",
@@ -2761,17 +2836,17 @@
           {
             "name": "@sentry/opentelemetry",
             "purl": "",
-            "version": "10.70.0"
+            "version": "10.71.0"
           },
           {
             "name": "@sentry/profiling-node",
             "purl": "",
-            "version": "10.70.0"
+            "version": "10.71.0"
           },
           {
             "name": "@sentry/server-utils",
             "purl": "",
-            "version": "10.70.0"
+            "version": "10.71.0"
           },
           {
             "name": "@shanghaikid/parquetjs",
@@ -2841,22 +2916,22 @@
           {
             "name": "@smithy/abort-controller",
             "purl": "",
-            "version": "4.4.0"
+            "version": "4.4.2"
           },
           {
             "name": "@smithy/config-resolver",
             "purl": "",
-            "version": "4.7.0"
+            "version": "4.7.2"
           },
           {
             "name": "@smithy/core",
             "purl": "",
-            "version": "3.33.0"
+            "version": "3.33.3"
           },
           {
             "name": "@smithy/credential-provider-imds",
             "purl": "",
-            "version": "4.5.0"
+            "version": "4.5.2"
           },
           {
             "name": "@smithy/eventstream-codec",
@@ -2866,42 +2941,42 @@
           {
             "name": "@smithy/eventstream-serde-browser",
             "purl": "",
-            "version": "4.5.0"
+            "version": "4.5.2"
           },
           {
             "name": "@smithy/eventstream-serde-config-resolver",
             "purl": "",
-            "version": "4.6.0"
+            "version": "4.6.2"
           },
           {
             "name": "@smithy/eventstream-serde-node",
             "purl": "",
-            "version": "4.5.0"
+            "version": "4.5.2"
           },
           {
             "name": "@smithy/fetch-http-handler",
             "purl": "",
-            "version": "5.7.0"
+            "version": "5.7.2"
           },
           {
             "name": "@smithy/hash-blob-browser",
             "purl": "",
-            "version": "4.5.0"
+            "version": "4.5.2"
           },
           {
             "name": "@smithy/hash-node",
             "purl": "",
-            "version": "4.5.0"
+            "version": "4.5.2"
           },
           {
             "name": "@smithy/hash-stream-node",
             "purl": "",
-            "version": "4.5.0"
+            "version": "4.5.2"
           },
           {
             "name": "@smithy/invalid-dependency",
             "purl": "",
-            "version": "4.5.0"
+            "version": "4.5.2"
           },
           {
             "name": "@smithy/is-array-buffer",
@@ -2911,47 +2986,47 @@
           {
             "name": "@smithy/md5-js",
             "purl": "",
-            "version": "4.5.0"
+            "version": "4.5.2"
           },
           {
             "name": "@smithy/middleware-content-length",
             "purl": "",
-            "version": "4.5.0"
+            "version": "4.5.2"
           },
           {
             "name": "@smithy/middleware-endpoint",
             "purl": "",
-            "version": "4.7.0"
+            "version": "4.7.2"
           },
           {
             "name": "@smithy/middleware-retry",
             "purl": "",
-            "version": "4.8.0"
+            "version": "4.8.2"
           },
           {
             "name": "@smithy/middleware-serde",
             "purl": "",
-            "version": "4.5.0"
+            "version": "4.5.2"
           },
           {
             "name": "@smithy/middleware-stack",
             "purl": "",
-            "version": "4.5.0"
+            "version": "4.5.2"
           },
           {
             "name": "@smithy/node-config-provider",
             "purl": "",
-            "version": "4.6.0"
+            "version": "4.6.2"
           },
           {
             "name": "@smithy/node-http-handler",
             "purl": "",
-            "version": "4.11.0"
+            "version": "4.11.3"
           },
           {
             "name": "@smithy/property-provider",
             "purl": "",
-            "version": "4.5.0"
+            "version": "4.5.2"
           },
           {
             "name": "@smithy/protocol-http",
@@ -2961,12 +3036,12 @@
           {
             "name": "@smithy/querystring-builder",
             "purl": "",
-            "version": "4.5.0"
+            "version": "4.5.2"
           },
           {
             "name": "@smithy/shared-ini-file-loader",
             "purl": "",
-            "version": "4.7.0"
+            "version": "4.7.2"
           },
           {
             "name": "@smithy/signature-v4",
@@ -2976,7 +3051,7 @@
           {
             "name": "@smithy/smithy-client",
             "purl": "",
-            "version": "4.15.0"
+            "version": "4.15.2"
           },
           {
             "name": "@smithy/types",
@@ -2986,22 +3061,22 @@
           {
             "name": "@smithy/url-parser",
             "purl": "",
-            "version": "4.5.0"
+            "version": "4.5.2"
           },
           {
             "name": "@smithy/util-base64",
             "purl": "",
-            "version": "4.6.0"
+            "version": "4.6.2"
           },
           {
             "name": "@smithy/util-body-length-browser",
             "purl": "",
-            "version": "4.5.0"
+            "version": "4.5.2"
           },
           {
             "name": "@smithy/util-body-length-node",
             "purl": "",
-            "version": "4.5.0"
+            "version": "4.5.2"
           },
           {
             "name": "@smithy/util-buffer-from",
@@ -3011,22 +3086,22 @@
           {
             "name": "@smithy/util-config-provider",
             "purl": "",
-            "version": "4.5.0"
+            "version": "4.5.2"
           },
           {
             "name": "@smithy/util-defaults-mode-browser",
             "purl": "",
-            "version": "4.6.0"
+            "version": "4.6.2"
           },
           {
             "name": "@smithy/util-defaults-mode-node",
             "purl": "",
-            "version": "4.5.0"
+            "version": "4.5.2"
           },
           {
             "name": "@smithy/util-endpoints",
             "purl": "",
-            "version": "3.7.0"
+            "version": "3.7.2"
           },
           {
             "name": "@smithy/util-hex-encoding",
@@ -3041,12 +3116,12 @@
           {
             "name": "@smithy/util-retry",
             "purl": "",
-            "version": "4.6.0"
+            "version": "4.6.2"
           },
           {
             "name": "@smithy/util-stream",
             "purl": "",
-            "version": "4.8.0"
+            "version": "4.8.2"
           },
           {
             "name": "@smithy/util-uri-escape",
@@ -3061,7 +3136,7 @@
           {
             "name": "@smithy/util-waiter",
             "purl": "",
-            "version": "4.6.0"
+            "version": "4.6.2"
           },
           {
             "name": "@so-ric/colorspace",
@@ -3221,7 +3296,7 @@
           {
             "name": "@types/luxon",
             "purl": "",
-            "version": "3.7.4"
+            "version": "3.7.5"
           },
           {
             "name": "@types/mdast",
@@ -3359,24 +3434,29 @@
             "version": "3.2.0"
           },
           {
+            "name": "@vladfrangu/async_event_emitter",
+            "purl": "",
+            "version": "2.4.7"
+          },
+          {
             "name": "@vue/compiler-core",
             "purl": "",
-            "version": "3.5.41"
+            "version": "3.5.42"
           },
           {
             "name": "@vue/compiler-dom",
             "purl": "",
-            "version": "3.5.41"
+            "version": "3.5.42"
           },
           {
             "name": "@vue/compiler-sfc",
             "purl": "",
-            "version": "3.5.41"
+            "version": "3.5.42"
           },
           {
             "name": "@vue/compiler-ssr",
             "purl": "",
-            "version": "3.5.41"
+            "version": "3.5.42"
           },
           {
             "name": "@vue/devtools-api",
@@ -3386,27 +3466,27 @@
           {
             "name": "@vue/reactivity",
             "purl": "",
-            "version": "3.5.41"
+            "version": "3.5.42"
           },
           {
             "name": "@vue/runtime-core",
             "purl": "",
-            "version": "3.5.41"
+            "version": "3.5.42"
           },
           {
             "name": "@vue/runtime-dom",
             "purl": "",
-            "version": "3.5.41"
+            "version": "3.5.42"
           },
           {
             "name": "@vue/server-renderer",
             "purl": "",
-            "version": "3.5.41"
+            "version": "3.5.42"
           },
           {
             "name": "@vue/shared",
             "purl": "",
-            "version": "3.5.41"
+            "version": "3.5.42"
           },
           {
             "name": "@workflow/serde",
@@ -3426,17 +3506,12 @@
           {
             "name": "@xmldom/xmldom",
             "purl": "",
-            "version": "0.8.14"
-          },
-          {
-            "name": "@xterm/xterm",
-            "purl": "",
-            "version": "5.5.0"
+            "version": "0.8.15"
           },
           {
             "name": "@zenfs/core",
             "purl": "",
-            "version": "2.6.2"
+            "version": "2.6.5"
           },
           {
             "name": "@zilliz/milvus2-sdk-node",
@@ -3511,7 +3586,7 @@
           {
             "name": "ai",
             "purl": "",
-            "version": "7.0.65"
+            "version": "7.0.83"
           },
           {
             "name": "ajv",
@@ -4356,7 +4431,7 @@
           {
             "name": "dayjs",
             "purl": "",
-            "version": "1.11.21"
+            "version": "1.11.23"
           },
           {
             "name": "debug",
@@ -4396,7 +4471,7 @@
           {
             "name": "default-browser",
             "purl": "",
-            "version": "5.5.0"
+            "version": "5.5.1"
           },
           {
             "name": "default-browser-id",
@@ -4472,6 +4547,21 @@
             "name": "dingbat-to-unicode",
             "purl": "",
             "version": "1.0.1"
+          },
+          {
+            "name": "discord-api-types",
+            "purl": "",
+            "version": "0.37.120"
+          },
+          {
+            "name": "discord-interactions",
+            "purl": "",
+            "version": "4.4.0"
+          },
+          {
+            "name": "discord.js",
+            "purl": "",
+            "version": "14.27.0"
           },
           {
             "name": "dom-serializer",
@@ -4621,7 +4711,7 @@
           {
             "name": "es-module-lexer",
             "purl": "",
-            "version": "2.3.1"
+            "version": "2.3.2"
           },
           {
             "name": "es-object-atoms",
@@ -4791,7 +4881,7 @@
           {
             "name": "fast-uri",
             "purl": "",
-            "version": "3.1.5"
+            "version": "3.1.6"
           },
           {
             "name": "fast-xml-builder",
@@ -4811,7 +4901,7 @@
           {
             "name": "fastq",
             "purl": "",
-            "version": "1.20.1"
+            "version": "1.20.2"
           },
           {
             "name": "fdir",
@@ -5176,7 +5266,7 @@
           {
             "name": "hono",
             "purl": "",
-            "version": "4.13.2"
+            "version": "4.13.5"
           },
           {
             "name": "hosted-git-info",
@@ -5496,7 +5586,7 @@
           {
             "name": "is-plain-object",
             "purl": "",
-            "version": "5.0.0"
+            "version": "5.1.0"
           },
           {
             "name": "is-potential-custom-element-name",
@@ -5556,7 +5646,7 @@
           {
             "name": "is-unsafe",
             "purl": "",
-            "version": "2.0.0"
+            "version": "2.0.2"
           },
           {
             "name": "is-weakmap",
@@ -5631,7 +5721,7 @@
           {
             "name": "jose",
             "purl": "",
-            "version": "6.2.8"
+            "version": "6.2.10"
           },
           {
             "name": "js-base64",
@@ -5661,7 +5751,7 @@
           {
             "name": "js-yaml",
             "purl": "",
-            "version": "4.3.1"
+            "version": "4.3.2"
           },
           {
             "name": "jsbi",
@@ -5901,7 +5991,7 @@
           {
             "name": "libphonenumber-js",
             "purl": "",
-            "version": "1.13.11"
+            "version": "1.13.12"
           },
           {
             "name": "libqp",
@@ -6014,6 +6104,11 @@
             "version": "4.1.1"
           },
           {
+            "name": "lodash.snakecase",
+            "purl": "",
+            "version": "4.1.1"
+          },
+          {
             "name": "logform",
             "purl": "",
             "version": "2.6.1"
@@ -6062,6 +6157,11 @@
             "name": "luxon",
             "purl": "",
             "version": "3.7.2"
+          },
+          {
+            "name": "magic-bytes.js",
+            "purl": "",
+            "version": "1.13.1"
           },
           {
             "name": "magic-string",
@@ -6176,7 +6276,7 @@
           {
             "name": "memium",
             "purl": "",
-            "version": "0.4.5"
+            "version": "1.0.1"
           },
           {
             "name": "memory-pager",
@@ -6521,7 +6621,7 @@
           {
             "name": "mysql2",
             "purl": "",
-            "version": "3.17.0"
+            "version": "3.23.1"
           },
           {
             "name": "mz",
@@ -6531,27 +6631,27 @@
           {
             "name": "n8n",
             "purl": "",
-            "version": "2.34.6"
+            "version": "2.35.7"
           },
           {
             "name": "n8n-core",
             "purl": "",
-            "version": "2.34.4"
+            "version": "2.35.5"
           },
           {
             "name": "n8n-editor-ui",
             "purl": "",
-            "version": "2.34.5"
+            "version": "2.35.4"
           },
           {
             "name": "n8n-nodes-base",
             "purl": "",
-            "version": "2.34.4"
+            "version": "2.35.5"
           },
           {
             "name": "n8n-workflow",
             "purl": "",
-            "version": "2.34.3"
+            "version": "2.35.3"
           },
           {
             "name": "named-placeholders",
@@ -6616,7 +6716,7 @@
           {
             "name": "node-abi",
             "purl": "",
-            "version": "3.94.0"
+            "version": "3.95.0"
           },
           {
             "name": "node-abort-controller",
@@ -6786,7 +6886,7 @@
           {
             "name": "nwsapi",
             "purl": "",
-            "version": "2.2.24"
+            "version": "2.2.25"
           },
           {
             "name": "oauth-1.0a",
@@ -6872,6 +6972,11 @@
             "name": "openapi-types",
             "purl": "",
             "version": "12.1.3"
+          },
+          {
+            "name": "openapi3-ts",
+            "purl": "",
+            "version": "4.6.1"
           },
           {
             "name": "openid-client",
@@ -7246,7 +7351,7 @@
           {
             "name": "protobufjs",
             "purl": "",
-            "version": "7.6.5"
+            "version": "7.6.6"
           },
           {
             "name": "proxy-addr",
@@ -7416,7 +7521,7 @@
           {
             "name": "remend",
             "purl": "",
-            "version": "1.3.0"
+            "version": "1.3.1"
           },
           {
             "name": "remove-trailing-slash",
@@ -7617,11 +7722,6 @@
             "name": "send",
             "purl": "",
             "version": "1.2.1"
-          },
-          {
-            "name": "seq-queue",
-            "purl": "",
-            "version": "0.0.5"
           },
           {
             "name": "serve-static",
@@ -7996,7 +8096,7 @@
           {
             "name": "swagger-ui-dist",
             "purl": "",
-            "version": "5.32.13"
+            "version": "5.32.14"
           },
           {
             "name": "swagger-ui-express",
@@ -8031,7 +8131,7 @@
           {
             "name": "tdigest",
             "purl": "",
-            "version": "0.1.2"
+            "version": "0.1.3"
           },
           {
             "name": "tedious",
@@ -8197,6 +8297,11 @@
             "name": "ts-interface-checker",
             "purl": "",
             "version": "0.1.13"
+          },
+          {
+            "name": "ts-mixer",
+            "purl": "",
+            "version": "6.0.4"
           },
           {
             "name": "ts-toolbelt",
@@ -8421,7 +8526,7 @@
           {
             "name": "utilium",
             "purl": "",
-            "version": "3.5.0"
+            "version": "3.5.1"
           },
           {
             "name": "uuid",
@@ -8471,12 +8576,12 @@
           {
             "name": "vue",
             "purl": "",
-            "version": "3.5.41"
+            "version": "3.5.42"
           },
           {
             "name": "vue-i18n",
             "purl": "",
-            "version": "11.4.8"
+            "version": "11.4.10"
           },
           {
             "name": "w3c-keyname",
@@ -8859,7 +8964,7 @@
           {
             "name": "websockets",
             "purl": "",
-            "version": "17.0.1"
+            "version": "17.1"
           }
         ],
         "ruby": [],
@@ -8922,12 +9027,12 @@
         "freebsd": 126,
         "go": 10,
         "java": 0,
-        "node": 1556,
+        "node": 1577,
         "php": 0,
         "python": 22,
         "ruby": 0,
         "rust": 10,
-        "total": 1724
+        "total": 1745
       }
     }
   }

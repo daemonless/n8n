@@ -48,6 +48,8 @@ services:
     restart: always
 ```
 
+Save as `compose.yaml`, then run `podman-compose up -d`.
+
 ### AppJail Director
 **.env**:
 
@@ -101,6 +103,9 @@ ARG tag=latest
 OPTION overwrite=force
 OPTION from=ghcr.io/daemonless/n8n:${tag}
 ```
+
+Save the files above, then run `appjail-director up`.
+
 **Note**: Exposing ports in AppJail means that your service can be reached from remote hosts. If that is not your intention, do not expose the ports and communicate with the service using the IPv4 address assigned by the virtual network.
 
 ### Podman CLI
@@ -116,6 +121,8 @@ podman run -d --name n8n \
   -v /path/to/containers/n8n:/config \
   ghcr.io/daemonless/n8n:latest
 ```
+
+Save as `run.sh`, then run `sh run.sh`.
 
 ### AppJail
 
@@ -134,7 +141,42 @@ appjail oci run -Pd \
   -o fstab="/path/to/containers/n8n /config <pseudofs>" \
   ghcr.io/daemonless/n8n:latest n8n
 ```
+
+Save as `run.sh`, then run `sh run.sh`.
+
 **Note**: Exposing ports in AppJail means that your service can be reached from remote hosts. If that is not your intention, do not expose the ports and communicate with the service using the IPv4 address assigned by the virtual network.
+
+### Bastille
+
+> [!WARNING]
+> Bastille's OCI support is **experimental**. It requires `buildah`, shares the host network stack (`inherit`), and persists image-declared volumes under `--data-path`.
+
+```yaml
+services:
+  n8n:
+    image: "ghcr.io/daemonless/n8n:latest"
+    container_name: n8n
+    network_mode: host  # jail shares host networking
+    environment:
+      - N8N_ENCRYPTION_KEY=your-encryption-key-here
+      - PUID=1000
+      - PGID=1000
+      - TZ=UTC
+      - N8N_SECURE_COOKIE=
+```
+
+Save as `podman-compose.yml`, then run `bastille up`. Or via CLI:
+
+```bash
+bastille create -O \
+  --env N8N_ENCRYPTION_KEY=your-encryption-key-here \
+  --env PUID=1000 \
+  --env PGID=1000 \
+  --env TZ=UTC \
+  --env N8N_SECURE_COOKIE= \
+  --data-path /path/to/containers/n8n \
+  n8n ghcr.io/daemonless/n8n:latest inherit
+```
 
 ### Ansible
 
@@ -156,6 +198,8 @@ appjail oci run -Pd \
     volumes:
       - "/path/to/containers/n8n:/config"
 ```
+
+Save as `n8n-deploy.yaml`, then run `ansible-playbook n8n-deploy.yaml`.
 
 ## Parameters
 
