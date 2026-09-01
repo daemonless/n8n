@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-31T15:29:28Z",
+  "generated": "2026-09-01T07:08:42Z",
   "image": "n8n",
   "tags": {
     "latest": {
       "app_version": "2.35.7",
       "arch": "amd64",
-      "generated": "2026-08-31T15:22:03Z",
+      "generated": "2026-09-01T07:02:18Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -986,7 +986,7 @@
           {
             "name": "@ai-sdk/amazon-bedrock",
             "purl": "",
-            "version": "5.0.68"
+            "version": "5.0.69"
           },
           {
             "name": "@ai-sdk/anthropic",
@@ -996,7 +996,7 @@
           {
             "name": "@ai-sdk/azure",
             "purl": "",
-            "version": "4.0.54"
+            "version": "4.0.56"
           },
           {
             "name": "@ai-sdk/cohere",
@@ -1011,12 +1011,12 @@
           {
             "name": "@ai-sdk/gateway",
             "purl": "",
-            "version": "4.0.69"
+            "version": "4.0.70"
           },
           {
             "name": "@ai-sdk/google",
             "purl": "",
-            "version": "4.0.58"
+            "version": "4.0.59"
           },
           {
             "name": "@ai-sdk/groq",
@@ -1031,7 +1031,7 @@
           {
             "name": "@ai-sdk/openai",
             "purl": "",
-            "version": "4.0.52"
+            "version": "4.0.53"
           },
           {
             "name": "@ai-sdk/openai-compatible",
@@ -1041,7 +1041,7 @@
           {
             "name": "@ai-sdk/otel",
             "purl": "",
-            "version": "1.0.85"
+            "version": "1.0.87"
           },
           {
             "name": "@ai-sdk/provider",
@@ -1121,7 +1121,7 @@
           {
             "name": "@aws-sdk/client-bedrock-agent-runtime",
             "purl": "",
-            "version": "3.1121.0"
+            "version": "3.1123.0"
           },
           {
             "name": "@aws-sdk/client-bedrock-runtime",
@@ -1136,17 +1136,17 @@
           {
             "name": "@aws-sdk/client-kendra",
             "purl": "",
-            "version": "3.1121.0"
+            "version": "3.1123.0"
           },
           {
             "name": "@aws-sdk/client-s3",
             "purl": "",
-            "version": "3.1121.0"
+            "version": "3.1123.0"
           },
           {
             "name": "@aws-sdk/client-sagemaker",
             "purl": "",
-            "version": "3.1121.0"
+            "version": "3.1123.0"
           },
           {
             "name": "@aws-sdk/client-secrets-manager",
@@ -1226,7 +1226,7 @@
           {
             "name": "@aws-sdk/lib-storage",
             "purl": "",
-            "version": "3.1121.0"
+            "version": "3.1123.0"
           },
           {
             "name": "@aws-sdk/middleware-bucket-endpoint",
@@ -1571,12 +1571,12 @@
           {
             "name": "@codemirror/state",
             "purl": "",
-            "version": "6.7.1"
+            "version": "6.7.2"
           },
           {
             "name": "@codemirror/view",
             "purl": "",
-            "version": "6.43.9"
+            "version": "6.43.10"
           },
           {
             "name": "@colors/colors",
@@ -2476,12 +2476,12 @@
           {
             "name": "@opentelemetry/context-async-hooks",
             "purl": "",
-            "version": "2.10.0"
+            "version": "2.11.0"
           },
           {
             "name": "@opentelemetry/core",
             "purl": "",
-            "version": "2.10.0"
+            "version": "2.11.0"
           },
           {
             "name": "@opentelemetry/exporter-logs-otlp-grpc",
@@ -2576,7 +2576,7 @@
           {
             "name": "@opentelemetry/resources",
             "purl": "",
-            "version": "2.10.0"
+            "version": "2.11.0"
           },
           {
             "name": "@opentelemetry/sdk-logs",
@@ -2596,17 +2596,17 @@
           {
             "name": "@opentelemetry/sdk-trace",
             "purl": "",
-            "version": "2.10.0"
+            "version": "2.11.0"
           },
           {
             "name": "@opentelemetry/sdk-trace-base",
             "purl": "",
-            "version": "2.10.0"
+            "version": "2.11.0"
           },
           {
             "name": "@opentelemetry/sdk-trace-node",
             "purl": "",
-            "version": "2.10.0"
+            "version": "2.11.0"
           },
           {
             "name": "@opentelemetry/semantic-conventions",
@@ -2791,17 +2791,17 @@
           {
             "name": "@sentry/core",
             "purl": "",
-            "version": "10.72.0"
+            "version": "10.73.0"
           },
           {
             "name": "@sentry/node",
             "purl": "",
-            "version": "10.72.0"
+            "version": "10.73.0"
           },
           {
             "name": "@sentry/node-core",
             "purl": "",
-            "version": "10.72.0"
+            "version": "10.73.0"
           },
           {
             "name": "@sentry/node-cpu-profiler",
@@ -2811,7 +2811,7 @@
           {
             "name": "@sentry/node-native",
             "purl": "",
-            "version": "10.72.0"
+            "version": "10.73.0"
           },
           {
             "name": "@sentry/node-native-stacktrace",
@@ -2821,17 +2821,17 @@
           {
             "name": "@sentry/opentelemetry",
             "purl": "",
-            "version": "10.72.0"
+            "version": "10.73.0"
           },
           {
             "name": "@sentry/profiling-node",
             "purl": "",
-            "version": "10.72.0"
+            "version": "10.73.0"
           },
           {
             "name": "@sentry/server-utils",
             "purl": "",
-            "version": "10.72.0"
+            "version": "10.73.0"
           },
           {
             "name": "@shanghaikid/parquetjs",
@@ -3006,7 +3006,7 @@
           {
             "name": "@smithy/node-http-handler",
             "purl": "",
-            "version": "4.11.3"
+            "version": "4.12.0"
           },
           {
             "name": "@smithy/property-provider",
@@ -3491,7 +3491,7 @@
           {
             "name": "@zenfs/core",
             "purl": "",
-            "version": "2.6.5"
+            "version": "2.6.6"
           },
           {
             "name": "@zilliz/milvus2-sdk-node",
@@ -3566,7 +3566,7 @@
           {
             "name": "ai",
             "purl": "",
-            "version": "7.0.85"
+            "version": "7.0.87"
           },
           {
             "name": "ajv",
@@ -5856,7 +5856,7 @@
           {
             "name": "kerium",
             "purl": "",
-            "version": "1.4.2"
+            "version": "1.4.4"
           },
           {
             "name": "kuler",
