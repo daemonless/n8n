@@ -1,11 +1,11 @@
 {
-  "generated": "2026-09-02T14:14:02Z",
+  "generated": "2026-09-03T19:02:00Z",
   "image": "n8n",
   "tags": {
     "latest": {
-      "app_version": "2.37.7",
+      "app_version": "2.37.9",
       "arch": "amd64",
-      "generated": "2026-09-02T14:06:48Z",
+      "generated": "2026-09-03T18:55:11Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1024,17 +1024,17 @@
           {
             "name": "@ai-sdk/amazon-bedrock",
             "purl": "",
-            "version": "5.0.72"
+            "version": "5.0.74"
           },
           {
             "name": "@ai-sdk/anthropic",
             "purl": "",
-            "version": "4.0.48"
+            "version": "4.0.49"
           },
           {
             "name": "@ai-sdk/azure",
             "purl": "",
-            "version": "4.0.59"
+            "version": "4.0.61"
           },
           {
             "name": "@ai-sdk/cohere",
@@ -1049,17 +1049,17 @@
           {
             "name": "@ai-sdk/gateway",
             "purl": "",
-            "version": "4.0.72"
+            "version": "4.0.74"
           },
           {
             "name": "@ai-sdk/google",
             "purl": "",
-            "version": "4.0.62"
+            "version": "4.0.63"
           },
           {
             "name": "@ai-sdk/google-vertex",
             "purl": "",
-            "version": "5.0.74"
+            "version": "5.0.75"
           },
           {
             "name": "@ai-sdk/groq",
@@ -1074,7 +1074,7 @@
           {
             "name": "@ai-sdk/openai",
             "purl": "",
-            "version": "4.0.56"
+            "version": "4.0.58"
           },
           {
             "name": "@ai-sdk/openai-compatible",
@@ -1084,7 +1084,7 @@
           {
             "name": "@ai-sdk/otel",
             "purl": "",
-            "version": "1.0.90"
+            "version": "1.0.92"
           },
           {
             "name": "@ai-sdk/provider",
@@ -1099,7 +1099,7 @@
           {
             "name": "@ai-sdk/xai",
             "purl": "",
-            "version": "4.0.53"
+            "version": "4.0.54"
           },
           {
             "name": "@anthropic-ai/sdk",
@@ -1179,7 +1179,7 @@
           {
             "name": "@aws-sdk/client-bedrock-agent-runtime",
             "purl": "",
-            "version": "3.1124.0"
+            "version": "3.1125.0"
           },
           {
             "name": "@aws-sdk/client-bedrock-runtime",
@@ -1194,17 +1194,17 @@
           {
             "name": "@aws-sdk/client-kendra",
             "purl": "",
-            "version": "3.1124.0"
+            "version": "3.1125.0"
           },
           {
             "name": "@aws-sdk/client-s3",
             "purl": "",
-            "version": "3.1124.0"
+            "version": "3.1125.0"
           },
           {
             "name": "@aws-sdk/client-sagemaker",
             "purl": "",
-            "version": "3.1124.0"
+            "version": "3.1125.0"
           },
           {
             "name": "@aws-sdk/client-secrets-manager",
@@ -1284,7 +1284,7 @@
           {
             "name": "@aws-sdk/lib-storage",
             "purl": "",
-            "version": "3.1124.0"
+            "version": "3.1125.0"
           },
           {
             "name": "@aws-sdk/middleware-bucket-endpoint",
@@ -1429,7 +1429,7 @@
           {
             "name": "@azure-rest/core-client",
             "purl": "",
-            "version": "2.8.0"
+            "version": "2.9.0"
           },
           {
             "name": "@azure/abort-controller",
@@ -1444,7 +1444,7 @@
           {
             "name": "@azure/core-client",
             "purl": "",
-            "version": "1.11.0"
+            "version": "1.11.1"
           },
           {
             "name": "@azure/core-http-compat",
@@ -1634,7 +1634,7 @@
           {
             "name": "@codemirror/view",
             "purl": "",
-            "version": "6.43.10"
+            "version": "6.43.11"
           },
           {
             "name": "@colors/colors",
@@ -2259,57 +2259,57 @@
           {
             "name": "@n8n/agents",
             "purl": "",
-            "version": "0.22.2"
+            "version": "0.22.3"
           },
           {
             "name": "@n8n/ai-node-sdk",
             "purl": "",
-            "version": "0.27.2"
+            "version": "0.27.3"
           },
           {
             "name": "@n8n/ai-utilities",
             "purl": "",
-            "version": "0.30.2"
+            "version": "0.30.3"
           },
           {
             "name": "@n8n/ai-workflow-builder",
             "purl": "",
-            "version": "1.37.2"
+            "version": "1.37.3"
           },
           {
             "name": "@n8n/api-types",
             "purl": "",
-            "version": "1.37.2"
+            "version": "1.37.3"
           },
           {
             "name": "@n8n/backend-common",
             "purl": "",
-            "version": "1.37.2"
+            "version": "1.37.3"
           },
           {
             "name": "@n8n/backend-network",
             "purl": "",
-            "version": "1.11.2"
+            "version": "1.11.3"
           },
           {
             "name": "@n8n/blob-storage",
             "purl": "",
-            "version": "1.5.2"
+            "version": "1.5.3"
           },
           {
             "name": "@n8n/chat-hub",
             "purl": "",
-            "version": "1.30.2"
+            "version": "1.30.3"
           },
           {
             "name": "@n8n/client-oauth2",
             "purl": "",
-            "version": "1.19.3"
+            "version": "1.19.4"
           },
           {
             "name": "@n8n/composables",
             "purl": "",
-            "version": "1.27.2"
+            "version": "1.27.3"
           },
           {
             "name": "@n8n/config",
@@ -2324,17 +2324,17 @@
           {
             "name": "@n8n/db",
             "purl": "",
-            "version": "1.37.3"
+            "version": "1.37.4"
           },
           {
             "name": "@n8n/decorators",
             "purl": "",
-            "version": "1.37.2"
+            "version": "1.37.3"
           },
           {
             "name": "@n8n/design-system",
             "purl": "",
-            "version": "2.36.2"
+            "version": "2.36.3"
           },
           {
             "name": "@n8n/di",
@@ -2354,7 +2354,7 @@
           {
             "name": "@n8n/expression-runtime",
             "purl": "",
-            "version": "0.28.1"
+            "version": "0.28.2"
           },
           {
             "name": "@n8n/frontend-constants",
@@ -2369,7 +2369,7 @@
           {
             "name": "@n8n/i18n",
             "purl": "",
-            "version": "2.37.2"
+            "version": "2.37.3"
           },
           {
             "name": "@n8n/imap",
@@ -2379,7 +2379,7 @@
           {
             "name": "@n8n/instance-ai",
             "purl": "",
-            "version": "1.22.2"
+            "version": "1.22.3"
           },
           {
             "name": "@n8n/json-schema-to-zod",
@@ -2389,7 +2389,7 @@
           {
             "name": "@n8n/mcp-apps",
             "purl": "",
-            "version": "0.14.2"
+            "version": "0.14.3"
           },
           {
             "name": "@n8n/mcp-browser",
@@ -2399,12 +2399,12 @@
           {
             "name": "@n8n/n8n-nodes-langchain",
             "purl": "",
-            "version": "2.37.3"
+            "version": "2.37.4"
           },
           {
             "name": "@n8n/node-engine-compatibility",
             "purl": "",
-            "version": "0.5.3"
+            "version": "0.5.4"
           },
           {
             "name": "@n8n/permissions",
@@ -2419,7 +2419,7 @@
           {
             "name": "@n8n/scheduler",
             "purl": "",
-            "version": "1.6.2"
+            "version": "1.6.3"
           },
           {
             "name": "@n8n/syslog-client",
@@ -2429,7 +2429,7 @@
           {
             "name": "@n8n/task-runner",
             "purl": "",
-            "version": "2.37.3"
+            "version": "2.37.4"
           },
           {
             "name": "@n8n/telemetry",
@@ -2459,7 +2459,7 @@
           {
             "name": "@n8n/workflow-sdk",
             "purl": "",
-            "version": "0.30.2"
+            "version": "0.30.3"
           },
           {
             "name": "@n8n_io/ai-assistant-sdk",
@@ -3364,72 +3364,72 @@
           {
             "name": "@tiptap/extension-blockquote",
             "purl": "",
-            "version": "3.31.0"
+            "version": "3.31.2"
           },
           {
             "name": "@tiptap/extension-bold",
             "purl": "",
-            "version": "3.31.0"
+            "version": "3.31.2"
           },
           {
             "name": "@tiptap/extension-bubble-menu",
             "purl": "",
-            "version": "3.31.0"
+            "version": "3.31.2"
           },
           {
             "name": "@tiptap/extension-bullet-list",
             "purl": "",
-            "version": "3.31.0"
+            "version": "3.31.2"
           },
           {
             "name": "@tiptap/extension-code",
             "purl": "",
-            "version": "3.31.0"
+            "version": "3.31.2"
           },
           {
             "name": "@tiptap/extension-code-block",
             "purl": "",
-            "version": "3.31.0"
+            "version": "3.31.2"
           },
           {
             "name": "@tiptap/extension-document",
             "purl": "",
-            "version": "3.31.0"
+            "version": "3.31.2"
           },
           {
             "name": "@tiptap/extension-dropcursor",
             "purl": "",
-            "version": "3.31.0"
+            "version": "3.31.2"
           },
           {
             "name": "@tiptap/extension-floating-menu",
             "purl": "",
-            "version": "3.31.0"
+            "version": "3.31.2"
           },
           {
             "name": "@tiptap/extension-gapcursor",
             "purl": "",
-            "version": "3.31.0"
+            "version": "3.31.2"
           },
           {
             "name": "@tiptap/extension-hard-break",
             "purl": "",
-            "version": "3.31.0"
+            "version": "3.31.2"
           },
           {
             "name": "@tiptap/extension-heading",
             "purl": "",
-            "version": "3.31.0"
+            "version": "3.31.2"
           },
           {
             "name": "@tiptap/extension-horizontal-rule",
             "purl": "",
-            "version": "3.31.0"
+            "version": "3.31.2"
           },
           {
             "name": "@tiptap/extension-italic",
             "purl": "",
-            "version": "3.31.0"
+            "version": "3.31.2"
           },
           {
             "name": "@tiptap/extension-link",
@@ -3444,22 +3444,22 @@
           {
             "name": "@tiptap/extension-list-item",
             "purl": "",
-            "version": "3.31.0"
+            "version": "3.31.2"
           },
           {
             "name": "@tiptap/extension-list-keymap",
             "purl": "",
-            "version": "3.31.0"
+            "version": "3.31.2"
           },
           {
             "name": "@tiptap/extension-ordered-list",
             "purl": "",
-            "version": "3.31.0"
+            "version": "3.31.2"
           },
           {
             "name": "@tiptap/extension-paragraph",
             "purl": "",
-            "version": "3.31.0"
+            "version": "3.31.2"
           },
           {
             "name": "@tiptap/extension-placeholder",
@@ -3469,7 +3469,7 @@
           {
             "name": "@tiptap/extension-strike",
             "purl": "",
-            "version": "3.31.0"
+            "version": "3.31.2"
           },
           {
             "name": "@tiptap/extension-table",
@@ -3504,7 +3504,7 @@
           {
             "name": "@tiptap/extension-text",
             "purl": "",
-            "version": "3.31.0"
+            "version": "3.31.2"
           },
           {
             "name": "@tiptap/extension-underline",
@@ -3764,7 +3764,7 @@
           {
             "name": "@typespec/ts-http-runtime",
             "purl": "",
-            "version": "0.3.8"
+            "version": "0.3.9"
           },
           {
             "name": "@vercel/oidc",
@@ -3864,7 +3864,7 @@
           {
             "name": "@zenfs/core",
             "purl": "",
-            "version": "2.7.0"
+            "version": "2.7.1"
           },
           {
             "name": "@zilliz/milvus2-sdk-node",
@@ -3939,7 +3939,7 @@
           {
             "name": "ai",
             "purl": "",
-            "version": "7.0.90"
+            "version": "7.0.92"
           },
           {
             "name": "ajv",
@@ -7074,27 +7074,27 @@
           {
             "name": "n8n",
             "purl": "",
-            "version": "2.37.7"
+            "version": "2.37.9"
           },
           {
             "name": "n8n-core",
             "purl": "",
-            "version": "2.37.3"
+            "version": "2.37.4"
           },
           {
             "name": "n8n-editor-ui",
             "purl": "",
-            "version": "2.37.2"
+            "version": "2.37.3"
           },
           {
             "name": "n8n-nodes-base",
             "purl": "",
-            "version": "2.37.2"
+            "version": "2.37.3"
           },
           {
             "name": "n8n-workflow",
             "purl": "",
-            "version": "2.37.2"
+            "version": "2.37.3"
           },
           {
             "name": "named-placeholders",
@@ -7699,7 +7699,7 @@
           {
             "name": "postcss",
             "purl": "",
-            "version": "8.5.26"
+            "version": "8.5.28"
           },
           {
             "name": "postcss-selector-parser",
@@ -8409,7 +8409,7 @@
           {
             "name": "socks",
             "purl": "",
-            "version": "2.8.9"
+            "version": "2.8.10"
           },
           {
             "name": "socks-proxy-agent",
@@ -9069,7 +9069,7 @@
           {
             "name": "utilium",
             "purl": "",
-            "version": "3.5.1"
+            "version": "3.6.1"
           },
           {
             "name": "uuid",
