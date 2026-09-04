@@ -1,11 +1,11 @@
 {
-  "generated": "2026-09-03T19:02:00Z",
+  "generated": "2026-09-04T14:03:42Z",
   "image": "n8n",
   "tags": {
     "latest": {
-      "app_version": "2.37.9",
+      "app_version": "2.37.10",
       "arch": "amd64",
-      "generated": "2026-09-03T18:55:11Z",
+      "generated": "2026-09-04T13:57:43Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -288,7 +288,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.127"
+            "version": "3.128"
           },
           {
             "licenses": [
@@ -691,7 +691,7 @@
               "MIT"
             ],
             "name": "node24",
-            "version": "24.18.0"
+            "version": "24.19.0"
           },
           {
             "licenses": [
@@ -1179,7 +1179,7 @@
           {
             "name": "@aws-sdk/client-bedrock-agent-runtime",
             "purl": "",
-            "version": "3.1125.0"
+            "version": "3.1126.0"
           },
           {
             "name": "@aws-sdk/client-bedrock-runtime",
@@ -1194,17 +1194,17 @@
           {
             "name": "@aws-sdk/client-kendra",
             "purl": "",
-            "version": "3.1125.0"
+            "version": "3.1126.0"
           },
           {
             "name": "@aws-sdk/client-s3",
             "purl": "",
-            "version": "3.1125.0"
+            "version": "3.1126.0"
           },
           {
             "name": "@aws-sdk/client-sagemaker",
             "purl": "",
-            "version": "3.1125.0"
+            "version": "3.1126.0"
           },
           {
             "name": "@aws-sdk/client-secrets-manager",
@@ -1284,7 +1284,7 @@
           {
             "name": "@aws-sdk/lib-storage",
             "purl": "",
-            "version": "3.1125.0"
+            "version": "3.1126.0"
           },
           {
             "name": "@aws-sdk/middleware-bucket-endpoint",
@@ -1574,7 +1574,7 @@
           {
             "name": "@browserbasehq/sdk",
             "purl": "",
-            "version": "2.19.0"
+            "version": "2.19.1"
           },
           {
             "name": "@browserbasehq/stagehand",
@@ -1629,7 +1629,7 @@
           {
             "name": "@codemirror/state",
             "purl": "",
-            "version": "6.7.2"
+            "version": "6.7.3"
           },
           {
             "name": "@codemirror/view",
@@ -1834,7 +1834,7 @@
           {
             "name": "@huggingface/jinja",
             "purl": "",
-            "version": "0.5.9"
+            "version": "0.5.10"
           },
           {
             "name": "@huggingface/tasks",
@@ -2259,82 +2259,82 @@
           {
             "name": "@n8n/agents",
             "purl": "",
-            "version": "0.22.3"
+            "version": "0.22.4"
           },
           {
             "name": "@n8n/ai-node-sdk",
             "purl": "",
-            "version": "0.27.3"
+            "version": "0.27.4"
           },
           {
             "name": "@n8n/ai-utilities",
             "purl": "",
-            "version": "0.30.3"
+            "version": "0.30.4"
           },
           {
             "name": "@n8n/ai-workflow-builder",
             "purl": "",
-            "version": "1.37.3"
+            "version": "1.37.4"
           },
           {
             "name": "@n8n/api-types",
             "purl": "",
-            "version": "1.37.3"
+            "version": "1.37.4"
           },
           {
             "name": "@n8n/backend-common",
             "purl": "",
-            "version": "1.37.3"
+            "version": "1.37.4"
           },
           {
             "name": "@n8n/backend-network",
             "purl": "",
-            "version": "1.11.3"
+            "version": "1.11.4"
           },
           {
             "name": "@n8n/blob-storage",
             "purl": "",
-            "version": "1.5.3"
+            "version": "1.5.4"
           },
           {
             "name": "@n8n/chat-hub",
             "purl": "",
-            "version": "1.30.3"
+            "version": "1.30.4"
           },
           {
             "name": "@n8n/client-oauth2",
             "purl": "",
-            "version": "1.19.4"
+            "version": "1.19.5"
           },
           {
             "name": "@n8n/composables",
             "purl": "",
-            "version": "1.27.3"
+            "version": "1.27.4"
           },
           {
             "name": "@n8n/config",
             "purl": "",
-            "version": "2.35.1"
+            "version": "2.35.2"
           },
           {
             "name": "@n8n/constants",
             "purl": "",
-            "version": "0.36.1"
+            "version": "0.36.2"
           },
           {
             "name": "@n8n/db",
             "purl": "",
-            "version": "1.37.4"
+            "version": "1.37.5"
           },
           {
             "name": "@n8n/decorators",
             "purl": "",
-            "version": "1.37.3"
+            "version": "1.37.4"
           },
           {
             "name": "@n8n/design-system",
             "purl": "",
-            "version": "2.36.3"
+            "version": "2.36.4"
           },
           {
             "name": "@n8n/di",
@@ -2344,7 +2344,7 @@
           {
             "name": "@n8n/engine",
             "purl": "",
-            "version": "0.17.1"
+            "version": "0.17.2"
           },
           {
             "name": "@n8n/errors",
@@ -2369,7 +2369,7 @@
           {
             "name": "@n8n/i18n",
             "purl": "",
-            "version": "2.37.3"
+            "version": "2.37.4"
           },
           {
             "name": "@n8n/imap",
@@ -2379,7 +2379,7 @@
           {
             "name": "@n8n/instance-ai",
             "purl": "",
-            "version": "1.22.3"
+            "version": "1.22.4"
           },
           {
             "name": "@n8n/json-schema-to-zod",
@@ -2389,7 +2389,7 @@
           {
             "name": "@n8n/mcp-apps",
             "purl": "",
-            "version": "0.14.3"
+            "version": "0.14.4"
           },
           {
             "name": "@n8n/mcp-browser",
@@ -2399,12 +2399,12 @@
           {
             "name": "@n8n/n8n-nodes-langchain",
             "purl": "",
-            "version": "2.37.4"
+            "version": "2.37.5"
           },
           {
             "name": "@n8n/node-engine-compatibility",
             "purl": "",
-            "version": "0.5.4"
+            "version": "0.5.5"
           },
           {
             "name": "@n8n/permissions",
@@ -2419,7 +2419,7 @@
           {
             "name": "@n8n/scheduler",
             "purl": "",
-            "version": "1.6.3"
+            "version": "1.6.4"
           },
           {
             "name": "@n8n/syslog-client",
@@ -2429,12 +2429,12 @@
           {
             "name": "@n8n/task-runner",
             "purl": "",
-            "version": "2.37.4"
+            "version": "2.37.5"
           },
           {
             "name": "@n8n/telemetry",
             "purl": "",
-            "version": "1.5.1"
+            "version": "1.5.2"
           },
           {
             "name": "@n8n/tournament",
@@ -2454,12 +2454,12 @@
           {
             "name": "@n8n/utils",
             "purl": "",
-            "version": "1.45.1"
+            "version": "1.45.2"
           },
           {
             "name": "@n8n/workflow-sdk",
             "purl": "",
-            "version": "0.30.3"
+            "version": "0.30.4"
           },
           {
             "name": "@n8n_io/ai-assistant-sdk",
@@ -2784,12 +2784,12 @@
           {
             "name": "@posthog/core",
             "purl": "",
-            "version": "1.50.2"
+            "version": "1.50.5"
           },
           {
             "name": "@posthog/types",
             "purl": "",
-            "version": "1.408.0"
+            "version": "1.409.0"
           },
           {
             "name": "@protobufjs/aspromise",
@@ -3069,7 +3069,7 @@
           {
             "name": "@smithy/fetch-http-handler",
             "purl": "",
-            "version": "5.7.2"
+            "version": "5.8.0"
           },
           {
             "name": "@smithy/hash-blob-browser",
@@ -3134,7 +3134,7 @@
           {
             "name": "@smithy/node-http-handler",
             "purl": "",
-            "version": "4.12.0"
+            "version": "4.12.1"
           },
           {
             "name": "@smithy/property-provider",
@@ -3364,72 +3364,72 @@
           {
             "name": "@tiptap/extension-blockquote",
             "purl": "",
-            "version": "3.31.2"
+            "version": "3.31.3"
           },
           {
             "name": "@tiptap/extension-bold",
             "purl": "",
-            "version": "3.31.2"
+            "version": "3.31.3"
           },
           {
             "name": "@tiptap/extension-bubble-menu",
             "purl": "",
-            "version": "3.31.2"
+            "version": "3.31.3"
           },
           {
             "name": "@tiptap/extension-bullet-list",
             "purl": "",
-            "version": "3.31.2"
+            "version": "3.31.3"
           },
           {
             "name": "@tiptap/extension-code",
             "purl": "",
-            "version": "3.31.2"
+            "version": "3.31.3"
           },
           {
             "name": "@tiptap/extension-code-block",
             "purl": "",
-            "version": "3.31.2"
+            "version": "3.31.3"
           },
           {
             "name": "@tiptap/extension-document",
             "purl": "",
-            "version": "3.31.2"
+            "version": "3.31.3"
           },
           {
             "name": "@tiptap/extension-dropcursor",
             "purl": "",
-            "version": "3.31.2"
+            "version": "3.31.3"
           },
           {
             "name": "@tiptap/extension-floating-menu",
             "purl": "",
-            "version": "3.31.2"
+            "version": "3.31.3"
           },
           {
             "name": "@tiptap/extension-gapcursor",
             "purl": "",
-            "version": "3.31.2"
+            "version": "3.31.3"
           },
           {
             "name": "@tiptap/extension-hard-break",
             "purl": "",
-            "version": "3.31.2"
+            "version": "3.31.3"
           },
           {
             "name": "@tiptap/extension-heading",
             "purl": "",
-            "version": "3.31.2"
+            "version": "3.31.3"
           },
           {
             "name": "@tiptap/extension-horizontal-rule",
             "purl": "",
-            "version": "3.31.2"
+            "version": "3.31.3"
           },
           {
             "name": "@tiptap/extension-italic",
             "purl": "",
-            "version": "3.31.2"
+            "version": "3.31.3"
           },
           {
             "name": "@tiptap/extension-link",
@@ -3444,22 +3444,22 @@
           {
             "name": "@tiptap/extension-list-item",
             "purl": "",
-            "version": "3.31.2"
+            "version": "3.31.3"
           },
           {
             "name": "@tiptap/extension-list-keymap",
             "purl": "",
-            "version": "3.31.2"
+            "version": "3.31.3"
           },
           {
             "name": "@tiptap/extension-ordered-list",
             "purl": "",
-            "version": "3.31.2"
+            "version": "3.31.3"
           },
           {
             "name": "@tiptap/extension-paragraph",
             "purl": "",
-            "version": "3.31.2"
+            "version": "3.31.3"
           },
           {
             "name": "@tiptap/extension-placeholder",
@@ -3469,7 +3469,7 @@
           {
             "name": "@tiptap/extension-strike",
             "purl": "",
-            "version": "3.31.2"
+            "version": "3.31.3"
           },
           {
             "name": "@tiptap/extension-table",
@@ -3504,7 +3504,7 @@
           {
             "name": "@tiptap/extension-text",
             "purl": "",
-            "version": "3.31.2"
+            "version": "3.31.3"
           },
           {
             "name": "@tiptap/extension-underline",
@@ -6119,7 +6119,7 @@
           {
             "name": "jose",
             "purl": "",
-            "version": "6.2.10"
+            "version": "6.2.11"
           },
           {
             "name": "js-base64",
@@ -7074,27 +7074,27 @@
           {
             "name": "n8n",
             "purl": "",
-            "version": "2.37.9"
+            "version": "2.37.10"
           },
           {
             "name": "n8n-core",
             "purl": "",
-            "version": "2.37.4"
+            "version": "2.37.5"
           },
           {
             "name": "n8n-editor-ui",
             "purl": "",
-            "version": "2.37.3"
+            "version": "2.37.4"
           },
           {
             "name": "n8n-nodes-base",
             "purl": "",
-            "version": "2.37.3"
+            "version": "2.37.4"
           },
           {
             "name": "n8n-workflow",
             "purl": "",
-            "version": "2.37.3"
+            "version": "2.37.4"
           },
           {
             "name": "named-placeholders",
@@ -8639,7 +8639,7 @@
           {
             "name": "swagger-ui-dist",
             "purl": "",
-            "version": "5.32.14"
+            "version": "5.32.15"
           },
           {
             "name": "swagger-ui-express",
