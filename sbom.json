@@ -1,11 +1,11 @@
 {
-  "generated": "2026-09-04T14:03:42Z",
+  "generated": "2026-09-08T13:11:46Z",
   "image": "n8n",
   "tags": {
     "latest": {
-      "app_version": "2.37.10",
+      "app_version": "2.38.1",
       "arch": "amd64",
-      "generated": "2026-09-04T13:57:43Z",
+      "generated": "2026-09-08T13:04:31Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1022,9 +1022,14 @@
             "version": "0.1.2"
           },
           {
+            "name": "@ai-sdk/alibaba",
+            "purl": "",
+            "version": "2.0.41"
+          },
+          {
             "name": "@ai-sdk/amazon-bedrock",
             "purl": "",
-            "version": "5.0.74"
+            "version": "5.0.76"
           },
           {
             "name": "@ai-sdk/anthropic",
@@ -1034,7 +1039,7 @@
           {
             "name": "@ai-sdk/azure",
             "purl": "",
-            "version": "4.0.61"
+            "version": "4.0.63"
           },
           {
             "name": "@ai-sdk/cohere",
@@ -1049,17 +1054,17 @@
           {
             "name": "@ai-sdk/gateway",
             "purl": "",
-            "version": "4.0.74"
+            "version": "4.0.75"
           },
           {
             "name": "@ai-sdk/google",
             "purl": "",
-            "version": "4.0.63"
+            "version": "4.0.64"
           },
           {
             "name": "@ai-sdk/google-vertex",
             "purl": "",
-            "version": "5.0.75"
+            "version": "5.0.76"
           },
           {
             "name": "@ai-sdk/groq",
@@ -1067,24 +1072,34 @@
             "version": "4.0.37"
           },
           {
+            "name": "@ai-sdk/minimax",
+            "purl": "",
+            "version": "3.0.25"
+          },
+          {
             "name": "@ai-sdk/mistral",
             "purl": "",
             "version": "4.0.39"
           },
           {
+            "name": "@ai-sdk/moonshotai",
+            "purl": "",
+            "version": "3.0.45"
+          },
+          {
             "name": "@ai-sdk/openai",
             "purl": "",
-            "version": "4.0.58"
+            "version": "4.0.60"
           },
           {
             "name": "@ai-sdk/openai-compatible",
             "purl": "",
-            "version": "3.0.43"
+            "version": "3.0.44"
           },
           {
             "name": "@ai-sdk/otel",
             "purl": "",
-            "version": "1.0.92"
+            "version": "1.0.93"
           },
           {
             "name": "@ai-sdk/provider",
@@ -1179,7 +1194,7 @@
           {
             "name": "@aws-sdk/client-bedrock-agent-runtime",
             "purl": "",
-            "version": "3.1126.0"
+            "version": "3.1127.0"
           },
           {
             "name": "@aws-sdk/client-bedrock-runtime",
@@ -1194,17 +1209,17 @@
           {
             "name": "@aws-sdk/client-kendra",
             "purl": "",
-            "version": "3.1126.0"
+            "version": "3.1127.0"
           },
           {
             "name": "@aws-sdk/client-s3",
             "purl": "",
-            "version": "3.1126.0"
+            "version": "3.1127.0"
           },
           {
             "name": "@aws-sdk/client-sagemaker",
             "purl": "",
-            "version": "3.1126.0"
+            "version": "3.1127.0"
           },
           {
             "name": "@aws-sdk/client-secrets-manager",
@@ -1284,7 +1299,7 @@
           {
             "name": "@aws-sdk/lib-storage",
             "purl": "",
-            "version": "3.1126.0"
+            "version": "3.1127.0"
           },
           {
             "name": "@aws-sdk/middleware-bucket-endpoint",
@@ -1629,7 +1644,7 @@
           {
             "name": "@codemirror/state",
             "purl": "",
-            "version": "6.7.3"
+            "version": "6.7.4"
           },
           {
             "name": "@codemirror/view",
@@ -1654,7 +1669,7 @@
           {
             "name": "@dabh/diagnostics",
             "purl": "",
-            "version": "2.0.8"
+            "version": "2.0.9"
           },
           {
             "name": "@dagrejs/dagre",
@@ -1667,19 +1682,24 @@
             "version": "2.2.4"
           },
           {
+            "name": "@daytona/analytics-api-client",
+            "purl": "",
+            "version": "0.205.1"
+          },
+          {
             "name": "@daytona/api-client",
             "purl": "",
-            "version": "0.194.0"
+            "version": "0.205.1"
           },
           {
             "name": "@daytona/sdk",
             "purl": "",
-            "version": "0.194.0"
+            "version": "0.205.1"
           },
           {
             "name": "@daytona/toolbox-api-client",
             "purl": "",
-            "version": "0.194.0"
+            "version": "0.205.1"
           },
           {
             "name": "@discordjs/builders",
@@ -1907,6 +1927,31 @@
             "version": "1.1.0"
           },
           {
+            "name": "@jitl/quickjs-ffi-types",
+            "purl": "",
+            "version": "0.32.0"
+          },
+          {
+            "name": "@jitl/quickjs-wasmfile-debug-asyncify",
+            "purl": "",
+            "version": "0.32.0"
+          },
+          {
+            "name": "@jitl/quickjs-wasmfile-debug-sync",
+            "purl": "",
+            "version": "0.32.0"
+          },
+          {
+            "name": "@jitl/quickjs-wasmfile-release-asyncify",
+            "purl": "",
+            "version": "0.32.0"
+          },
+          {
+            "name": "@jitl/quickjs-wasmfile-release-sync",
+            "purl": "",
+            "version": "0.32.0"
+          },
+          {
             "name": "@joplin/turndown-plugin-gfm",
             "purl": "",
             "version": "1.0.64"
@@ -2104,7 +2149,7 @@
           {
             "name": "@langchain/protocol",
             "purl": "",
-            "version": "0.0.18"
+            "version": "0.0.19"
           },
           {
             "name": "@langchain/qdrant",
@@ -2239,7 +2284,7 @@
           {
             "name": "@mongodb-js/saslprep",
             "purl": "",
-            "version": "1.5.0"
+            "version": "1.5.2"
           },
           {
             "name": "@mozilla/readability",
@@ -2259,82 +2304,82 @@
           {
             "name": "@n8n/agents",
             "purl": "",
-            "version": "0.22.4"
+            "version": "0.23.0"
           },
           {
             "name": "@n8n/ai-node-sdk",
             "purl": "",
-            "version": "0.27.4"
+            "version": "0.28.0"
           },
           {
             "name": "@n8n/ai-utilities",
             "purl": "",
-            "version": "0.30.4"
+            "version": "0.31.0"
           },
           {
             "name": "@n8n/ai-workflow-builder",
             "purl": "",
-            "version": "1.37.4"
+            "version": "1.38.0"
           },
           {
             "name": "@n8n/api-types",
             "purl": "",
-            "version": "1.37.4"
+            "version": "1.38.0"
           },
           {
             "name": "@n8n/backend-common",
             "purl": "",
-            "version": "1.37.4"
+            "version": "1.38.0"
           },
           {
             "name": "@n8n/backend-network",
             "purl": "",
-            "version": "1.11.4"
+            "version": "1.12.0"
           },
           {
             "name": "@n8n/blob-storage",
             "purl": "",
-            "version": "1.5.4"
+            "version": "1.6.0"
           },
           {
             "name": "@n8n/chat-hub",
             "purl": "",
-            "version": "1.30.4"
+            "version": "1.31.0"
           },
           {
             "name": "@n8n/client-oauth2",
             "purl": "",
-            "version": "1.19.5"
+            "version": "1.20.0"
           },
           {
             "name": "@n8n/composables",
             "purl": "",
-            "version": "1.27.4"
+            "version": "1.28.0"
           },
           {
             "name": "@n8n/config",
             "purl": "",
-            "version": "2.35.2"
+            "version": "2.36.0"
           },
           {
             "name": "@n8n/constants",
             "purl": "",
-            "version": "0.36.2"
+            "version": "0.37.0"
           },
           {
             "name": "@n8n/db",
             "purl": "",
-            "version": "1.37.5"
+            "version": "1.38.0"
           },
           {
             "name": "@n8n/decorators",
             "purl": "",
-            "version": "1.37.4"
+            "version": "1.38.0"
           },
           {
             "name": "@n8n/design-system",
             "purl": "",
-            "version": "2.36.4"
+            "version": "2.37.0"
           },
           {
             "name": "@n8n/di",
@@ -2344,7 +2389,7 @@
           {
             "name": "@n8n/engine",
             "purl": "",
-            "version": "0.17.2"
+            "version": "0.18.0"
           },
           {
             "name": "@n8n/errors",
@@ -2354,12 +2399,12 @@
           {
             "name": "@n8n/expression-runtime",
             "purl": "",
-            "version": "0.28.2"
+            "version": "0.29.0"
           },
           {
             "name": "@n8n/frontend-constants",
             "purl": "",
-            "version": "0.5.0"
+            "version": "0.6.0"
           },
           {
             "name": "@n8n/frontend-utils",
@@ -2369,7 +2414,7 @@
           {
             "name": "@n8n/i18n",
             "purl": "",
-            "version": "2.37.4"
+            "version": "2.38.0"
           },
           {
             "name": "@n8n/imap",
@@ -2379,7 +2424,7 @@
           {
             "name": "@n8n/instance-ai",
             "purl": "",
-            "version": "1.22.4"
+            "version": "1.23.0"
           },
           {
             "name": "@n8n/json-schema-to-zod",
@@ -2389,27 +2434,27 @@
           {
             "name": "@n8n/mcp-apps",
             "purl": "",
-            "version": "0.14.4"
+            "version": "0.15.0"
           },
           {
             "name": "@n8n/mcp-browser",
             "purl": "",
-            "version": "0.19.0"
+            "version": "0.20.0"
           },
           {
             "name": "@n8n/n8n-nodes-langchain",
             "purl": "",
-            "version": "2.37.5"
+            "version": "2.38.0"
           },
           {
             "name": "@n8n/node-engine-compatibility",
             "purl": "",
-            "version": "0.5.5"
+            "version": "0.6.0"
           },
           {
             "name": "@n8n/permissions",
             "purl": "",
-            "version": "0.74.1"
+            "version": "0.75.0"
           },
           {
             "name": "@n8n/sandbox-client",
@@ -2419,7 +2464,7 @@
           {
             "name": "@n8n/scheduler",
             "purl": "",
-            "version": "1.6.4"
+            "version": "1.7.0"
           },
           {
             "name": "@n8n/syslog-client",
@@ -2429,17 +2474,17 @@
           {
             "name": "@n8n/task-runner",
             "purl": "",
-            "version": "2.37.5"
+            "version": "2.38.0"
           },
           {
             "name": "@n8n/telemetry",
             "purl": "",
-            "version": "1.5.2"
+            "version": "1.6.0"
           },
           {
             "name": "@n8n/tournament",
             "purl": "",
-            "version": "1.10.1"
+            "version": "1.10.0"
           },
           {
             "name": "@n8n/typeorm",
@@ -2449,17 +2494,17 @@
           {
             "name": "@n8n/typescript-config",
             "purl": "",
-            "version": "1.10.0"
+            "version": "1.11.0"
           },
           {
             "name": "@n8n/utils",
             "purl": "",
-            "version": "1.45.2"
+            "version": "1.46.0"
           },
           {
             "name": "@n8n/workflow-sdk",
             "purl": "",
-            "version": "0.30.4"
+            "version": "0.31.0"
           },
           {
             "name": "@n8n_io/ai-assistant-sdk",
@@ -2674,7 +2719,7 @@
           {
             "name": "@opentelemetry/instrumentation-http",
             "purl": "",
-            "version": "0.217.0"
+            "version": "0.221.0"
           },
           {
             "name": "@opentelemetry/otlp-exporter-base",
@@ -2779,17 +2824,17 @@
           {
             "name": "@playwright/test",
             "purl": "",
-            "version": "1.62.1"
+            "version": "1.63.0"
           },
           {
             "name": "@posthog/core",
             "purl": "",
-            "version": "1.50.5"
+            "version": "1.51.0"
           },
           {
             "name": "@posthog/types",
             "purl": "",
-            "version": "1.409.0"
+            "version": "1.409.1"
           },
           {
             "name": "@protobufjs/aspromise",
@@ -2820,11 +2865,6 @@
             "name": "@protobufjs/float",
             "purl": "",
             "version": "1.0.2"
-          },
-          {
-            "name": "@protobufjs/inquire",
-            "purl": "",
-            "version": "1.1.2"
           },
           {
             "name": "@protobufjs/path",
@@ -3257,6 +3297,11 @@
             "version": "1.1.6"
           },
           {
+            "name": "@socket.io/component-emitter",
+            "purl": "",
+            "version": "3.1.2"
+          },
+          {
             "name": "@stablelib/base64",
             "purl": "",
             "version": "1.0.1"
@@ -3329,7 +3374,7 @@
           {
             "name": "@tanstack/virtual-core",
             "purl": "",
-            "version": "3.17.8"
+            "version": "3.17.9"
           },
           {
             "name": "@tanstack/vue-table",
@@ -3339,7 +3384,7 @@
           {
             "name": "@tanstack/vue-virtual",
             "purl": "",
-            "version": "3.13.36"
+            "version": "3.13.37"
           },
           {
             "name": "@techteamer/ocsp",
@@ -3864,7 +3909,7 @@
           {
             "name": "@zenfs/core",
             "purl": "",
-            "version": "2.7.1"
+            "version": "2.7.3"
           },
           {
             "name": "@zilliz/milvus2-sdk-node",
@@ -3939,7 +3984,7 @@
           {
             "name": "ai",
             "purl": "",
-            "version": "7.0.92"
+            "version": "7.0.93"
           },
           {
             "name": "ajv",
@@ -5042,6 +5087,16 @@
             "version": "1.4.5"
           },
           {
+            "name": "engine.io-client",
+            "purl": "",
+            "version": "6.6.6"
+          },
+          {
+            "name": "engine.io-parser",
+            "purl": "",
+            "version": "5.2.3"
+          },
+          {
             "name": "entities",
             "purl": "",
             "version": "2.2.0"
@@ -5654,7 +5709,7 @@
           {
             "name": "hono",
             "purl": "",
-            "version": "4.13.5"
+            "version": "4.13.7"
           },
           {
             "name": "hosted-git-info",
@@ -6119,7 +6174,7 @@
           {
             "name": "jose",
             "purl": "",
-            "version": "6.2.11"
+            "version": "6.2.12"
           },
           {
             "name": "js-base64",
@@ -6289,7 +6344,7 @@
           {
             "name": "kerium",
             "purl": "",
-            "version": "1.4.4"
+            "version": "1.5.0"
           },
           {
             "name": "kuler",
@@ -7074,27 +7129,27 @@
           {
             "name": "n8n",
             "purl": "",
-            "version": "2.37.10"
+            "version": "2.38.1"
           },
           {
             "name": "n8n-core",
             "purl": "",
-            "version": "2.37.5"
+            "version": "2.38.0"
           },
           {
             "name": "n8n-editor-ui",
             "purl": "",
-            "version": "2.37.4"
+            "version": "2.38.0"
           },
           {
             "name": "n8n-nodes-base",
             "purl": "",
-            "version": "2.37.4"
+            "version": "2.38.0"
           },
           {
             "name": "n8n-workflow",
             "purl": "",
-            "version": "2.37.4"
+            "version": "2.38.0"
           },
           {
             "name": "named-placeholders",
@@ -7344,7 +7399,7 @@
           {
             "name": "oauth4webapi",
             "purl": "",
-            "version": "3.8.7"
+            "version": "3.8.8"
           },
           {
             "name": "object-assign",
@@ -7684,7 +7739,7 @@
           {
             "name": "playwright",
             "purl": "",
-            "version": "1.62.1"
+            "version": "1.63.0"
           },
           {
             "name": "playwright-core",
@@ -7940,6 +7995,16 @@
             "name": "queue-microtask",
             "purl": "",
             "version": "1.2.3"
+          },
+          {
+            "name": "quickjs-emscripten",
+            "purl": "",
+            "version": "0.32.0"
+          },
+          {
+            "name": "quickjs-emscripten-core",
+            "purl": "",
+            "version": "0.32.0"
           },
           {
             "name": "quoted-printable",
@@ -8405,6 +8470,16 @@
             "name": "snowflake-sdk",
             "purl": "",
             "version": "2.1.0"
+          },
+          {
+            "name": "socket.io-client",
+            "purl": "",
+            "version": "4.8.3"
+          },
+          {
+            "name": "socket.io-parser",
+            "purl": "",
+            "version": "4.2.7"
           },
           {
             "name": "socks",
@@ -9069,7 +9144,7 @@
           {
             "name": "utilium",
             "purl": "",
-            "version": "3.6.1"
+            "version": "3.7.0"
           },
           {
             "name": "uuid",
@@ -9324,7 +9399,7 @@
           {
             "name": "xmlhttprequest-ssl",
             "purl": "",
-            "version": "3.1.0"
+            "version": "2.1.2"
           },
           {
             "name": "xmllint-wasm",
@@ -9585,12 +9660,12 @@
         "freebsd": 131,
         "go": 10,
         "java": 0,
-        "node": 1681,
+        "node": 1696,
         "php": 0,
         "python": 22,
         "ruby": 0,
         "rust": 10,
-        "total": 1854
+        "total": 1869
       }
     }
   }
