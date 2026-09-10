@@ -1,11 +1,11 @@
 {
-  "generated": "2026-09-09T17:45:52Z",
+  "generated": "2026-09-10T17:42:29Z",
   "image": "n8n",
   "tags": {
     "latest": {
-      "app_version": "2.38.5",
+      "app_version": "2.38.6",
       "arch": "amd64",
-      "generated": "2026-09-09T17:40:19Z",
+      "generated": "2026-09-10T17:35:39Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -288,7 +288,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.128"
+            "version": "3.129"
           },
           {
             "licenses": [
@@ -1024,97 +1024,97 @@
           {
             "name": "@ai-sdk/alibaba",
             "purl": "",
-            "version": "2.0.42"
+            "version": "2.0.44"
           },
           {
             "name": "@ai-sdk/amazon-bedrock",
             "purl": "",
-            "version": "5.0.79"
+            "version": "5.0.81"
           },
           {
             "name": "@ai-sdk/anthropic",
             "purl": "",
-            "version": "4.0.50"
+            "version": "4.0.52"
           },
           {
             "name": "@ai-sdk/azure",
             "purl": "",
-            "version": "4.0.66"
+            "version": "4.0.68"
           },
           {
             "name": "@ai-sdk/cohere",
             "purl": "",
-            "version": "4.0.38"
+            "version": "4.0.40"
           },
           {
             "name": "@ai-sdk/deepseek",
             "purl": "",
-            "version": "3.0.40"
+            "version": "3.0.42"
           },
           {
             "name": "@ai-sdk/gateway",
             "purl": "",
-            "version": "4.0.76"
+            "version": "4.0.78"
           },
           {
             "name": "@ai-sdk/google",
             "purl": "",
-            "version": "4.0.65"
+            "version": "4.0.67"
           },
           {
             "name": "@ai-sdk/google-vertex",
             "purl": "",
-            "version": "5.0.77"
+            "version": "5.0.79"
           },
           {
             "name": "@ai-sdk/groq",
             "purl": "",
-            "version": "4.0.38"
+            "version": "4.0.40"
           },
           {
             "name": "@ai-sdk/minimax",
             "purl": "",
-            "version": "3.0.27"
+            "version": "3.0.29"
           },
           {
             "name": "@ai-sdk/mistral",
             "purl": "",
-            "version": "4.0.40"
+            "version": "4.0.42"
           },
           {
             "name": "@ai-sdk/moonshotai",
             "purl": "",
-            "version": "3.0.46"
+            "version": "3.0.48"
           },
           {
             "name": "@ai-sdk/openai",
             "purl": "",
-            "version": "4.0.63"
+            "version": "4.0.65"
           },
           {
             "name": "@ai-sdk/openai-compatible",
             "purl": "",
-            "version": "3.0.45"
+            "version": "3.0.47"
           },
           {
             "name": "@ai-sdk/otel",
             "purl": "",
-            "version": "1.0.95"
+            "version": "1.0.97"
           },
           {
             "name": "@ai-sdk/provider",
             "purl": "",
-            "version": "4.0.11"
+            "version": "4.0.13"
           },
           {
             "name": "@ai-sdk/provider-utils",
             "purl": "",
-            "version": "5.0.37"
+            "version": "5.0.39"
           },
           {
             "name": "@ai-sdk/xai",
             "purl": "",
-            "version": "4.0.55"
+            "version": "4.0.57"
           },
           {
             "name": "@anthropic-ai/sdk",
@@ -1189,12 +1189,12 @@
           {
             "name": "@aws-sdk/checksums",
             "purl": "",
-            "version": "3.1000.29"
+            "version": "3.1001.0"
           },
           {
             "name": "@aws-sdk/client-bedrock-agent-runtime",
             "purl": "",
-            "version": "3.1128.0"
+            "version": "3.1129.0"
           },
           {
             "name": "@aws-sdk/client-bedrock-runtime",
@@ -1209,17 +1209,17 @@
           {
             "name": "@aws-sdk/client-kendra",
             "purl": "",
-            "version": "3.1128.0"
+            "version": "3.1129.0"
           },
           {
             "name": "@aws-sdk/client-s3",
             "purl": "",
-            "version": "3.1128.0"
+            "version": "3.1129.0"
           },
           {
             "name": "@aws-sdk/client-sagemaker",
             "purl": "",
-            "version": "3.1128.0"
+            "version": "3.1129.0"
           },
           {
             "name": "@aws-sdk/client-secrets-manager",
@@ -1299,7 +1299,7 @@
           {
             "name": "@aws-sdk/lib-storage",
             "purl": "",
-            "version": "3.1128.0"
+            "version": "3.1129.0"
           },
           {
             "name": "@aws-sdk/middleware-bucket-endpoint",
@@ -1389,7 +1389,7 @@
           {
             "name": "@aws-sdk/token-providers",
             "purl": "",
-            "version": "3.1116.0"
+            "version": "3.1129.0"
           },
           {
             "name": "@aws-sdk/types",
@@ -2369,7 +2369,7 @@
           {
             "name": "@n8n/db",
             "purl": "",
-            "version": "1.38.2"
+            "version": "1.38.3"
           },
           {
             "name": "@n8n/decorators",
@@ -2829,12 +2829,12 @@
           {
             "name": "@posthog/core",
             "purl": "",
-            "version": "1.52.0"
+            "version": "1.52.2"
           },
           {
             "name": "@posthog/types",
             "purl": "",
-            "version": "1.409.4"
+            "version": "1.410.1"
           },
           {
             "name": "@protobufjs/aspromise",
@@ -3989,7 +3989,7 @@
           {
             "name": "ai",
             "purl": "",
-            "version": "7.0.95"
+            "version": "7.0.97"
           },
           {
             "name": "ajv",
@@ -6449,7 +6449,7 @@
           {
             "name": "libphonenumber-js",
             "purl": "",
-            "version": "1.13.12"
+            "version": "1.13.13"
           },
           {
             "name": "libqp",
@@ -7134,7 +7134,7 @@
           {
             "name": "n8n",
             "purl": "",
-            "version": "2.38.5"
+            "version": "2.38.6"
           },
           {
             "name": "n8n-core",
