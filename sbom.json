@@ -1,11 +1,11 @@
 {
-  "generated": "2026-09-10T17:42:29Z",
+  "generated": "2026-09-11T17:06:39Z",
   "image": "n8n",
   "tags": {
     "latest": {
-      "app_version": "2.38.6",
+      "app_version": "2.38.7",
       "arch": "amd64",
-      "generated": "2026-09-10T17:35:39Z",
+      "generated": "2026-09-11T16:59:58Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1194,7 +1194,7 @@
           {
             "name": "@aws-sdk/client-bedrock-agent-runtime",
             "purl": "",
-            "version": "3.1129.0"
+            "version": "3.1130.0"
           },
           {
             "name": "@aws-sdk/client-bedrock-runtime",
@@ -1209,17 +1209,17 @@
           {
             "name": "@aws-sdk/client-kendra",
             "purl": "",
-            "version": "3.1129.0"
+            "version": "3.1130.0"
           },
           {
             "name": "@aws-sdk/client-s3",
             "purl": "",
-            "version": "3.1129.0"
+            "version": "3.1130.0"
           },
           {
             "name": "@aws-sdk/client-sagemaker",
             "purl": "",
-            "version": "3.1129.0"
+            "version": "3.1130.0"
           },
           {
             "name": "@aws-sdk/client-secrets-manager",
@@ -1299,7 +1299,7 @@
           {
             "name": "@aws-sdk/lib-storage",
             "purl": "",
-            "version": "3.1129.0"
+            "version": "3.1130.0"
           },
           {
             "name": "@aws-sdk/middleware-bucket-endpoint",
@@ -2829,12 +2829,12 @@
           {
             "name": "@posthog/core",
             "purl": "",
-            "version": "1.52.2"
+            "version": "1.53.2"
           },
           {
             "name": "@posthog/types",
             "purl": "",
-            "version": "1.410.1"
+            "version": "1.411.1"
           },
           {
             "name": "@protobufjs/aspromise",
@@ -3079,7 +3079,7 @@
           {
             "name": "@smithy/core",
             "purl": "",
-            "version": "3.33.3"
+            "version": "3.34.0"
           },
           {
             "name": "@smithy/credential-provider-imds",
@@ -3374,7 +3374,7 @@
           {
             "name": "@tanstack/virtual-core",
             "purl": "",
-            "version": "3.17.9"
+            "version": "3.17.10"
           },
           {
             "name": "@tanstack/vue-table",
@@ -3384,7 +3384,7 @@
           {
             "name": "@tanstack/vue-virtual",
             "purl": "",
-            "version": "3.13.37"
+            "version": "3.13.38"
           },
           {
             "name": "@techteamer/ocsp",
@@ -5829,7 +5829,7 @@
           {
             "name": "import-in-the-middle",
             "purl": "",
-            "version": "3.5.0"
+            "version": "3.5.1"
           },
           {
             "name": "imurmurhash",
@@ -6834,7 +6834,7 @@
           {
             "name": "micromark-extension-gfm-table",
             "purl": "",
-            "version": "2.1.1"
+            "version": "2.1.2"
           },
           {
             "name": "micromark-extension-gfm-tagfilter",
@@ -7134,7 +7134,7 @@
           {
             "name": "n8n",
             "purl": "",
-            "version": "2.38.6"
+            "version": "2.38.7"
           },
           {
             "name": "n8n-core",
@@ -7144,7 +7144,7 @@
           {
             "name": "n8n-editor-ui",
             "purl": "",
-            "version": "2.38.2"
+            "version": "2.38.3"
           },
           {
             "name": "n8n-nodes-base",
