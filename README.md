@@ -7,6 +7,7 @@ Source: dbuild templates
 
 [![Build Status](https://img.shields.io/github/actions/workflow/status/daemonless/n8n/build.yaml?style=flat-square&label=Build&color=green)](https://github.com/daemonless/n8n/actions)
 [![Last Commit](https://img.shields.io/github/last-commit/daemonless/n8n?style=flat-square&label=Last+Commit&color=blue)](https://github.com/daemonless/n8n/commits)
+[![OCI Pulls](https://img.shields.io/docker/pulls/daemonless/n8n?style=flat-square&label=OCI+Pulls&color=blue)](https://hub.docker.com/r/daemonless/n8n)
 
 Fair-code workflow automation platform with native AI capabilities — combine visual building with custom code and 400+ integrations.
 
