@@ -1,11 +1,11 @@
 {
-  "generated": "2026-09-16T13:12:06Z",
+  "generated": "2026-09-17T13:14:23Z",
   "image": "n8n",
   "tags": {
     "latest": {
-      "app_version": "2.39.6",
+      "app_version": "2.39.7",
       "arch": "amd64",
-      "generated": "2026-09-16T13:04:50Z",
+      "generated": "2026-09-17T13:07:47Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -56,6 +56,13 @@
               "CDDL-1.0"
             ],
             "name": "FreeBSD-ctf-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD-3-Clause"
+            ],
+            "name": "FreeBSD-dhclient",
             "version": "15.1"
           },
           {
@@ -175,6 +182,13 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-rc",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-resolvconf",
             "version": "15.1"
           },
           {
@@ -1024,82 +1038,82 @@
           {
             "name": "@ai-sdk/alibaba",
             "purl": "",
-            "version": "2.0.46"
+            "version": "2.0.49"
           },
           {
             "name": "@ai-sdk/amazon-bedrock",
             "purl": "",
-            "version": "5.0.84"
+            "version": "5.0.86"
           },
           {
             "name": "@ai-sdk/anthropic",
             "purl": "",
-            "version": "4.0.54"
+            "version": "4.0.56"
           },
           {
             "name": "@ai-sdk/azure",
             "purl": "",
-            "version": "4.0.71"
+            "version": "4.0.73"
           },
           {
             "name": "@ai-sdk/cohere",
             "purl": "",
-            "version": "4.0.42"
+            "version": "4.0.44"
           },
           {
             "name": "@ai-sdk/deepseek",
             "purl": "",
-            "version": "3.0.45"
+            "version": "3.0.47"
           },
           {
             "name": "@ai-sdk/gateway",
             "purl": "",
-            "version": "4.0.82"
+            "version": "4.0.85"
           },
           {
             "name": "@ai-sdk/google",
             "purl": "",
-            "version": "4.0.72"
+            "version": "4.0.74"
           },
           {
             "name": "@ai-sdk/google-vertex",
             "purl": "",
-            "version": "5.0.84"
+            "version": "5.0.86"
           },
           {
             "name": "@ai-sdk/groq",
             "purl": "",
-            "version": "4.0.42"
+            "version": "4.0.44"
           },
           {
             "name": "@ai-sdk/minimax",
             "purl": "",
-            "version": "3.0.31"
+            "version": "3.0.33"
           },
           {
             "name": "@ai-sdk/mistral",
             "purl": "",
-            "version": "4.0.44"
+            "version": "4.0.46"
           },
           {
             "name": "@ai-sdk/moonshotai",
             "purl": "",
-            "version": "3.0.50"
+            "version": "3.0.52"
           },
           {
             "name": "@ai-sdk/openai",
             "purl": "",
-            "version": "4.0.67"
+            "version": "4.0.69"
           },
           {
             "name": "@ai-sdk/openai-compatible",
             "purl": "",
-            "version": "3.0.49"
+            "version": "3.0.51"
           },
           {
             "name": "@ai-sdk/otel",
             "purl": "",
-            "version": "1.0.102"
+            "version": "1.0.105"
           },
           {
             "name": "@ai-sdk/provider",
@@ -1194,7 +1208,7 @@
           {
             "name": "@aws-sdk/client-bedrock-agent-runtime",
             "purl": "",
-            "version": "3.1133.0"
+            "version": "3.1134.0"
           },
           {
             "name": "@aws-sdk/client-bedrock-runtime",
@@ -1209,17 +1223,17 @@
           {
             "name": "@aws-sdk/client-kendra",
             "purl": "",
-            "version": "3.1133.0"
+            "version": "3.1134.0"
           },
           {
             "name": "@aws-sdk/client-s3",
             "purl": "",
-            "version": "3.1133.0"
+            "version": "3.1134.0"
           },
           {
             "name": "@aws-sdk/client-sagemaker",
             "purl": "",
-            "version": "3.1133.0"
+            "version": "3.1134.0"
           },
           {
             "name": "@aws-sdk/client-secrets-manager",
@@ -1299,7 +1313,7 @@
           {
             "name": "@aws-sdk/lib-storage",
             "purl": "",
-            "version": "3.1133.0"
+            "version": "3.1134.0"
           },
           {
             "name": "@aws-sdk/middleware-bucket-endpoint",
@@ -1894,22 +1908,22 @@
           {
             "name": "@intlify/core-base",
             "purl": "",
-            "version": "11.4.10"
+            "version": "11.4.12"
           },
           {
             "name": "@intlify/devtools-types",
             "purl": "",
-            "version": "11.4.10"
+            "version": "11.4.12"
           },
           {
             "name": "@intlify/message-compiler",
             "purl": "",
-            "version": "11.4.10"
+            "version": "11.4.12"
           },
           {
             "name": "@intlify/shared",
             "purl": "",
-            "version": "11.4.10"
+            "version": "11.4.12"
           },
           {
             "name": "@ioredis/commands",
@@ -2374,7 +2388,7 @@
           {
             "name": "@n8n/db",
             "purl": "",
-            "version": "1.39.4"
+            "version": "1.39.5"
           },
           {
             "name": "@n8n/decorators",
@@ -2384,7 +2398,7 @@
           {
             "name": "@n8n/design-system",
             "purl": "",
-            "version": "2.38.4"
+            "version": "2.38.5"
           },
           {
             "name": "@n8n/di",
@@ -2439,7 +2453,7 @@
           {
             "name": "@n8n/mcp-apps",
             "purl": "",
-            "version": "0.16.4"
+            "version": "0.16.5"
           },
           {
             "name": "@n8n/mcp-browser",
@@ -2449,12 +2463,12 @@
           {
             "name": "@n8n/n8n-nodes-langchain",
             "purl": "",
-            "version": "2.39.4"
+            "version": "2.39.5"
           },
           {
             "name": "@n8n/node-engine-compatibility",
             "purl": "",
-            "version": "0.7.4"
+            "version": "0.7.5"
           },
           {
             "name": "@n8n/permissions",
@@ -2479,7 +2493,7 @@
           {
             "name": "@n8n/task-runner",
             "purl": "",
-            "version": "2.39.4"
+            "version": "2.39.5"
           },
           {
             "name": "@n8n/telemetry",
@@ -2834,7 +2848,7 @@
           {
             "name": "@posthog/core",
             "purl": "",
-            "version": "1.54.2"
+            "version": "1.54.3"
           },
           {
             "name": "@posthog/types",
@@ -3829,22 +3843,22 @@
           {
             "name": "@vue/compiler-core",
             "purl": "",
-            "version": "3.5.42"
+            "version": "3.5.43"
           },
           {
             "name": "@vue/compiler-dom",
             "purl": "",
-            "version": "3.5.42"
+            "version": "3.5.43"
           },
           {
             "name": "@vue/compiler-sfc",
             "purl": "",
-            "version": "3.5.42"
+            "version": "3.5.43"
           },
           {
             "name": "@vue/compiler-ssr",
             "purl": "",
-            "version": "3.5.42"
+            "version": "3.5.43"
           },
           {
             "name": "@vue/devtools-api",
@@ -3854,27 +3868,27 @@
           {
             "name": "@vue/reactivity",
             "purl": "",
-            "version": "3.5.42"
+            "version": "3.5.43"
           },
           {
             "name": "@vue/runtime-core",
             "purl": "",
-            "version": "3.5.42"
+            "version": "3.5.43"
           },
           {
             "name": "@vue/runtime-dom",
             "purl": "",
-            "version": "3.5.42"
+            "version": "3.5.43"
           },
           {
             "name": "@vue/server-renderer",
             "purl": "",
-            "version": "3.5.42"
+            "version": "3.5.43"
           },
           {
             "name": "@vue/shared",
             "purl": "",
-            "version": "3.5.42"
+            "version": "3.5.43"
           },
           {
             "name": "@vueuse/core",
@@ -3994,7 +4008,7 @@
           {
             "name": "ai",
             "purl": "",
-            "version": "7.0.102"
+            "version": "7.0.105"
           },
           {
             "name": "ajv",
@@ -5839,7 +5853,7 @@
           {
             "name": "is-core-module",
             "purl": "",
-            "version": "2.16.2"
+            "version": "2.17.0"
           },
           {
             "name": "is-docker",
@@ -6959,22 +6973,22 @@
           {
             "name": "n8n",
             "purl": "",
-            "version": "2.39.6"
+            "version": "2.39.7"
           },
           {
             "name": "n8n-core",
             "purl": "",
-            "version": "2.39.4"
+            "version": "2.39.5"
           },
           {
             "name": "n8n-editor-ui",
             "purl": "",
-            "version": "2.39.4"
+            "version": "2.39.5"
           },
           {
             "name": "n8n-nodes-base",
             "purl": "",
-            "version": "2.39.4"
+            "version": "2.39.5"
           },
           {
             "name": "n8n-workflow",
@@ -7684,7 +7698,7 @@
           {
             "name": "prosemirror-changeset",
             "purl": "",
-            "version": "2.4.2"
+            "version": "2.4.3"
           },
           {
             "name": "prosemirror-commands",
@@ -8934,7 +8948,7 @@
           {
             "name": "vue",
             "purl": "",
-            "version": "3.5.42"
+            "version": "3.5.43"
           },
           {
             "name": "vue-boring-avatars",
@@ -8949,7 +8963,7 @@
           {
             "name": "vue-i18n",
             "purl": "",
-            "version": "11.4.10"
+            "version": "11.4.12"
           },
           {
             "name": "vue-router",
@@ -9014,7 +9028,7 @@
           {
             "name": "which-typed-array",
             "purl": "",
-            "version": "1.1.22"
+            "version": "1.1.23"
           },
           {
             "name": "wide-align",
@@ -9089,7 +9103,7 @@
           {
             "name": "xml-crypto",
             "purl": "",
-            "version": "6.1.2"
+            "version": "6.2.0"
           },
           {
             "name": "xml-escape",
@@ -9382,7 +9396,7 @@
       "source": "upstream",
       "summary": {
         "dotnet": 0,
-        "freebsd": 131,
+        "freebsd": 133,
         "go": 10,
         "java": 0,
         "node": 1641,
@@ -9390,7 +9404,7 @@
         "python": 22,
         "ruby": 0,
         "rust": 10,
-        "total": 1814
+        "total": 1816
       }
     }
   }
