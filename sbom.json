@@ -1,11 +1,11 @@
 {
-  "generated": "2026-09-22T13:04:52Z",
+  "generated": "2026-09-24T13:03:48Z",
   "image": "n8n",
   "tags": {
     "latest": {
-      "app_version": "2.40.5",
+      "app_version": "2.40.6",
       "arch": "amd64",
-      "generated": "2026-09-22T12:58:20Z",
+      "generated": "2026-09-24T12:59:32Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1038,82 +1038,82 @@
           {
             "name": "@ai-sdk/alibaba",
             "purl": "",
-            "version": "2.0.52"
+            "version": "2.0.54"
           },
           {
             "name": "@ai-sdk/amazon-bedrock",
             "purl": "",
-            "version": "5.0.90"
+            "version": "5.0.93"
           },
           {
             "name": "@ai-sdk/anthropic",
             "purl": "",
-            "version": "4.0.59"
+            "version": "4.0.62"
           },
           {
             "name": "@ai-sdk/azure",
             "purl": "",
-            "version": "4.0.76"
+            "version": "4.0.78"
           },
           {
             "name": "@ai-sdk/cohere",
             "purl": "",
-            "version": "4.0.46"
+            "version": "4.0.48"
           },
           {
             "name": "@ai-sdk/deepseek",
             "purl": "",
-            "version": "3.0.50"
+            "version": "3.0.52"
           },
           {
             "name": "@ai-sdk/gateway",
             "purl": "",
-            "version": "4.0.88"
+            "version": "4.0.91"
           },
           {
             "name": "@ai-sdk/google",
             "purl": "",
-            "version": "4.0.76"
+            "version": "4.0.79"
           },
           {
             "name": "@ai-sdk/google-vertex",
             "purl": "",
-            "version": "5.0.89"
+            "version": "5.0.92"
           },
           {
             "name": "@ai-sdk/groq",
             "purl": "",
-            "version": "4.0.46"
+            "version": "4.0.48"
           },
           {
             "name": "@ai-sdk/minimax",
             "purl": "",
-            "version": "3.0.36"
+            "version": "3.0.39"
           },
           {
             "name": "@ai-sdk/mistral",
             "purl": "",
-            "version": "4.0.48"
+            "version": "4.0.50"
           },
           {
             "name": "@ai-sdk/moonshotai",
             "purl": "",
-            "version": "3.0.54"
+            "version": "3.0.56"
           },
           {
             "name": "@ai-sdk/openai",
             "purl": "",
-            "version": "4.0.72"
+            "version": "4.0.74"
           },
           {
             "name": "@ai-sdk/openai-compatible",
             "purl": "",
-            "version": "3.0.53"
+            "version": "3.0.55"
           },
           {
             "name": "@ai-sdk/otel",
             "purl": "",
-            "version": "1.0.109"
+            "version": "1.0.113"
           },
           {
             "name": "@ai-sdk/provider",
@@ -1203,12 +1203,12 @@
           {
             "name": "@aws-sdk/checksums",
             "purl": "",
-            "version": "3.1001.0"
+            "version": "3.1001.1"
           },
           {
             "name": "@aws-sdk/client-bedrock-agent-runtime",
             "purl": "",
-            "version": "3.1137.0"
+            "version": "3.1139.0"
           },
           {
             "name": "@aws-sdk/client-bedrock-runtime",
@@ -1223,17 +1223,17 @@
           {
             "name": "@aws-sdk/client-kendra",
             "purl": "",
-            "version": "3.1137.0"
+            "version": "3.1139.0"
           },
           {
             "name": "@aws-sdk/client-s3",
             "purl": "",
-            "version": "3.1137.0"
+            "version": "3.1139.0"
           },
           {
             "name": "@aws-sdk/client-sagemaker",
             "purl": "",
-            "version": "3.1137.0"
+            "version": "3.1139.0"
           },
           {
             "name": "@aws-sdk/client-secrets-manager",
@@ -1308,7 +1308,7 @@
           {
             "name": "@aws-sdk/lib-storage",
             "purl": "",
-            "version": "3.1137.0"
+            "version": "3.1139.0"
           },
           {
             "name": "@aws-sdk/middleware-bucket-endpoint",
@@ -1398,7 +1398,7 @@
           {
             "name": "@aws-sdk/token-providers",
             "purl": "",
-            "version": "3.1129.0"
+            "version": "3.1138.0"
           },
           {
             "name": "@aws-sdk/types",
@@ -2183,7 +2183,7 @@
           {
             "name": "@lezer/highlight",
             "purl": "",
-            "version": "1.2.3"
+            "version": "1.2.4"
           },
           {
             "name": "@lezer/lr",
@@ -2823,7 +2823,7 @@
           {
             "name": "@posthog/core",
             "purl": "",
-            "version": "1.55.1"
+            "version": "1.55.2"
           },
           {
             "name": "@posthog/types",
@@ -3073,7 +3073,7 @@
           {
             "name": "@smithy/core",
             "purl": "",
-            "version": "3.34.1"
+            "version": "3.35.0"
           },
           {
             "name": "@smithy/credential-provider-imds",
@@ -3998,7 +3998,7 @@
           {
             "name": "ai",
             "purl": "",
-            "version": "7.0.109"
+            "version": "7.0.113"
           },
           {
             "name": "ajv",
@@ -5643,7 +5643,7 @@
           {
             "name": "hono",
             "purl": "",
-            "version": "4.13.8"
+            "version": "4.13.9"
           },
           {
             "name": "hosted-git-info",
@@ -6278,7 +6278,7 @@
           {
             "name": "libphonenumber-js",
             "purl": "",
-            "version": "1.13.13"
+            "version": "1.13.14"
           },
           {
             "name": "libqp",
@@ -6968,7 +6968,7 @@
           {
             "name": "n8n",
             "purl": "",
-            "version": "2.40.5"
+            "version": "2.40.6"
           },
           {
             "name": "n8n-core",
@@ -7708,7 +7708,7 @@
           {
             "name": "prosemirror-dropcursor",
             "purl": "",
-            "version": "1.8.3"
+            "version": "1.8.4"
           },
           {
             "name": "prosemirror-gapcursor",
@@ -8893,7 +8893,7 @@
           {
             "name": "utilium",
             "purl": "",
-            "version": "3.7.1"
+            "version": "3.9.0"
           },
           {
             "name": "uuid",
