@@ -42,7 +42,7 @@ services:
       - TZ=UTC  # Timezone for the container
       - N8N_SECURE_COOKIE=  # Set to false if accessing over HTTP without TLS
     volumes:
-      - "/path/to/containers/n8n:/config"
+      - "/containers/n8n:/config"
     ports:
       - "5678:5678"
     # always (not unless-stopped) so FreeBSD's podman rc.d auto-starts it at boot
@@ -91,7 +91,7 @@ services:
       - n8n: /config
 volumes:
   n8n:
-    device: '/path/to/containers/n8n'
+    device: '/containers/n8n'
 ```
 
 **Makejail**:
@@ -124,7 +124,7 @@ podman run -d --name n8n \
   -e PGID=1000 \
   -e TZ=UTC \
   -e N8N_SECURE_COOKIE= \
-  -v /path/to/containers/n8n:/config \
+  -v /containers/n8n:/config \
   ghcr.io/daemonless/n8n:latest
 ```
 
@@ -145,7 +145,7 @@ appjail oci run -Pd \
   -e PGID=1000 \
   -e TZ=UTC \
   -e N8N_SECURE_COOKIE= \
-  -o fstab="/path/to/containers/n8n /config <pseudofs>" \
+  -o fstab="/containers/n8n /config <pseudofs>" \
   ghcr.io/daemonless/n8n:latest n8n
 ```
 
@@ -176,7 +176,7 @@ services:
       - TZ=UTC
       - N8N_SECURE_COOKIE=
     volumes:
-      - "/path/to/containers/n8n:/config"
+      - "/containers/n8n:/config"
 ```
 
 Save as `bastille-compose.yml`, then run `bastille up`. Or via CLI:
@@ -188,7 +188,7 @@ bastille create -O \
   --env PGID=1000 \
   --env TZ=UTC \
   --env N8N_SECURE_COOKIE= \
-  --volume /path/to/containers/n8n /config \
+  --volume /containers/n8n /config \
   n8n ghcr.io/daemonless/n8n:latest inherit
 ```
 
@@ -210,7 +210,7 @@ bastille create -O \
     ports:
       - "5678:5678"
     volumes:
-      - "/path/to/containers/n8n:/config"
+      - "/containers/n8n:/config"
 ```
 
 Save as `n8n-deploy.yaml`, then run `ansible-playbook n8n-deploy.yaml`.
