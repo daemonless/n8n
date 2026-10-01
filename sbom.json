@@ -1,11 +1,11 @@
 {
-  "generated": "2026-09-30T23:15:12Z",
+  "generated": "2026-10-01T14:49:26Z",
   "image": "n8n",
   "tags": {
     "latest": {
-      "app_version": "2.41.4",
+      "app_version": "2.41.5",
       "arch": "amd64",
-      "generated": "2026-09-30T23:11:10Z",
+      "generated": "2026-10-01T14:45:41Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1043,17 +1043,17 @@
           {
             "name": "@ai-sdk/amazon-bedrock",
             "purl": "",
-            "version": "5.0.103"
+            "version": "5.0.104"
           },
           {
             "name": "@ai-sdk/anthropic",
             "purl": "",
-            "version": "4.0.70"
+            "version": "4.0.71"
           },
           {
             "name": "@ai-sdk/azure",
             "purl": "",
-            "version": "4.0.87"
+            "version": "4.0.89"
           },
           {
             "name": "@ai-sdk/cohere",
@@ -1078,7 +1078,7 @@
           {
             "name": "@ai-sdk/google-vertex",
             "purl": "",
-            "version": "5.0.100"
+            "version": "5.0.101"
           },
           {
             "name": "@ai-sdk/groq",
@@ -1088,7 +1088,7 @@
           {
             "name": "@ai-sdk/minimax",
             "purl": "",
-            "version": "3.0.47"
+            "version": "3.0.48"
           },
           {
             "name": "@ai-sdk/mistral",
@@ -1108,12 +1108,12 @@
           {
             "name": "@ai-sdk/openai-compatible",
             "purl": "",
-            "version": "3.0.61"
+            "version": "3.0.62"
           },
           {
             "name": "@ai-sdk/otel",
             "purl": "",
-            "version": "1.0.124"
+            "version": "1.0.126"
           },
           {
             "name": "@ai-sdk/provider",
@@ -2288,57 +2288,57 @@
           {
             "name": "@n8n/agents",
             "purl": "",
-            "version": "0.26.3"
+            "version": "0.26.4"
           },
           {
             "name": "@n8n/ai-node-sdk",
             "purl": "",
-            "version": "0.31.3"
+            "version": "0.31.4"
           },
           {
             "name": "@n8n/ai-utilities",
             "purl": "",
-            "version": "0.34.3"
+            "version": "0.34.4"
           },
           {
             "name": "@n8n/ai-workflow-builder",
             "purl": "",
-            "version": "1.41.3"
+            "version": "1.41.4"
           },
           {
             "name": "@n8n/api-types",
             "purl": "",
-            "version": "1.41.2"
+            "version": "1.41.3"
           },
           {
             "name": "@n8n/backend-common",
             "purl": "",
-            "version": "1.41.3"
+            "version": "1.41.4"
           },
           {
             "name": "@n8n/backend-network",
             "purl": "",
-            "version": "1.15.3"
+            "version": "1.15.4"
           },
           {
             "name": "@n8n/blob-storage",
             "purl": "",
-            "version": "1.9.3"
+            "version": "1.9.4"
           },
           {
             "name": "@n8n/chat-hub",
             "purl": "",
-            "version": "1.34.2"
+            "version": "1.34.3"
           },
           {
             "name": "@n8n/client-oauth2",
             "purl": "",
-            "version": "1.23.3"
+            "version": "1.23.4"
           },
           {
             "name": "@n8n/composables",
             "purl": "",
-            "version": "1.31.2"
+            "version": "1.31.3"
           },
           {
             "name": "@n8n/config",
@@ -2353,17 +2353,17 @@
           {
             "name": "@n8n/db",
             "purl": "",
-            "version": "1.41.3"
+            "version": "1.41.4"
           },
           {
             "name": "@n8n/decorators",
             "purl": "",
-            "version": "1.41.2"
+            "version": "1.41.3"
           },
           {
             "name": "@n8n/design-system",
             "purl": "",
-            "version": "2.40.2"
+            "version": "2.40.3"
           },
           {
             "name": "@n8n/di",
@@ -2398,7 +2398,7 @@
           {
             "name": "@n8n/i18n",
             "purl": "",
-            "version": "2.41.2"
+            "version": "2.41.3"
           },
           {
             "name": "@n8n/imap",
@@ -2408,7 +2408,7 @@
           {
             "name": "@n8n/instance-ai",
             "purl": "",
-            "version": "1.26.3"
+            "version": "1.26.4"
           },
           {
             "name": "@n8n/json-schema-to-zod",
@@ -2418,7 +2418,7 @@
           {
             "name": "@n8n/mcp-apps",
             "purl": "",
-            "version": "0.18.2"
+            "version": "0.18.3"
           },
           {
             "name": "@n8n/mcp-browser",
@@ -2428,12 +2428,12 @@
           {
             "name": "@n8n/n8n-nodes-langchain",
             "purl": "",
-            "version": "2.41.3"
+            "version": "2.41.4"
           },
           {
             "name": "@n8n/node-engine-compatibility",
             "purl": "",
-            "version": "0.9.3"
+            "version": "0.9.4"
           },
           {
             "name": "@n8n/permissions",
@@ -2448,7 +2448,7 @@
           {
             "name": "@n8n/scheduler",
             "purl": "",
-            "version": "1.10.1"
+            "version": "1.10.2"
           },
           {
             "name": "@n8n/syslog-client",
@@ -2458,12 +2458,12 @@
           {
             "name": "@n8n/task-runner",
             "purl": "",
-            "version": "2.41.3"
+            "version": "2.41.4"
           },
           {
             "name": "@n8n/telemetry",
             "purl": "",
-            "version": "1.9.2"
+            "version": "1.9.3"
           },
           {
             "name": "@n8n/tournament",
@@ -2488,7 +2488,7 @@
           {
             "name": "@n8n/workflow-sdk",
             "purl": "",
-            "version": "0.34.1"
+            "version": "0.34.2"
           },
           {
             "name": "@n8n_io/ai-assistant-sdk",
@@ -2818,7 +2818,7 @@
           {
             "name": "@posthog/core",
             "purl": "",
-            "version": "1.55.2"
+            "version": "1.55.3"
           },
           {
             "name": "@posthog/types",
@@ -3993,7 +3993,7 @@
           {
             "name": "ai",
             "purl": "",
-            "version": "7.0.124"
+            "version": "7.0.126"
           },
           {
             "name": "ajv",
@@ -5363,7 +5363,7 @@
           {
             "name": "follow-redirects",
             "purl": "",
-            "version": "1.16.0"
+            "version": "1.16.1"
           },
           {
             "name": "for-each",
@@ -6953,27 +6953,27 @@
           {
             "name": "n8n",
             "purl": "",
-            "version": "2.41.4"
+            "version": "2.41.5"
           },
           {
             "name": "n8n-core",
             "purl": "",
-            "version": "2.41.3"
+            "version": "2.41.4"
           },
           {
             "name": "n8n-editor-ui",
             "purl": "",
-            "version": "2.41.2"
+            "version": "2.41.3"
           },
           {
             "name": "n8n-nodes-base",
             "purl": "",
-            "version": "2.41.3"
+            "version": "2.41.4"
           },
           {
             "name": "n8n-workflow",
             "purl": "",
-            "version": "2.41.1"
+            "version": "2.41.2"
           },
           {
             "name": "named-placeholders",
@@ -8498,7 +8498,7 @@
           {
             "name": "swagger-ui-dist",
             "purl": "",
-            "version": "5.33.0"
+            "version": "5.33.1"
           },
           {
             "name": "swagger-ui-express",
