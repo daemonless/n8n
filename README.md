@@ -114,49 +114,6 @@ Save the files above, then run `appjail-director up`.
 >
 > To avoid exposing ports, just remove the `expose` option in your `appjail-director.yml` or from your command-line arguments.
 
-### Podman CLI
-
-```bash
-podman run -d --name n8n \
-  -p 5678:5678 \
-  -e N8N_ENCRYPTION_KEY=your-encryption-key-here \
-  -e PUID=1000 \
-  -e PGID=1000 \
-  -e TZ=UTC \
-  -e N8N_SECURE_COOKIE= \
-  -v /containers/n8n:/config \
-  ghcr.io/daemonless/n8n:latest
-```
-
-Save as `run.sh`, then run `sh run.sh`.
-
-### AppJail
-
-
-```bash
-appjail oci run -Pd \
-  -o overwrite=force \
-  -o container="args:--pull" \
-  -o virtualnet=":<random> default" \
-  -o nat \
-  -o expose="5678:5678 proto:tcp" \
-  -e N8N_ENCRYPTION_KEY=your-encryption-key-here \
-  -e PUID=1000 \
-  -e PGID=1000 \
-  -e TZ=UTC \
-  -e N8N_SECURE_COOKIE= \
-  -o fstab="/containers/n8n /config <pseudofs>" \
-  ghcr.io/daemonless/n8n:latest n8n
-```
-
-Save the files above, then run `sh run.sh`.
-
-
-> [!WARNING]
-> Exposing ports in AppJail means that your service can be reached from remote hosts. If that is not your intention, do not expose the ports and communicate with the service using the jail's IPv4 address or hostname assigned by the virtual network.
->
-> To avoid exposing ports, just remove the `expose` option in your `appjail-director.yml` or from your command-line arguments.
-
 ### Bastille
 
 > [!WARNING]
@@ -179,41 +136,7 @@ services:
       - "/containers/n8n:/config"
 ```
 
-Save as `bastille-compose.yml`, then run `bastille up`. Or via CLI:
-
-```bash
-bastille create -O \
-  --env N8N_ENCRYPTION_KEY=your-encryption-key-here \
-  --env PUID=1000 \
-  --env PGID=1000 \
-  --env TZ=UTC \
-  --env N8N_SECURE_COOKIE= \
-  --volume /containers/n8n /config \
-  n8n ghcr.io/daemonless/n8n:latest inherit
-```
-
-### Ansible
-
-```yaml
-- name: Deploy n8n
-  containers.podman.podman_container:
-    name: n8n
-    image: "ghcr.io/daemonless/n8n:latest"
-    state: started
-    restart_policy: always
-    env:
-      N8N_ENCRYPTION_KEY: "your-encryption-key-here"
-      PUID: "1000"
-      PGID: "1000"
-      TZ: "UTC"
-      N8N_SECURE_COOKIE: ""
-    ports:
-      - "5678:5678"
-    volumes:
-      - "/containers/n8n:/config"
-```
-
-Save as `n8n-deploy.yaml`, then run `ansible-playbook n8n-deploy.yaml`.
+Save as `bastille-compose.yml`, then run `bastille up`.
 
 ## Parameters
 
