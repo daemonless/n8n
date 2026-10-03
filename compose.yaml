@@ -13,6 +13,21 @@ x-daemonless:
   upstream_binary: true
   appjail: true
 
+  choices:
+    database:
+      kind: database
+      offers: [sqlite, postgres, external]
+      default: sqlite
+      env:
+        type: DB_TYPE
+        host: DB_POSTGRESDB_HOST
+        port: DB_POSTGRESDB_PORT
+        user: DB_POSTGRESDB_USER
+        password: DB_POSTGRESDB_PASSWORD
+        name: DB_POSTGRESDB_DATABASE
+      types:
+        postgres: postgresdb
+
   docs:
     env:
       PUID: "User ID for the application process"
@@ -20,6 +35,12 @@ x-daemonless:
       TZ: "Timezone for the container"
       N8N_ENCRYPTION_KEY: "Encryption key for credentials (keep safe!)"
       N8N_SECURE_COOKIE: "Set to false if accessing over HTTP without TLS"
+      DB_TYPE: "sqlite or postgresdb; set by the Database choice"
+      DB_POSTGRESDB_HOST: "PostgreSQL host (Database choice)"
+      DB_POSTGRESDB_PORT: "PostgreSQL port (Database choice)"
+      DB_POSTGRESDB_USER: "PostgreSQL user (Database choice)"
+      DB_POSTGRESDB_PASSWORD: "PostgreSQL password (Database choice)"
+      DB_POSTGRESDB_DATABASE: "PostgreSQL database name (Database choice)"
     volumes:
       /config: "Configuration directory (database, workflows)"
     ports:
@@ -30,7 +51,7 @@ services:
     image: ghcr.io/daemonless/n8n:latest
     container_name: n8n
     restart: unless-stopped
-    
+
     environment:
       - N8N_ENCRYPTION_KEY=your-encryption-key-here
       # Set to false if accessing over HTTP without TLS
@@ -38,6 +59,12 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=UTC
+      - DB_TYPE=${DB_TYPE:-sqlite}
+      - DB_POSTGRESDB_HOST=${DB_POSTGRESDB_HOST:-}
+      - DB_POSTGRESDB_PORT=${DB_POSTGRESDB_PORT:-5432}
+      - DB_POSTGRESDB_USER=${DB_POSTGRESDB_USER:-}
+      - DB_POSTGRESDB_PASSWORD=${DB_POSTGRESDB_PASSWORD:-}
+      - DB_POSTGRESDB_DATABASE=${DB_POSTGRESDB_DATABASE:-}
 
     volumes:
       - /path/to/containers/n8n:/config
