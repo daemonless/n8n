@@ -30,28 +30,169 @@ Before deploying, ensure your host environment is ready. See the [Quick Start Gu
 
 ### Podman Compose
 
-```yaml
-services:
-  n8n:
-    image: "ghcr.io/daemonless/n8n:latest"
-    container_name: n8n
-    environment:
-      - N8N_ENCRYPTION_KEY=your-encryption-key-here  # Encryption key for credentials (keep safe!)
-      - PUID=1000  # User ID for the application process
-      - PGID=1000  # Group ID for the application process
-      - TZ=UTC  # Timezone for the container
-      - N8N_SECURE_COOKIE=  # Set to false if accessing over HTTP without TLS
-    volumes:
-      - "/containers/n8n:/config"
-    ports:
-      - "5678:5678"
-    # always (not unless-stopped) so FreeBSD's podman rc.d auto-starts it at boot
-    restart: always
+**Database.** Where the app keeps its data. The default needs nothing else running.
+
+#### SQLite (default)
+
+A file in the app's config folder. Right for one person, nothing extra to run.
+
+**1.** Save as `.env` and fill in what is empty:
+
+```env { data-zip-bundle="n8n-podman" data-zip-filename=".env" }
+
 ```
 
-Save as `compose.yaml`, then run `podman-compose up -d`.
+**2.** Save as `compose.yaml`:
+
+```yaml { data-zip-bundle="n8n-podman" data-zip-filename="compose.yaml" }
+name: n8n
+
+services:
+  n8n:
+    image: ghcr.io/daemonless/n8n:latest
+    container_name: n8n
+    restart: unless-stopped
+
+    environment:
+      - N8N_ENCRYPTION_KEY=your-encryption-key-here
+      # Set to false if accessing over HTTP without TLS
+      #- N8N_SECURE_COOKIE=true
+      - PUID=1000
+      - PGID=1000
+      - TZ=UTC
+      - DB_TYPE=${DB_TYPE:-sqlite}
+      - DB_POSTGRESDB_HOST=${DB_POSTGRESDB_HOST:-}
+      - DB_POSTGRESDB_PORT=${DB_POSTGRESDB_PORT:-5432}
+      - DB_POSTGRESDB_USER=${DB_POSTGRESDB_USER:-}
+      - DB_POSTGRESDB_PASSWORD=${DB_POSTGRESDB_PASSWORD:-}
+      - DB_POSTGRESDB_DATABASE=${DB_POSTGRESDB_DATABASE:-}
+
+    volumes:
+      - /path/to/containers/n8n:/config
+
+    ports:
+      - "5678:5678"
+```
+
+Then run `podman-compose up -d`.
+
+#### PostgreSQL
+
+One more container, its data in its own folder. For a household, or an app that wants it.
+
+**1.** Save as `.env` and fill in what is empty:
+
+```env { data-zip-bundle="n8n-podman-database-postgres" data-zip-filename=".env" }
+# Database: PostgreSQL
+DB_TYPE=postgresdb
+DB_POSTGRESDB_HOST=postgres
+DB_POSTGRESDB_PORT=5432
+DB_POSTGRESDB_USER=n8n
+DB_POSTGRESDB_PASSWORD=  # set one
+DB_POSTGRESDB_DATABASE=n8n
+DATABASE_LOCATION=/containers/n8n/postgres
+```
+
+**2.** Save as `compose.yaml`:
+
+```yaml { data-zip-bundle="n8n-podman-database-postgres" data-zip-filename="compose.yaml" }
+name: n8n
+
+services:
+  n8n:
+    depends_on: [postgres]
+    image: ghcr.io/daemonless/n8n:latest
+    container_name: n8n
+    restart: unless-stopped
+
+    environment:
+      - N8N_ENCRYPTION_KEY=your-encryption-key-here
+      # Set to false if accessing over HTTP without TLS
+      #- N8N_SECURE_COOKIE=true
+      - PUID=1000
+      - PGID=1000
+      - TZ=UTC
+      - DB_TYPE=${DB_TYPE:-sqlite}
+      - DB_POSTGRESDB_HOST=${DB_POSTGRESDB_HOST:-}
+      - DB_POSTGRESDB_PORT=${DB_POSTGRESDB_PORT:-5432}
+      - DB_POSTGRESDB_USER=${DB_POSTGRESDB_USER:-}
+      - DB_POSTGRESDB_PASSWORD=${DB_POSTGRESDB_PASSWORD:-}
+      - DB_POSTGRESDB_DATABASE=${DB_POSTGRESDB_DATABASE:-}
+
+    volumes:
+      - /path/to/containers/n8n:/config
+
+    ports:
+      - "5678:5678"
+  postgres:
+    image: ghcr.io/daemonless/postgres:17
+    restart: always
+    annotations:
+      org.freebsd.jail.allow.sysvipc: "true"
+    environment:
+      - POSTGRES_USER=${DB_POSTGRESDB_USER}
+      - POSTGRES_PASSWORD=${DB_POSTGRESDB_PASSWORD}
+      - POSTGRES_DB=${DB_POSTGRESDB_DATABASE}
+    volumes:
+      - "${DATABASE_LOCATION}:/var/lib/postgresql/data"
+```
+
+Then run `podman-compose up -d`.
+
+#### Your own
+
+A database you already run, here or on another machine. Nothing extra runs; you give the address and the account.
+
+**1.** Save as `.env` and fill in Kind, Host, Port, User, Password, Database:
+
+```env { data-zip-bundle="n8n-podman-database-external" data-zip-filename=".env" }
+# Database: Your own
+DB_TYPE=  # Kind: postgresdb
+DB_POSTGRESDB_HOST=  # Host
+DB_POSTGRESDB_PORT=  # Port
+DB_POSTGRESDB_USER=  # User
+DB_POSTGRESDB_PASSWORD=  # Password
+DB_POSTGRESDB_DATABASE=  # Database
+```
+
+**2.** Save as `compose.yaml`:
+
+```yaml { data-zip-bundle="n8n-podman-database-external" data-zip-filename="compose.yaml" }
+name: n8n
+
+services:
+  n8n:
+    image: ghcr.io/daemonless/n8n:latest
+    container_name: n8n
+    restart: unless-stopped
+
+    environment:
+      - N8N_ENCRYPTION_KEY=your-encryption-key-here
+      # Set to false if accessing over HTTP without TLS
+      #- N8N_SECURE_COOKIE=true
+      - PUID=1000
+      - PGID=1000
+      - TZ=UTC
+      - DB_TYPE=${DB_TYPE:-sqlite}
+      - DB_POSTGRESDB_HOST=${DB_POSTGRESDB_HOST:-}
+      - DB_POSTGRESDB_PORT=${DB_POSTGRESDB_PORT:-5432}
+      - DB_POSTGRESDB_USER=${DB_POSTGRESDB_USER:-}
+      - DB_POSTGRESDB_PASSWORD=${DB_POSTGRESDB_PASSWORD:-}
+      - DB_POSTGRESDB_DATABASE=${DB_POSTGRESDB_DATABASE:-}
+
+    volumes:
+      - /path/to/containers/n8n:/config
+
+    ports:
+      - "5678:5678"
+```
+
+Then run `podman-compose up -d`.
 
 ### AppJail Director
+
+#### SQLite (default)
+
 **.env**:
 
 ```
@@ -62,6 +203,12 @@ N8N_ENCRYPTION_KEY=your-encryption-key-here
 PUID=1000
 PGID=1000
 TZ=UTC
+DB_TYPE=sqlite
+DB_POSTGRESDB_HOST=
+DB_POSTGRESDB_PORT=5432
+DB_POSTGRESDB_USER=
+DB_POSTGRESDB_PASSWORD=<DB_POSTGRESDB_PASSWORD>
+DB_POSTGRESDB_DATABASE=
 N8N_SECURE_COOKIE=
 ```
 
@@ -86,6 +233,12 @@ services:
         - PUID: !ENV '${PUID}'
         - PGID: !ENV '${PGID}'
         - TZ: !ENV '${TZ}'
+        - DB_TYPE: !ENV '${DB_TYPE}'
+        - DB_POSTGRESDB_HOST: !ENV '${DB_POSTGRESDB_HOST}'
+        - DB_POSTGRESDB_PORT: !ENV '${DB_POSTGRESDB_PORT}'
+        - DB_POSTGRESDB_USER: !ENV '${DB_POSTGRESDB_USER}'
+        - DB_POSTGRESDB_PASSWORD: !ENV '${DB_POSTGRESDB_PASSWORD}'
+        - DB_POSTGRESDB_DATABASE: !ENV '${DB_POSTGRESDB_DATABASE}'
         - N8N_SECURE_COOKIE: !ENV '${N8N_SECURE_COOKIE}'
     volumes:
       - n8n: /config
@@ -108,35 +261,179 @@ OPTION from=ghcr.io/daemonless/n8n:${tag}
 
 Save the files above, then run `appjail-director up`.
 
+#### PostgreSQL
 
-> [!WARNING]
-> Exposing ports in AppJail means that your service can be reached from remote hosts. If that is not your intention, do not expose the ports and communicate with the service using the jail's IPv4 address or hostname assigned by the virtual network.
->
-> To avoid exposing ports, just remove the `expose` option in your `appjail-director.yml` or from your command-line arguments.
+**.env**:
 
-### Bastille
+```
+# .env
 
-> [!WARNING]
-> Bastille's OCI support is **experimental**. It requires `buildah` and shares the host network stack (`inherit`). Mount volumes with `--volume HOST JAIL`; without it, image-declared volumes are stored under `${bastille_volumesdir}/${jail}`.
+DIRECTOR_PROJECT=n8n
+N8N_ENCRYPTION_KEY=your-encryption-key-here
+PUID=1000
+PGID=1000
+TZ=UTC
+DB_TYPE=postgresdb
+DB_POSTGRESDB_HOST=n8n_postgres
+DB_POSTGRESDB_PORT=5432
+DB_POSTGRESDB_USER=n8n
+DB_POSTGRESDB_PASSWORD=
+DB_POSTGRESDB_DATABASE=n8n
+N8N_SECURE_COOKIE=
+DATABASE_LOCATION=/containers/n8n/postgres
+```
+
+**appjail-director.yml**:
 
 ```yaml
+# appjail-director.yml
+
+options:
+  - virtualnet: ':<random> default'
+  - nat:
 services:
   n8n:
     name: n8n
-    image: "ghcr.io/daemonless/n8n:latest"
-    network:
-      - mode: host
-    environment:
-      - N8N_ENCRYPTION_KEY=your-encryption-key-here
-      - PUID=1000
-      - PGID=1000
-      - TZ=UTC
-      - N8N_SECURE_COOKIE=
+    options:
+      - container: 'args:--pull'
+      - expose: '5678:5678 proto:tcp'
+    oci:
+      user: root
+      environment:
+        - N8N_ENCRYPTION_KEY: !ENV '${N8N_ENCRYPTION_KEY}'
+        - PUID: !ENV '${PUID}'
+        - PGID: !ENV '${PGID}'
+        - TZ: !ENV '${TZ}'
+        - DB_TYPE: !ENV '${DB_TYPE}'
+        - DB_POSTGRESDB_HOST: !ENV '${DB_POSTGRESDB_HOST}'
+        - DB_POSTGRESDB_PORT: !ENV '${DB_POSTGRESDB_PORT}'
+        - DB_POSTGRESDB_USER: !ENV '${DB_POSTGRESDB_USER}'
+        - DB_POSTGRESDB_PASSWORD: !ENV '${DB_POSTGRESDB_PASSWORD}'
+        - DB_POSTGRESDB_DATABASE: !ENV '${DB_POSTGRESDB_DATABASE}'
+        - N8N_SECURE_COOKIE: !ENV '${N8N_SECURE_COOKIE}'
     volumes:
-      - "/containers/n8n:/config"
+      - n8n: /config
+  n8n-postgres:
+    name: n8n_postgres
+    priority: 10
+    options:
+      - from: ghcr.io/daemonless/postgres:17
+      - template: !ENV '${PWD}/postgres-template.conf'
+    oci:
+      environment:
+        - POSTGRES_USER: !ENV '${DB_POSTGRESDB_USER}'
+        - POSTGRES_PASSWORD: !ENV '${DB_POSTGRESDB_PASSWORD}'
+        - POSTGRES_DB: !ENV '${DB_POSTGRESDB_DATABASE}'
+    volumes:
+      - database: /var/lib/postgresql/data
+volumes:
+  n8n:
+    device: '/containers/n8n'
+  database:
+    device: !ENV '${DATABASE_LOCATION}'
 ```
 
-Save as `bastille-compose.yml`, then run `bastille up`.
+**Makejail**:
+
+```
+# Makejail
+
+ARG tag=latest
+
+OPTION container=boot
+OPTION overwrite=force
+OPTION from=ghcr.io/daemonless/n8n:${tag}
+```
+
+**postgres-template.conf**:
+
+```
+# The jail PostgreSQL runs in: SysV shared memory, which a jail does not
+# get by default. ip4/ip6 are set here because the director's ip4_inherit
+# option is a no-op in AppJail 5.5.0.
+
+exec.start: "/bin/sh /etc/rc"
+exec.stop: "/bin/sh /etc/rc.shutdown jail"
+sysvmsg: new
+sysvsem: new
+sysvshm: new
+mount.devfs
+persist
+ip4: inherit
+ip6: inherit
+```
+
+Save the files above, then run `appjail-director up`.
+
+#### Your own
+
+**.env**:
+
+```
+# .env
+
+DIRECTOR_PROJECT=n8n
+N8N_ENCRYPTION_KEY=your-encryption-key-here
+PUID=1000
+PGID=1000
+TZ=UTC
+DB_TYPE=
+DB_POSTGRESDB_HOST=
+DB_POSTGRESDB_PORT=
+DB_POSTGRESDB_USER=
+DB_POSTGRESDB_PASSWORD=
+DB_POSTGRESDB_DATABASE=
+N8N_SECURE_COOKIE=
+```
+
+**appjail-director.yml**:
+
+```yaml
+# appjail-director.yml
+
+options:
+  - virtualnet: ':<random> default'
+  - nat:
+services:
+  n8n:
+    name: n8n
+    options:
+      - container: 'args:--pull'
+      - expose: '5678:5678 proto:tcp'
+    oci:
+      user: root
+      environment:
+        - N8N_ENCRYPTION_KEY: !ENV '${N8N_ENCRYPTION_KEY}'
+        - PUID: !ENV '${PUID}'
+        - PGID: !ENV '${PGID}'
+        - TZ: !ENV '${TZ}'
+        - DB_TYPE: !ENV '${DB_TYPE}'
+        - DB_POSTGRESDB_HOST: !ENV '${DB_POSTGRESDB_HOST}'
+        - DB_POSTGRESDB_PORT: !ENV '${DB_POSTGRESDB_PORT}'
+        - DB_POSTGRESDB_USER: !ENV '${DB_POSTGRESDB_USER}'
+        - DB_POSTGRESDB_PASSWORD: !ENV '${DB_POSTGRESDB_PASSWORD}'
+        - DB_POSTGRESDB_DATABASE: !ENV '${DB_POSTGRESDB_DATABASE}'
+        - N8N_SECURE_COOKIE: !ENV '${N8N_SECURE_COOKIE}'
+    volumes:
+      - n8n: /config
+volumes:
+  n8n:
+    device: '/containers/n8n'
+```
+
+**Makejail**:
+
+```
+# Makejail
+
+ARG tag=latest
+
+OPTION container=boot
+OPTION overwrite=force
+OPTION from=ghcr.io/daemonless/n8n:${tag}
+```
+
+Save the files above, then run `appjail-director up`.
 
 ## Parameters
 
@@ -148,6 +445,12 @@ Save as `bastille-compose.yml`, then run `bastille up`.
 | `PUID` | `1000` | User ID for the application process |
 | `PGID` | `1000` | Group ID for the application process |
 | `TZ` | `UTC` | Timezone for the container |
+| `DB_TYPE` | `sqlite` | sqlite or postgresdb; set by the Database choice |
+| `DB_POSTGRESDB_HOST` | `` | PostgreSQL host (Database choice) |
+| `DB_POSTGRESDB_PORT` | `5432` | PostgreSQL port (Database choice) |
+| `DB_POSTGRESDB_USER` | `` | PostgreSQL user (Database choice) |
+| `DB_POSTGRESDB_PASSWORD` | `<DB_POSTGRESDB_PASSWORD>` | PostgreSQL password (Database choice) |
+| `DB_POSTGRESDB_DATABASE` | `` | PostgreSQL database name (Database choice) |
 | `N8N_SECURE_COOKIE` | `` | Set to false if accessing over HTTP without TLS |
 
 ### Volumes
