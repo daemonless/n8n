@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-07T16:08:45Z",
+  "generated": "2026-10-08T15:08:02Z",
   "image": "n8n",
   "tags": {
     "latest": {
-      "app_version": "2.42.4",
+      "app_version": "2.42.5",
       "arch": "amd64",
-      "generated": "2026-10-07T16:04:33Z",
+      "generated": "2026-10-08T15:04:12Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -42,7 +42,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-clibs",
-            "version": "15.1p2"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -63,7 +63,7 @@
               "BSD-3-Clause"
             ],
             "name": "FreeBSD-dhclient",
-            "version": "15.1"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -98,7 +98,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-libcasper",
-            "version": "15.1"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -161,7 +161,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.1p3"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -196,7 +196,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p3"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -217,7 +217,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-utilities",
-            "version": "15.1p2"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -245,7 +245,7 @@
               "PD"
             ],
             "name": "FreeBSD-zoneinfo",
-            "version": "15.1p2"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -1038,82 +1038,82 @@
           {
             "name": "@ai-sdk/alibaba",
             "purl": "",
-            "version": "2.0.63"
+            "version": "2.0.64"
           },
           {
             "name": "@ai-sdk/amazon-bedrock",
             "purl": "",
-            "version": "5.0.108"
+            "version": "5.0.111"
           },
           {
             "name": "@ai-sdk/anthropic",
             "purl": "",
-            "version": "4.0.74"
+            "version": "4.0.76"
           },
           {
             "name": "@ai-sdk/azure",
             "purl": "",
-            "version": "4.0.94"
+            "version": "4.0.97"
           },
           {
             "name": "@ai-sdk/cohere",
             "purl": "",
-            "version": "4.0.57"
+            "version": "4.0.58"
           },
           {
             "name": "@ai-sdk/deepseek",
             "purl": "",
-            "version": "3.0.61"
+            "version": "3.0.62"
           },
           {
             "name": "@ai-sdk/gateway",
             "purl": "",
-            "version": "4.0.106"
+            "version": "4.0.108"
           },
           {
             "name": "@ai-sdk/google",
             "purl": "",
-            "version": "4.0.90"
+            "version": "4.0.92"
           },
           {
             "name": "@ai-sdk/google-vertex",
             "purl": "",
-            "version": "5.0.104"
+            "version": "5.0.107"
           },
           {
             "name": "@ai-sdk/groq",
             "purl": "",
-            "version": "4.0.57"
+            "version": "4.0.58"
           },
           {
             "name": "@ai-sdk/minimax",
             "purl": "",
-            "version": "3.0.51"
+            "version": "3.0.53"
           },
           {
             "name": "@ai-sdk/mistral",
             "purl": "",
-            "version": "4.0.59"
+            "version": "4.0.61"
           },
           {
             "name": "@ai-sdk/moonshotai",
             "purl": "",
-            "version": "3.0.65"
+            "version": "3.0.66"
           },
           {
             "name": "@ai-sdk/openai",
             "purl": "",
-            "version": "4.0.86"
+            "version": "4.0.89"
           },
           {
             "name": "@ai-sdk/openai-compatible",
             "purl": "",
-            "version": "3.0.65"
+            "version": "3.0.66"
           },
           {
             "name": "@ai-sdk/otel",
             "purl": "",
-            "version": "1.0.130"
+            "version": "1.0.133"
           },
           {
             "name": "@ai-sdk/provider",
@@ -1893,7 +1893,7 @@
           {
             "name": "@internationalized/number",
             "purl": "",
-            "version": "3.6.8"
+            "version": "3.6.9"
           },
           {
             "name": "@intlify/core-base",
@@ -1988,7 +1988,7 @@
           {
             "name": "@js-joda/core",
             "purl": "",
-            "version": "6.2.0"
+            "version": "6.3.0"
           },
           {
             "name": "@js-sdsl/ordered-map",
@@ -2848,12 +2848,12 @@
           {
             "name": "@playwright/test",
             "purl": "",
-            "version": "1.63.0"
+            "version": "1.64.0"
           },
           {
             "name": "@posthog/core",
             "purl": "",
-            "version": "1.57.1"
+            "version": "1.57.2"
           },
           {
             "name": "@posthog/types",
@@ -4028,7 +4028,7 @@
           {
             "name": "ai",
             "purl": "",
-            "version": "7.0.130"
+            "version": "7.0.133"
           },
           {
             "name": "ajv",
@@ -5743,7 +5743,7 @@
           {
             "name": "ibm-cloud-sdk-core",
             "purl": "",
-            "version": "5.8.0"
+            "version": "5.9.0"
           },
           {
             "name": "iceberg-js",
@@ -6313,7 +6313,7 @@
           {
             "name": "libphonenumber-js",
             "purl": "",
-            "version": "1.13.14"
+            "version": "1.13.15"
           },
           {
             "name": "libqp",
@@ -6998,7 +6998,7 @@
           {
             "name": "n8n",
             "purl": "",
-            "version": "2.42.4"
+            "version": "2.42.5"
           },
           {
             "name": "n8n-core",
@@ -7008,7 +7008,7 @@
           {
             "name": "n8n-editor-ui",
             "purl": "",
-            "version": "2.42.3"
+            "version": "2.42.4"
           },
           {
             "name": "n8n-nodes-base",
@@ -7083,7 +7083,7 @@
           {
             "name": "node-abi",
             "purl": "",
-            "version": "3.97.0"
+            "version": "3.98.0"
           },
           {
             "name": "node-addon-api",
@@ -7623,7 +7623,7 @@
           {
             "name": "playwright",
             "purl": "",
-            "version": "1.63.0"
+            "version": "1.64.0"
           },
           {
             "name": "playwright-core",
@@ -8658,12 +8658,12 @@
           {
             "name": "tldts",
             "purl": "",
-            "version": "7.4.16"
+            "version": "7.4.18"
           },
           {
             "name": "tldts-core",
             "purl": "",
-            "version": "7.4.16"
+            "version": "7.4.18"
           },
           {
             "name": "tmp",
