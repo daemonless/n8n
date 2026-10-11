@@ -13,6 +13,12 @@ x-daemonless:
   upstream_binary: true
   appjail: true
 
+  # n8n is the one people open; the database the Database choice adds
+  # stays on the stack's private network.
+  networking:
+    n8n: default
+    "*": private
+
   choices:
     database:
       kind: database
