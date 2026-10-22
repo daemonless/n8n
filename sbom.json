@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-21T14:00:33Z",
+  "generated": "2026-10-22T13:25:50Z",
   "image": "n8n",
   "tags": {
     "latest": {
-      "app_version": "2.44.5",
+      "app_version": "2.44.6",
       "arch": "amd64",
-      "generated": "2026-10-21T13:56:12Z",
+      "generated": "2026-10-22T13:22:38Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1208,12 +1208,12 @@
           {
             "name": "@aws-sdk/checksums",
             "purl": "",
-            "version": "3.1001.4"
+            "version": "3.1001.5"
           },
           {
             "name": "@aws-sdk/client-bedrock-agent-runtime",
             "purl": "",
-            "version": "3.1154.0"
+            "version": "3.1155.0"
           },
           {
             "name": "@aws-sdk/client-bedrock-runtime",
@@ -1228,17 +1228,17 @@
           {
             "name": "@aws-sdk/client-kendra",
             "purl": "",
-            "version": "3.1154.0"
+            "version": "3.1155.0"
           },
           {
             "name": "@aws-sdk/client-s3",
             "purl": "",
-            "version": "3.1154.0"
+            "version": "3.1155.0"
           },
           {
             "name": "@aws-sdk/client-sagemaker",
             "purl": "",
-            "version": "3.1154.0"
+            "version": "3.1155.0"
           },
           {
             "name": "@aws-sdk/client-secrets-manager",
@@ -1253,7 +1253,7 @@
           {
             "name": "@aws-sdk/client-sts",
             "purl": "",
-            "version": "3.1154.0"
+            "version": "3.1155.0"
           },
           {
             "name": "@aws-sdk/core",
@@ -1313,7 +1313,7 @@
           {
             "name": "@aws-sdk/ec2-metadata-service",
             "purl": "",
-            "version": "3.1154.0"
+            "version": "3.1155.0"
           },
           {
             "name": "@aws-sdk/eventstream-handler-node",
@@ -1323,7 +1323,7 @@
           {
             "name": "@aws-sdk/lib-storage",
             "purl": "",
-            "version": "3.1154.0"
+            "version": "3.1155.0"
           },
           {
             "name": "@aws-sdk/middleware-bucket-endpoint",
@@ -1413,7 +1413,7 @@
           {
             "name": "@aws-sdk/token-providers",
             "purl": "",
-            "version": "3.1153.0"
+            "version": "3.1155.0"
           },
           {
             "name": "@aws-sdk/types",
@@ -2163,7 +2163,7 @@
           {
             "name": "@langchain/protocol",
             "purl": "",
-            "version": "0.0.19"
+            "version": "0.0.20"
           },
           {
             "name": "@langchain/qdrant",
@@ -2188,7 +2188,7 @@
           {
             "name": "@lezer/common",
             "purl": "",
-            "version": "1.5.3"
+            "version": "1.5.4"
           },
           {
             "name": "@lezer/highlight",
@@ -2328,67 +2328,67 @@
           {
             "name": "@n8n/agents",
             "purl": "",
-            "version": "0.29.4"
+            "version": "0.29.5"
           },
           {
             "name": "@n8n/ai-node-sdk",
             "purl": "",
-            "version": "0.34.3"
+            "version": "0.34.4"
           },
           {
             "name": "@n8n/ai-utilities",
             "purl": "",
-            "version": "0.37.3"
+            "version": "0.37.4"
           },
           {
             "name": "@n8n/ai-workflow-builder",
             "purl": "",
-            "version": "1.44.3"
+            "version": "1.44.4"
           },
           {
             "name": "@n8n/api-types",
             "purl": "",
-            "version": "1.44.2"
+            "version": "1.44.3"
           },
           {
             "name": "@n8n/backend-common",
             "purl": "",
-            "version": "1.44.3"
+            "version": "1.44.4"
           },
           {
             "name": "@n8n/backend-module-insights",
             "purl": "",
-            "version": "0.2.3"
+            "version": "0.2.4"
           },
           {
             "name": "@n8n/backend-network",
             "purl": "",
-            "version": "1.18.3"
+            "version": "1.18.4"
           },
           {
             "name": "@n8n/backend-services",
             "purl": "",
-            "version": "1.4.3"
+            "version": "1.4.4"
           },
           {
             "name": "@n8n/blob-storage",
             "purl": "",
-            "version": "1.12.3"
+            "version": "1.12.4"
           },
           {
             "name": "@n8n/chat-hub",
             "purl": "",
-            "version": "1.37.2"
+            "version": "1.37.3"
           },
           {
             "name": "@n8n/client-oauth2",
             "purl": "",
-            "version": "1.26.3"
+            "version": "1.26.4"
           },
           {
             "name": "@n8n/composables",
             "purl": "",
-            "version": "1.34.2"
+            "version": "1.34.3"
           },
           {
             "name": "@n8n/config",
@@ -2403,17 +2403,17 @@
           {
             "name": "@n8n/db",
             "purl": "",
-            "version": "1.44.3"
+            "version": "1.44.4"
           },
           {
             "name": "@n8n/decorators",
             "purl": "",
-            "version": "1.44.2"
+            "version": "1.44.3"
           },
           {
             "name": "@n8n/design-system",
             "purl": "",
-            "version": "2.43.2"
+            "version": "2.43.3"
           },
           {
             "name": "@n8n/di",
@@ -2448,7 +2448,7 @@
           {
             "name": "@n8n/i18n",
             "purl": "",
-            "version": "2.44.2"
+            "version": "2.44.3"
           },
           {
             "name": "@n8n/imap",
@@ -2458,12 +2458,12 @@
           {
             "name": "@n8n/inbound-auth",
             "purl": "",
-            "version": "0.3.2"
+            "version": "0.3.3"
           },
           {
             "name": "@n8n/instance-ai",
             "purl": "",
-            "version": "1.29.4"
+            "version": "1.29.5"
           },
           {
             "name": "@n8n/json-schema-to-zod",
@@ -2473,7 +2473,7 @@
           {
             "name": "@n8n/mcp-apps",
             "purl": "",
-            "version": "0.21.2"
+            "version": "0.21.3"
           },
           {
             "name": "@n8n/mcp-browser",
@@ -2483,12 +2483,12 @@
           {
             "name": "@n8n/n8n-nodes-langchain",
             "purl": "",
-            "version": "2.44.3"
+            "version": "2.44.4"
           },
           {
             "name": "@n8n/node-engine-compatibility",
             "purl": "",
-            "version": "0.12.3"
+            "version": "0.12.4"
           },
           {
             "name": "@n8n/permissions",
@@ -2513,12 +2513,12 @@
           {
             "name": "@n8n/task-runner",
             "purl": "",
-            "version": "2.44.3"
+            "version": "2.44.4"
           },
           {
             "name": "@n8n/telemetry",
             "purl": "",
-            "version": "1.12.2"
+            "version": "1.12.3"
           },
           {
             "name": "@n8n/tournament",
@@ -2873,7 +2873,7 @@
           {
             "name": "@posthog/core",
             "purl": "",
-            "version": "1.59.2"
+            "version": "1.59.3"
           },
           {
             "name": "@posthog/types",
@@ -2928,7 +2928,7 @@
           {
             "name": "@qdrant/js-client-rest",
             "purl": "",
-            "version": "1.19.0"
+            "version": "1.20.0"
           },
           {
             "name": "@qdrant/openapi-typescript-fetch",
@@ -3123,7 +3123,7 @@
           {
             "name": "@smithy/core",
             "purl": "",
-            "version": "3.36.1"
+            "version": "3.36.2"
           },
           {
             "name": "@smithy/credential-provider-imds",
@@ -3418,7 +3418,7 @@
           {
             "name": "@tanstack/virtual-core",
             "purl": "",
-            "version": "3.19.6"
+            "version": "3.19.7"
           },
           {
             "name": "@tanstack/vue-table",
@@ -3428,7 +3428,7 @@
           {
             "name": "@tanstack/vue-virtual",
             "purl": "",
-            "version": "3.13.47"
+            "version": "3.13.48"
           },
           {
             "name": "@techteamer/ocsp",
@@ -3708,7 +3708,7 @@
           {
             "name": "@types/lodash",
             "purl": "",
-            "version": "4.17.26"
+            "version": "4.17.27"
           },
           {
             "name": "@types/lodash-es",
@@ -4378,7 +4378,7 @@
           {
             "name": "body-parser",
             "purl": "",
-            "version": "2.3.0"
+            "version": "2.4.0"
           },
           {
             "name": "boolbase",
@@ -5113,7 +5113,7 @@
           {
             "name": "encoding",
             "purl": "",
-            "version": "0.1.13"
+            "version": "0.1.14"
           },
           {
             "name": "encoding-japanese",
@@ -6993,7 +6993,7 @@
           {
             "name": "multer",
             "purl": "",
-            "version": "2.4.0"
+            "version": "2.5.0"
           },
           {
             "name": "mustache",
@@ -7023,22 +7023,22 @@
           {
             "name": "n8n",
             "purl": "",
-            "version": "2.44.5"
+            "version": "2.44.6"
           },
           {
             "name": "n8n-core",
             "purl": "",
-            "version": "2.44.3"
+            "version": "2.44.4"
           },
           {
             "name": "n8n-editor-ui",
             "purl": "",
-            "version": "2.44.2"
+            "version": "2.44.3"
           },
           {
             "name": "n8n-nodes-base",
             "purl": "",
-            "version": "2.44.3"
+            "version": "2.44.4"
           },
           {
             "name": "n8n-workflow",
@@ -7108,7 +7108,7 @@
           {
             "name": "node-abi",
             "purl": "",
-            "version": "3.99.0"
+            "version": "3.100.0"
           },
           {
             "name": "node-addon-api",
@@ -7833,12 +7833,12 @@
           {
             "name": "prosemirror-transform",
             "purl": "",
-            "version": "1.12.2"
+            "version": "1.12.3"
           },
           {
             "name": "prosemirror-view",
             "purl": "",
-            "version": "1.42.6"
+            "version": "1.42.7"
           },
           {
             "name": "proto3-json-serializer",
@@ -8983,7 +8983,7 @@
           {
             "name": "utilium",
             "purl": "",
-            "version": "3.9.0"
+            "version": "3.10.0"
           },
           {
             "name": "uuid",
