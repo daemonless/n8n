@@ -64,7 +64,6 @@ RUN mkdir -p /tmp/kafka-stub && \
     mkdir -p /app && node -p "require('/usr/local/lib/node_modules/n8n/package.json').version" > /app/version && \
     cd / && rm -rf /tmp/n8n-install
 
-
 # Build libsql native binding for FreeBSD and place in n8n's nested node_modules
 # set -o pipefail: without it, `cargo build | tail` masks a cargo failure behind
 # tail's own exit code (0), silently shipping an image with no native binary —
@@ -90,7 +89,7 @@ RUN mkdir -p /usr/local/lib/node_modules/@n8n && \
     .venv/bin/pip install --no-cache-dir "websockets>=15.0.1"
 
 # Production image
-FROM ghcr.io/daemonless/base:${BASE_VERSION}
+FROM ghcr.io/daemonless/base-exec:${BASE_VERSION}
 
 ARG FREEBSD_ARCH=amd64
 ARG NODE_VERSION
@@ -151,9 +150,9 @@ RUN mkdir -p /config && \
 
 # Copy service definitions and init scripts
 COPY root/ /
+RUN chmod +x /daemonless/libexec/n8n /daemonless/init.d/*
 
-# Make scripts executable
-RUN chmod +x /etc/services.d/*/run /etc/cont-init.d/* 2>/dev/null || true
+CMD ["/daemonless/libexec/n8n"]
 
 # Environment
 ENV N8N_USER_FOLDER=/config \

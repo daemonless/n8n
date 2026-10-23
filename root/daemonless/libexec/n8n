@@ -1,0 +1,9 @@
+#!/bin/sh
+# Start n8n; /init has already dropped to the run user.
+
+export HOME=/config
+
+export N8N_CONFIG_FILES=/config/n8n.config.json
+
+cd /config
+exec /usr/local/bin/n8n start
