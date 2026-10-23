@@ -7,7 +7,7 @@
 ARG BASE_VERSION=15.1
 ARG NODE_VERSION=24
 ARG PYTHON_VERSION=313
-FROM ghcr.io/daemonless/base:${BASE_VERSION} AS builder
+FROM ghcr.io/daemonless/base-exec:${BASE_VERSION} AS builder
 ARG NODE_VERSION
 ARG PYTHON_VERSION
 
