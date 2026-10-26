@@ -36,13 +36,7 @@ Before deploying, ensure your host environment is ready. See the [Quick Start Gu
 
 A file in the app's config folder. Right for one person, nothing extra to run.
 
-**1.** Save as `.env` and fill in what is empty:
-
-```env { data-zip-bundle="n8n-podman" data-zip-filename=".env" }
-
-```
-
-**2.** Save as `compose.yaml`:
+Save as `compose.yaml`:
 
 ```yaml { data-zip-bundle="n8n-podman" data-zip-filename="compose.yaml" }
 name: n8n

@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-23T10:43:44Z",
+  "generated": "2026-10-26T15:06:32Z",
   "image": "n8n",
   "tags": {
     "latest": {
-      "app_version": "2.44.6",
+      "app_version": "2.44.7",
       "arch": "amd64",
-      "generated": "2026-10-23T10:39:28Z",
+      "generated": "2026-10-26T15:02:38Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -302,7 +302,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.131"
+            "version": "3.131.1"
           },
           {
             "licenses": [
@@ -316,7 +316,7 @@
               "MIT"
             ],
             "name": "curl",
-            "version": "8.22.0"
+            "version": "8.23.0"
           },
           {
             "licenses": [
@@ -659,14 +659,6 @@
           },
           {
             "licenses": [
-              "MIT",
-              "APACHE20"
-            ],
-            "name": "merve",
-            "version": "1.2.2_3"
-          },
-          {
-            "licenses": [
               "LGPL3+"
             ],
             "name": "mpc",
@@ -698,7 +690,7 @@
               "MIT"
             ],
             "name": "node24",
-            "version": "24.21.0_1"
+            "version": "24.21.0_3"
           },
           {
             "licenses": [
@@ -895,14 +887,6 @@
           },
           {
             "licenses": [
-              "MIT",
-              "APACHE20"
-            ],
-            "name": "simdutf",
-            "version": "9.2.1"
-          },
-          {
-            "licenses": [
               "PD"
             ],
             "name": "sqlite3",
@@ -1022,82 +1006,82 @@
           {
             "name": "@ai-sdk/alibaba",
             "purl": "",
-            "version": "2.0.75"
+            "version": "2.0.76"
           },
           {
             "name": "@ai-sdk/amazon-bedrock",
             "purl": "",
-            "version": "5.0.123"
+            "version": "5.0.124"
           },
           {
             "name": "@ai-sdk/anthropic",
             "purl": "",
-            "version": "4.0.87"
+            "version": "4.0.88"
           },
           {
             "name": "@ai-sdk/azure",
             "purl": "",
-            "version": "4.0.109"
+            "version": "4.0.110"
           },
           {
             "name": "@ai-sdk/cohere",
             "purl": "",
-            "version": "4.0.68"
+            "version": "4.0.69"
           },
           {
             "name": "@ai-sdk/deepseek",
             "purl": "",
-            "version": "3.0.72"
+            "version": "3.0.73"
           },
           {
             "name": "@ai-sdk/gateway",
             "purl": "",
-            "version": "4.0.123"
+            "version": "4.0.126"
           },
           {
             "name": "@ai-sdk/google",
             "purl": "",
-            "version": "4.0.104"
+            "version": "4.0.105"
           },
           {
             "name": "@ai-sdk/google-vertex",
             "purl": "",
-            "version": "5.0.121"
+            "version": "5.0.122"
           },
           {
             "name": "@ai-sdk/groq",
             "purl": "",
-            "version": "4.0.69"
+            "version": "4.0.70"
           },
           {
             "name": "@ai-sdk/minimax",
             "purl": "",
-            "version": "3.0.64"
+            "version": "3.0.65"
           },
           {
             "name": "@ai-sdk/mistral",
             "purl": "",
-            "version": "4.0.71"
+            "version": "4.0.72"
           },
           {
             "name": "@ai-sdk/moonshotai",
             "purl": "",
-            "version": "3.0.76"
+            "version": "3.0.78"
           },
           {
             "name": "@ai-sdk/openai",
             "purl": "",
-            "version": "4.0.101"
+            "version": "4.0.102"
           },
           {
             "name": "@ai-sdk/openai-compatible",
             "purl": "",
-            "version": "3.0.77"
+            "version": "3.0.78"
           },
           {
             "name": "@ai-sdk/otel",
             "purl": "",
-            "version": "1.0.150"
+            "version": "1.0.153"
           },
           {
             "name": "@ai-sdk/provider",
@@ -1562,7 +1546,7 @@
           {
             "name": "@babel/helper-string-parser",
             "purl": "",
-            "version": "7.29.7"
+            "version": "7.29.11"
           },
           {
             "name": "@babel/helper-validator-identifier",
@@ -1572,7 +1556,7 @@
           {
             "name": "@babel/parser",
             "purl": "",
-            "version": "7.29.9"
+            "version": "7.29.11"
           },
           {
             "name": "@babel/runtime",
@@ -1582,7 +1566,7 @@
           {
             "name": "@babel/types",
             "purl": "",
-            "version": "7.29.8"
+            "version": "7.29.11"
           },
           {
             "name": "@borewit/text-codec",
@@ -2432,7 +2416,7 @@
           {
             "name": "@n8n/imap",
             "purl": "",
-            "version": "0.30.0"
+            "version": "0.30.1"
           },
           {
             "name": "@n8n/inbound-auth",
@@ -2462,7 +2446,7 @@
           {
             "name": "@n8n/n8n-nodes-langchain",
             "purl": "",
-            "version": "2.44.4"
+            "version": "2.44.5"
           },
           {
             "name": "@n8n/node-engine-compatibility",
@@ -2852,12 +2836,12 @@
           {
             "name": "@posthog/core",
             "purl": "",
-            "version": "1.60.0"
+            "version": "1.60.1"
           },
           {
             "name": "@posthog/types",
             "purl": "",
-            "version": "1.416.0"
+            "version": "1.416.1"
           },
           {
             "name": "@protobufjs/aspromise",
@@ -3397,7 +3381,7 @@
           {
             "name": "@tanstack/virtual-core",
             "purl": "",
-            "version": "3.19.7"
+            "version": "3.19.8"
           },
           {
             "name": "@tanstack/vue-table",
@@ -3407,7 +3391,7 @@
           {
             "name": "@tanstack/vue-virtual",
             "purl": "",
-            "version": "3.13.48"
+            "version": "3.13.49"
           },
           {
             "name": "@techteamer/ocsp",
@@ -4027,7 +4011,7 @@
           {
             "name": "ai",
             "purl": "",
-            "version": "7.0.150"
+            "version": "7.0.153"
           },
           {
             "name": "ajv",
@@ -5407,7 +5391,7 @@
           {
             "name": "follow-redirects",
             "purl": "",
-            "version": "1.16.1"
+            "version": "1.16.2"
           },
           {
             "name": "for-each",
@@ -5682,7 +5666,7 @@
           {
             "name": "hono",
             "purl": "",
-            "version": "4.13.13"
+            "version": "4.13.14"
           },
           {
             "name": "hosted-git-info",
@@ -5732,7 +5716,7 @@
           {
             "name": "http-proxy-middleware",
             "purl": "",
-            "version": "3.0.7"
+            "version": "3.0.10"
           },
           {
             "name": "https-proxy-agent",
@@ -5792,7 +5776,7 @@
           {
             "name": "import-in-the-middle",
             "purl": "",
-            "version": "3.5.2"
+            "version": "3.5.3"
           },
           {
             "name": "imurmurhash",
@@ -6572,7 +6556,7 @@
           {
             "name": "mdast-util-find-and-replace",
             "purl": "",
-            "version": "3.0.3"
+            "version": "3.0.4"
           },
           {
             "name": "mdast-util-from-markdown",
@@ -7002,7 +6986,7 @@
           {
             "name": "n8n",
             "purl": "",
-            "version": "2.44.6"
+            "version": "2.44.7"
           },
           {
             "name": "n8n-core",
@@ -7017,7 +7001,7 @@
           {
             "name": "n8n-nodes-base",
             "purl": "",
-            "version": "2.44.4"
+            "version": "2.44.5"
           },
           {
             "name": "n8n-workflow",
@@ -7072,12 +7056,12 @@
           {
             "name": "nice-grpc",
             "purl": "",
-            "version": "2.1.17"
+            "version": "2.1.18"
           },
           {
             "name": "nice-grpc-client-middleware-retry",
             "purl": "",
-            "version": "3.1.16"
+            "version": "3.1.17"
           },
           {
             "name": "nice-grpc-common",
@@ -7087,7 +7071,7 @@
           {
             "name": "node-abi",
             "purl": "",
-            "version": "3.100.0"
+            "version": "3.101.0"
           },
           {
             "name": "node-addon-api",
@@ -7817,7 +7801,7 @@
           {
             "name": "prosemirror-view",
             "purl": "",
-            "version": "1.42.7"
+            "version": "1.42.8"
           },
           {
             "name": "proto3-json-serializer",
@@ -8912,12 +8896,12 @@
           {
             "name": "unist-util-visit",
             "purl": "",
-            "version": "5.1.0"
+            "version": "5.2.0"
           },
           {
             "name": "unist-util-visit-parents",
             "purl": "",
-            "version": "6.0.2"
+            "version": "6.1.0"
           },
           {
             "name": "universalify",
@@ -9460,7 +9444,7 @@
       "source": "upstream",
       "summary": {
         "dotnet": 0,
-        "freebsd": 130,
+        "freebsd": 128,
         "go": 10,
         "java": 0,
         "node": 1658,
@@ -9468,7 +9452,7 @@
         "python": 22,
         "ruby": 0,
         "rust": 10,
-        "total": 1830
+        "total": 1828
       }
     }
   }
