@@ -1,11 +1,11 @@
 {
-  "generated": "2026-11-01T18:55:19Z",
+  "generated": "2026-11-03T21:28:49Z",
   "image": "n8n",
   "tags": {
     "latest": {
-      "app_version": "2.45.7",
+      "app_version": "2.46.4",
       "arch": "amd64",
-      "generated": "2026-11-01T18:51:14Z",
+      "generated": "2026-11-03T21:24:24Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -323,7 +323,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.8.4"
+            "version": "2.9.0"
           },
           {
             "licenses": [
@@ -890,7 +890,7 @@
               "PD"
             ],
             "name": "sqlite3",
-            "version": "3.53.4,1"
+            "version": "3.54.1,1"
           },
           {
             "licenses": [
@@ -1001,82 +1001,82 @@
           {
             "name": "@ai-sdk/alibaba",
             "purl": "",
-            "version": "2.0.80"
+            "version": "2.0.82"
           },
           {
             "name": "@ai-sdk/amazon-bedrock",
             "purl": "",
-            "version": "5.0.130"
+            "version": "5.0.132"
           },
           {
             "name": "@ai-sdk/anthropic",
             "purl": "",
-            "version": "4.0.94"
+            "version": "4.0.96"
           },
           {
             "name": "@ai-sdk/azure",
             "purl": "",
-            "version": "4.0.114"
+            "version": "4.0.116"
           },
           {
             "name": "@ai-sdk/cohere",
             "purl": "",
-            "version": "4.0.73"
+            "version": "4.0.75"
           },
           {
             "name": "@ai-sdk/deepseek",
             "purl": "",
-            "version": "3.0.77"
+            "version": "3.0.79"
           },
           {
             "name": "@ai-sdk/gateway",
             "purl": "",
-            "version": "4.0.132"
+            "version": "4.0.135"
           },
           {
             "name": "@ai-sdk/google",
             "purl": "",
-            "version": "4.0.109"
+            "version": "4.0.111"
           },
           {
             "name": "@ai-sdk/google-vertex",
             "purl": "",
-            "version": "5.0.129"
+            "version": "5.0.131"
           },
           {
             "name": "@ai-sdk/groq",
             "purl": "",
-            "version": "4.0.74"
+            "version": "4.0.76"
           },
           {
             "name": "@ai-sdk/minimax",
             "purl": "",
-            "version": "3.0.71"
+            "version": "3.0.73"
           },
           {
             "name": "@ai-sdk/mistral",
             "purl": "",
-            "version": "4.0.77"
+            "version": "4.0.79"
           },
           {
             "name": "@ai-sdk/moonshotai",
             "purl": "",
-            "version": "3.0.82"
+            "version": "3.0.84"
           },
           {
             "name": "@ai-sdk/openai",
             "purl": "",
-            "version": "4.0.106"
+            "version": "4.0.108"
           },
           {
             "name": "@ai-sdk/openai-compatible",
             "purl": "",
-            "version": "3.0.82"
+            "version": "3.0.84"
           },
           {
             "name": "@ai-sdk/otel",
             "purl": "",
-            "version": "1.0.159"
+            "version": "1.0.162"
           },
           {
             "name": "@ai-sdk/provider",
@@ -1816,7 +1816,7 @@
           {
             "name": "@hono/node-server",
             "purl": "",
-            "version": "1.19.17"
+            "version": "1.19.18"
           },
           {
             "name": "@huggingface/inference",
@@ -1851,7 +1851,7 @@
           {
             "name": "@iconify-json/lucide",
             "purl": "",
-            "version": "1.2.150"
+            "version": "1.2.151"
           },
           {
             "name": "@iconify/types",
@@ -1871,22 +1871,22 @@
           {
             "name": "@intlify/core-base",
             "purl": "",
-            "version": "11.4.17"
+            "version": "11.4.18"
           },
           {
             "name": "@intlify/devtools-types",
             "purl": "",
-            "version": "11.4.17"
+            "version": "11.4.18"
           },
           {
             "name": "@intlify/message-compiler",
             "purl": "",
-            "version": "11.4.17"
+            "version": "11.4.18"
           },
           {
             "name": "@intlify/shared",
             "purl": "",
-            "version": "11.4.17"
+            "version": "11.4.18"
           },
           {
             "name": "@ioredis/commands",
@@ -2101,7 +2101,7 @@
           {
             "name": "@langchain/mongodb",
             "purl": "",
-            "version": "1.0.1"
+            "version": "1.3.1"
           },
           {
             "name": "@langchain/ollama",
@@ -2131,7 +2131,7 @@
           {
             "name": "@langchain/redis",
             "purl": "",
-            "version": "1.0.1"
+            "version": "1.1.1"
           },
           {
             "name": "@langchain/textsplitters",
@@ -2241,7 +2241,7 @@
           {
             "name": "@modelcontextprotocol/core",
             "purl": "",
-            "version": "2.0.0"
+            "version": "2.3.0"
           },
           {
             "name": "@modelcontextprotocol/ext-apps",
@@ -2261,7 +2261,7 @@
           {
             "name": "@modelcontextprotocol/server",
             "purl": "",
-            "version": "2.0.0"
+            "version": "2.3.0"
           },
           {
             "name": "@mongodb-js/saslprep",
@@ -2286,102 +2286,107 @@
           {
             "name": "@n8n/agents",
             "purl": "",
-            "version": "0.30.6"
+            "version": "0.31.4"
           },
           {
             "name": "@n8n/ai-node-sdk",
             "purl": "",
-            "version": "0.35.6"
+            "version": "0.36.4"
           },
           {
             "name": "@n8n/ai-utilities",
             "purl": "",
-            "version": "0.38.6"
+            "version": "0.39.4"
           },
           {
             "name": "@n8n/ai-workflow-builder",
             "purl": "",
-            "version": "1.45.6"
+            "version": "1.46.4"
           },
           {
             "name": "@n8n/api-types",
             "purl": "",
-            "version": "1.45.6"
+            "version": "1.46.4"
           },
           {
             "name": "@n8n/backend-common",
             "purl": "",
-            "version": "1.45.6"
+            "version": "1.46.4"
+          },
+          {
+            "name": "@n8n/backend-module-apps",
+            "purl": "",
+            "version": "0.2.4"
           },
           {
             "name": "@n8n/backend-module-insights",
             "purl": "",
-            "version": "0.3.6"
+            "version": "0.4.4"
           },
           {
             "name": "@n8n/backend-module-quick-connect",
             "purl": "",
-            "version": "0.2.6"
+            "version": "0.3.4"
           },
           {
             "name": "@n8n/backend-module-workflow-builder",
             "purl": "",
-            "version": "0.2.6"
+            "version": "0.3.4"
           },
           {
             "name": "@n8n/backend-network",
             "purl": "",
-            "version": "1.19.6"
+            "version": "1.20.4"
           },
           {
             "name": "@n8n/backend-services",
             "purl": "",
-            "version": "1.5.6"
+            "version": "1.6.4"
           },
           {
             "name": "@n8n/blob-storage",
             "purl": "",
-            "version": "1.13.6"
+            "version": "1.14.4"
           },
           {
             "name": "@n8n/chat-hub",
             "purl": "",
-            "version": "1.38.6"
+            "version": "1.39.4"
           },
           {
             "name": "@n8n/client-oauth2",
             "purl": "",
-            "version": "1.27.6"
+            "version": "1.28.4"
           },
           {
             "name": "@n8n/composables",
             "purl": "",
-            "version": "1.35.6"
+            "version": "1.36.4"
           },
           {
             "name": "@n8n/config",
             "purl": "",
-            "version": "2.43.2"
+            "version": "2.44.1"
           },
           {
             "name": "@n8n/constants",
             "purl": "",
-            "version": "0.43.1"
+            "version": "0.44.1"
           },
           {
             "name": "@n8n/db",
             "purl": "",
-            "version": "1.45.6"
+            "version": "1.46.4"
           },
           {
             "name": "@n8n/decorators",
             "purl": "",
-            "version": "1.45.6"
+            "version": "1.46.4"
           },
           {
             "name": "@n8n/design-system",
             "purl": "",
-            "version": "2.44.7"
+            "version": "2.45.4"
           },
           {
             "name": "@n8n/di",
@@ -2391,22 +2396,22 @@
           {
             "name": "@n8n/engine",
             "purl": "",
-            "version": "0.25.2"
+            "version": "0.26.1"
           },
           {
             "name": "@n8n/errors",
             "purl": "",
-            "version": "0.15.0"
+            "version": "0.16.0"
           },
           {
             "name": "@n8n/expression-runtime",
             "purl": "",
-            "version": "0.36.3"
+            "version": "0.37.4"
           },
           {
             "name": "@n8n/frontend-constants",
             "purl": "",
-            "version": "0.11.0"
+            "version": "0.12.0"
           },
           {
             "name": "@n8n/frontend-utils",
@@ -2416,22 +2421,22 @@
           {
             "name": "@n8n/i18n",
             "purl": "",
-            "version": "2.45.6"
+            "version": "2.46.4"
           },
           {
             "name": "@n8n/imap",
             "purl": "",
-            "version": "0.31.2"
+            "version": "0.32.1"
           },
           {
             "name": "@n8n/inbound-auth",
             "purl": "",
-            "version": "0.4.4"
+            "version": "0.5.4"
           },
           {
             "name": "@n8n/instance-ai",
             "purl": "",
-            "version": "1.30.6"
+            "version": "1.31.4"
           },
           {
             "name": "@n8n/json-schema-to-zod",
@@ -2441,7 +2446,7 @@
           {
             "name": "@n8n/mcp-apps",
             "purl": "",
-            "version": "0.22.7"
+            "version": "0.23.4"
           },
           {
             "name": "@n8n/mcp-browser",
@@ -2451,17 +2456,17 @@
           {
             "name": "@n8n/n8n-nodes-langchain",
             "purl": "",
-            "version": "2.45.6"
+            "version": "2.46.4"
           },
           {
             "name": "@n8n/node-engine-compatibility",
             "purl": "",
-            "version": "0.13.6"
+            "version": "0.14.4"
           },
           {
             "name": "@n8n/permissions",
             "purl": "",
-            "version": "0.82.0"
+            "version": "0.83.0"
           },
           {
             "name": "@n8n/sandbox-client",
@@ -2471,7 +2476,7 @@
           {
             "name": "@n8n/scheduler",
             "purl": "",
-            "version": "1.14.4"
+            "version": "1.15.4"
           },
           {
             "name": "@n8n/syslog-client",
@@ -2481,12 +2486,12 @@
           {
             "name": "@n8n/task-runner",
             "purl": "",
-            "version": "2.45.6"
+            "version": "2.46.4"
           },
           {
             "name": "@n8n/telemetry",
             "purl": "",
-            "version": "1.13.6"
+            "version": "1.14.4"
           },
           {
             "name": "@n8n/tournament",
@@ -2496,7 +2501,7 @@
           {
             "name": "@n8n/typeorm",
             "purl": "",
-            "version": "0.12.0"
+            "version": "0.13.0"
           },
           {
             "name": "@n8n/typescript-config",
@@ -2506,12 +2511,12 @@
           {
             "name": "@n8n/utils",
             "purl": "",
-            "version": "1.52.1"
+            "version": "1.53.1"
           },
           {
             "name": "@n8n/workflow-sdk",
             "purl": "",
-            "version": "0.38.4"
+            "version": "0.39.4"
           },
           {
             "name": "@n8n_io/ai-assistant-sdk",
@@ -2527,6 +2532,36 @@
             "name": "@napi-rs/canvas",
             "purl": "",
             "version": "0.1.80"
+          },
+          {
+            "name": "@napi-rs/canvas-linux-arm64-musl",
+            "purl": "",
+            "version": "1.0.11"
+          },
+          {
+            "name": "@napi-rs/canvas-linux-x64-musl",
+            "purl": "",
+            "version": "1.0.11"
+          },
+          {
+            "name": "@napi-rs/image",
+            "purl": "",
+            "version": "1.15.0"
+          },
+          {
+            "name": "@napi-rs/image-freebsd-x64",
+            "purl": "",
+            "version": "1.15.0"
+          },
+          {
+            "name": "@napi-rs/image-linux-arm64-musl",
+            "purl": "",
+            "version": "1.15.0"
+          },
+          {
+            "name": "@napi-rs/image-linux-x64-musl",
+            "purl": "",
+            "version": "1.15.0"
           },
           {
             "name": "@noble/hashes",
@@ -2841,7 +2876,7 @@
           {
             "name": "@posthog/core",
             "purl": "",
-            "version": "1.62.0"
+            "version": "1.63.0"
           },
           {
             "name": "@posthog/types",
@@ -3391,7 +3426,7 @@
           {
             "name": "@tanstack/virtual-core",
             "purl": "",
-            "version": "3.19.10"
+            "version": "3.19.11"
           },
           {
             "name": "@tanstack/vue-table",
@@ -3401,7 +3436,7 @@
           {
             "name": "@tanstack/vue-virtual",
             "purl": "",
-            "version": "3.13.51"
+            "version": "3.13.52"
           },
           {
             "name": "@techteamer/ocsp",
@@ -4016,7 +4051,7 @@
           {
             "name": "ai",
             "purl": "",
-            "version": "7.0.159"
+            "version": "7.0.162"
           },
           {
             "name": "ajv",
@@ -5731,7 +5766,7 @@
           {
             "name": "ibm-cloud-sdk-core",
             "purl": "",
-            "version": "5.9.2"
+            "version": "5.9.3"
           },
           {
             "name": "iceberg-js",
@@ -5861,7 +5896,7 @@
           {
             "name": "is-core-module",
             "purl": "",
-            "version": "2.17.0"
+            "version": "2.18.0"
           },
           {
             "name": "is-docker",
@@ -5976,7 +6011,7 @@
           {
             "name": "is-unsafe",
             "purl": "",
-            "version": "2.0.2"
+            "version": "2.0.3"
           },
           {
             "name": "is-wsl",
@@ -6036,7 +6071,7 @@
           {
             "name": "jose",
             "purl": "",
-            "version": "6.2.14"
+            "version": "6.2.15"
           },
           {
             "name": "js-base64",
@@ -6526,7 +6561,7 @@
           {
             "name": "markdown-table",
             "purl": "",
-            "version": "3.0.4"
+            "version": "3.1.0"
           },
           {
             "name": "marked",
@@ -6581,7 +6616,7 @@
           {
             "name": "mdast-util-gfm-table",
             "purl": "",
-            "version": "2.0.0"
+            "version": "2.0.1"
           },
           {
             "name": "mdast-util-gfm-task-list-item",
@@ -6596,7 +6631,7 @@
           {
             "name": "mdast-util-to-markdown",
             "purl": "",
-            "version": "2.2.1"
+            "version": "2.2.2"
           },
           {
             "name": "mdast-util-to-string",
@@ -6936,7 +6971,7 @@
           {
             "name": "msgpackr-extract",
             "purl": "",
-            "version": "3.0.4"
+            "version": "3.0.6"
           },
           {
             "name": "mssql",
@@ -6981,27 +7016,27 @@
           {
             "name": "n8n",
             "purl": "",
-            "version": "2.45.7"
+            "version": "2.46.4"
           },
           {
             "name": "n8n-core",
             "purl": "",
-            "version": "2.45.6"
+            "version": "2.46.4"
           },
           {
             "name": "n8n-editor-ui",
             "purl": "",
-            "version": "2.45.6"
+            "version": "2.46.4"
           },
           {
             "name": "n8n-nodes-base",
             "purl": "",
-            "version": "2.45.6"
+            "version": "2.46.4"
           },
           {
             "name": "n8n-workflow",
             "purl": "",
-            "version": "2.45.4"
+            "version": "2.46.4"
           },
           {
             "name": "named-placeholders",
@@ -7731,7 +7766,7 @@
           {
             "name": "prosemirror-changeset",
             "purl": "",
-            "version": "2.4.5"
+            "version": "2.4.6"
           },
           {
             "name": "prosemirror-commands",
@@ -7889,6 +7924,11 @@
             "version": "1.3.0"
           },
           {
+            "name": "rate-limit-redis",
+            "purl": "",
+            "version": "4.3.1"
+          },
+          {
             "name": "raw-body",
             "purl": "",
             "version": "3.0.0"
@@ -8011,7 +8051,7 @@
           {
             "name": "resolve",
             "purl": "",
-            "version": "1.22.13"
+            "version": "1.22.14"
           },
           {
             "name": "retry",
@@ -8121,7 +8161,7 @@
           {
             "name": "sanitize-html",
             "purl": "",
-            "version": "2.17.7"
+            "version": "2.18.0"
           },
           {
             "name": "sax",
@@ -8156,7 +8196,7 @@
           {
             "name": "semver",
             "purl": "",
-            "version": "6.3.1"
+            "version": "6.3.2"
           },
           {
             "name": "send",
@@ -8277,6 +8317,16 @@
             "name": "simple-wcswidth",
             "purl": "",
             "version": "1.1.2"
+          },
+          {
+            "name": "skia.linux-arm64-musl.node",
+            "purl": "",
+            "version": "1.0.11"
+          },
+          {
+            "name": "skia.linux-x64-musl.node",
+            "purl": "",
+            "version": "1.0.11"
           },
           {
             "name": "slugify",
@@ -8491,7 +8541,7 @@
           {
             "name": "strtok3",
             "purl": "",
-            "version": "10.6.3"
+            "version": "10.7.0"
           },
           {
             "name": "stubs",
@@ -8601,7 +8651,7 @@
           {
             "name": "thread-stream",
             "purl": "",
-            "version": "4.2.0"
+            "version": "4.2.1"
           },
           {
             "name": "thrift",
@@ -8671,7 +8721,7 @@
           {
             "name": "token-types",
             "purl": "",
-            "version": "6.1.2"
+            "version": "6.2.0"
           },
           {
             "name": "toml",
@@ -9001,7 +9051,7 @@
           {
             "name": "vue-i18n",
             "purl": "",
-            "version": "11.4.17"
+            "version": "11.4.18"
           },
           {
             "name": "vue-router",
@@ -9380,19 +9430,214 @@
         "ruby": [],
         "rust": [
           {
+            "name": "aho-corasick",
+            "purl": "",
+            "version": "1.1.4"
+          },
+          {
+            "name": "anyhow",
+            "purl": "",
+            "version": "1.0.104"
+          },
+          {
             "name": "autocfg",
             "purl": "",
             "version": "1.4.0"
           },
           {
+            "name": "base64-simd",
+            "purl": "",
+            "version": "0.8.0"
+          },
+          {
+            "name": "bitflags",
+            "purl": "",
+            "version": "2.13.1"
+          },
+          {
+            "name": "bumpalo",
+            "purl": "",
+            "version": "3.20.3"
+          },
+          {
+            "name": "bytemuck",
+            "purl": "",
+            "version": "1.25.2"
+          },
+          {
+            "name": "canvas",
+            "purl": "",
+            "version": "0.1.0"
+          },
+          {
             "name": "cc",
             "purl": "",
-            "version": "1.1.15"
+            "version": "1.4.0"
+          },
+          {
+            "name": "cfb",
+            "purl": "",
+            "version": "0.14.0"
+          },
+          {
+            "name": "cfg-if",
+            "purl": "",
+            "version": "1.0.4"
+          },
+          {
+            "name": "cmake",
+            "purl": "",
+            "version": "0.1.58"
+          },
+          {
+            "name": "color_quant",
+            "purl": "",
+            "version": "1.1.0"
+          },
+          {
+            "name": "convert_case",
+            "purl": "",
+            "version": "0.11.0"
+          },
+          {
+            "name": "cssparser",
+            "purl": "",
+            "version": "0.38.0"
+          },
+          {
+            "name": "cssparser-color",
+            "purl": "",
+            "version": "0.6.0"
+          },
+          {
+            "name": "cssparser-macros",
+            "purl": "",
+            "version": "0.7.0"
+          },
+          {
+            "name": "ctor",
+            "purl": "",
+            "version": "1.0.11"
+          },
+          {
+            "name": "dtoa",
+            "purl": "",
+            "version": "1.0.11"
+          },
+          {
+            "name": "dtoa-short",
+            "purl": "",
+            "version": "0.3.5"
+          },
+          {
+            "name": "fastrand",
+            "purl": "",
+            "version": "2.5.0"
+          },
+          {
+            "name": "find-msvc-tools",
+            "purl": "",
+            "version": "0.1.9"
+          },
+          {
+            "name": "fnv",
+            "purl": "",
+            "version": "1.0.7"
+          },
+          {
+            "name": "futures",
+            "purl": "",
+            "version": "0.3.33"
+          },
+          {
+            "name": "futures-channel",
+            "purl": "",
+            "version": "0.3.33"
+          },
+          {
+            "name": "futures-core",
+            "purl": "",
+            "version": "0.3.33"
+          },
+          {
+            "name": "futures-executor",
+            "purl": "",
+            "version": "0.3.33"
+          },
+          {
+            "name": "futures-io",
+            "purl": "",
+            "version": "0.3.33"
+          },
+          {
+            "name": "futures-macro",
+            "purl": "",
+            "version": "0.3.33"
+          },
+          {
+            "name": "futures-sink",
+            "purl": "",
+            "version": "0.3.33"
+          },
+          {
+            "name": "futures-task",
+            "purl": "",
+            "version": "0.3.33"
+          },
+          {
+            "name": "futures-util",
+            "purl": "",
+            "version": "0.3.33"
+          },
+          {
+            "name": "gif",
+            "purl": "",
+            "version": "0.14.2"
+          },
+          {
+            "name": "hermit-abi",
+            "purl": "",
+            "version": "0.5.2"
+          },
+          {
+            "name": "imagesize",
+            "purl": "",
+            "version": "0.15.0"
+          },
+          {
+            "name": "infer",
+            "purl": "",
+            "version": "0.22.0"
+          },
+          {
+            "name": "itoa",
+            "purl": "",
+            "version": "1.0.18"
+          },
+          {
+            "name": "js-sys",
+            "purl": "",
+            "version": "0.3.103"
+          },
+          {
+            "name": "libaom-sys",
+            "purl": "",
+            "version": "0.17.2+libaom.3.11.0"
+          },
+          {
+            "name": "libavif",
+            "purl": "",
+            "version": "0.14.0"
+          },
+          {
+            "name": "libavif-sys",
+            "purl": "",
+            "version": "0.17.0+libavif.1.0.4"
           },
           {
             "name": "libc",
             "purl": "",
-            "version": "0.2.158"
+            "version": "0.2.189"
           },
           {
             "name": "libgit",
@@ -9405,6 +9650,16 @@
             "version": "0.1.0"
           },
           {
+            "name": "libloading",
+            "purl": "",
+            "version": "0.9.0"
+          },
+          {
+            "name": "libmimalloc-sys2",
+            "purl": "",
+            "version": "0.1.60"
+          },
+          {
             "name": "libz-sys",
             "purl": "",
             "version": "1.1.20"
@@ -9415,19 +9670,264 @@
             "version": "0.1.0"
           },
           {
+            "name": "memchr",
+            "purl": "",
+            "version": "2.8.3"
+          },
+          {
+            "name": "mimalloc-safe",
+            "purl": "",
+            "version": "0.1.64"
+          },
+          {
+            "name": "napi",
+            "purl": "",
+            "version": "3.12.1"
+          },
+          {
+            "name": "napi-build",
+            "purl": "",
+            "version": "2.4.1"
+          },
+          {
+            "name": "napi-derive",
+            "purl": "",
+            "version": "3.6.3"
+          },
+          {
+            "name": "napi-derive-backend",
+            "purl": "",
+            "version": "6.1.2"
+          },
+          {
+            "name": "napi-sys",
+            "purl": "",
+            "version": "3.3.0"
+          },
+          {
+            "name": "nohash-hasher",
+            "purl": "",
+            "version": "0.2.0"
+          },
+          {
+            "name": "nom",
+            "purl": "",
+            "version": "8.0.0"
+          },
+          {
+            "name": "num_cpus",
+            "purl": "",
+            "version": "1.17.0"
+          },
+          {
+            "name": "once_cell",
+            "purl": "",
+            "version": "1.21.4"
+          },
+          {
+            "name": "outref",
+            "purl": "",
+            "version": "0.5.2"
+          },
+          {
+            "name": "phf",
+            "purl": "",
+            "version": "0.14.0"
+          },
+          {
+            "name": "phf_generator",
+            "purl": "",
+            "version": "0.14.0"
+          },
+          {
+            "name": "phf_macros",
+            "purl": "",
+            "version": "0.14.0"
+          },
+          {
+            "name": "phf_shared",
+            "purl": "",
+            "version": "0.14.0"
+          },
+          {
+            "name": "pin-project-lite",
+            "purl": "",
+            "version": "0.2.17"
+          },
+          {
             "name": "pkg-config",
             "purl": "",
             "version": "0.3.30"
           },
           {
+            "name": "proc-macro2",
+            "purl": "",
+            "version": "1.0.107"
+          },
+          {
+            "name": "quote",
+            "purl": "",
+            "version": "1.0.47"
+          },
+          {
+            "name": "regex",
+            "purl": "",
+            "version": "1.13.1"
+          },
+          {
+            "name": "regex-automata",
+            "purl": "",
+            "version": "0.4.16"
+          },
+          {
+            "name": "regex-syntax",
+            "purl": "",
+            "version": "0.8.11"
+          },
+          {
+            "name": "rgb",
+            "purl": "",
+            "version": "0.8.53"
+          },
+          {
+            "name": "rustc-hash",
+            "purl": "",
+            "version": "2.1.3"
+          },
+          {
+            "name": "rustversion",
+            "purl": "",
+            "version": "1.0.23"
+          },
+          {
+            "name": "serde",
+            "purl": "",
+            "version": "1.0.229"
+          },
+          {
+            "name": "serde_core",
+            "purl": "",
+            "version": "1.0.229"
+          },
+          {
+            "name": "serde_derive",
+            "purl": "",
+            "version": "1.0.229"
+          },
+          {
+            "name": "serde_json",
+            "purl": "",
+            "version": "1.0.151"
+          },
+          {
             "name": "shlex",
             "purl": "",
-            "version": "1.3.0"
+            "version": "2.0.1"
+          },
+          {
+            "name": "siphasher",
+            "purl": "",
+            "version": "1.0.3"
+          },
+          {
+            "name": "slab",
+            "purl": "",
+            "version": "0.4.12"
+          },
+          {
+            "name": "smallvec",
+            "purl": "",
+            "version": "1.15.2"
+          },
+          {
+            "name": "syn",
+            "purl": "",
+            "version": "2.0.119"
+          },
+          {
+            "name": "thiserror",
+            "purl": "",
+            "version": "2.0.19"
+          },
+          {
+            "name": "thiserror-impl",
+            "purl": "",
+            "version": "2.0.19"
+          },
+          {
+            "name": "tokio",
+            "purl": "",
+            "version": "1.53.1"
+          },
+          {
+            "name": "tokio-stream",
+            "purl": "",
+            "version": "0.1.19"
+          },
+          {
+            "name": "unicode-ident",
+            "purl": "",
+            "version": "1.0.24"
+          },
+          {
+            "name": "unicode-segmentation",
+            "purl": "",
+            "version": "1.13.3"
+          },
+          {
+            "name": "uuid",
+            "purl": "",
+            "version": "1.24.0"
           },
           {
             "name": "vcpkg",
             "purl": "",
             "version": "0.2.15"
+          },
+          {
+            "name": "vsimd",
+            "purl": "",
+            "version": "0.8.0"
+          },
+          {
+            "name": "wasm-bindgen",
+            "purl": "",
+            "version": "0.2.126"
+          },
+          {
+            "name": "wasm-bindgen-macro",
+            "purl": "",
+            "version": "0.2.126"
+          },
+          {
+            "name": "wasm-bindgen-macro-support",
+            "purl": "",
+            "version": "0.2.126"
+          },
+          {
+            "name": "wasm-bindgen-shared",
+            "purl": "",
+            "version": "0.2.126"
+          },
+          {
+            "name": "web-time",
+            "purl": "",
+            "version": "1.1.0"
+          },
+          {
+            "name": "weezl",
+            "purl": "",
+            "version": "0.1.12"
+          },
+          {
+            "name": "windows-link",
+            "purl": "",
+            "version": "0.2.1"
+          },
+          {
+            "name": "zmij",
+            "purl": "",
+            "version": "1.0.23"
           }
         ]
       },
@@ -9437,12 +9937,12 @@
         "freebsd": 128,
         "go": 10,
         "java": 0,
-        "node": 1656,
+        "node": 1666,
         "php": 0,
         "python": 22,
         "ruby": 0,
-        "rust": 10,
-        "total": 1826
+        "rust": 100,
+        "total": 1926
       }
     }
   }
