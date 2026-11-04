@@ -1,11 +1,11 @@
 {
-  "generated": "2026-11-04T13:34:40Z",
+  "generated": "2026-11-04T20:52:27Z",
   "image": "n8n",
   "tags": {
     "latest": {
-      "app_version": "2.46.5",
+      "app_version": "2.46.6",
       "arch": "amd64",
-      "generated": "2026-11-04T13:30:25Z",
+      "generated": "2026-11-04T20:48:22Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1536,7 +1536,7 @@
           {
             "name": "@babel/helper-string-parser",
             "purl": "",
-            "version": "7.29.11"
+            "version": "7.29.13"
           },
           {
             "name": "@babel/helper-validator-identifier",
@@ -1546,12 +1546,12 @@
           {
             "name": "@babel/parser",
             "purl": "",
-            "version": "7.29.12"
+            "version": "7.29.13"
           },
           {
             "name": "@babel/runtime",
             "purl": "",
-            "version": "7.29.10"
+            "version": "7.29.13"
           },
           {
             "name": "@babel/types",
@@ -2456,7 +2456,7 @@
           {
             "name": "@n8n/n8n-nodes-langchain",
             "purl": "",
-            "version": "2.46.5"
+            "version": "2.46.6"
           },
           {
             "name": "@n8n/node-engine-compatibility",
@@ -2534,32 +2534,12 @@
             "version": "0.1.80"
           },
           {
-            "name": "@napi-rs/canvas-linux-arm64-musl",
-            "purl": "",
-            "version": "1.0.11"
-          },
-          {
-            "name": "@napi-rs/canvas-linux-x64-musl",
-            "purl": "",
-            "version": "1.0.11"
-          },
-          {
             "name": "@napi-rs/image",
             "purl": "",
             "version": "1.15.0"
           },
           {
             "name": "@napi-rs/image-freebsd-x64",
-            "purl": "",
-            "version": "1.15.0"
-          },
-          {
-            "name": "@napi-rs/image-linux-arm64-musl",
-            "purl": "",
-            "version": "1.15.0"
-          },
-          {
-            "name": "@napi-rs/image-linux-x64-musl",
             "purl": "",
             "version": "1.15.0"
           },
@@ -5616,7 +5596,7 @@
           {
             "name": "graphql",
             "purl": "",
-            "version": "16.14.2"
+            "version": "16.15.0"
           },
           {
             "name": "graphql-request",
@@ -7016,7 +6996,7 @@
           {
             "name": "n8n",
             "purl": "",
-            "version": "2.46.5"
+            "version": "2.46.6"
           },
           {
             "name": "n8n-core",
@@ -7031,7 +7011,7 @@
           {
             "name": "n8n-nodes-base",
             "purl": "",
-            "version": "2.46.5"
+            "version": "2.46.6"
           },
           {
             "name": "n8n-workflow",
@@ -7821,7 +7801,7 @@
           {
             "name": "prosemirror-transform",
             "purl": "",
-            "version": "1.12.4"
+            "version": "1.12.5"
           },
           {
             "name": "prosemirror-view",
@@ -8317,16 +8297,6 @@
             "name": "simple-wcswidth",
             "purl": "",
             "version": "1.1.2"
-          },
-          {
-            "name": "skia.linux-arm64-musl.node",
-            "purl": "",
-            "version": "1.0.11"
-          },
-          {
-            "name": "skia.linux-x64-musl.node",
-            "purl": "",
-            "version": "1.0.11"
           },
           {
             "name": "slugify",
@@ -9430,214 +9400,19 @@
         "ruby": [],
         "rust": [
           {
-            "name": "aho-corasick",
-            "purl": "",
-            "version": "1.1.4"
-          },
-          {
-            "name": "anyhow",
-            "purl": "",
-            "version": "1.0.104"
-          },
-          {
             "name": "autocfg",
             "purl": "",
             "version": "1.4.0"
           },
           {
-            "name": "base64-simd",
-            "purl": "",
-            "version": "0.8.0"
-          },
-          {
-            "name": "bitflags",
-            "purl": "",
-            "version": "2.13.1"
-          },
-          {
-            "name": "bumpalo",
-            "purl": "",
-            "version": "3.20.3"
-          },
-          {
-            "name": "bytemuck",
-            "purl": "",
-            "version": "1.25.2"
-          },
-          {
-            "name": "canvas",
-            "purl": "",
-            "version": "0.1.0"
-          },
-          {
             "name": "cc",
             "purl": "",
-            "version": "1.4.0"
-          },
-          {
-            "name": "cfb",
-            "purl": "",
-            "version": "0.14.0"
-          },
-          {
-            "name": "cfg-if",
-            "purl": "",
-            "version": "1.0.4"
-          },
-          {
-            "name": "cmake",
-            "purl": "",
-            "version": "0.1.58"
-          },
-          {
-            "name": "color_quant",
-            "purl": "",
-            "version": "1.1.0"
-          },
-          {
-            "name": "convert_case",
-            "purl": "",
-            "version": "0.11.0"
-          },
-          {
-            "name": "cssparser",
-            "purl": "",
-            "version": "0.38.0"
-          },
-          {
-            "name": "cssparser-color",
-            "purl": "",
-            "version": "0.6.0"
-          },
-          {
-            "name": "cssparser-macros",
-            "purl": "",
-            "version": "0.7.0"
-          },
-          {
-            "name": "ctor",
-            "purl": "",
-            "version": "1.0.11"
-          },
-          {
-            "name": "dtoa",
-            "purl": "",
-            "version": "1.0.11"
-          },
-          {
-            "name": "dtoa-short",
-            "purl": "",
-            "version": "0.3.5"
-          },
-          {
-            "name": "fastrand",
-            "purl": "",
-            "version": "2.5.0"
-          },
-          {
-            "name": "find-msvc-tools",
-            "purl": "",
-            "version": "0.1.9"
-          },
-          {
-            "name": "fnv",
-            "purl": "",
-            "version": "1.0.7"
-          },
-          {
-            "name": "futures",
-            "purl": "",
-            "version": "0.3.33"
-          },
-          {
-            "name": "futures-channel",
-            "purl": "",
-            "version": "0.3.33"
-          },
-          {
-            "name": "futures-core",
-            "purl": "",
-            "version": "0.3.33"
-          },
-          {
-            "name": "futures-executor",
-            "purl": "",
-            "version": "0.3.33"
-          },
-          {
-            "name": "futures-io",
-            "purl": "",
-            "version": "0.3.33"
-          },
-          {
-            "name": "futures-macro",
-            "purl": "",
-            "version": "0.3.33"
-          },
-          {
-            "name": "futures-sink",
-            "purl": "",
-            "version": "0.3.33"
-          },
-          {
-            "name": "futures-task",
-            "purl": "",
-            "version": "0.3.33"
-          },
-          {
-            "name": "futures-util",
-            "purl": "",
-            "version": "0.3.33"
-          },
-          {
-            "name": "gif",
-            "purl": "",
-            "version": "0.14.2"
-          },
-          {
-            "name": "hermit-abi",
-            "purl": "",
-            "version": "0.5.2"
-          },
-          {
-            "name": "imagesize",
-            "purl": "",
-            "version": "0.15.0"
-          },
-          {
-            "name": "infer",
-            "purl": "",
-            "version": "0.22.0"
-          },
-          {
-            "name": "itoa",
-            "purl": "",
-            "version": "1.0.18"
-          },
-          {
-            "name": "js-sys",
-            "purl": "",
-            "version": "0.3.103"
-          },
-          {
-            "name": "libaom-sys",
-            "purl": "",
-            "version": "0.17.2+libaom.3.11.0"
-          },
-          {
-            "name": "libavif",
-            "purl": "",
-            "version": "0.14.0"
-          },
-          {
-            "name": "libavif-sys",
-            "purl": "",
-            "version": "0.17.0+libavif.1.0.4"
+            "version": "1.1.15"
           },
           {
             "name": "libc",
             "purl": "",
-            "version": "0.2.189"
+            "version": "0.2.158"
           },
           {
             "name": "libgit",
@@ -9650,16 +9425,6 @@
             "version": "0.1.0"
           },
           {
-            "name": "libloading",
-            "purl": "",
-            "version": "0.9.0"
-          },
-          {
-            "name": "libmimalloc-sys2",
-            "purl": "",
-            "version": "0.1.60"
-          },
-          {
             "name": "libz-sys",
             "purl": "",
             "version": "1.1.20"
@@ -9670,264 +9435,19 @@
             "version": "0.1.0"
           },
           {
-            "name": "memchr",
-            "purl": "",
-            "version": "2.8.3"
-          },
-          {
-            "name": "mimalloc-safe",
-            "purl": "",
-            "version": "0.1.64"
-          },
-          {
-            "name": "napi",
-            "purl": "",
-            "version": "3.12.1"
-          },
-          {
-            "name": "napi-build",
-            "purl": "",
-            "version": "2.4.1"
-          },
-          {
-            "name": "napi-derive",
-            "purl": "",
-            "version": "3.6.3"
-          },
-          {
-            "name": "napi-derive-backend",
-            "purl": "",
-            "version": "6.1.2"
-          },
-          {
-            "name": "napi-sys",
-            "purl": "",
-            "version": "3.3.0"
-          },
-          {
-            "name": "nohash-hasher",
-            "purl": "",
-            "version": "0.2.0"
-          },
-          {
-            "name": "nom",
-            "purl": "",
-            "version": "8.0.0"
-          },
-          {
-            "name": "num_cpus",
-            "purl": "",
-            "version": "1.17.0"
-          },
-          {
-            "name": "once_cell",
-            "purl": "",
-            "version": "1.21.4"
-          },
-          {
-            "name": "outref",
-            "purl": "",
-            "version": "0.5.2"
-          },
-          {
-            "name": "phf",
-            "purl": "",
-            "version": "0.14.0"
-          },
-          {
-            "name": "phf_generator",
-            "purl": "",
-            "version": "0.14.0"
-          },
-          {
-            "name": "phf_macros",
-            "purl": "",
-            "version": "0.14.0"
-          },
-          {
-            "name": "phf_shared",
-            "purl": "",
-            "version": "0.14.0"
-          },
-          {
-            "name": "pin-project-lite",
-            "purl": "",
-            "version": "0.2.17"
-          },
-          {
             "name": "pkg-config",
             "purl": "",
             "version": "0.3.30"
           },
           {
-            "name": "proc-macro2",
-            "purl": "",
-            "version": "1.0.107"
-          },
-          {
-            "name": "quote",
-            "purl": "",
-            "version": "1.0.47"
-          },
-          {
-            "name": "regex",
-            "purl": "",
-            "version": "1.13.1"
-          },
-          {
-            "name": "regex-automata",
-            "purl": "",
-            "version": "0.4.16"
-          },
-          {
-            "name": "regex-syntax",
-            "purl": "",
-            "version": "0.8.11"
-          },
-          {
-            "name": "rgb",
-            "purl": "",
-            "version": "0.8.53"
-          },
-          {
-            "name": "rustc-hash",
-            "purl": "",
-            "version": "2.1.3"
-          },
-          {
-            "name": "rustversion",
-            "purl": "",
-            "version": "1.0.23"
-          },
-          {
-            "name": "serde",
-            "purl": "",
-            "version": "1.0.229"
-          },
-          {
-            "name": "serde_core",
-            "purl": "",
-            "version": "1.0.229"
-          },
-          {
-            "name": "serde_derive",
-            "purl": "",
-            "version": "1.0.229"
-          },
-          {
-            "name": "serde_json",
-            "purl": "",
-            "version": "1.0.151"
-          },
-          {
             "name": "shlex",
             "purl": "",
-            "version": "2.0.1"
-          },
-          {
-            "name": "siphasher",
-            "purl": "",
-            "version": "1.0.3"
-          },
-          {
-            "name": "slab",
-            "purl": "",
-            "version": "0.4.12"
-          },
-          {
-            "name": "smallvec",
-            "purl": "",
-            "version": "1.15.2"
-          },
-          {
-            "name": "syn",
-            "purl": "",
-            "version": "2.0.119"
-          },
-          {
-            "name": "thiserror",
-            "purl": "",
-            "version": "2.0.19"
-          },
-          {
-            "name": "thiserror-impl",
-            "purl": "",
-            "version": "2.0.19"
-          },
-          {
-            "name": "tokio",
-            "purl": "",
-            "version": "1.53.1"
-          },
-          {
-            "name": "tokio-stream",
-            "purl": "",
-            "version": "0.1.19"
-          },
-          {
-            "name": "unicode-ident",
-            "purl": "",
-            "version": "1.0.24"
-          },
-          {
-            "name": "unicode-segmentation",
-            "purl": "",
-            "version": "1.13.3"
-          },
-          {
-            "name": "uuid",
-            "purl": "",
-            "version": "1.24.0"
+            "version": "1.3.0"
           },
           {
             "name": "vcpkg",
             "purl": "",
             "version": "0.2.15"
-          },
-          {
-            "name": "vsimd",
-            "purl": "",
-            "version": "0.8.0"
-          },
-          {
-            "name": "wasm-bindgen",
-            "purl": "",
-            "version": "0.2.126"
-          },
-          {
-            "name": "wasm-bindgen-macro",
-            "purl": "",
-            "version": "0.2.126"
-          },
-          {
-            "name": "wasm-bindgen-macro-support",
-            "purl": "",
-            "version": "0.2.126"
-          },
-          {
-            "name": "wasm-bindgen-shared",
-            "purl": "",
-            "version": "0.2.126"
-          },
-          {
-            "name": "web-time",
-            "purl": "",
-            "version": "1.1.0"
-          },
-          {
-            "name": "weezl",
-            "purl": "",
-            "version": "0.1.12"
-          },
-          {
-            "name": "windows-link",
-            "purl": "",
-            "version": "0.2.1"
-          },
-          {
-            "name": "zmij",
-            "purl": "",
-            "version": "1.0.23"
           }
         ]
       },
@@ -9937,12 +9457,12 @@
         "freebsd": 128,
         "go": 10,
         "java": 0,
-        "node": 1666,
+        "node": 1660,
         "php": 0,
         "python": 22,
         "ruby": 0,
-        "rust": 100,
-        "total": 1926
+        "rust": 10,
+        "total": 1830
       }
     }
   }
