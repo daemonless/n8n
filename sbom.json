@@ -1,11 +1,11 @@
 {
-  "generated": "2026-11-09T23:49:55Z",
+  "generated": "2026-11-10T23:43:16Z",
   "image": "n8n",
   "tags": {
     "latest": {
-      "app_version": "2.46.7",
+      "app_version": "2.47.3",
       "arch": "amd64",
-      "generated": "2026-11-09T23:45:43Z",
+      "generated": "2026-11-10T23:39:19Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1001,82 +1001,82 @@
           {
             "name": "@ai-sdk/alibaba",
             "purl": "",
-            "version": "2.0.85"
+            "version": "2.0.88"
           },
           {
             "name": "@ai-sdk/amazon-bedrock",
             "purl": "",
-            "version": "5.0.135"
+            "version": "5.0.138"
           },
           {
             "name": "@ai-sdk/anthropic",
             "purl": "",
-            "version": "4.0.99"
+            "version": "4.0.102"
           },
           {
             "name": "@ai-sdk/azure",
             "purl": "",
-            "version": "4.0.119"
+            "version": "4.0.122"
           },
           {
             "name": "@ai-sdk/cohere",
             "purl": "",
-            "version": "4.0.78"
+            "version": "4.0.81"
           },
           {
             "name": "@ai-sdk/deepseek",
             "purl": "",
-            "version": "3.0.81"
+            "version": "3.0.84"
           },
           {
             "name": "@ai-sdk/gateway",
             "purl": "",
-            "version": "4.0.139"
+            "version": "4.0.142"
           },
           {
             "name": "@ai-sdk/google",
             "purl": "",
-            "version": "4.0.114"
+            "version": "4.0.117"
           },
           {
             "name": "@ai-sdk/google-vertex",
             "purl": "",
-            "version": "5.0.134"
+            "version": "5.0.137"
           },
           {
             "name": "@ai-sdk/groq",
             "purl": "",
-            "version": "4.0.78"
+            "version": "4.0.81"
           },
           {
             "name": "@ai-sdk/minimax",
             "purl": "",
-            "version": "3.0.76"
+            "version": "3.0.79"
           },
           {
             "name": "@ai-sdk/mistral",
             "purl": "",
-            "version": "4.0.81"
+            "version": "4.0.84"
           },
           {
             "name": "@ai-sdk/moonshotai",
             "purl": "",
-            "version": "3.0.87"
+            "version": "3.0.90"
           },
           {
             "name": "@ai-sdk/openai",
             "purl": "",
-            "version": "4.0.111"
+            "version": "4.0.114"
           },
           {
             "name": "@ai-sdk/openai-compatible",
             "purl": "",
-            "version": "3.0.87"
+            "version": "3.0.90"
           },
           {
             "name": "@ai-sdk/otel",
             "purl": "",
-            "version": "1.0.166"
+            "version": "1.0.169"
           },
           {
             "name": "@ai-sdk/provider",
@@ -1097,21 +1097,6 @@
             "name": "@anthropic-ai/sdk",
             "purl": "",
             "version": "0.115.0"
-          },
-          {
-            "name": "@apm-js-collab/code-transformer",
-            "purl": "",
-            "version": "0.18.1"
-          },
-          {
-            "name": "@apm-js-collab/code-transformer-bundler-plugins",
-            "purl": "",
-            "version": "0.7.5"
-          },
-          {
-            "name": "@apm-js-collab/tracing-hooks",
-            "purl": "",
-            "version": "0.13.3"
           },
           {
             "name": "@asteasolutions/zod-to-openapi",
@@ -1161,12 +1146,12 @@
           {
             "name": "@aws-sdk/checksums",
             "purl": "",
-            "version": "3.1002.4"
+            "version": "3.1002.5"
           },
           {
             "name": "@aws-sdk/client-bedrock-agent-runtime",
             "purl": "",
-            "version": "3.1165.0"
+            "version": "3.1166.0"
           },
           {
             "name": "@aws-sdk/client-bedrock-runtime",
@@ -1181,17 +1166,17 @@
           {
             "name": "@aws-sdk/client-kendra",
             "purl": "",
-            "version": "3.1165.0"
+            "version": "3.1166.0"
           },
           {
             "name": "@aws-sdk/client-s3",
             "purl": "",
-            "version": "3.1165.0"
+            "version": "3.1166.0"
           },
           {
             "name": "@aws-sdk/client-sagemaker",
             "purl": "",
-            "version": "3.1165.0"
+            "version": "3.1166.0"
           },
           {
             "name": "@aws-sdk/client-secrets-manager",
@@ -1206,7 +1191,7 @@
           {
             "name": "@aws-sdk/client-sts",
             "purl": "",
-            "version": "3.1165.0"
+            "version": "3.1166.0"
           },
           {
             "name": "@aws-sdk/core",
@@ -1266,7 +1251,7 @@
           {
             "name": "@aws-sdk/ec2-metadata-service",
             "purl": "",
-            "version": "3.1165.0"
+            "version": "3.1166.0"
           },
           {
             "name": "@aws-sdk/eventstream-handler-node",
@@ -1276,7 +1261,7 @@
           {
             "name": "@aws-sdk/lib-storage",
             "purl": "",
-            "version": "3.1165.0"
+            "version": "3.1166.0"
           },
           {
             "name": "@aws-sdk/middleware-bucket-endpoint",
@@ -1366,7 +1351,7 @@
           {
             "name": "@aws-sdk/token-providers",
             "purl": "",
-            "version": "3.1165.0"
+            "version": "3.1166.0"
           },
           {
             "name": "@aws-sdk/types",
@@ -1504,6 +1489,11 @@
             "version": "1.4.0"
           },
           {
+            "name": "@azure/monitor-opentelemetry-exporter",
+            "purl": "",
+            "version": "1.0.0-beta.47"
+          },
+          {
             "name": "@azure/msal-browser",
             "purl": "",
             "version": "4.30.0"
@@ -1517,6 +1507,11 @@
             "name": "@azure/msal-node",
             "purl": "",
             "version": "3.8.10"
+          },
+          {
+            "name": "@azure/opentelemetry-instrumentation-azure-sdk",
+            "purl": "",
+            "version": "1.1.0-beta.1"
           },
           {
             "name": "@azure/search-documents",
@@ -1781,12 +1776,12 @@
           {
             "name": "@google-cloud/resource-manager",
             "purl": "",
-            "version": "5.3.0"
+            "version": "6.0.1"
           },
           {
             "name": "@google-cloud/secret-manager",
             "purl": "",
-            "version": "5.6.0"
+            "version": "6.0.1"
           },
           {
             "name": "@google/genai",
@@ -1811,7 +1806,7 @@
           {
             "name": "@grpc/proto-loader",
             "purl": "",
-            "version": "0.7.15"
+            "version": "0.8.1"
           },
           {
             "name": "@hono/node-server",
@@ -1826,7 +1821,7 @@
           {
             "name": "@huggingface/jinja",
             "purl": "",
-            "version": "0.5.11"
+            "version": "0.5.12"
           },
           {
             "name": "@huggingface/tasks",
@@ -1851,7 +1846,7 @@
           {
             "name": "@iconify-json/lucide",
             "purl": "",
-            "version": "1.2.152"
+            "version": "1.2.153"
           },
           {
             "name": "@iconify/types",
@@ -2169,11 +2164,6 @@
             "version": "1.0.4"
           },
           {
-            "name": "@microsoft/agents-a365-observability",
-            "purl": "",
-            "version": "1.0.0"
-          },
-          {
             "name": "@microsoft/agents-a365-runtime",
             "purl": "",
             "version": "1.0.0"
@@ -2199,6 +2189,16 @@
             "version": "1.6.1"
           },
           {
+            "name": "@microsoft/applicationinsights-web-snippet",
+            "purl": "",
+            "version": "1.2.3"
+          },
+          {
+            "name": "@microsoft/opentelemetry",
+            "purl": "",
+            "version": "1.5.0"
+          },
+          {
             "name": "@microsoft/signalr",
             "purl": "",
             "version": "10.0.11"
@@ -2206,32 +2206,32 @@
           {
             "name": "@microsoft/teams.api",
             "purl": "",
-            "version": "2.2.0"
+            "version": "2.2.1"
           },
           {
             "name": "@microsoft/teams.apps",
             "purl": "",
-            "version": "2.2.0"
+            "version": "2.2.1"
           },
           {
             "name": "@microsoft/teams.cards",
             "purl": "",
-            "version": "2.2.0"
+            "version": "2.2.1"
           },
           {
             "name": "@microsoft/teams.common",
             "purl": "",
-            "version": "2.2.0"
+            "version": "2.2.1"
           },
           {
             "name": "@microsoft/teams.graph",
             "purl": "",
-            "version": "2.2.0"
+            "version": "2.2.1"
           },
           {
             "name": "@microsoft/teams.graph-endpoints",
             "purl": "",
-            "version": "2.2.0"
+            "version": "2.2.1"
           },
           {
             "name": "@mistralai/mistralai",
@@ -2261,7 +2261,7 @@
           {
             "name": "@modelcontextprotocol/sdk",
             "purl": "",
-            "version": "1.31.0"
+            "version": "1.32.0"
           },
           {
             "name": "@modelcontextprotocol/server",
@@ -2291,107 +2291,122 @@
           {
             "name": "@n8n/agents",
             "purl": "",
-            "version": "0.31.6"
+            "version": "0.32.1"
           },
           {
             "name": "@n8n/ai-node-sdk",
             "purl": "",
-            "version": "0.36.6"
+            "version": "0.37.1"
           },
           {
             "name": "@n8n/ai-utilities",
             "purl": "",
-            "version": "0.39.6"
+            "version": "0.40.1"
           },
           {
             "name": "@n8n/ai-workflow-builder",
             "purl": "",
-            "version": "1.46.6"
+            "version": "1.47.1"
           },
           {
             "name": "@n8n/api-types",
             "purl": "",
-            "version": "1.46.5"
+            "version": "1.47.1"
+          },
+          {
+            "name": "@n8n/app-sdk",
+            "purl": "",
+            "version": "0.2.0"
           },
           {
             "name": "@n8n/backend-common",
             "purl": "",
-            "version": "1.46.6"
+            "version": "1.47.1"
           },
           {
             "name": "@n8n/backend-module-apps",
             "purl": "",
-            "version": "0.2.6"
+            "version": "0.3.2"
+          },
+          {
+            "name": "@n8n/backend-module-data-table",
+            "purl": "",
+            "version": "0.2.2"
+          },
+          {
+            "name": "@n8n/backend-module-execution-limits",
+            "purl": "",
+            "version": "0.2.1"
           },
           {
             "name": "@n8n/backend-module-insights",
             "purl": "",
-            "version": "0.4.6"
+            "version": "0.5.2"
           },
           {
             "name": "@n8n/backend-module-quick-connect",
             "purl": "",
-            "version": "0.3.6"
+            "version": "0.4.1"
           },
           {
             "name": "@n8n/backend-module-workflow-builder",
             "purl": "",
-            "version": "0.3.6"
+            "version": "0.4.1"
           },
           {
             "name": "@n8n/backend-network",
             "purl": "",
-            "version": "1.20.6"
+            "version": "1.21.1"
           },
           {
             "name": "@n8n/backend-services",
             "purl": "",
-            "version": "1.6.6"
+            "version": "1.7.2"
           },
           {
             "name": "@n8n/blob-storage",
             "purl": "",
-            "version": "1.14.6"
+            "version": "1.15.1"
           },
           {
             "name": "@n8n/chat-hub",
             "purl": "",
-            "version": "1.39.5"
+            "version": "1.40.1"
           },
           {
             "name": "@n8n/client-oauth2",
             "purl": "",
-            "version": "1.28.6"
+            "version": "1.29.1"
           },
           {
             "name": "@n8n/composables",
             "purl": "",
-            "version": "1.36.5"
+            "version": "1.37.2"
           },
           {
             "name": "@n8n/config",
             "purl": "",
-            "version": "2.44.2"
+            "version": "2.45.0"
           },
           {
             "name": "@n8n/constants",
             "purl": "",
-            "version": "0.44.1"
+            "version": "0.45.0"
           },
           {
             "name": "@n8n/db",
             "purl": "",
-            "version": "1.46.6"
+            "version": "1.47.1"
           },
           {
             "name": "@n8n/decorators",
             "purl": "",
-            "version": "1.46.5"
+            "version": "1.47.1"
           },
           {
             "name": "@n8n/design-system",
             "purl": "",
-            "version": "2.45.5"
+            "version": "2.46.2"
           },
           {
             "name": "@n8n/di",
@@ -2401,22 +2416,22 @@
           {
             "name": "@n8n/engine",
             "purl": "",
-            "version": "0.26.2"
+            "version": "0.27.0"
           },
           {
             "name": "@n8n/errors",
             "purl": "",
-            "version": "0.16.0"
+            "version": "0.17.0"
           },
           {
             "name": "@n8n/expression-runtime",
             "purl": "",
-            "version": "0.37.5"
+            "version": "0.38.0"
           },
           {
             "name": "@n8n/frontend-constants",
             "purl": "",
-            "version": "0.12.0"
+            "version": "0.13.0"
           },
           {
             "name": "@n8n/frontend-utils",
@@ -2426,22 +2441,22 @@
           {
             "name": "@n8n/i18n",
             "purl": "",
-            "version": "2.46.5"
+            "version": "2.47.2"
           },
           {
             "name": "@n8n/imap",
             "purl": "",
-            "version": "0.32.1"
+            "version": "0.33.0"
           },
           {
             "name": "@n8n/inbound-auth",
             "purl": "",
-            "version": "0.5.5"
+            "version": "0.6.0"
           },
           {
             "name": "@n8n/instance-ai",
             "purl": "",
-            "version": "1.31.6"
+            "version": "1.32.1"
           },
           {
             "name": "@n8n/json-schema-to-zod",
@@ -2451,27 +2466,27 @@
           {
             "name": "@n8n/mcp-apps",
             "purl": "",
-            "version": "0.23.5"
+            "version": "0.24.2"
           },
           {
             "name": "@n8n/mcp-browser",
             "purl": "",
-            "version": "0.25.1"
+            "version": "0.26.0"
           },
           {
             "name": "@n8n/n8n-nodes-langchain",
             "purl": "",
-            "version": "2.46.7"
+            "version": "2.47.2"
           },
           {
             "name": "@n8n/node-engine-compatibility",
             "purl": "",
-            "version": "0.14.6"
+            "version": "0.15.1"
           },
           {
             "name": "@n8n/permissions",
             "purl": "",
-            "version": "0.83.1"
+            "version": "0.84.0"
           },
           {
             "name": "@n8n/sandbox-client",
@@ -2481,7 +2496,7 @@
           {
             "name": "@n8n/scheduler",
             "purl": "",
-            "version": "1.15.5"
+            "version": "1.16.1"
           },
           {
             "name": "@n8n/syslog-client",
@@ -2491,22 +2506,22 @@
           {
             "name": "@n8n/task-runner",
             "purl": "",
-            "version": "2.46.6"
+            "version": "2.47.1"
           },
           {
             "name": "@n8n/telemetry",
             "purl": "",
-            "version": "1.14.5"
+            "version": "1.15.1"
           },
           {
             "name": "@n8n/tournament",
             "purl": "",
-            "version": "1.15.0"
+            "version": "1.16.0"
           },
           {
             "name": "@n8n/typeorm",
             "purl": "",
-            "version": "0.13.0"
+            "version": "0.14.0"
           },
           {
             "name": "@n8n/typescript-config",
@@ -2516,12 +2531,12 @@
           {
             "name": "@n8n/utils",
             "purl": "",
-            "version": "1.53.1"
+            "version": "1.54.0"
           },
           {
             "name": "@n8n/workflow-sdk",
             "purl": "",
-            "version": "0.39.5"
+            "version": "0.40.0"
           },
           {
             "name": "@n8n_io/ai-assistant-sdk",
@@ -2661,17 +2676,17 @@
           {
             "name": "@opentelemetry/api",
             "purl": "",
-            "version": "1.10.0"
+            "version": "1.9.1"
           },
           {
             "name": "@opentelemetry/api-logs",
             "purl": "",
-            "version": "0.213.0"
+            "version": "0.211.0"
           },
           {
             "name": "@opentelemetry/configuration",
             "purl": "",
-            "version": "0.213.0"
+            "version": "0.221.0"
           },
           {
             "name": "@opentelemetry/context-async-hooks",
@@ -2686,52 +2701,52 @@
           {
             "name": "@opentelemetry/exporter-logs-otlp-grpc",
             "purl": "",
-            "version": "0.213.0"
+            "version": "0.221.0"
           },
           {
             "name": "@opentelemetry/exporter-logs-otlp-http",
             "purl": "",
-            "version": "0.213.0"
+            "version": "0.221.0"
           },
           {
             "name": "@opentelemetry/exporter-logs-otlp-proto",
             "purl": "",
-            "version": "0.213.0"
+            "version": "0.221.0"
           },
           {
             "name": "@opentelemetry/exporter-metrics-otlp-grpc",
             "purl": "",
-            "version": "0.213.0"
+            "version": "0.221.0"
           },
           {
             "name": "@opentelemetry/exporter-metrics-otlp-http",
             "purl": "",
-            "version": "0.213.0"
+            "version": "0.221.0"
           },
           {
             "name": "@opentelemetry/exporter-metrics-otlp-proto",
             "purl": "",
-            "version": "0.213.0"
+            "version": "0.221.0"
           },
           {
             "name": "@opentelemetry/exporter-prometheus",
             "purl": "",
-            "version": "0.213.0"
+            "version": "0.221.0"
           },
           {
             "name": "@opentelemetry/exporter-trace-otlp-grpc",
             "purl": "",
-            "version": "0.213.0"
+            "version": "0.221.0"
           },
           {
             "name": "@opentelemetry/exporter-trace-otlp-http",
             "purl": "",
-            "version": "0.213.0"
+            "version": "0.220.0"
           },
           {
             "name": "@opentelemetry/exporter-trace-otlp-proto",
             "purl": "",
-            "version": "0.213.0"
+            "version": "0.221.0"
           },
           {
             "name": "@opentelemetry/exporter-zipkin",
@@ -2741,7 +2756,17 @@
           {
             "name": "@opentelemetry/instrumentation",
             "purl": "",
-            "version": "0.213.0"
+            "version": "0.211.0"
+          },
+          {
+            "name": "@opentelemetry/instrumentation-bunyan",
+            "purl": "",
+            "version": "0.66.0"
+          },
+          {
+            "name": "@opentelemetry/instrumentation-console",
+            "purl": "",
+            "version": "0.3.0"
           },
           {
             "name": "@opentelemetry/instrumentation-http",
@@ -2749,19 +2774,44 @@
             "version": "0.221.0"
           },
           {
+            "name": "@opentelemetry/instrumentation-mongodb",
+            "purl": "",
+            "version": "0.74.0"
+          },
+          {
+            "name": "@opentelemetry/instrumentation-mysql",
+            "purl": "",
+            "version": "0.67.0"
+          },
+          {
+            "name": "@opentelemetry/instrumentation-pg",
+            "purl": "",
+            "version": "0.73.0"
+          },
+          {
+            "name": "@opentelemetry/instrumentation-redis",
+            "purl": "",
+            "version": "0.69.0"
+          },
+          {
+            "name": "@opentelemetry/instrumentation-winston",
+            "purl": "",
+            "version": "0.65.0"
+          },
+          {
             "name": "@opentelemetry/otlp-exporter-base",
             "purl": "",
-            "version": "0.213.0"
+            "version": "0.220.0"
           },
           {
             "name": "@opentelemetry/otlp-grpc-exporter-base",
             "purl": "",
-            "version": "0.213.0"
+            "version": "0.221.0"
           },
           {
             "name": "@opentelemetry/otlp-transformer",
             "purl": "",
-            "version": "0.213.0"
+            "version": "0.220.0"
           },
           {
             "name": "@opentelemetry/propagator-b3",
@@ -2774,6 +2824,16 @@
             "version": "2.10.0"
           },
           {
+            "name": "@opentelemetry/redis-common",
+            "purl": "",
+            "version": "0.38.3"
+          },
+          {
+            "name": "@opentelemetry/resource-detector-azure",
+            "purl": "",
+            "version": "0.29.0"
+          },
+          {
             "name": "@opentelemetry/resources",
             "purl": "",
             "version": "2.10.0"
@@ -2781,7 +2841,7 @@
           {
             "name": "@opentelemetry/sdk-logs",
             "purl": "",
-            "version": "0.213.0"
+            "version": "0.220.0"
           },
           {
             "name": "@opentelemetry/sdk-metrics",
@@ -2791,7 +2851,7 @@
           {
             "name": "@opentelemetry/sdk-node",
             "purl": "",
-            "version": "0.213.0"
+            "version": "0.221.0"
           },
           {
             "name": "@opentelemetry/sdk-trace",
@@ -2809,14 +2869,39 @@
             "version": "2.10.0"
           },
           {
+            "name": "@opentelemetry/sdk-trace-web",
+            "purl": "",
+            "version": "2.12.1"
+          },
+          {
             "name": "@opentelemetry/semantic-conventions",
             "purl": "",
             "version": "1.45.0"
           },
           {
+            "name": "@opentelemetry/sql-common",
+            "purl": "",
+            "version": "0.42.0"
+          },
+          {
+            "name": "@opentelemetry/winston-transport",
+            "purl": "",
+            "version": "0.31.0"
+          },
+          {
             "name": "@oracle/langchain-oracledb",
             "purl": "",
             "version": "0.2.0"
+          },
+          {
+            "name": "@oxc-parser/binding-freebsd-x64",
+            "purl": "",
+            "version": "0.152.0"
+          },
+          {
+            "name": "@oxc-project/types",
+            "purl": "",
+            "version": "0.152.0"
           },
           {
             "name": "@paralleldrive/cuid2",
@@ -2861,12 +2946,12 @@
           {
             "name": "@posthog/core",
             "purl": "",
-            "version": "1.65.0"
+            "version": "1.67.1"
           },
           {
             "name": "@posthog/types",
             "purl": "",
-            "version": "1.422.0"
+            "version": "1.423.0"
           },
           {
             "name": "@protobufjs/aspromise",
@@ -2989,6 +3074,11 @@
             "version": "0.11.0"
           },
           {
+            "name": "@sentry/bundler-plugins",
+            "purl": "",
+            "version": "11.8.0"
+          },
+          {
             "name": "@sentry/conventions",
             "purl": "",
             "version": "0.16.0"
@@ -2996,17 +3086,17 @@
           {
             "name": "@sentry/core",
             "purl": "",
-            "version": "10.70.0"
+            "version": "10.78.0"
           },
           {
             "name": "@sentry/node",
             "purl": "",
-            "version": "10.70.0"
+            "version": "10.78.0"
           },
           {
             "name": "@sentry/node-core",
             "purl": "",
-            "version": "10.70.0"
+            "version": "10.78.0"
           },
           {
             "name": "@sentry/node-cpu-profiler",
@@ -3016,7 +3106,7 @@
           {
             "name": "@sentry/node-native",
             "purl": "",
-            "version": "10.70.0"
+            "version": "11.8.0"
           },
           {
             "name": "@sentry/node-native-stacktrace",
@@ -3026,17 +3116,22 @@
           {
             "name": "@sentry/opentelemetry",
             "purl": "",
-            "version": "10.70.0"
+            "version": "10.78.0"
           },
           {
             "name": "@sentry/profiling-node",
             "purl": "",
-            "version": "10.70.0"
+            "version": "11.8.0"
+          },
+          {
+            "name": "@sentry/server-runtime-injection",
+            "purl": "",
+            "version": "11.8.0"
           },
           {
             "name": "@sentry/server-utils",
             "purl": "",
-            "version": "10.70.0"
+            "version": "10.78.0"
           },
           {
             "name": "@shanghaikid/parquetjs",
@@ -3116,7 +3211,7 @@
           {
             "name": "@smithy/core",
             "purl": "",
-            "version": "3.39.0"
+            "version": "3.40.0"
           },
           {
             "name": "@smithy/credential-provider-imds",
@@ -3456,7 +3551,7 @@
           {
             "name": "@tiptap/extension-bubble-menu",
             "purl": "",
-            "version": "3.33.0"
+            "version": "3.33.1"
           },
           {
             "name": "@tiptap/extension-bullet-list",
@@ -3486,7 +3581,7 @@
           {
             "name": "@tiptap/extension-floating-menu",
             "purl": "",
-            "version": "3.33.0"
+            "version": "3.33.1"
           },
           {
             "name": "@tiptap/extension-gapcursor",
@@ -3649,9 +3744,9 @@
             "version": "1.19.6"
           },
           {
-            "name": "@types/caseless",
+            "name": "@types/bunyan",
             "purl": "",
-            "version": "0.12.5"
+            "version": "1.8.11"
           },
           {
             "name": "@types/connect",
@@ -3662,11 +3757,6 @@
             "name": "@types/debug",
             "purl": "",
             "version": "4.1.13"
-          },
-          {
-            "name": "@types/estree",
-            "purl": "",
-            "version": "1.0.10"
           },
           {
             "name": "@types/express",
@@ -3709,11 +3799,6 @@
             "version": "4.17.12"
           },
           {
-            "name": "@types/long",
-            "purl": "",
-            "version": "4.0.2"
-          },
-          {
             "name": "@types/luxon",
             "purl": "",
             "version": "3.7.6"
@@ -3729,6 +3814,11 @@
             "version": "2.1.0"
           },
           {
+            "name": "@types/mysql",
+            "purl": "",
+            "version": "2.15.27"
+          },
+          {
             "name": "@types/node",
             "purl": "",
             "version": "18.19.130"
@@ -3742,6 +3832,16 @@
             "name": "@types/node-int64",
             "purl": "",
             "version": "0.4.32"
+          },
+          {
+            "name": "@types/pg",
+            "purl": "",
+            "version": "8.15.6"
+          },
+          {
+            "name": "@types/pg-pool",
+            "purl": "",
+            "version": "2.0.7"
           },
           {
             "name": "@types/q",
@@ -3764,11 +3864,6 @@
             "version": "4.0.25"
           },
           {
-            "name": "@types/request",
-            "purl": "",
-            "version": "2.48.13"
-          },
-          {
             "name": "@types/retry",
             "purl": "",
             "version": "0.12.0"
@@ -3787,11 +3882,6 @@
             "name": "@types/thrift",
             "purl": "",
             "version": "0.10.17"
-          },
-          {
-            "name": "@types/tough-cookie",
-            "purl": "",
-            "version": "4.0.5"
           },
           {
             "name": "@types/triple-beam",
@@ -4004,6 +4094,11 @@
             "version": "8.14.0"
           },
           {
+            "name": "acorn-import-attributes",
+            "purl": "",
+            "version": "1.9.5"
+          },
+          {
             "name": "acorn-walk",
             "purl": "",
             "version": "8.3.4"
@@ -4036,7 +4131,7 @@
           {
             "name": "ai",
             "purl": "",
-            "version": "7.0.166"
+            "version": "7.0.169"
           },
           {
             "name": "ajv",
@@ -4192,11 +4287,6 @@
             "name": "ast-types",
             "purl": "",
             "version": "0.15.2"
-          },
-          {
-            "name": "astring",
-            "purl": "",
-            "version": "1.9.0"
           },
           {
             "name": "async",
@@ -5121,7 +5211,7 @@
           {
             "name": "engine.io-client",
             "purl": "",
-            "version": "6.6.7"
+            "version": "6.6.8"
           },
           {
             "name": "engine.io-parser",
@@ -5161,7 +5251,7 @@
           {
             "name": "es-module-lexer",
             "purl": "",
-            "version": "2.3.2"
+            "version": "3.0.4"
           },
           {
             "name": "es-object-atoms",
@@ -5197,16 +5287,6 @@
             "name": "esprima-next",
             "purl": "",
             "version": "5.8.4"
-          },
-          {
-            "name": "esquery",
-            "purl": "",
-            "version": "1.7.0"
-          },
-          {
-            "name": "estraverse",
-            "purl": "",
-            "version": "5.3.0"
           },
           {
             "name": "estree-walker",
@@ -5431,7 +5511,7 @@
           {
             "name": "form-data",
             "purl": "",
-            "version": "2.5.6"
+            "version": "4.0.0"
           },
           {
             "name": "form-data-encoder",
@@ -5576,12 +5656,12 @@
           {
             "name": "google-auth-library",
             "purl": "",
-            "version": "10.9.1"
+            "version": "10.5.0"
           },
           {
             "name": "google-gax",
             "purl": "",
-            "version": "4.6.1"
+            "version": "5.0.8"
           },
           {
             "name": "google-logging-utils",
@@ -5801,7 +5881,7 @@
           {
             "name": "import-in-the-middle",
             "purl": "",
-            "version": "3.6.0"
+            "version": "2.0.6"
           },
           {
             "name": "imurmurhash",
@@ -6326,7 +6406,7 @@
           {
             "name": "libphonenumber-js",
             "purl": "",
-            "version": "1.13.15"
+            "version": "1.13.16"
           },
           {
             "name": "libqp",
@@ -6641,7 +6721,7 @@
           {
             "name": "memium",
             "purl": "",
-            "version": "1.1.1"
+            "version": "1.1.2"
           },
           {
             "name": "memoize-one",
@@ -6662,11 +6742,6 @@
             "name": "merge2",
             "purl": "",
             "version": "1.4.1"
-          },
-          {
-            "name": "meriyah",
-            "purl": "",
-            "version": "6.1.4"
           },
           {
             "name": "micromark",
@@ -7006,27 +7081,27 @@
           {
             "name": "n8n",
             "purl": "",
-            "version": "2.46.7"
+            "version": "2.47.3"
           },
           {
             "name": "n8n-core",
             "purl": "",
-            "version": "2.46.6"
+            "version": "2.47.1"
           },
           {
             "name": "n8n-editor-ui",
             "purl": "",
-            "version": "2.46.5"
+            "version": "2.47.2"
           },
           {
             "name": "n8n-nodes-base",
             "purl": "",
-            "version": "2.46.7"
+            "version": "2.47.2"
           },
           {
             "name": "n8n-workflow",
             "purl": "",
-            "version": "2.46.5"
+            "version": "2.47.0"
           },
           {
             "name": "named-placeholders",
@@ -7377,6 +7452,11 @@
             "name": "otpauth",
             "purl": "",
             "version": "9.1.1"
+          },
+          {
+            "name": "oxc-parser",
+            "purl": "",
+            "version": "0.152.0"
           },
           {
             "name": "p-cancelable",
@@ -7821,7 +7901,7 @@
           {
             "name": "proto3-json-serializer",
             "purl": "",
-            "version": "2.0.2"
+            "version": "3.0.4"
           },
           {
             "name": "protobufjs",
@@ -8056,7 +8136,7 @@
           {
             "name": "retry-request",
             "purl": "",
-            "version": "7.0.2"
+            "version": "8.0.4"
           },
           {
             "name": "reusify",
@@ -8179,11 +8259,6 @@
             "version": "0.11.0"
           },
           {
-            "name": "semifies",
-            "purl": "",
-            "version": "1.0.0"
-          },
-          {
             "name": "semver",
             "purl": "",
             "version": "6.3.2"
@@ -8192,6 +8267,11 @@
             "name": "send",
             "purl": "",
             "version": "1.2.1"
+          },
+          {
+            "name": "sentry",
+            "purl": "",
+            "version": "0.45.0"
           },
           {
             "name": "serve-static",
@@ -8601,7 +8681,7 @@
           {
             "name": "teeny-request",
             "purl": "",
-            "version": "9.0.0"
+            "version": "10.1.4"
           },
           {
             "name": "temp",
@@ -8671,12 +8751,12 @@
           {
             "name": "tldts",
             "purl": "",
-            "version": "7.4.19"
+            "version": "7.4.21"
           },
           {
             "name": "tldts-core",
             "purl": "",
-            "version": "7.4.20"
+            "version": "7.4.21"
           },
           {
             "name": "tmp",
@@ -9472,12 +9552,12 @@
         "freebsd": 128,
         "go": 10,
         "java": 0,
-        "node": 1663,
+        "node": 1679,
         "php": 0,
         "python": 22,
         "ruby": 0,
         "rust": 10,
-        "total": 1833
+        "total": 1849
       }
     }
   }
